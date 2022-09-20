@@ -1,0 +1,70 @@
+/**
+ * Admin options and tools style  rtl
+ * @author ilGhera
+ * @package jw-player-7-for-wp-premium/css
+ * @since 2.2.0
+ */
+
+@font-face {
+	font-family: isans;
+	font-style: normal;
+	font-weight: 900;
+	src: url('fonts/eot/IRANSansWeb_Black.eot');
+	src: url('fonts/eot/IRANSansWeb_Black.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/IRANSansWeb_Black.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/IRANSansWeb_Black.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/ttf/IRANSansWeb_Black.ttf') format('truetype');
+}
+@font-face {
+	font-family: isans;
+	font-style: normal;
+	font-weight: bold;
+	src: url('fonts/eot/IRANSansWeb_Bold.eot');
+	src: url('fonts/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/IRANSansWeb_Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/IRANSansWeb_Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/ttf/IRANSansWeb_Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: isans;
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/eot/IRANSansWeb.eot');
+	src: url('fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/IRANSansWeb.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/ttf/IRANSansWeb.ttf') format('truetype');
+}
+
+.rtl .poster-image-preview{left:0 !important;right:auto !important;margin-left:0 !important;}
+@media screen and (max-width: 1515px) {
+	.rtl .jwppp-video-details {
+		right: 38% !important;
+		left:auto  !important;}}
+.rtl .jwplayer input[type="number"].small-text{margin-right:1.8 rem !important;margin-left:0 !important;}
+.rtl .jwplayer img.question-mark,.rtl img.attention-mark{right:0 !important;}
+.rtl .jwplayer .meta-box-sortables input{margin-right:0 !important;}
+.rtl .jw-related-item.jw-related-item-next-up {background:none !important;}
+.rtl .jw-related-item.jw-related-item-next-up  [class*="jw-breakpoint-"]:not(.jw-breakpoint-0):not(.jw-breakpoint-1) .jw-related-item-next-up .jw-related-item-title,
+.rtl .jw-related-item.jw-related-item-next-up  .jw-related-item-description-content
+{background:#111 !important}
+.toplevel_page_jw-player-for-wp .wrap,
+.nav-tab-wrapper, .wrap h2.nav-tab-wrapper, h1.nav-tab-wrapper{font-family:isans !important}
+.rtl span.jwppp-type{padding-left:0 !important;padding-right:10px  !important;}
+.rtl .jwplayer .question-mark{left:0  !important;}
+.rtl .jwppp-input-wrap  a.question-mark{left:0  !important;right:auto !important}
+.rtl [class^="sources-"] input[type="text"]{margin-right:0 !important}
+.rtl .pt-note{margin-right: 10px !important;}
+.rtl [id^="_jwppp-video-ur"],
+.rtl .widefat td.jwppp-input-wrap  code,
+.rtl .jwppp-input-wrap [class^="source-label-"]
+ {margin-right:0  !important;}
+.rtl  [id^="_jwppp-sources-number"].small-text{margin-right:20px !important;margin-left:0 !important}
+.rtl [class^="chapters-subtitles"] [id^="video-"] > input[type="text"]{width:100%;margin-right:0 !important;margin-bottom:4px}
+ .rtl [class^="chapters-subtitles"] [id^="video-"]   input[type="number"].small-text {
+    margin-right: 0 !important;
+    margin-left: 10px;}
+.rtl [class^="chapters-subtitles"] [id^="video-"]  label{float:right !important;margin-left: 30px !important;}
+.rtl select[id^="_jwppp-media-type"]{ left:auto !important;right:3rem !important}
+img.question-mark {float: inherit; position: initial; padding-right: 2%;}

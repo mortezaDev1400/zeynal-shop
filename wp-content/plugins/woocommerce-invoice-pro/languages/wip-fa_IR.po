@@ -1,0 +1,2488 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce Invoice Pro\n"
+"POT-Creation-Date: 2022-07-09 18:06+0430\n"
+"PO-Revision-Date: 2022-07-09 18:06+0430\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woocommerce-invoice-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/admin-ajax.php:2 classes/admin-menu.php:2 classes/assets-manager.php:2
+#: classes/cart-action.php:2 classes/cart-total.php:2
+#: classes/checkout-field.php:2 classes/customer-info.php:2 classes/data.php:2
+#: classes/dokan-store-settings.php:2 classes/helper.php:2
+#: classes/invoice-access.php:2 classes/jalali-date.php:2
+#: classes/labels-manager.php:2 classes/notifications.php:2
+#: classes/options-manager.php:2 classes/order-actions.php:2
+#: classes/order-data.php:2 classes/order-mtb.php:2 classes/orders-table.php:2
+#: classes/our-products.php:2 classes/page-template.php:2
+#: classes/pdf-generator.php:2 classes/pre-customer-info.php:2
+#: classes/pre-products-table.php:2 classes/product-data.php:2
+#: classes/product-mtb.php:2 classes/products-label.php:2
+#: classes/products-table.php:2 classes/proforma-invoice-gateway.php:2
+#: classes/proforma-invoice.php:2 classes/send-email.php:2 classes/send-sms.php:2
+#: classes/send-whatsapp.php:2 classes/shop-info.php:2
+#: classes/sms-services/asanak.php:2 classes/sms-services/fanap.php:2
+#: classes/sms-services/farapayamak.php:2 classes/sms-services/farazsms.php:2
+#: classes/sms-services/ippanel.php:2 classes/sms-services/isms.php:2
+#: classes/sms-services/kavenegar.php:2 classes/sms-services/melipayamak.php:2
+#: classes/sms-services/modirpayamak.php:2 classes/sms-services/newsms.php:2
+#: classes/sms-services/niazpardaz.php:2 classes/sms-services/parsgreen.php:2
+#: classes/sms-services/payamito.php:2 classes/sms-services/payamkutah.php:2
+#: classes/sms-services/payamresan.php:2 classes/sms-services/rangine.php:2
+#: classes/sms-services/raygansms.php:2 classes/sms-services/sabanovin.php:2
+#: classes/sms-services/smsir-ultra-fast-send.php:2
+#: classes/sms-services/smsir.php:2 classes/sms-services/tabansms.php:2
+#: classes/sms-services/vansi.php:2 classes/sms-services/zhiak.php:2
+#: classes/tapin-info.php:2 classes/total-table.php:2 classes/view-invoice.php:2
+#: classes/view-orders.php:2 classes/view.php:2 contracts/sms.php:2 core.php:2
+#: includes/connect-api.php:2 includes/defaults.php:2 includes/hooks.php:2
+#: templates/customer-mini-label/template-1.php:2 templates/footer.php:2
+#: templates/header.php:2 templates/invoice/template-1.php:2
+#: templates/invoice/template-10.php:2 templates/invoice/template-2.php:2
+#: templates/invoice/template-3.php:2 templates/invoice/template-4.php:2
+#: templates/invoice/template-5.php:2 templates/invoice/template-6.php:2
+#: templates/invoice/template-7.php:2 templates/invoice/template-8.php:2
+#: templates/invoice/template-9.php:2 templates/options/components.php:2
+#: templates/options/customer.php:2 templates/options/emails.php:1
+#: templates/options/general.php:2 templates/options/info.php:2
+#: templates/options/invoice.php:2 templates/options/labels.php:1
+#: templates/options/misc.php:2 templates/options/options-page.php:2
+#: templates/options/orders.php:2 templates/options/post-label.php:2
+#: templates/options/pre-invoice.php:2 templates/options/proforma-invoice.php:2
+#: templates/options/shop.php:2 templates/options/side-menu.php:1
+#: templates/options/sms.php:2 templates/options/tapin.php:2
+#: templates/options/whatsapp.php:2 templates/order-label/template-1.php:2
+#: templates/order-label/template-2.php:2 templates/orders/template-1.php:2
+#: templates/post-label/template-1.php:2 templates/post-label/template-2.php:2
+#: templates/post-label/template-3.php:2 templates/product-label/template-1.php:2
+#: templates/shop-mini-label/template-1.php:2
+msgid "No Access!"
+msgstr "دسترسی غیرمجاز!"
+
+#: classes/admin-menu.php:18 classes/admin-menu.php:19
+msgid "Invoice pro"
+msgstr "فاکتور حرفه‌ای"
+
+#: classes/admin-menu.php:28 classes/admin-menu.php:29
+msgid "Invoice options"
+msgstr "پیکربندی فاکتور"
+
+#: classes/admin-menu.php:45 core.php:177 templates/options/components.php:18
+#: templates/options/orders.php:12
+msgid "Orders list"
+msgstr "لیست سفارشات"
+
+#: classes/assets-manager.php:37
+msgid "Options successfully saved."
+msgstr "پیکربندی با موفقیت ذخیره شد."
+
+#: classes/assets-manager.php:38
+msgid "An error has occurred!"
+msgstr "خطایی رخ داده است!"
+
+#: classes/assets-manager.php:39 classes/order-mtb.php:155
+msgid "Send invoice to user"
+msgstr "ارسال فاکتور به کاربر"
+
+#: classes/assets-manager.php:40 classes/order-mtb.php:158
+msgid "Send invoice sms to user"
+msgstr "ارسال پیامک فاکتور به کاربر"
+
+#: classes/assets-manager.php:41 classes/order-mtb.php:161
+msgid "Send invoice to user whatsapp"
+msgstr "ارسال فاکتور به واتساپ کاربر"
+
+#: classes/assets-manager.php:42
+msgid "Please wait"
+msgstr "شکیبا باشید"
+
+#: classes/assets-manager.php:43
+msgid "Invoice successfully send to user."
+msgstr "فاکتور با موفقیت به کاربر ارسال شد."
+
+#: classes/cart-total.php:91
+#, php-format
+msgid "(estimated for %s)"
+msgstr ""
+
+#: classes/checkout-field.php:55 classes/checkout-field.php:115
+msgid "Receiving invoice"
+msgstr "دریافت فاکتور"
+
+#: classes/checkout-field.php:120
+msgid "Yes"
+msgstr "بله"
+
+#: classes/checkout-field.php:121
+msgid "No"
+msgstr "خیر"
+
+#: classes/checkout-field.php:133
+msgid "Proforma invoice payment"
+msgstr "پرداخت پیش فاکتور"
+
+#: classes/checkout-field.php:138 templates/options/customer.php:97
+#: templates/options/general.php:137 templates/options/invoice.php:324
+#: templates/options/misc.php:24 templates/options/misc.php:61
+#: templates/options/misc.php:111 templates/options/proforma-invoice.php:17
+#: templates/options/proforma-invoice.php:26
+#: templates/options/proforma-invoice.php:41
+msgid "Active"
+msgstr "فعال"
+
+#: classes/checkout-field.php:139 templates/options/proforma-invoice.php:32
+#: templates/options/proforma-invoice.php:47
+msgid "Inactive"
+msgstr "غیرفعال"
+
+#: classes/dokan-store-settings.php:30 templates/options/components.php:29
+#: templates/options/components.php:1888
+msgid "Shop logo"
+msgstr "نشان فروشگاه"
+
+#: classes/dokan-store-settings.php:36 templates/options/shop.php:28
+msgid "Economical number"
+msgstr "شماره اقتصادی"
+
+#: classes/dokan-store-settings.php:42 templates/options/shop.php:32
+msgid "Registration/National number"
+msgstr "شماره ثبت/ملی"
+
+#: classes/dokan-store-settings.php:48 templates/options/shop.php:36
+msgid "Website"
+msgstr "وب‌سایت"
+
+#: classes/dokan-store-settings.php:54 includes/hooks.php:101
+#: templates/options/components.php:697 templates/options/components.php:1968
+#: templates/options/invoice.php:295 templates/options/shop.php:44
+#: templates/options/sms.php:153 templates/options/sms.php:265
+#: templates/options/whatsapp.php:81
+msgid "Email"
+msgstr "ایمیل"
+
+#: classes/dokan-store-settings.php:60 classes/tapin-info.php:197
+#: classes/tapin-info.php:205 templates/options/shop.php:56
+msgid "State"
+msgstr "استان"
+
+#: classes/dokan-store-settings.php:66 classes/tapin-info.php:197
+#: classes/tapin-info.php:205 templates/options/shop.php:60
+msgid "City"
+msgstr "شهر"
+
+#: classes/dokan-store-settings.php:72 templates/options/shop.php:64
+msgid "Response time"
+msgstr "زمان پاسخگویی"
+
+#: classes/dokan-store-settings.php:78 templates/options/shop.php:68
+msgid "Namad ID"
+msgstr "شناسه نماد اعتماد"
+
+#: classes/helper.php:199
+msgctxt "Order status"
+msgid "Pending payment"
+msgstr "در انتظار پرداخت"
+
+#: classes/helper.php:200
+msgctxt "Order status"
+msgid "Processing"
+msgstr "در حال انجام"
+
+#: classes/helper.php:201
+msgctxt "Order status"
+msgid "On hold"
+msgstr "در انتظار بررسی"
+
+#: classes/helper.php:202
+msgctxt "Order status"
+msgid "Completed"
+msgstr "تکمیل شده"
+
+#: classes/helper.php:203
+msgctxt "Order status"
+msgid "Cancelled"
+msgstr "لغو شده"
+
+#: classes/helper.php:204
+msgctxt "Order status"
+msgid "Refunded"
+msgstr "مسترد شده"
+
+#: classes/helper.php:205
+msgctxt "Order status"
+msgid "Failed"
+msgstr "ناموفق"
+
+#: classes/labels-manager.php:14 templates/options/general.php:112
+msgid "View invoice"
+msgstr "مشاهده فاکتور"
+
+#: classes/labels-manager.php:15
+msgid "View proforma invoice"
+msgstr "مشاهده پیش فاکتور"
+
+#: classes/labels-manager.php:16 classes/notifications.php:93
+#: classes/notifications.php:96 core.php:149 templates/options/components.php:33
+#: templates/options/components.php:60 templates/options/components.php:99
+#: templates/options/components.php:138 templates/options/components.php:177
+#: templates/options/components.php:216 templates/options/components.php:255
+#: templates/options/components.php:294 templates/options/components.php:333
+#: templates/options/components.php:372 templates/options/components.php:411
+#: templates/options/components.php:444 templates/options/components.php:477
+#: templates/options/components.php:510 templates/options/components.php:545
+#: templates/options/components.php:584 templates/options/components.php:623
+#: templates/options/components.php:662 templates/options/components.php:701
+#: templates/options/components.php:740 templates/options/components.php:773
+#: templates/options/components.php:806 templates/options/components.php:839
+#: templates/options/components.php:872 templates/options/components.php:905
+#: templates/options/components.php:944 templates/options/components.php:978
+#: templates/options/components.php:1001 templates/options/components.php:1022
+#: templates/options/components.php:1046 templates/options/components.php:1079
+#: templates/options/components.php:1109 templates/options/components.php:1145
+#: templates/options/components.php:1169 templates/options/components.php:1193
+#: templates/options/components.php:1229 templates/options/components.php:1247
+#: templates/options/components.php:1283 templates/options/components.php:1319
+#: templates/options/components.php:1355 templates/options/components.php:1379
+#: templates/options/components.php:1415 templates/options/components.php:1451
+#: templates/options/components.php:1481 templates/options/components.php:1517
+#: templates/options/components.php:1553 templates/options/components.php:1583
+#: templates/options/components.php:1607 templates/options/components.php:1634
+#: templates/options/components.php:1657 templates/options/components.php:1684
+#: templates/options/components.php:1711 templates/options/components.php:1738
+#: templates/options/components.php:1765 templates/options/components.php:1792
+#: templates/options/components.php:1819 templates/options/components.php:1840
+#: templates/options/components.php:1861 templates/options/components.php:2212
+#: templates/options/components.php:2227 templates/options/components.php:2242
+#: templates/options/components.php:2263 templates/options/components.php:2284
+#: templates/options/components.php:2305 templates/options/components.php:2326
+#: templates/options/components.php:2348 templates/options/components.php:2364
+#: templates/options/components.php:2385 templates/options/invoice.php:24
+#: templates/options/side-menu.php:33
+msgid "Invoice"
+msgstr "فاکتور"
+
+#: classes/labels-manager.php:17
+msgid "Goods and services's invoice"
+msgstr "صورت‌ حساب کالا و خدمات"
+
+#: classes/labels-manager.php:18
+msgid "Print date:"
+msgstr "تاریخ چاپ:"
+
+#: classes/labels-manager.php:19
+msgid "Order ID:"
+msgstr "شناسه سفارش:"
+
+#: classes/labels-manager.php:20
+msgid "Order Status:"
+msgstr "وضعیت سفارش:"
+
+#: classes/labels-manager.php:21
+msgid "Title:"
+msgstr "عنوان:"
+
+#: classes/labels-manager.php:22
+msgid "Sender:"
+msgstr "فرستنده:"
+
+#: classes/labels-manager.php:23 classes/labels-manager.php:24
+msgid "Postcode:"
+msgstr "کدپستی:"
+
+#: classes/labels-manager.php:25 classes/labels-manager.php:26
+msgid "Phone:"
+msgstr "تلفن:"
+
+#: classes/labels-manager.php:27
+msgid "Economical Number:"
+msgstr "شماره اقتصادی:"
+
+#: classes/labels-manager.php:28
+msgid "Registration/National number:"
+msgstr "شماره ثبت/ملی:"
+
+#: classes/labels-manager.php:29
+msgid "Website:"
+msgstr "وب‌سایت:"
+
+#: classes/labels-manager.php:30
+msgid "Address:"
+msgstr "آدرس:"
+
+#: classes/labels-manager.php:31
+msgid "Billing:"
+msgstr "صورتحساب:"
+
+#: classes/labels-manager.php:32
+msgid "Shipping:"
+msgstr "حمل‌و‌نقل:"
+
+#: classes/labels-manager.php:33
+msgid "Recipient:"
+msgstr "گیرنده:"
+
+#: classes/labels-manager.php:34
+msgid "Full name:"
+msgstr "نام کامل:"
+
+#: classes/labels-manager.php:35 classes/labels-manager.php:36
+msgid "Email:"
+msgstr "ایمیل:"
+
+#: classes/labels-manager.php:37
+msgid "Order date:"
+msgstr "تاریخ سفارش:"
+
+#: classes/labels-manager.php:38
+msgid "Payment method:"
+msgstr "روش پرداخت:"
+
+#: classes/labels-manager.php:39
+msgid "Transaction ID:"
+msgstr "شناسه تراکنش:"
+
+#: classes/labels-manager.php:40
+msgid "National ID:"
+msgstr "شماره ملی:"
+
+#: classes/labels-manager.php:41
+msgid "Shipping method:"
+msgstr "روش حمل و نقل:"
+
+#: classes/labels-manager.php:42 templates/options/components.php:1105
+msgid "ID"
+msgstr "شناسه"
+
+#: classes/labels-manager.php:43 templates/options/components.php:1165
+msgid "Image"
+msgstr "تصویر"
+
+#: classes/labels-manager.php:44 templates/options/components.php:1189
+#: templates/options/components.php:1912 templates/options/invoice.php:226
+msgid "Product"
+msgstr "محصول"
+
+#: classes/labels-manager.php:45 templates/options/components.php:1225
+msgid "Download link"
+msgstr "لینک دانلود"
+
+#: classes/labels-manager.php:46 templates/options/components.php:1243
+#: templates/options/components.php:1900
+msgid "Seller"
+msgstr "فروشنده"
+
+#: classes/labels-manager.php:47 templates/options/components.php:1279
+#: templates/options/components.php:2184
+msgid "Weight"
+msgstr "وزن"
+
+#: classes/labels-manager.php:48 templates/options/components.php:1315
+msgid "Dimension"
+msgstr "ابعاد"
+
+#: classes/labels-manager.php:49 classes/product-mtb.php:27
+#: templates/options/components.php:1351
+msgid "Cabinet code"
+msgstr "کد قفسه انبار"
+
+#: classes/labels-manager.php:50 includes/hooks.php:137
+#: templates/options/components.php:1375 templates/options/components.php:2050
+msgid "Price"
+msgstr "قیمت"
+
+#: classes/labels-manager.php:51 templates/options/components.php:1411
+#: templates/options/components.php:1707 templates/options/components.php:2062
+#: templates/options/sms.php:181 templates/options/sms.php:296
+#: templates/options/whatsapp.php:112
+msgid "Discount amount"
+msgstr "مبلغ تخفیف"
+
+#: classes/labels-manager.php:52 templates/options/components.php:1447
+#: templates/options/components.php:2068 templates/options/sms.php:185
+#: templates/options/sms.php:301 templates/options/whatsapp.php:117
+msgid "Tax amount"
+msgstr "مبلغ مالیات"
+
+#: classes/labels-manager.php:53 templates/options/components.php:1477
+msgid "Quantity"
+msgstr "تعداد"
+
+#: classes/labels-manager.php:54 templates/options/components.php:1513
+#: templates/options/components.php:1680 templates/options/components.php:2056
+#: templates/options/sms.php:177 templates/options/sms.php:292
+#: templates/options/whatsapp.php:108
+msgid "Total amount"
+msgstr "مبلغ کل"
+
+#: classes/labels-manager.php:55 templates/options/components.php:1549
+msgid "Total + Tax amount"
+msgstr "مبلغ کل بعلاوه مالیات"
+
+#: classes/labels-manager.php:56 templates/options/components.php:1579
+msgid "Purchase note"
+msgstr "یادداشت خرید"
+
+#: classes/labels-manager.php:57 classes/proforma-invoice.php:122
+#: templates/options/components.php:2110
+msgid "Total"
+msgstr "کل"
+
+#: classes/labels-manager.php:58
+msgid "Shopping profit:"
+msgstr "سود از خرید:"
+
+#: classes/labels-manager.php:59
+msgid "Total items:"
+msgstr "تعداد کل:"
+
+#: classes/labels-manager.php:60 templates/options/components.php:1761
+#: templates/options/components.php:2074 templates/options/sms.php:189
+#: templates/options/sms.php:305 templates/options/whatsapp.php:121
+msgid "Shipping amount"
+msgstr "مبلغ حمل و نقل"
+
+#: classes/labels-manager.php:61 templates/options/components.php:1788
+#: templates/options/components.php:2080 templates/options/sms.php:193
+#: templates/options/sms.php:217 templates/options/sms.php:310
+#: templates/options/whatsapp.php:126
+msgid "Final amount"
+msgstr "مبلغ نهایی"
+
+#: classes/labels-manager.php:62 templates/options/components.php:1815
+#: templates/options/components.php:2086 templates/options/sms.php:197
+#: templates/options/sms.php:314 templates/options/whatsapp.php:130
+msgid "Refunded amount"
+msgstr "مبلغ مسترد شده"
+
+#: classes/labels-manager.php:63 templates/options/components.php:1836
+#: templates/options/components.php:2092
+msgid "Net payment"
+msgstr "پرداخت خالص"
+
+#: classes/labels-manager.php:64
+msgid "Customer note:"
+msgstr "یادداشت مشتری:"
+
+#: classes/labels-manager.php:65
+msgid "Order note:"
+msgstr "یادداشت سفارش:"
+
+#: classes/labels-manager.php:66 templates/options/components.php:2301
+#: templates/options/invoice.php:334
+msgid "Shop stamp and signature"
+msgstr "مهر و امضای فروشگاه"
+
+#: classes/labels-manager.php:67 templates/options/components.php:2322
+msgid "Customer stamp and signature"
+msgstr "مهر و امضای مشتری"
+
+#: classes/labels-manager.php:68
+msgid "Shop specifications"
+msgstr "مشخصات فروشگاه"
+
+#: classes/labels-manager.php:69
+msgid "Customer specifications"
+msgstr "مشخصات مشتری"
+
+#: classes/labels-manager.php:70
+msgid "Specifications of the goods or services traded"
+msgstr "شرح کالا و خدمات"
+
+#: classes/labels-manager.php:71
+msgid "Orders"
+msgstr "سفارشات"
+
+#: classes/labels-manager.php:72 includes/hooks.php:80
+#: templates/options/components.php:1075 templates/options/components.php:1926
+msgid "Row"
+msgstr "ردیف"
+
+#: classes/labels-manager.php:73 core.php:142 templates/options/components.php:14
+#: templates/options/customer.php:11 templates/options/side-menu.php:26
+msgid "Customer"
+msgstr "مشتری"
+
+#: classes/labels-manager.php:74
+msgid "State/City"
+msgstr "استان/شهر"
+
+#: classes/labels-manager.php:75 includes/hooks.php:134
+#: templates/options/components.php:2044 templates/options/sms.php:245
+#: templates/options/whatsapp.php:61
+msgid "Products"
+msgstr "محصولات"
+
+#: classes/labels-manager.php:76 classes/product-mtb.php:54
+#: classes/product-mtb.php:76 includes/hooks.php:140
+#: templates/options/components.php:2104
+msgid "Provider price"
+msgstr "قیمت تامین کننده"
+
+#: classes/labels-manager.php:77
+msgid "Shopper"
+msgstr "خریدار"
+
+#: classes/labels-manager.php:78 templates/options/components.php:2360
+msgid "Deliver date"
+msgstr "تاریخ تحویل"
+
+#: classes/labels-manager.php:79 templates/options/components.php:2381
+msgid "Deliver time"
+msgstr "ساعت تحویل"
+
+#: classes/labels-manager.php:80
+msgid "Transmission date:"
+msgstr "تاریخ ارسال:"
+
+#: classes/labels-manager.php:81 templates/options/components.php:506
+#: templates/options/components.php:1141 templates/options/components.php:1918
+#: templates/options/components.php:2118 templates/options/misc.php:46
+msgid "Barcode"
+msgstr "بارکد"
+
+#: classes/labels-manager.php:82
+msgid "National ID/Economical number"
+msgstr "شماره ملی/کداقتصادی"
+
+#: classes/labels-manager.php:83
+msgid "National ID is wrong!"
+msgstr "شماره ملی اشتباه است!"
+
+#: classes/labels-manager.php:84 includes/hooks.php:122 includes/hooks.php:125
+#: templates/options/components.php:974 templates/options/components.php:2011
+msgid "Delivery date"
+msgstr "تاریخ و زمان تحویل"
+
+#: classes/labels-manager.php:85
+msgid "Delivery notice"
+msgstr "اعلان تحویل"
+
+#: classes/labels-manager.php:86
+#, php-format
+msgid "From the next %d days"
+msgstr "از %d روز آینده"
+
+#: classes/labels-manager.php:87
+msgid "Stamp placeholder"
+msgstr "الصاق تمبر"
+
+#: classes/labels-manager.php:88
+msgid "Operations location"
+msgstr "محل عملیات پستی"
+
+#: classes/labels-manager.php:89 classes/page-template.php:17 core.php:86
+#: core.php:163 templates/options/components.php:51
+#: templates/options/components.php:90 templates/options/components.php:128
+#: templates/options/components.php:168 templates/options/components.php:207
+#: templates/options/components.php:246 templates/options/components.php:285
+#: templates/options/components.php:324 templates/options/components.php:363
+#: templates/options/components.php:402 templates/options/components.php:575
+#: templates/options/components.php:614 templates/options/components.php:653
+#: templates/options/components.php:692 templates/options/components.php:731
+#: templates/options/components.php:935 templates/options/components.php:1064
+#: templates/options/components.php:1097 templates/options/components.php:1127
+#: templates/options/components.php:1157 templates/options/components.php:1181
+#: templates/options/components.php:1211 templates/options/components.php:1265
+#: templates/options/components.php:1301 templates/options/components.php:1337
+#: templates/options/components.php:1367 templates/options/components.php:1397
+#: templates/options/components.php:1433 templates/options/components.php:1499
+#: templates/options/components.php:1535 templates/options/components.php:1595
+#: templates/options/components.php:1619 templates/options/components.php:1646
+#: templates/options/components.php:1675 templates/options/components.php:1702
+#: templates/options/components.php:1729 templates/options/components.php:1756
+#: templates/options/components.php:1783 templates/options/components.php:1810
+#: templates/options/components.php:1879 templates/options/components.php:2254
+#: templates/options/components.php:2296 templates/options/components.php:2317
+#: templates/options/components.php:2338 templates/options/components.php:2376
+#: templates/options/components.php:2397 templates/options/pre-invoice.php:13
+#: templates/options/pre-invoice.php:17 templates/options/pre-invoice.php:44
+msgid "Pre invoice"
+msgstr "پیش فاکتور سبد خرید"
+
+#: classes/labels-manager.php:90 classes/proforma-invoice-gateway.php:47
+#: classes/proforma-invoice-gateway.php:88 core.php:156
+#: templates/options/proforma-invoice.php:10
+msgid "Proforma invoice"
+msgstr "پیش فاکتور"
+
+#: classes/labels-manager.php:91
+msgid "Proforma invoices"
+msgstr "پیش فاکتورها"
+
+#: classes/labels-manager.php:92
+msgid "Total weight:"
+msgstr "وزن کل:"
+
+#: classes/labels-manager.php:93 classes/proforma-invoice.php:111
+#: templates/options/invoice.php:220
+msgid "Order"
+msgstr "سفارش"
+
+#: classes/labels-manager.php:94
+msgid "Payment"
+msgstr "پرداخت"
+
+#: classes/labels-manager.php:95
+msgid "Note"
+msgstr "یادداشت"
+
+#: classes/labels-manager.php:96 templates/options/components.php:2130
+msgid "Product info"
+msgstr "اطلاعات محصول"
+
+#: classes/labels-manager.php:97
+msgid "State:"
+msgstr "استان:"
+
+#: classes/labels-manager.php:98
+msgid "City:"
+msgstr "شهر:"
+
+#: classes/labels-manager.php:99
+msgid "Response time:"
+msgstr "زمان پاسخگویی:"
+
+#: classes/labels-manager.php:100
+msgid "Namad ID:"
+msgstr "شناسه نماد اعتماد:"
+
+#: classes/labels-manager.php:101
+msgid "Reason for return"
+msgstr "علت برگشت"
+
+#: classes/labels-manager.php:102
+msgid "Lack of information of the order"
+msgstr "عدم اطلاع از سفارش"
+
+#: classes/labels-manager.php:103
+msgid "Movement"
+msgstr "نقل مکان"
+
+#: classes/labels-manager.php:104
+msgid "Lack of money / credit cart"
+msgstr "عدم وجود وجه نقد / کارت بانکی"
+
+#: classes/labels-manager.php:105
+msgid "Order amount contradiction"
+msgstr "مغایرت مبلغ فاکتور"
+
+#: classes/labels-manager.php:106
+msgid "Reopening request"
+msgstr "درخواست بازگشایی"
+
+#: classes/labels-manager.php:107
+msgid "Delay in sending"
+msgstr "تاخیر در ارسال"
+
+#: classes/labels-manager.php:108
+msgid "Purchase cancel"
+msgstr "انصراف از خرید"
+
+#: classes/labels-manager.php:109
+msgid "Recipient not identified"
+msgstr "گیرنده شناخته نشد"
+
+#: classes/labels-manager.php:110
+msgid "Duplicate order"
+msgstr "سفارش تکراری"
+
+#: classes/labels-manager.php:111 templates/options/components.php:20
+msgid "Others"
+msgstr "سایر"
+
+#: classes/labels-manager.php:112
+msgid "Postman name"
+msgstr "نام و نام خانوادگی نامه‌رسان و امضا"
+
+#: classes/labels-manager.php:113
+msgid "Post title"
+msgstr "خدمات تجارت الکترونیک"
+
+#: classes/labels-manager.php:114
+msgid "Origin:"
+msgstr "مبدا:"
+
+#: classes/labels-manager.php:115
+msgid "Destination:"
+msgstr "مقصد:"
+
+#: classes/labels-manager.php:116
+msgid "Weight:"
+msgstr "وزن:"
+
+#: classes/labels-manager.php:117
+msgid "Send time:"
+msgstr "زمان ارسال:"
+
+#: classes/labels-manager.php:118
+msgid "Send price:"
+msgstr "کرایه پستی:"
+
+#: classes/labels-manager.php:119
+msgid "Send price tax:"
+msgstr "مالیات ارزش افزوده پستی:"
+
+#: classes/labels-manager.php:120
+msgid "Post services:"
+msgstr "خدمات پست:"
+
+#: classes/labels-manager.php:121
+msgid "Shop note:"
+msgstr "پیغام فروشگاه:"
+
+#: classes/labels-manager.php:122 classes/proforma-invoice-gateway.php:58
+msgid "Description"
+msgstr "توضیحات"
+
+#: classes/labels-manager.php:123 templates/options/tapin.php:35
+msgid "Footer description"
+msgstr "توضیحات پابرگ"
+
+#: classes/labels-manager.php:124
+msgid "Tapin order ID:"
+msgstr "شناسه سفارش تاپین:"
+
+#: classes/order-actions.php:87 classes/order-mtb.php:133
+#: templates/options/misc.php:88
+msgid "Invoice page"
+msgstr "برگه فاکتور"
+
+#: classes/order-actions.php:94
+msgid "Packing list page"
+msgstr "برگه انبارداری"
+
+#: classes/order-actions.php:101 core.php:170 templates/options/components.php:45
+#: templates/options/components.php:72 templates/options/components.php:111
+#: templates/options/components.php:150 templates/options/components.php:189
+#: templates/options/components.php:228 templates/options/components.php:267
+#: templates/options/components.php:306 templates/options/components.php:345
+#: templates/options/components.php:384 templates/options/components.php:423
+#: templates/options/components.php:456 templates/options/components.php:489
+#: templates/options/components.php:522 templates/options/components.php:557
+#: templates/options/components.php:596 templates/options/components.php:635
+#: templates/options/components.php:674 templates/options/components.php:713
+#: templates/options/components.php:752 templates/options/components.php:785
+#: templates/options/components.php:818 templates/options/components.php:851
+#: templates/options/components.php:884 templates/options/components.php:917
+#: templates/options/components.php:956 templates/options/components.php:990
+#: templates/options/components.php:1013 templates/options/components.php:1034
+#: templates/options/components.php:1058 templates/options/components.php:1091
+#: templates/options/components.php:1121 templates/options/components.php:1205
+#: templates/options/components.php:1259 templates/options/components.php:1295
+#: templates/options/components.php:1331 templates/options/components.php:1391
+#: templates/options/components.php:1427 templates/options/components.php:1463
+#: templates/options/components.php:1493 templates/options/components.php:1529
+#: templates/options/components.php:1565 templates/options/components.php:1669
+#: templates/options/components.php:1696 templates/options/components.php:1723
+#: templates/options/components.php:1750 templates/options/components.php:1777
+#: templates/options/components.php:1804 templates/options/components.php:1831
+#: templates/options/components.php:1852 templates/options/components.php:1873
+#: templates/options/components.php:2275 templates/options/post-label.php:15
+#: templates/options/side-menu.php:40
+msgid "Post label"
+msgstr "برچسب پستی"
+
+#: classes/order-actions.php:108 templates/options/components.php:78
+#: templates/options/components.php:117 templates/options/components.php:156
+#: templates/options/components.php:195 templates/options/components.php:234
+#: templates/options/components.php:273 templates/options/components.php:312
+#: templates/options/components.php:351 templates/options/components.php:390
+#: templates/options/components.php:429 templates/options/components.php:462
+#: templates/options/components.php:495 templates/options/components.php:528
+#: templates/options/components.php:563 templates/options/components.php:602
+#: templates/options/components.php:641 templates/options/components.php:680
+#: templates/options/components.php:719 templates/options/components.php:758
+#: templates/options/components.php:791 templates/options/components.php:824
+#: templates/options/components.php:857 templates/options/components.php:890
+#: templates/options/components.php:923 templates/options/components.php:962
+msgid "Order label"
+msgstr "برچسب سفارش"
+
+#: classes/order-actions.php:115
+msgid "Shop mini label"
+msgstr "برچسب کوچک فروشگاه"
+
+#: classes/order-actions.php:122
+msgid "Customer mini label"
+msgstr "برچسب کوچک مشتری"
+
+#: classes/order-actions.php:129 templates/options/components.php:17
+msgid "Product label"
+msgstr "برچسب محصول"
+
+#: classes/order-actions.php:185
+msgid "Print invoice"
+msgstr "چاپ فاکتور"
+
+#: classes/order-actions.php:186
+msgid "Print packing slip"
+msgstr "چاپ انبارداری"
+
+#: classes/order-actions.php:187
+msgid "Print post label"
+msgstr "چاپ برچسب پستی"
+
+#: classes/order-actions.php:188
+msgid "Print order label"
+msgstr "چاپ برچسب سفارش"
+
+#: classes/order-actions.php:189
+msgid "Print shop mini label"
+msgstr "چاپ برچسب کوچک فروشگاه"
+
+#: classes/order-actions.php:190
+msgid "Print customer mini label"
+msgstr "چاپ برچسب کوچک مشتری"
+
+#: classes/order-actions.php:191
+msgid "Print product label"
+msgstr "چاپ برچسب محصول"
+
+#: classes/order-mtb.php:19
+msgid "Invoicing"
+msgstr "صدور فاکتور"
+
+#: classes/order-mtb.php:123
+#, php-format
+msgid "This order was purchased in %s."
+msgstr "این سفارش با واحد پولی %s  خریداری شده است."
+
+#: classes/order-mtb.php:126
+msgid "None"
+msgstr "هیچکدام"
+
+#: classes/order-mtb.php:128 templates/options/invoice.php:148
+msgid "Rial"
+msgstr "ریال"
+
+#: classes/order-mtb.php:130 templates/options/invoice.php:149
+msgid "Toman"
+msgstr "تومان"
+
+#: classes/order-mtb.php:136 templates/options/misc.php:91
+msgid "Packing slip page"
+msgstr "برگه انبارداری"
+
+#: classes/order-mtb.php:139 templates/options/misc.php:94
+msgid "Post label page"
+msgstr "برگه برچسب پستی"
+
+#: classes/order-mtb.php:142 templates/options/misc.php:100
+msgid "Order label page"
+msgstr "برگه برچسب سفارش"
+
+#: classes/order-mtb.php:145 templates/options/misc.php:97
+msgid "Shop mini label page"
+msgstr "برگه برچسب کوچک فروشگاه"
+
+#: classes/order-mtb.php:148 templates/options/misc.php:103
+msgid "Customer mini label page"
+msgstr "برگه برچسب کوچک مشتری"
+
+#: classes/order-mtb.php:151
+msgid "Product label page"
+msgstr "برگه برچسب محصول"
+
+#: classes/order-mtb.php:165 includes/hooks.php:119
+#: templates/options/components.php:407 templates/options/components.php:2004
+msgid "Transmission date"
+msgstr "تاریخ ارسال"
+
+#: classes/order-mtb.php:168
+msgid "Invoice note..."
+msgstr "یادداشت فاکتور..."
+
+#: classes/order-mtb.php:171
+msgid "Packing slip note..."
+msgstr "یادداشت انبارداری..."
+
+#: classes/order-mtb.php:177
+msgid "Disable for vendor"
+msgstr "غیرفعال‌سازی برای فروشنده"
+
+#. Plugin Name of the plugin/theme
+#: classes/pdf-generator.php:86 classes/pdf-generator.php:89 core.php:121
+#: core.php:269
+msgid "Woocommerce Invoice Pro"
+msgstr "فاکتور حرفه‌ای ووکامرس"
+
+#: classes/product-mtb.php:30
+msgid "Enter product cabinet code for ease of finding product position in stock."
+msgstr "جهت سهولت در امور انبارداری، کد قفسه انبار را وارد نمایید."
+
+#: classes/proforma-invoice-gateway.php:18
+msgid ""
+"Allows proforma invoice payments. Orders are marked as \"Proforma invoice\" "
+"when received."
+msgstr ""
+"پرداخت برای پیش فاکتور. سفارشات با عنوان \"پیش فاکتور\" نشانه‌گذاری می‌شوند."
+
+#: classes/proforma-invoice-gateway.php:38
+msgid "Enable/Disable"
+msgstr "فعال/غیرفعال"
+
+#: classes/proforma-invoice-gateway.php:40
+msgid "Enable"
+msgstr "فعال"
+
+#: classes/proforma-invoice-gateway.php:44 templates/options/shop.php:24
+msgid "Title"
+msgstr "عنوان"
+
+#: classes/proforma-invoice-gateway.php:46
+msgid "Payment method description that the customer will see on your checkout."
+msgstr ""
+
+#: classes/proforma-invoice-gateway.php:51
+msgid "Icon"
+msgstr "آیکن"
+
+#: classes/proforma-invoice-gateway.php:53
+msgid "Insert image ID or URL."
+msgstr "شناسه و یا پیوند تصویر را درج نمایید."
+
+#: classes/proforma-invoice-gateway.php:60
+msgid "Payment method description that the customer will see on your website."
+msgstr ""
+
+#: classes/proforma-invoice-gateway.php:61
+#: classes/proforma-invoice-gateway.php:68
+msgid "Pay for proforma invoice"
+msgstr "پرداخت برای پیش فاکتور"
+
+#: classes/proforma-invoice-gateway.php:65
+msgid "Instructions"
+msgstr ""
+
+#: classes/proforma-invoice-gateway.php:67
+msgid "Instructions that will be added to the thank you page."
+msgstr ""
+
+#: classes/proforma-invoice.php:37
+#, php-format
+msgid " <span class=\"count\">(%s)</span>"
+msgid_plural " <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/proforma-invoice.php:113
+msgctxt "hash before order number"
+msgid "#"
+msgstr ""
+
+#: classes/proforma-invoice.php:116
+msgid "Date"
+msgstr "تاریخ"
+
+#: classes/proforma-invoice.php:119 includes/hooks.php:86
+#: templates/options/components.php:1938
+#: templates/options/proforma-invoice.php:13
+msgid "Status"
+msgstr "وضعیت"
+
+#: classes/proforma-invoice.php:123
+#, php-format
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/proforma-invoice.php:125
+#, fuzzy
+#| msgid "Options"
+msgid "Actions"
+msgstr "پیکربندی"
+
+#: classes/proforma-invoice.php:144
+msgid "Previous"
+msgstr ""
+
+#: classes/proforma-invoice.php:147
+msgid "Next"
+msgstr ""
+
+#: classes/proforma-invoice.php:153
+#, fuzzy
+#| msgid "View product"
+msgid "Browse products"
+msgstr "مشاهده محصول"
+
+#: classes/proforma-invoice.php:154
+msgid "No order has been made yet."
+msgstr ""
+
+#: classes/total-table.php:39
+msgid "Coupon codes:"
+msgstr "کوپن‌ها:"
+
+#: core.php:95
+msgid "Options"
+msgstr "پیکربندی"
+
+#: core.php:123 core.php:271 templates/options/side-menu.php:7
+msgid "version "
+msgstr "نسخه "
+
+#: core.php:128 templates/options/general.php:9
+#: templates/options/side-menu.php:12
+msgid "General"
+msgstr "همگانی"
+
+#: core.php:129 templates/options/side-menu.php:13
+msgid "Basic invoice settings"
+msgstr "پیکربندی پایه فاکتور"
+
+#: core.php:135 templates/options/components.php:13 templates/options/shop.php:9
+#: templates/options/side-menu.php:19
+msgid "Shop"
+msgstr "فروشگاه"
+
+#: core.php:136 templates/options/side-menu.php:20
+msgid "Shop info settings"
+msgstr "پیکربندی اطلاعات فروشگاه"
+
+#: core.php:143 templates/options/side-menu.php:27
+msgid "Customer info settings"
+msgstr "پیکربندی اطلاعات مشتری"
+
+#: core.php:150 core.php:164 templates/options/side-menu.php:34
+msgid "Font, template and more..."
+msgstr "فونت، قالب و ..."
+
+#: core.php:157
+msgid "Proforma invoice settings"
+msgstr "پیکربندی پیش فاکتور"
+
+#: core.php:171 templates/options/side-menu.php:41
+msgid "Custom style of post label"
+msgstr "سفارشی سازی برچسب پستی"
+
+#: core.php:178
+msgid "Custom style of orders list"
+msgstr "سفارشی سازی لیست سفارشات"
+
+#: core.php:184 templates/options/components.php:19
+#: templates/options/tapin.php:10
+msgid "Tapin"
+msgstr "تاپین"
+
+#: core.php:185
+msgid "Settings of tapin invoice"
+msgstr "پیکربندی فاکتور تاپین"
+
+#: core.php:191 templates/options/components.php:10
+#: templates/options/side-menu.php:47
+msgid "Components"
+msgstr "اجزاء"
+
+#: core.php:192 templates/options/side-menu.php:48
+msgid "Invoice and packing slip parts"
+msgstr "اجزای فاکتور و برچسب پستی"
+
+#: core.php:198 templates/options/emails.php:5 templates/options/side-menu.php:54
+msgid "Emails"
+msgstr "ایمیل‌ها"
+
+#: core.php:199 templates/options/side-menu.php:55
+msgid "Send email to customer"
+msgstr "ارسال ایمیل به مشتری"
+
+#: core.php:205 templates/options/components.php:1070
+#: templates/options/components.php:1133 templates/options/components.php:1217
+#: templates/options/components.php:1271 templates/options/components.php:1307
+#: templates/options/components.php:1343 templates/options/components.php:1403
+#: templates/options/components.php:1439 templates/options/components.php:1469
+#: templates/options/components.php:1505 templates/options/components.php:1541
+#: templates/options/components.php:1571 templates/options/side-menu.php:61
+#: templates/options/sms.php:11
+msgid "SMS"
+msgstr "پیامک"
+
+#: core.php:206 templates/options/side-menu.php:62
+msgid "Send sms to customer"
+msgstr "ارسال پیامک به مشتری"
+
+#: core.php:212 templates/options/whatsapp.php:11
+msgid "Whatsapp"
+msgstr "واتساپ"
+
+#: core.php:213
+msgid "Send whatsapp message to customer"
+msgstr "ارسال پیام واتساپ به مشتری"
+
+#: core.php:219 templates/options/labels.php:5 templates/options/side-menu.php:68
+msgid "Labels"
+msgstr "برچسب‌ها"
+
+#: core.php:220 templates/options/side-menu.php:69
+msgid "All text used in invoice"
+msgstr "تمامی متن‌های فاکتور"
+
+#: core.php:226 templates/options/misc.php:9 templates/options/side-menu.php:75
+msgid "Misc"
+msgstr "متفرقه"
+
+#: core.php:227 templates/options/side-menu.php:76
+msgid "Misc invoice settings"
+msgstr "پیکربندی متفرقه فاکتور"
+
+#: core.php:233 core.php:264 templates/options/side-menu.php:82
+msgid "Information"
+msgstr "اطلاعات"
+
+#: core.php:234 templates/options/side-menu.php:83
+msgid "Info about plugin"
+msgstr "اطلاعات درباره افزونه"
+
+#: core.php:273
+msgid "By:"
+msgstr "بدست:"
+
+#. Author of the plugin/theme
+#: core.php:274
+msgid "S.Reza Salehi"
+msgstr "سید رضا صالحی"
+
+#: core.php:285
+msgid "Save changes"
+msgstr "ذخیره تغییرات"
+
+#: core.php:390 core.php:391 core.php:563 core.php:585 core.php:602
+msgid "Register version"
+msgstr "ثبت نسخه"
+
+#: core.php:565
+msgid ""
+"You already register your license key. to re validate it, you can use this "
+"form."
+msgstr ""
+"شما قبلا کلید لایسنس را ثبت کرده‌اید. جهت اعتبار سنجی مجدد می‌توانید از این فرم "
+"استفاده کنید."
+
+#: core.php:567
+msgid "Your current license:"
+msgstr "لایسنس کنونی شما:"
+
+#: core.php:579
+msgid "Revalidate"
+msgstr "اصلاح تاریخ"
+
+#: core.php:580
+msgid "Delete and submit another license"
+msgstr "حذف و ثب لایسنس دیگر"
+
+#: core.php:584
+msgid "New license key"
+msgstr "کلید لایسنس جدید"
+
+#: core.php:587 core.php:593 core.php:604
+msgid "Please wait..."
+msgstr "شکیبا باشید..."
+
+#: core.php:599
+msgid "Please activate plugin with your license key to all features work."
+msgstr "جهت برخورداری از کلیه امکانات لطفا افزونه را با کلید لایسنس فعال نمایید."
+
+#: core.php:601
+msgid "License key"
+msgstr "کلید لایسنس"
+
+#: core.php:633 core.php:665
+msgid "Something goes wrong please try again."
+msgstr "خطایی رخ داده است! لطفا مجددا تلاش نمایید."
+
+#: core.php:694 core.php:762
+msgid "Please insert your license code"
+msgstr "لطفا کلید لایسنس خود را وارد نمایید"
+
+#: core.php:710
+msgid "License code is valid."
+msgstr "کلید لایسنس معتبر می‌باشد."
+
+#: core.php:714 core.php:776
+msgid "Thanks! Your license activated successfully."
+msgstr "تشکر! لایسنس شما با موفقیت فعال شد."
+
+#: core.php:741
+#, php-format
+msgid "To activating your %s please insert you license key"
+msgstr "جهت فعال‌سازی %s لطفا کلید لایسنس را وارد نمایید"
+
+#: core.php:742
+msgid "Register Now"
+msgstr "ثبت"
+
+#: core.php:748
+#, php-format
+msgid "There is something wrong with your %s license. please check it."
+msgstr "در رابطه با لایسنس %s مشکلی وجود دارد. لطفا آنرا بررسی نمایید."
+
+#: core.php:749
+msgid "Check Now"
+msgstr "بررسی"
+
+#: includes/hooks.php:83 templates/options/components.php:440
+#: templates/options/components.php:1932 templates/options/components.php:2124
+#: templates/options/invoice.php:279 templates/options/sms.php:129
+#: templates/options/sms.php:209 templates/options/sms.php:237
+#: templates/options/sms.php:331 templates/options/whatsapp.php:53
+msgid "Order ID"
+msgstr "شناسه سفارش"
+
+#: includes/hooks.php:89 templates/options/components.php:541
+#: templates/options/components.php:1944 templates/options/shop.php:52
+#: templates/options/sms.php:137 templates/options/sms.php:249
+#: templates/options/whatsapp.php:65
+msgid "Address"
+msgstr "آدرس"
+
+#: includes/hooks.php:92 templates/options/components.php:580
+#: templates/options/components.php:1950 templates/options/sms.php:141
+#: templates/options/sms.php:213 templates/options/sms.php:253
+#: templates/options/whatsapp.php:69
+msgid "Full name"
+msgstr "نام کامل"
+
+#: includes/hooks.php:95 templates/options/components.php:619
+#: templates/options/components.php:1956 templates/options/invoice.php:287
+#: templates/options/shop.php:40 templates/options/sms.php:145
+#: templates/options/sms.php:257 templates/options/whatsapp.php:73
+msgid "Postcode"
+msgstr "کد پستی"
+
+#: includes/hooks.php:98 templates/options/components.php:658
+#: templates/options/components.php:1962 templates/options/invoice.php:291
+#: templates/options/shop.php:48 templates/options/sms.php:149
+#: templates/options/sms.php:261 templates/options/whatsapp.php:77
+msgid "Phone"
+msgstr "تلفن"
+
+#: includes/hooks.php:104 templates/options/components.php:736
+#: templates/options/components.php:1974 templates/options/sms.php:157
+#: templates/options/sms.php:269 templates/options/whatsapp.php:85
+msgid "Order date"
+msgstr "تاریخ سفارش"
+
+#: includes/hooks.php:107 templates/options/components.php:769
+#: templates/options/components.php:1980 templates/options/sms.php:161
+#: templates/options/sms.php:273 templates/options/whatsapp.php:89
+msgid "Payment method"
+msgstr "روش پرداخت"
+
+#: includes/hooks.php:110 templates/options/components.php:802
+#: templates/options/components.php:1986 templates/options/invoice.php:304
+#: templates/options/sms.php:165 templates/options/sms.php:278
+#: templates/options/whatsapp.php:94
+msgid "Transaction ID"
+msgstr "شناسه تراکنش"
+
+#: includes/hooks.php:113 templates/options/components.php:835
+#: templates/options/components.php:1992 templates/options/customer.php:28
+#: templates/options/invoice.php:309 templates/options/sms.php:169
+#: templates/options/sms.php:283 templates/options/whatsapp.php:99
+msgid "National ID"
+msgstr "شماره ملی"
+
+#: includes/hooks.php:116 templates/options/components.php:868
+#: templates/options/components.php:1998 templates/options/components.php:2160
+#: templates/options/sms.php:173 templates/options/sms.php:287
+#: templates/options/whatsapp.php:103
+msgid "Shipping method"
+msgstr "روش حمل و نقل"
+
+#: includes/hooks.php:128 templates/options/components.php:2032
+#: templates/options/components.php:2259
+msgid "Customer note"
+msgstr "یادداشت مشتری"
+
+#: includes/hooks.php:131 templates/options/components.php:2038
+#: templates/options/components.php:2280 templates/options/invoice.php:329
+msgid "Order note"
+msgstr "یادداشت سفارش"
+
+#: includes/hooks.php:252
+msgid "Free!"
+msgstr ""
+
+#: templates/footer.php:9 templates/orders/template-1.php:68
+#: templates/pre-invoice.php:150
+msgid "Print this page"
+msgstr "چاپ این برگه"
+
+#: templates/footer.php:11 templates/pre-invoice.php:155
+msgid "Proceed to checkout"
+msgstr ""
+
+#: templates/footer.php:14 templates/options/general.php:133
+#: templates/orders/template-1.php:70 templates/pre-invoice.php:152
+msgid "Download PDF"
+msgstr "دریافت PDF"
+
+#: templates/footer.php:16 templates/orders/template-1.php:81
+#: templates/pre-invoice.php:154
+msgid "Return"
+msgstr "بازگشت"
+
+#: templates/options/components.php:15
+msgid "Products table"
+msgstr "جدول محصولات"
+
+#: templates/options/components.php:16
+msgid "Total table"
+msgstr "جدول کل"
+
+#: templates/options/components.php:26
+msgid ""
+"In this section you can select the components that are visible on the invoice, "
+"packing slip and post label."
+msgstr ""
+"در این قسمت می‌توانید اجزای قابل نمایش در فاکتور، انبارداری و برچسب پستی را "
+"انتخاب نمایید."
+
+#: templates/options/components.php:39 templates/options/components.php:66
+#: templates/options/components.php:105 templates/options/components.php:144
+#: templates/options/components.php:183 templates/options/components.php:222
+#: templates/options/components.php:261 templates/options/components.php:300
+#: templates/options/components.php:339 templates/options/components.php:378
+#: templates/options/components.php:417 templates/options/components.php:450
+#: templates/options/components.php:483 templates/options/components.php:516
+#: templates/options/components.php:551 templates/options/components.php:590
+#: templates/options/components.php:629 templates/options/components.php:668
+#: templates/options/components.php:707 templates/options/components.php:746
+#: templates/options/components.php:779 templates/options/components.php:812
+#: templates/options/components.php:845 templates/options/components.php:878
+#: templates/options/components.php:911 templates/options/components.php:950
+#: templates/options/components.php:984 templates/options/components.php:1007
+#: templates/options/components.php:1028 templates/options/components.php:1052
+#: templates/options/components.php:1085 templates/options/components.php:1115
+#: templates/options/components.php:1151 templates/options/components.php:1175
+#: templates/options/components.php:1199 templates/options/components.php:1235
+#: templates/options/components.php:1253 templates/options/components.php:1289
+#: templates/options/components.php:1325 templates/options/components.php:1361
+#: templates/options/components.php:1385 templates/options/components.php:1421
+#: templates/options/components.php:1457 templates/options/components.php:1487
+#: templates/options/components.php:1523 templates/options/components.php:1559
+#: templates/options/components.php:1589 templates/options/components.php:1613
+#: templates/options/components.php:1640 templates/options/components.php:1663
+#: templates/options/components.php:1690 templates/options/components.php:1717
+#: templates/options/components.php:1744 templates/options/components.php:1771
+#: templates/options/components.php:1798 templates/options/components.php:1825
+#: templates/options/components.php:1846 templates/options/components.php:1867
+#: templates/options/components.php:2218 templates/options/components.php:2233
+#: templates/options/components.php:2248 templates/options/components.php:2269
+#: templates/options/components.php:2290 templates/options/components.php:2311
+#: templates/options/components.php:2332 templates/options/components.php:2354
+#: templates/options/components.php:2370 templates/options/components.php:2391
+msgid "Packing slip"
+msgstr "انبارداری"
+
+#: templates/options/components.php:56
+msgid "Shop title"
+msgstr "عنوان فروشگاه"
+
+#: templates/options/components.php:84 templates/options/components.php:123
+#: templates/options/components.php:162 templates/options/components.php:201
+#: templates/options/components.php:240 templates/options/components.php:279
+#: templates/options/components.php:318 templates/options/components.php:357
+#: templates/options/components.php:396 templates/options/components.php:435
+#: templates/options/components.php:468 templates/options/components.php:501
+#: templates/options/components.php:534 templates/options/components.php:569
+#: templates/options/components.php:608 templates/options/components.php:647
+#: templates/options/components.php:686 templates/options/components.php:725
+#: templates/options/components.php:764 templates/options/components.php:797
+#: templates/options/components.php:830 templates/options/components.php:863
+#: templates/options/components.php:896 templates/options/components.php:929
+#: templates/options/components.php:968
+msgid "Mini label"
+msgstr "برچسب کوچک"
+
+#: templates/options/components.php:95
+msgid "Shop economical number"
+msgstr "شماره اقتصادی فروشگاه"
+
+#: templates/options/components.php:134
+msgid "Shop registration/National number"
+msgstr "شماره ثبت/ملی فروشگاه"
+
+#: templates/options/components.php:173
+msgid "Shop website"
+msgstr "وب‌سایت فروشگاه"
+
+#: templates/options/components.php:212
+msgid "Shop postcode"
+msgstr "کدپستی فروشگاه"
+
+#: templates/options/components.php:251
+msgid "Shop email"
+msgstr "ایمیل فروشگاه"
+
+#: templates/options/components.php:290
+msgid "Shop phone"
+msgstr "تلفن فروشگاه"
+
+#: templates/options/components.php:329
+msgid "Shop address"
+msgstr "آدرس فروشگاه"
+
+#: templates/options/components.php:368 templates/options/components.php:1894
+msgid "Print date"
+msgstr "تاریخ چاپ"
+
+#: templates/options/components.php:473
+msgid "Order Status"
+msgstr "وضعیت سفارش"
+
+#: templates/options/components.php:901 templates/options/customer.php:43
+msgid "User meta"
+msgstr "متای کاربر"
+
+#: templates/options/components.php:940 templates/options/customer.php:68
+msgid "Order meta"
+msgstr "متای سفارش"
+
+#: templates/options/components.php:997 templates/options/components.php:2019
+msgid "Delivery date (Mahan plugin)"
+msgstr "تاریخ و زمان تحویل (افزونه ماهان)"
+
+#: templates/options/components.php:1018 templates/options/components.php:2025
+msgid "Delivery notice (Mahan plugin)"
+msgstr "اعلان تحویل (افزونه ماهان)"
+
+#: templates/options/components.php:1042 templates/options/components.php:1653
+msgid "Table"
+msgstr "جدول"
+
+#: templates/options/components.php:1101 templates/options/components.php:1137
+#: templates/options/components.php:1161 templates/options/components.php:1185
+#: templates/options/components.php:1221 templates/options/components.php:1239
+#: templates/options/components.php:1275 templates/options/components.php:1311
+#: templates/options/components.php:1347 templates/options/components.php:1371
+#: templates/options/components.php:1407 templates/options/components.php:1443
+#: templates/options/components.php:1473 templates/options/components.php:1509
+#: templates/options/components.php:1545 templates/options/components.php:1575
+#: templates/options/components.php:1599 templates/options/components.php:1623
+msgid "Ordering"
+msgstr "ترتیب"
+
+#: templates/options/components.php:1603 templates/options/invoice.php:237
+msgid "Extra columns"
+msgstr "ستون‌های اضافی"
+
+#: templates/options/components.php:1627
+msgid "Footer"
+msgstr "پابرگ"
+
+#: templates/options/components.php:1629
+msgid "The order total will be displayed in the footer of the table."
+msgstr "کل سفارش در پابرگ جدول نمایش داده خواهد شد."
+
+#: templates/options/components.php:1734
+msgid "Total tax"
+msgstr "مالیات کل"
+
+#: templates/options/components.php:1857 templates/options/components.php:2098
+msgid "Fee amount"
+msgstr "مبلغ دستمزد"
+
+#: templates/options/components.php:1906 templates/options/invoice.php:158
+msgid "Product ID"
+msgstr "شناسه محصول"
+
+#: templates/options/components.php:2136
+msgid "Sender state"
+msgstr "استان فرستنده"
+
+#: templates/options/components.php:2142
+msgid "Sender city"
+msgstr "شهر فرستنده"
+
+#: templates/options/components.php:2148
+msgid "Customer state"
+msgstr "استان مشتری"
+
+#: templates/options/components.php:2154
+msgid "Customer city"
+msgstr "شهر مشتری"
+
+#: templates/options/components.php:2166
+msgid "Refund table"
+msgstr "جدول برگشت"
+
+#: templates/options/components.php:2172
+msgid "Origin"
+msgstr "مبدا"
+
+#: templates/options/components.php:2178
+msgid "Destination"
+msgstr "مقصد"
+
+#: templates/options/components.php:2190
+msgid "Send time"
+msgstr "زمان ارسال"
+
+#: templates/options/components.php:2196
+msgid "Send price"
+msgstr "کرایه پستی"
+
+#: templates/options/components.php:2202
+msgid "Send price tax"
+msgstr "مالیات ارزش افزوده پستی"
+
+#: templates/options/components.php:2208
+msgid "Shopping profit"
+msgstr "سود از خرید"
+
+#: templates/options/components.php:2223 templates/options/invoice.php:313
+#: templates/options/sms.php:201 templates/options/sms.php:319
+#: templates/options/whatsapp.php:135
+msgid "Total items"
+msgstr "تعداد کل"
+
+#: templates/options/components.php:2238
+msgid "Total weight"
+msgstr "وزن کل"
+
+#: templates/options/components.php:2344
+msgid "Customer signature (Sepehr digital signature plugin)"
+msgstr "امضای مشتری (افزونه رسید دیجیتال ووکامرس سپهر)"
+
+#: templates/options/customer.php:14
+msgid "Customer address"
+msgstr "آدرس مشتری"
+
+#: templates/options/customer.php:17
+msgid "Billing address"
+msgstr "آدرس صورت‌ حساب"
+
+#: templates/options/customer.php:18
+msgid "Shipping address"
+msgstr "آدرس حمل و نقل"
+
+#: templates/options/customer.php:19
+msgid "Both"
+msgstr "هردو"
+
+#: templates/options/customer.php:32
+msgid ""
+"With this option enabled, regardless of your current theme the National ID "
+"field will be added to the checkout form and can also be displayed on the "
+"invoice."
+msgstr ""
+"با فعال‌سازی این گزینه مستقل از قالب فعلی شما، فیلد شماره ملی به فرم تسویه حساب "
+"اضافه خواهد شد. و در فاکتور قابل نمایش می‌باشد."
+
+#: templates/options/customer.php:38
+msgid "No validate"
+msgstr "عدم اعتبارسنجی"
+
+#: templates/options/customer.php:46
+msgid ""
+"Enter the label and user meta key in this format to display at the end of the "
+"address:"
+msgstr ""
+"برچسب و کلید متای کاربر را جهت نمایش در انتهای آدرس بدین شکل وارد نمایید:"
+
+#: templates/options/customer.php:64 templates/options/customer.php:89
+#: templates/options/invoice.php:258
+msgid "Add new"
+msgstr "افزودن جدید"
+
+#: templates/options/customer.php:71
+msgid ""
+"Enter the label and order meta key in this format to display at the end of the "
+"customer info:"
+msgstr ""
+"برچسب و کلید متای سفارش را جهت نمایش در انتهای اطلاعات مشتری بدین شکل وارد "
+"نمایید:"
+
+#: templates/options/customer.php:93
+msgid "Optimize customer address"
+msgstr "بهینه‌سازی آدرس مشتری"
+
+#: templates/options/customer.php:102
+msgid "Enable this option if you have trouble displaying customer address."
+msgstr "چنانچه در نمایش آدرس مشتری مشکلی دارید این گزینه را فعال کنید."
+
+#: templates/options/emails.php:8 templates/options/sms.php:20
+#: templates/options/whatsapp.php:20
+msgid "Send invoice"
+msgstr "ارسال فاکتور"
+
+#: templates/options/emails.php:12 templates/options/sms.php:24
+#: templates/options/whatsapp.php:24
+msgid "Payment completed"
+msgstr "تکمیل پرداخت"
+
+#: templates/options/emails.php:31 templates/options/sms.php:30
+#: templates/options/whatsapp.php:30
+msgid "Send invoice to vendor"
+msgstr "ارسال فاکتور به فروشنده"
+
+#: templates/options/emails.php:36
+msgid "Email from"
+msgstr "ایمیل ارسال‌کننده"
+
+#: templates/options/emails.php:40
+msgid "From name"
+msgstr "نام ارسال‌کننده"
+
+#: templates/options/emails.php:44
+msgid "Recipients email"
+msgstr "ایمیل گیرندگان"
+
+#: templates/options/emails.php:47
+msgid "Enter each email in a separate line."
+msgstr "هر ایمیل را در یک خط وارد نمایید."
+
+#: templates/options/emails.php:52
+msgid "Disable Woocommerce default email"
+msgstr "غیرفعال سازی ایمیل پیشفرض ووکامرس"
+
+#: templates/options/emails.php:56
+msgid "On hold"
+msgstr "در انتظار بررسی"
+
+#: templates/options/emails.php:60
+msgid "To disable woocommerce others dafault emails click here."
+msgstr "جهت غیرفعال‌سازی سایر ایمیل‌های پیشفرض ووکامرس اینجا کلیک کنید."
+
+#: templates/options/general.php:14
+msgid "Video tutorials"
+msgstr "ویدئوی آموزشی"
+
+#: templates/options/general.php:15
+msgid "This product has an installation and configuration instructional video."
+msgstr "این محصول دارای ویدئوی آموزشی نصب و پیکربندی می‌باشد."
+
+#: templates/options/general.php:16
+msgid "The tutorials video can be downloaded from the user panel > downloads."
+msgstr ""
+"جهت دانلود ویدئوی آموزشی به پنل کاربری ژاکت > قسمت دانلودها مراجعه نمایید."
+
+#: templates/options/general.php:17
+msgid "Do not show this message"
+msgstr "عدم نمایش این پیغام"
+
+#: templates/options/general.php:23
+msgid "User roles"
+msgstr "نقش‌های کاربری"
+
+#: templates/options/general.php:26
+msgid "Select the user roles to access the other users invoice."
+msgstr ""
+"نقش‌های کاربری که به فاکتور سایر کاربران دسترسی خواهند داشت را انتخاب نمایید."
+
+#: templates/options/general.php:44
+msgid "Order actions button"
+msgstr "دکمه‌های ستون عملیات‌ها"
+
+#: templates/options/general.php:46
+msgid "Buttons that appear in the order table operations column."
+msgstr "دکمه‌های قابل نمایش در ستون عملیات‌های جدول سفارشات انتخاب نمایید."
+
+#: templates/options/general.php:51
+msgid "Invoice button"
+msgstr "دکمه فاکتور"
+
+#: templates/options/general.php:57
+msgid "Packing slip button"
+msgstr "دکمه انبارداری"
+
+#: templates/options/general.php:63
+msgid "Post label button"
+msgstr "دکمه برچسب پستی"
+
+#: templates/options/general.php:69
+msgid "Order label button"
+msgstr "دکمه برچسب سفارش"
+
+#: templates/options/general.php:75
+msgid "Shop mini label button"
+msgstr "دکمه برچسب کوچک فروشگاه"
+
+#: templates/options/general.php:81
+msgid "Customer mini label button"
+msgstr "دکمه برچسب کوچک مشتری"
+
+#: templates/options/general.php:87
+msgid "Product label button"
+msgstr "دکمه برچسب محصول"
+
+#: templates/options/general.php:92
+msgid "Order statuses"
+msgstr "وضعیت سفارش"
+
+#: templates/options/general.php:95
+msgid "Order statuses that the user will have access for own orders."
+msgstr ""
+"وضعیت‌هایی از سفارش که کاربر به فاکتورهای خود دسترسی خواهد داشت را انتخاب "
+"نمایید."
+
+#: templates/options/general.php:116
+msgid "Select receiving invoice in checkout"
+msgstr "انتخاب دریافت فاکتور در تسویه حساب"
+
+#: templates/options/general.php:122
+msgid "Customer orders table"
+msgstr "جدول سفارشات مشتری"
+
+#: templates/options/general.php:128
+msgid "Thankyou page"
+msgstr "صفحه تشکر پرداخت"
+
+#: templates/options/general.php:141
+msgid "Page size, for example: A4"
+msgstr "اندازه برگه، برای مثال: A4"
+
+#: templates/options/general.php:146
+msgid "Portrait"
+msgstr "عمودی"
+
+#: templates/options/general.php:152
+msgid "Landscape"
+msgstr "افقی"
+
+#: templates/options/general.php:158
+msgid "By selecting this option, the PDF file will be attached to the email."
+msgstr "با انتخاب این گزینه فایل PDF ضمیمه ایمیل می‌شود."
+
+#: templates/options/general.php:163
+msgid "Responsive"
+msgstr "واکنشگرا"
+
+#: templates/options/general.php:167
+msgid "Disable"
+msgstr "غیرفعال"
+
+#: templates/options/invoice.php:27
+msgid "Styles"
+msgstr "سبک‌ها"
+
+#: templates/options/invoice.php:28
+msgid "Settings"
+msgstr "گزینه‌ها"
+
+#: templates/options/invoice.php:33 templates/options/post-label.php:18
+#: templates/options/pre-invoice.php:57
+msgid "Template"
+msgstr "قالب"
+
+#: templates/options/invoice.php:36 templates/options/post-label.php:21
+#: templates/options/post-label.php:35 templates/options/pre-invoice.php:60
+msgid "Template 1"
+msgstr "قالب 1"
+
+#: templates/options/invoice.php:37 templates/options/post-label.php:22
+#: templates/options/post-label.php:36
+msgid "Template 2"
+msgstr "قالب 2"
+
+#: templates/options/invoice.php:38 templates/options/post-label.php:23
+msgid "Template 3"
+msgstr "قالب 3"
+
+#: templates/options/invoice.php:39
+msgid "Template 4"
+msgstr "قالب 4"
+
+#: templates/options/invoice.php:40
+msgid "Template 5"
+msgstr "قالب 5"
+
+#: templates/options/invoice.php:41
+msgid "Template 6 (POS device)"
+msgstr "قالب 6 (دستگاه POS)"
+
+#: templates/options/invoice.php:42
+msgid "Template 7"
+msgstr "قالب 7"
+
+#: templates/options/invoice.php:43
+msgid "Template 8"
+msgstr "قالب 8"
+
+#: templates/options/invoice.php:44
+msgid "Template 9"
+msgstr "قالب 9"
+
+#: templates/options/invoice.php:45
+msgid "Template 10 (Tapin)"
+msgstr "قالب 10 (تاپین)"
+
+#: templates/options/invoice.php:54 templates/options/pre-invoice.php:69
+msgid "Template color"
+msgstr "رنگ قالب"
+
+#: templates/options/invoice.php:57 templates/options/pre-invoice.php:72
+msgid "Gray"
+msgstr "خاکستری"
+
+#: templates/options/invoice.php:58 templates/options/pre-invoice.php:73
+msgid "Green 1"
+msgstr "سبز 1"
+
+#: templates/options/invoice.php:59 templates/options/pre-invoice.php:74
+msgid "Green 2"
+msgstr "سبز 2"
+
+#: templates/options/invoice.php:60 templates/options/pre-invoice.php:75
+msgid "Seafoam blue"
+msgstr "سبزآبی"
+
+#: templates/options/invoice.php:61 templates/options/pre-invoice.php:76
+msgid "Blue"
+msgstr "آبی"
+
+#: templates/options/invoice.php:62 templates/options/pre-invoice.php:77
+msgid "Red"
+msgstr "قرمز"
+
+#: templates/options/invoice.php:63 templates/options/pre-invoice.php:78
+msgid "Orange"
+msgstr "نارنجی"
+
+#: templates/options/invoice.php:64 templates/options/pre-invoice.php:79
+msgid "Yellow"
+msgstr "زرد"
+
+#: templates/options/invoice.php:73 templates/options/orders.php:15
+#: templates/options/post-label.php:45 templates/options/pre-invoice.php:88
+msgid "Font family"
+msgstr "فونت"
+
+#: templates/options/invoice.php:112 templates/options/orders.php:52
+#: templates/options/post-label.php:82 templates/options/pre-invoice.php:125
+msgid "Font size"
+msgstr "اندازه فونت"
+
+#: templates/options/invoice.php:116 templates/options/orders.php:56
+#: templates/options/post-label.php:86 templates/options/pre-invoice.php:129
+msgid "Margin"
+msgstr "فاصله از لبه"
+
+#: templates/options/invoice.php:120
+msgid "Custom css"
+msgstr "کد CSS سفارشی"
+
+#: templates/options/invoice.php:124
+msgid "Condensed state"
+msgstr "حالت فشرده"
+
+#: templates/options/invoice.php:128
+msgid "If you are using the A5 paper, you can enable this option."
+msgstr "چنانچه از برگه A5 استفاده میکنید، می‌توانید این گزینه را فعال کنید."
+
+#: templates/options/invoice.php:133
+msgid "Invoice border"
+msgstr "کادر فاکتور"
+
+#: templates/options/invoice.php:137
+msgid "Show"
+msgstr "نمایش"
+
+#: templates/options/invoice.php:144
+msgid "Currency"
+msgstr "واحد پولی"
+
+#: templates/options/invoice.php:147 templates/options/sms.php:38
+#: templates/options/sms.php:59
+msgid "Please select an item."
+msgstr "لطفا یک مورد را انتخاب نمایید."
+
+#: templates/options/invoice.php:162
+msgid "Global ID"
+msgstr "شناسه عمومی"
+
+#: templates/options/invoice.php:168
+msgid "Product SKU"
+msgstr "شناسه SKU"
+
+#: templates/options/invoice.php:173
+msgid "Product title"
+msgstr "عنوان محصول"
+
+#: templates/options/invoice.php:177
+msgid "Optimize product name"
+msgstr "بهینه‌سازی نام محصول"
+
+#: templates/options/invoice.php:181
+msgid ""
+"Enable this option if you have trouble displaying your variable product name."
+msgstr "چنانچه در نمایش نام محصول متغییر مشکلی دارید این گزینه را فعال کنید."
+
+#: templates/options/invoice.php:187
+msgid "Attributes"
+msgstr "ویژگی‌ها"
+
+#: templates/options/invoice.php:193
+msgid "Variation in pre invoice"
+msgstr "متغییرها در پیش‌ فاکتور سبد خرید"
+
+#: templates/options/invoice.php:199
+msgid "Line items"
+msgstr "موارد خطی"
+
+#: templates/options/invoice.php:203
+msgid "Hidden line items"
+msgstr "موارد خطی مخفی"
+
+#: templates/options/invoice.php:207
+msgid "Refunded products"
+msgstr "محصولات مسترد شده"
+
+#: templates/options/invoice.php:211
+msgid ""
+"If you have returned a product from the order, the number and amount for each "
+"product will be shown separately on the invoice."
+msgstr ""
+"چنانچه محصولی از سفارش مسترد شود، تعداد و مبلغ هر محصول بصورت مجزا در فاکتور "
+"نمایش داده خواهد شد."
+
+#: templates/options/invoice.php:216
+msgid "Product price"
+msgstr "قیمت محصول"
+
+#: templates/options/invoice.php:232
+msgid "Cart"
+msgstr "سبد خرید"
+
+#: templates/options/invoice.php:240
+msgid ""
+"Enter the label and product meta key or order meta key in this format to "
+"display at products table:"
+msgstr ""
+"کلید متای محصول و یا سفارش را جهت نمایش در جدول محصولات بدین شکل وارد نمایید:"
+
+#: templates/options/invoice.php:262
+msgid "Order ID prefix"
+msgstr "پیشوند شناسه سفارش"
+
+#: templates/options/invoice.php:266
+msgid "Order ID suffix"
+msgstr "پسوند شناسه سفارش"
+
+#: templates/options/invoice.php:270
+msgid "Order ID start number"
+msgstr "شماره شروع شناسه سفارش"
+
+#: templates/options/invoice.php:274
+msgid "Dynamic order ID"
+msgstr "شناسه سفارش پویا"
+
+#: templates/options/invoice.php:280 templates/options/invoice.php:284
+#: templates/options/invoice.php:288 templates/options/invoice.php:292
+#: templates/options/invoice.php:296 templates/options/invoice.php:300
+#: templates/options/invoice.php:305 templates/options/invoice.php:310
+#: templates/options/invoice.php:314 templates/options/sms.php:130
+#: templates/options/sms.php:134 templates/options/sms.php:138
+#: templates/options/sms.php:142 templates/options/sms.php:146
+#: templates/options/sms.php:150 templates/options/sms.php:154
+#: templates/options/sms.php:158 templates/options/sms.php:162
+#: templates/options/sms.php:166 templates/options/sms.php:170
+#: templates/options/sms.php:174 templates/options/sms.php:178
+#: templates/options/sms.php:182 templates/options/sms.php:186
+#: templates/options/sms.php:190 templates/options/sms.php:194
+#: templates/options/sms.php:198 templates/options/sms.php:202
+#: templates/options/sms.php:210 templates/options/sms.php:214
+#: templates/options/sms.php:218 templates/options/sms.php:238
+#: templates/options/sms.php:242 templates/options/sms.php:246
+#: templates/options/sms.php:250 templates/options/sms.php:254
+#: templates/options/sms.php:258 templates/options/sms.php:262
+#: templates/options/sms.php:266 templates/options/sms.php:270
+#: templates/options/sms.php:274 templates/options/sms.php:279
+#: templates/options/sms.php:284 templates/options/sms.php:288
+#: templates/options/sms.php:293 templates/options/sms.php:297
+#: templates/options/sms.php:302 templates/options/sms.php:306
+#: templates/options/sms.php:311 templates/options/sms.php:315
+#: templates/options/sms.php:320 templates/options/whatsapp.php:54
+#: templates/options/whatsapp.php:58 templates/options/whatsapp.php:62
+#: templates/options/whatsapp.php:66 templates/options/whatsapp.php:70
+#: templates/options/whatsapp.php:74 templates/options/whatsapp.php:78
+#: templates/options/whatsapp.php:82 templates/options/whatsapp.php:86
+#: templates/options/whatsapp.php:90 templates/options/whatsapp.php:95
+#: templates/options/whatsapp.php:100 templates/options/whatsapp.php:104
+#: templates/options/whatsapp.php:109 templates/options/whatsapp.php:113
+#: templates/options/whatsapp.php:118 templates/options/whatsapp.php:122
+#: templates/options/whatsapp.php:127 templates/options/whatsapp.php:131
+#: templates/options/whatsapp.php:136
+msgid "Click to copy"
+msgstr "جهت کپی کلیک کنید"
+
+#: templates/options/invoice.php:283 templates/options/sms.php:133
+#: templates/options/sms.php:241 templates/options/whatsapp.php:57
+msgid "Order status"
+msgstr "وضعیت سفارش"
+
+#: templates/options/invoice.php:299
+msgid "Order timestamp"
+msgstr "برچسب زمانی سفارش"
+
+#: templates/options/invoice.php:320
+msgid "Total to word"
+msgstr "مجموع به کلمات"
+
+#: templates/options/invoice.php:339 templates/options/invoice.php:351
+#: templates/options/invoice.php:364 templates/options/shop.php:18
+#: templates/options/tapin.php:25 templates/options/tapin.php:53
+msgid "Select image"
+msgstr "انتخاب تصویر"
+
+#: templates/options/invoice.php:340 templates/options/invoice.php:352
+#: templates/options/invoice.php:365 templates/options/shop.php:19
+#: templates/options/tapin.php:26 templates/options/tapin.php:54
+msgid "Remove image"
+msgstr "حذف تصویر"
+
+#: templates/options/invoice.php:346
+msgid "Watermark"
+msgstr "واترمارک"
+
+#: templates/options/invoice.php:353 templates/options/sms.php:14
+#: templates/options/whatsapp.php:14
+msgid "Global"
+msgstr "عمومی"
+
+#: templates/options/invoice.php:372
+msgid "Watermark opacity"
+msgstr "شفافیت واترمارک"
+
+#: templates/options/labels.php:9
+msgid ""
+"These texts will be replaced by the text in the invoice. If a field is left "
+"blank, the default value will be displayed."
+msgstr ""
+"این متن‌ها با متن‌های فاکتور جایگزین خواهند شد. اگر فیلد را خالی رها کنید متن "
+"پیشفرض نمایش داده خواهد شد."
+
+#: templates/options/misc.php:12
+msgid "Date format"
+msgstr "فرمت تاریخ"
+
+#: templates/options/misc.php:16
+msgid "Get it from this link."
+msgstr "از این لینک دریافت کنید."
+
+#: templates/options/misc.php:20
+msgid "Repair date"
+msgstr "اصلاح تاریخ"
+
+#: templates/options/misc.php:29
+msgid "Enable this option if you have problems with date."
+msgstr "چنانچه در نمایش تاریخ مشکلی دارید این گزینه را فعال کنید."
+
+#: templates/options/misc.php:33
+msgid "Vendor address"
+msgstr "آدرس فروشنده"
+
+#: templates/options/misc.php:37
+msgid ""
+"If you are using Dokan plugin, the seller's address will be replaced with the "
+"store's address."
+msgstr ""
+"چنانچه از افزونه دکان استفاده می‌کنید، آدرس فروشنده با آدرس فروشگاه جایگزین "
+"خواهد شد."
+
+#: templates/options/misc.php:42
+msgid "Barcode type"
+msgstr "نوع بارکد"
+
+#: templates/options/misc.php:52
+msgid "QR Code"
+msgstr "QR کد"
+
+#: templates/options/misc.php:57
+msgid "Persian number"
+msgstr "اعداد فارسی"
+
+#: templates/options/misc.php:67
+msgid "Replace barcode"
+msgstr "جایگزینی بارکد"
+
+#: templates/options/misc.php:71
+msgid ""
+"Selecting this option, replaced the barcode of Sepehr digital signature plugin."
+msgstr ""
+"با انتخاب این گزینه بارکد افزونه رسید دیجیتال ووکامرس سپهر جایگزین خواهد شد."
+
+#: templates/options/misc.php:77
+msgid "Page break"
+msgstr "شکست برگه"
+
+#: templates/options/misc.php:81
+msgid "Print each page in separate for bulk printing."
+msgstr "برای چاپ گروهی برگه‌ها، هر برگه در یک صفحه مجزا چاپ شود."
+
+#: templates/options/misc.php:86
+msgid "Print count"
+msgstr "تعداد چاپ"
+
+#: templates/options/misc.php:107
+msgid "Repair URL"
+msgstr "اصلاح پیوند"
+
+#: templates/options/misc.php:116
+msgid "If you have a problem displaying the invoice, enable this option."
+msgstr "چنانچه در نمایش فاکتور مشکلی وجود دارد، این گزینه را فعال نمایید."
+
+#: templates/options/post-label.php:32
+msgid "Order label template"
+msgstr "قالب برچسب سفارش"
+
+#: templates/options/pre-invoice.php:18
+msgid "View page"
+msgstr "نمایش برگه"
+
+#: templates/options/pre-invoice.php:23
+msgid "Enabling this option activates the invoice button on the cart."
+msgstr "فعال‌سازی این گزینه دکمه پیش‌ فاکتور را در سبد فعال می‌کند."
+
+#: templates/options/pre-invoice.php:32
+msgid "Please select pre invoice page."
+msgstr "لطفا برگه پیش‌ فاکتور سبد خرید را انتخاب نمایید."
+
+#: templates/options/pre-invoice.php:43
+msgid "Select page template:"
+msgstr "قالب برگه را انتخاب نمایید:"
+
+#: templates/options/pre-invoice.php:48
+msgid "Shipping total"
+msgstr "مبلغ حمل و نقل"
+
+#: templates/options/pre-invoice.php:52
+msgid "Hide free shipping total"
+msgstr "مخفی کردن حمل و نقل رایگان"
+
+#: templates/options/proforma-invoice.php:22
+msgid "Global payment status"
+msgstr "وضعیت کلی پرداخت"
+
+#: templates/options/proforma-invoice.php:37
+msgid "Default payment status"
+msgstr "وضعیت پیشفرض پرداخت"
+
+#: templates/options/proforma-invoice.php:52
+msgid "Expire days"
+msgstr "روزهای انقضا"
+
+#: templates/options/shop.php:13 templates/options/tapin.php:20
+msgid "Logo"
+msgstr "نشان"
+
+#: templates/options/sms.php:15 templates/options/whatsapp.php:15
+msgid "Statuses"
+msgstr "وضعیت‌ها"
+
+#: templates/options/sms.php:35
+msgid "Mobile meta key"
+msgstr "کلید شماره همراه"
+
+#: templates/options/sms.php:52
+msgid ""
+"User must register your mobile number in your profile to receive SMS. If you "
+"use another plugin to register a user's mobile number, select the mobile meta "
+"key."
+msgstr ""
+"کاربر جهت دریافت پیامک بایستی شماره همراه خود را در پروفایل خود ثبت نمایید. "
+"چنانچه از افزونه دیگری جهت دریافت شماره همراه کاربر استفاده می‌کنید، کلید شماره "
+"موبایل را انتخاب نمایید."
+
+#: templates/options/sms.php:56
+msgid "SMS service"
+msgstr "سامانه پیامکی"
+
+#: templates/options/sms.php:104
+msgid "SMS username"
+msgstr "نام کاربری سامانه"
+
+#: templates/options/sms.php:108
+msgid "SMS password"
+msgstr "رمزعبور سامانه"
+
+#: templates/options/sms.php:112
+msgid "SMS from"
+msgstr "شماره ارسال کننده"
+
+#: templates/options/sms.php:116 templates/options/sms.php:355
+msgid "Pattern code"
+msgstr "کد الگو"
+
+#: templates/options/sms.php:120 templates/options/sms.php:358
+msgid "Pattern"
+msgstr "الگو"
+
+#: templates/options/sms.php:123
+msgid "Put the code you used in the pattern into a separate line."
+msgstr "کدهایی که در الگو استفاده کرده‌اید را در یک خط مجزا قرار دهید."
+
+#: templates/options/sms.php:224 templates/options/whatsapp.php:40
+msgid "Recipients phone"
+msgstr "تلفن گیرندگان"
+
+#: templates/options/sms.php:227 templates/options/whatsapp.php:43
+msgid "Enter each phone in a separate line."
+msgstr "هر تلفن را در یک خط وارد نمایید."
+
+#: templates/options/sms.php:232 templates/options/sms.php:361
+msgid "SMS text"
+msgstr "متن پیامک"
+
+#: templates/options/sms.php:326 templates/options/sms.php:329
+msgid "Send SMS test"
+msgstr "تست ارسال پیامک"
+
+#: templates/options/sms.php:336
+msgid "Send"
+msgstr "ارسال"
+
+#: templates/options/tapin.php:14
+msgid "Please install persian woocommerce shipping plugin."
+msgstr "لطفا افزونه حمل و نقل ووکامرس را نصب نمایید."
+
+#: templates/options/tapin.php:15
+msgid "Plugin page"
+msgstr "صفحه افزونه"
+
+#: templates/options/tapin.php:31
+msgid "Header description"
+msgstr "توضیحات سربرگ"
+
+#: templates/options/tapin.php:39
+msgid "Post services"
+msgstr "خدمات پست"
+
+#: templates/options/tapin.php:43
+msgid "Shop note"
+msgstr "پیغام فروشگاه"
+
+#: templates/options/tapin.php:48
+msgid "Post logo"
+msgstr "نشان پست"
+
+#: templates/options/whatsapp.php:35
+msgid "Key"
+msgstr "کلید"
+
+#: templates/options/whatsapp.php:37
+msgid "Get the key from here."
+msgstr "کلید را از اینجا دریافت نمایید."
+
+#: templates/options/whatsapp.php:48 templates/options/whatsapp.php:153
+msgid "Content"
+msgstr "محتوا"
+
+#: templates/orders/template-1.php:31
+msgid "Filter by state"
+msgstr "صافی براساس استان"
+
+#: templates/orders/template-1.php:32 templates/orders/template-1.php:48
+msgid "All"
+msgstr "همه"
+
+#: templates/orders/template-1.php:47
+msgid "Filter by status"
+msgstr "صافی براساس وضعیت"
+
+#: templates/orders/template-1.php:53
+msgid "Start date"
+msgstr "تاریخ شروع"
+
+#: templates/orders/template-1.php:54
+msgid "End date"
+msgstr "تاریخ پایان"
+
+#: templates/orders/template-1.php:55
+msgid "Filter"
+msgstr "صافی"
+
+#: templates/orders/template-1.php:64
+msgid "Use the filter to display the order list."
+msgstr "جهت نمایش لیست سفارشات از صافی استفاده کنید."
+
+#: templates/orders/template-1.php:79
+msgid "Download CSV"
+msgstr "دریافت CSV"
+
+#. Plugin URI of the plugin/theme
+msgid "https://zhaket.com/web/woocommerce-invoice-pro"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Using this plugin you can create an advanced and powerful invoice for "
+"woocommerce orders and send it to your customers."
+msgstr ""
+"با استفاده از این افزونه شما می‌توانید یک فاکتور کاملا پیشرفته و قدرتمند ایجاد "
+"و برای مشتریان ارسال نمایید."
+
+#. Author URI of the plugin/theme
+msgid "http://sreza-salehi.ir"
+msgstr ""
+
+#~ msgid "Invoice attachment"
+#~ msgstr "ضمیمه فاکتور"
+
+#~ msgid "View the config video"
+#~ msgstr "مشاهده ویدئوی پیکربندی"
+
+#~ msgid "Page size"
+#~ msgstr "اندازه برگه"
+
+#~ msgid "Binary path"
+#~ msgstr "مسیر باینری"
+
+#~ msgid "This feature is not compatible with your host."
+#~ msgstr ""
+#~ "این قابلیت با هاست شما سازگار نیست. تابع proc_open و escapeshellarg غیرفعال "
+#~ "می‌باشد. لطفا با سرویس‌دهنده هاست در تماس باشید."
+
+#~ msgid "Pending"
+#~ msgstr "در انتظار پرداخت"
+
+#~ msgid "Processing"
+#~ msgstr "در حال انجام"
+
+#~ msgid "Completed"
+#~ msgstr "تکمیل شده"
+
+#~ msgid "Cancelled"
+#~ msgstr "لغو شده"
+
+#~ msgid "Refunded"
+#~ msgstr "مسترد شده"
+
+#~ msgid "Failed"
+#~ msgstr "ناموفق"
+
+#~ msgid "Test message from "
+#~ msgstr "پیام تست از "
+
+#~ msgid "Phone number"
+#~ msgstr "شماره تلفن"
+
+#~ msgid "Order completed"
+#~ msgstr "تکمیل سفارش"
+
+#~ msgid "Visit our other products."
+#~ msgstr "از سایر محصولات ما دیدن فرمایید."
+
+#~ msgid "Click to select an image."
+#~ msgstr "جهت انتخاب تصویر کلیک نمایید."
+
+#~ msgid "Remove"
+#~ msgstr "حذف"
+
+#~ msgid "Click here"
+#~ msgstr "اینجا کلید کنید"
+
+#~ msgid "Products list"
+#~ msgstr "لیست محصولات"
+
+#~ msgid "Search"
+#~ msgstr "جستجو"
+
+#~ msgid "Price range"
+#~ msgstr "محدوده قیمت"
+
+#~ msgid "Use the filter to display the products list."
+#~ msgstr "جهت نمایش لیست محصولات از صافی استفاده کنید."
+
+#~ msgid "Please select products list page."
+#~ msgstr "لطفا برگه لیست محصولات را انتخاب نمایید."
+
+#~ msgid "Please select pro forma invoice page."
+#~ msgstr "لطفا برگه پیش‌فاکتور پیشرفته را انتخاب نمایید."
+
+#~ msgid "Pro forma invoice filters"
+#~ msgstr "صافی‌های پیش فاکتور پیشرفته"
+
+#~ msgid "Order price"
+#~ msgstr "قیمت سفارش"
+
+#~ msgid "Product regular price"
+#~ msgstr "قیمت اصلی محصول"
+
+#~ msgid "Cart regular price"
+#~ msgstr "قیمت اصلی سبد خرید"
+
+#~ msgid "Regular price"
+#~ msgstr "قیمت اصلی"
+
+#~ msgid ""
+#~ "If the product has sale price, the regular price will be displayed on the "
+#~ "products table and will also be included in the discount calculations."
+#~ msgstr ""
+#~ "چنانچه محصول دارای قیمت فروش فوق‌العاده باشد، قیمت اصلی در جدول محصولات "
+#~ "نمایش داده خواهد شد و نیز در محاسبات تخفیف لحاظ می‌شود."
+
+#~ msgid "Cart price"
+#~ msgstr "قیمت سبد خرید"
+
+#~ msgid "Order default"
+#~ msgstr "پیشفرض سفارش"
+
+#~ msgid "Hezar rial"
+#~ msgstr "هزار ریال"
+
+#~ msgid "Hezar toman"
+#~ msgstr "هزار تومان"
+
+#~ msgid "Product info:"
+#~ msgstr "اطلاعات محصول:"
+
+#~ msgid "Product label template"
+#~ msgstr "قالب برچسب محصول"
+
+#~ msgid "Account button"
+#~ msgstr "دکمه حساب کاربری"
+
+#, fuzzy
+#~| msgid "Click here"
+#~ msgid "Click here."
+#~ msgstr "اینجا کلید کنید"
+
+#~ msgid "Fee"
+#~ msgstr "دستمزد"
+
+#~ msgid ""
+#~ "Please activate plugin with your license key to all features work. Go to "
+#~ "your account page in zhaket for the License Key."
+#~ msgstr ""
+#~ "جهت برخورداری از کلیه امکانات لطفا افزونه را با کلید لایسنس فعال نمایید. "
+#~ "جهت دریافت کلید لایسنس به پنل کاربری خود در ژاکت قسمت دانلودها مراجعه "
+#~ "نمایید."
+
+#~ msgid "Please insert your license code."
+#~ msgstr "لطفا کلید لایسنس خود را وارد نمایید."
+
+#~ msgid ""
+#~ "Enabling this option activates the invoice button on the customer orders "
+#~ "table."
+#~ msgstr "فعال‌سازی این گزینه دکمه فاکتور را در جدول سفارشات کاربر فعال می‌کند."
+
+#~ msgid ""
+#~ "Enabling this option activates the invoice button on the thankyou page."
+#~ msgstr "فعال‌سازی این گزینه دکمه فاکتور را در صفحه تشکر پرداخت می‌کند."
+
+#~ msgid "Please go to options page."
+#~ msgstr "لطفا به صفحه تنظیمات افزونه مراجعه نمایید."
+
+#~ msgid "Profit"
+#~ msgstr "سود"
+
+#~ msgid "To activating %s please insert your license key."
+#~ msgstr "جهت فعال‌سازی %s لطفا کلید لایسنس را وارد نمایید."

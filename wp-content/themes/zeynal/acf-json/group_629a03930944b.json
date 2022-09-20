@@ -1,0 +1,62 @@
+{
+    "key": "group_629a03930944b",
+    "title": "ویژگی های محصول",
+    "fields": [
+        {
+            "key": "field_629a03a354216",
+            "label": "کنترل ویژگی های عمومی محصولات",
+            "name": "product_information_general_control",
+            "type": "true_false",
+            "instructions": "این ویژگی های از پنل تنظیمات زینال قابل ویرایش می باشد.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "فعال",
+            "ui_off_text": "غیرفعال"
+        },
+        {
+            "key": "field_629a7b8c46c30",
+            "label": "نمایش موجودی محصول",
+            "name": "product_invontry_control",
+            "type": "true_false",
+            "instructions": "کنترل نمایش در صورتی که محصول دارای موجودی باشد.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "فعال",
+            "ui_off_text": "غیرفعال"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "product"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1654291471
+}

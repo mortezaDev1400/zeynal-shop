@@ -1,0 +1,385 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-30T14:22:56+00:00\n"
+"PO-Revision-Date: 2021-07-11 09:42+0430\n"
+"Last-Translator: Wordpress for you <wordpress.f.y@gmail.com>\n"
+"Language-Team: Wordpress for you <wordpress.f.y@gmail.com>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+
+#: Libraries/MailchimpRequest.php:19
+msgid "This API key is not valid. Please double check it and try again."
+msgstr "API key نادرست است. لطفا دوباره چک کنید."
+
+#: Models/LicensedProduct.php:93
+msgid "Activated"
+msgstr "فعال‌شده"
+
+#: Models/LicensedProduct.php:139
+msgid "Deactivated"
+msgstr "غیرفعال شده"
+
+#: Models/Visit.php:133
+msgid "Views"
+msgstr "بازدید‌ها"
+
+#: Models/Visit.php:134 Services/API/RestAnalyticsController.php:499
+msgid "%d views"
+msgstr "%d تماشا"
+
+#: Models/Visit.php:138 Services/API/RestAnalyticsController.php:503
+msgid "Avg. View Time"
+msgstr "میانگین زمان تماشا"
+
+#: Models/Visit.php:140
+msgid "0 seconds"
+msgstr "0 ثانیه"
+
+#: Models/Visit.php:608
+msgid "Invalid date."
+msgstr "تاریخ نادرست."
+
+#: Services/API/BunnyStorageRemoteAPI.php:34
+msgid "Please add an API Key"
+msgstr "لطفا کلید API را وارد کنید"
+
+#: Services/API/RestActiveCampaignController.php:29
+#: Services/API/RestEmailCollectionController.php:26
+#: Services/API/RestMailchimpController.php:34
+#: Services/API/RestMailerLiteController.php:29
+msgid "Your API key"
+msgstr "API key شما"
+
+#: Services/API/RestActiveCampaignController.php:34
+msgid "Your API url"
+msgstr "API url شما"
+
+#: Services/API/RestAnalyticsController.php:105
+#: Services/API/RestAnalyticsController.php:131
+#: Services/API/RestAnalyticsController.php:157
+#: Services/API/RestAnalyticsController.php:213
+#: Services/API/RestAnalyticsController.php:239
+#: Services/API/RestAnalyticsController.php:265
+#: Services/API/RestAnalyticsController.php:630
+msgid "Limit response to posts published after a given ISO8601 compliant date."
+msgstr "محدودیت پاسخ به پست های منتشر شده بعد از تاریخ وارد شده ISO8601."
+
+#: Services/API/RestAnalyticsController.php:110
+#: Services/API/RestAnalyticsController.php:136
+#: Services/API/RestAnalyticsController.php:162
+#: Services/API/RestAnalyticsController.php:218
+#: Services/API/RestAnalyticsController.php:244
+#: Services/API/RestAnalyticsController.php:270
+#: Services/API/RestAnalyticsController.php:635
+msgid "Limit response to posts published before a given ISO8601 compliant date."
+msgstr "محدودیت پاسخ به پست های منتشر شده قبل از تاریخ وارد شده ISO8601."
+
+#: Services/API/RestAnalyticsController.php:589
+msgid "Unique identifier for the object."
+msgstr "شناسه منحصر به فرد برای آبجکت."
+
+#: Services/API/RestAnalyticsController.php:595
+msgid "ID of user who made the visit."
+msgstr "شناسه کاربری که بازدید را انجام داده است."
+
+#: Services/API/RestAnalyticsController.php:599
+msgid "Duration of the view."
+msgstr "مدت زمان مشاهده."
+
+#: Services/API/RestAnalyticsController.php:603
+msgid "ID of the video"
+msgstr "شناسه ویدیو"
+
+#: Services/API/RestAnalyticsController.php:640
+#: Services/API/RestAnalyticsController.php:644
+msgid "Get a current page"
+msgstr "دریافت برگه فعلی"
+
+#: Services/API/RestBunnyCDNController.php:596
+#: Services/API/RestBunnyStreamController.php:496
+#: Services/API/RestBunnyStreamController.php:591
+msgid "Please send a file."
+msgstr "لطفا فایلی را ارسال کنید."
+
+#: Services/API/RestBunnyCDNController.php:635
+#: Services/API/RestBunnyStreamController.php:535
+#: Services/API/RestBunnyStreamController.php:628
+msgid "Sorry, this file type is not permitted for security reasons."
+msgstr "متأسفیم، این نوع پرونده به دلایل امنیتی مجاز نیست."
+
+#: Services/API/RestEmailCollectionController.php:64
+msgid "There is nothing to export."
+msgstr "چیزی برای خروجی گرفتن نیست."
+
+#: Services/EmailCollection/EmailCollection.php:34
+msgctxt "post type general name"
+msgid "Email Submissions"
+msgstr "ایمیل ارسالی"
+
+#: Services/EmailCollection/EmailCollection.php:35
+msgctxt "post type singular name"
+msgid "Submission"
+msgstr "ارسالی"
+
+#: Services/EmailCollection/EmailCollection.php:36
+msgctxt "admin menu"
+msgid "Submissions"
+msgstr "ارسالی"
+
+#: Services/EmailCollection/EmailCollection.php:37
+msgctxt "add new on admin bar"
+msgid "Email Submission"
+msgstr "ایمیل ارسالی"
+
+#: Services/EmailCollection/EmailCollection.php:38
+msgctxt "Email Submission"
+msgid "Add New"
+msgstr "افزودن جدید"
+
+#: Services/EmailCollection/EmailCollection.php:39
+msgid "Add New Submission"
+msgstr "افزودن ارسالی جدید"
+
+#: Services/EmailCollection/EmailCollection.php:40
+msgid "New Submission"
+msgstr "ارسالی جدید"
+
+#: Services/EmailCollection/EmailCollection.php:41
+msgid "Edit Submission"
+msgstr "ویرایش ارسالی"
+
+#: Services/EmailCollection/EmailCollection.php:42
+msgid "View Submission"
+msgstr "دیدن ارسالی"
+
+#: Services/EmailCollection/EmailCollection.php:43
+#: Services/EmailCollection/EmailCollection.php:72
+msgid "Email Submissions"
+msgstr "ارسال های ایمیل"
+
+#: Services/EmailCollection/EmailCollection.php:44
+msgid "Search Submissions"
+msgstr "جستحوی ارسال"
+
+#: Services/EmailCollection/EmailCollection.php:45
+msgid "No Submissions found."
+msgstr "ارسالی یافت نشد."
+
+#: Services/EmailCollection/EmailCollection.php:46
+msgid "No Submissions found in Trash."
+msgstr "ارسالی در سطل زباله یافت نشد."
+
+#: Services/EmailCollection/EmailCollection.php:47
+msgid "Filter Submissions list"
+msgstr "فیلتر لیست ارسالی"
+
+#: Services/EmailCollection/EmailCollection.php:48
+msgid "Submissions list navigation"
+msgstr "ناوبری لیست ارسال‌ها"
+
+#: Services/EmailCollection/EmailCollection.php:49
+msgid "Submissions list"
+msgstr "لیست ارسال‌ها"
+
+#: Services/EmailCollection/EmailCollection.php:50
+msgid "Submission published."
+msgstr "ارسال منتشر شد."
+
+#: Services/EmailCollection/EmailCollection.php:51
+msgid "Submission published privately."
+msgstr "ارسال بصورت خصوصی منتشر شد."
+
+#: Services/EmailCollection/EmailCollection.php:52
+msgid "Submission reverted to draft."
+msgstr "ارسال به پیش نویس برگردانده شد."
+
+#: Services/EmailCollection/EmailCollection.php:53
+msgid "Submission scheduled."
+msgstr "ارسال برنامه‌ریزی شد."
+
+#: Services/EmailCollection/EmailCollection.php:54
+msgid "Submission updated."
+msgstr "ارسال به‌روز‌رسانی شد."
+
+#: Services/EmailCollection/EmailCollection.php:73
+msgid "Emails"
+msgstr "ایمیل‌ها"
+
+#: Services/EmailCollection/EmailCollectionAjaxHandler.php:128
+msgid "Please enter a valid email address"
+msgstr "لطفا ایمیل معتبری وارد کنید"
+
+#: Services/EmailCollection/EmailCollectionMetaBox.php:46
+msgid "Submission Details"
+msgstr "اطلاعات ارسال"
+
+#: Services/EmailCollection/EmailCollectionMetaBox.php:68
+#: Services/EmailCollection/EmailCollectionMetaBox.php:112
+msgid "Email"
+msgstr "ایمیل"
+
+#: Services/EmailCollection/EmailCollectionMetaBox.php:113
+msgid "Video"
+msgstr "ویدئو"
+
+#: Services/EmailCollection/EmailCollectionMetaBox.php:114
+msgid "Preset"
+msgstr "قالب"
+
+#: Services/License/AutoUpdate.php:98
+msgid "An error occour when try to identify the pluguin."
+msgstr "هنگام شناسایی افزونه خطایی رخ داد."
+
+#: Services/License/AutoUpdate.php:98 Services/License/AutoUpdate.php:111
+msgid "Try again"
+msgstr "سعی دوباره"
+
+#: Services/License/AutoUpdate.php:111
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr "هنگام درخواست API یک خطای غیر منتظره HTTP رخ داد."
+
+#: Services/License/License.php:137
+msgid "Presto Player Pro plugin is inactive, please enter your"
+msgstr "افزونه پرستو پلیر پرو غیرفعال است، لطفاً وارد کنید"
+
+#: Services/License/License.php:139
+msgid "Licence Key"
+msgstr "کلید لایسنس"
+
+#: Services/License/License.php:153
+msgid "License"
+msgstr "لایسنس"
+
+#: Services/License/License.php:186 Services/License/License.php:226
+msgid "License Key"
+msgstr "کلید لایسنس"
+
+#: Services/License/License.php:198 Services/License/License.php:238
+msgid ""
+"Enter the Licence Key you received when purchased this product. If you lost the key, "
+"you can always retrieve it from"
+msgstr ""
+"کلید لایسنسی را که هنگام خرید این محصول دریافت کرده‌اید وارد کنید. اگر کلید را گم "
+"کرده‌اید، همیشه می‌توانید بازیابی کنید آن را از طریق"
+
+#: Services/License/License.php:198 Services/License/License.php:238
+msgid "My Account"
+msgstr "حساب من"
+
+#: Services/License/License.php:203
+msgid "Save"
+msgstr "ذخیره"
+
+#: Services/License/License.php:236
+msgid "Deactivate"
+msgstr "غیر‌فعال سازی"
+
+#: Services/Settings.php:32
+msgid "Bunny.net public video stream settings."
+msgstr "تنظیمات استریم ویدئو Bunny.net."
+
+#: Services/Settings.php:65
+msgid "Bunny.net stream general settings."
+msgstr "تنظیمات عمومی استریم Bunny.net."
+
+#: Services/Settings.php:92
+msgid "Bunny.net private video stream settings."
+msgstr "تنظیمات استریم ویدئو خصوصی Bunny.net."
+
+#: Services/Settings.php:126 Services/Settings.php:144
+msgid "Bunny.net settings."
+msgstr "تنظیمات Bunny.net."
+
+#: Services/Settings.php:162
+msgid "A generated unique install id for Bunny.net."
+msgstr "شناسه منحصربه‌فرد ساخته شده برای نصب Bunny.net."
+
+#: Services/Settings.php:173
+msgid "Mailchimp settings."
+msgstr "تنظیمات Mailchimp."
+
+#: Services/Settings.php:201
+msgid "Mailerlite settings."
+msgstr "تنظیمات Mailerlite."
+
+#: Services/Settings.php:229
+msgid "ActiveCampaign settings."
+msgstr "تنظیمات ActiveCampaign."
+
+#: Services/Settings.php:261
+msgid "Is fluent crm connected"
+msgstr "آیا FluentCRM متصل است"
+
+#: Services/Settings.php:287
+msgid "License settings."
+msgstr "تنظیمات لایسنس."
+
+#: Support/RestEmailProviderController.php:39
+msgid "Please connect this service to use this integration."
+msgstr "لطفا برای استفاده از این سازگاری، به این سرویس متصل شوید."
+
+msgid "Register version"
+msgstr "ثبت نسخه"
+
+msgid "Register Now"
+msgstr "ثبت کنید"
+
+msgid "Register"
+msgstr "ثبت نسخه"
+
+msgid "You already register your license key. to re validate it, you can use this form."
+msgstr "شما قبلا لایسنس را ثبت کرده اید، می‌توانید اعتبار آن را مجدد چک کنید."
+
+msgid "Your current license:"
+msgstr "لایسنس فعلی شما:"
+
+msgid "Delete and submit another license"
+msgstr "حذف و ثبت لایسنس جدید"
+
+msgid "New license key"
+msgstr "لایسنس جدید"
+
+msgid "Please wait..."
+msgstr "لطفا صبر کنید..."
+
+msgid "Revalidate"
+msgstr "بررسی اعتبار"
+
+msgid "Please activate plugin with your license key to all features work."
+msgstr "لطفا لایسنس را برای استفاده کامل از امکانات وارد کنید."
+
+msgid "License key"
+msgstr "لایسنس"
+
+msgid "Something goes wrong please try again."
+msgstr "خطایی رخ داد، لطفا بعداً دوباره تلاش کنید."
+
+msgid "Please insert your license code"
+msgstr "لطفا لایسنس را وارد کنید"
+
+msgid "License code is valid."
+msgstr "لایسنس معتبر است."
+
+msgid "Thanks! Your license activated successfully."
+msgstr "متشکریم! لایسنس شما با موفقیت فعال شد."
+
+msgid "Check Now"
+msgstr "چک کنید"
+
+msgid "To activating your %s please insert you license key"
+msgstr "برای فعال سازی لایسنس %s لطفا لایسنس خود را وارد کنید"
+
+msgid "There is something wrong with your %s license. please check it."
+msgstr "مشکلی در رابطه با لایسنس %s به وجود آمده است. لطفا چک کنید."
+
+msgid "Please register Presto Player Pro license."
+msgstr "لطفا لایسنس افزونه پرستو پلیر پرو را ثبت کنید."
+
+#~ msgid "Unique Views"
+#~ msgstr "بازدید منحصربه‌فرد"

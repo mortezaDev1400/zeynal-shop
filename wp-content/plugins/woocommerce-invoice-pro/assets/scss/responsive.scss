@@ -1,0 +1,88 @@
+@import "variables";
+
+@media (max-width: $break_point) {
+    .table-responsive {
+        thead {
+            display: none;
+        }
+
+        td {
+            width: 100%;
+            display: block;
+        }
+    }
+}
+
+.table-bordered {
+    @media (max-width: $break_point) {
+        th, td {
+            border: none !important;
+        }
+        tbody tr:not(:last-child) td:last-child {
+            border-bottom: 1px solid #000;
+        }
+    }
+}
+
+@media (max-width: $break_point) {
+    .products-table {
+        td .td-title {
+            display: block !important;
+        }
+    }
+}
+
+@media (max-width: $break_point) {
+    .total-table {
+        tbody tr:not(:last-child) td:last-child {
+            display: table-cell;
+            width: auto;
+        }
+
+        tbody tr:not(:last-child) th {
+            border-bottom: 1px solid #000;
+        }
+    }
+}
+
+@media (max-width: $break_point) {
+    .products-table {
+        .row {
+            display: none;
+        }
+
+        td {
+            min-height: 54px;
+            text-align: right;
+        }
+
+        td .td-title {
+            font-weight: bold;
+            float: left;
+            margin-right: 5px;
+        }
+
+        tbody tr.even td {
+            background: rgba(72, 72, 72, 0.25);
+        }
+
+        tfoot {
+            display: none;
+        }
+    }
+    .rtl .products-table td {
+        text-align: left;
+
+        .td-title {
+            float: right;
+            margin-right: 0;
+            margin-left: 5px;
+        }
+    }
+}
+
+@media (max-width: $break_point) {
+    .table-responsive td.to-word {
+        display: table-cell;
+    }
+}

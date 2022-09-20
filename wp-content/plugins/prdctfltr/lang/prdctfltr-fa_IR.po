@@ -1,0 +1,2164 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Product Filter for WooCommerce 7.3.4\n"
+"Report-Msgid-Bugs-To: https://help.xforwoocommerce.com\n"
+"POT-Creation-Date: 2022-02-24 18:32+0330\n"
+"PO-Revision-Date: 2022-02-28 18:20+0330\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;esc_html_x:1,2c;__:1;_e:1;"
+"_n:1,2;_x:1,2c;esc_attr__:1;esc_attr_e:1;esc_attr_x:1,2c;gettext:1;_:1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.4.3\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/compatibility/pf-compatible-preset.php:262
+#: includes/pf-frontend.php:2702
+msgid "All Products"
+msgstr "همه محصولات"
+
+#: includes/compatibility/pf-compatible-preset.php:263
+#: includes/pf-frontend.php:2703
+msgid "In Stock"
+msgstr "موجود در انبار"
+
+#: includes/compatibility/pf-compatible-preset.php:264
+#: includes/pf-frontend.php:2704
+msgid "Out Of Stock"
+msgstr "در انبار موجود نیست"
+
+#: includes/compatibility/pf-compatible-preset.php:276
+#: includes/pf-composer.php:13 includes/pf-frontend.php:2752
+#: includes/pf-settings.php:288 includes/pf-settings.php:1018
+#: includes/pf-widget.php:135
+msgid "Default"
+msgstr "پیش فرض"
+
+#: includes/compatibility/pf-compatible-preset.php:277
+#: includes/pf-frontend.php:2753
+msgid "Review Count"
+msgstr "تعداد بازخورد"
+
+#: includes/compatibility/pf-compatible-preset.php:278
+#: includes/pf-frontend.php:2754
+msgid "Popularity"
+msgstr "محبوبیت"
+
+#: includes/compatibility/pf-compatible-preset.php:279
+#: includes/pf-frontend.php:2755
+msgid "Average rating"
+msgstr "میانگین امتیاز"
+
+#: includes/compatibility/pf-compatible-preset.php:280
+#: includes/pf-frontend.php:2756
+msgid "Newness"
+msgstr "جدیدترین"
+
+#: includes/compatibility/pf-compatible-preset.php:281
+#: includes/pf-frontend.php:2757
+msgid "Price: low to high"
+msgstr "قیمت: ارزان ترین به گران ترین"
+
+#: includes/compatibility/pf-compatible-preset.php:282
+#: includes/pf-frontend.php:2758
+msgid "Price: high to low"
+msgstr "قیمت: گران ترین به ارزان ترین"
+
+#: includes/compatibility/pf-compatible-preset.php:283
+#: includes/pf-frontend.php:2759
+msgid "Random Products"
+msgstr "محصولات تصادفی"
+
+#: includes/compatibility/pf-compatible-preset.php:284
+#: includes/pf-frontend.php:2760
+msgid "Product Name"
+msgstr "نام محصول"
+
+#: includes/compatibility/pf-compatible-preset.php:461
+#: includes/pf-settings.php:1596 includes/pf-settings.php:1637
+msgid "Products"
+msgstr "محصولات"
+
+#: includes/compatibility/pf-compatible.php:32 includes/pf-settings.php:1360
+#: includes/pf-settings.php:1636
+msgid "Filter"
+msgstr "فیلتر"
+
+#: includes/pf-composer.php:49
+msgid "WooCommerce Product Filter"
+msgstr ""
+
+#: includes/pf-composer.php:52
+msgid "Content"
+msgstr "محتوا"
+
+#: includes/pf-composer.php:54
+msgid "All in one Product Filter for WooCommerce!"
+msgstr "فیلتر همه کاره محصولات ووکامرس!"
+
+#: includes/pf-composer.php:60
+msgid "Show Filter"
+msgstr "نمایش فیلتر"
+
+#: includes/pf-composer.php:73 includes/pf-settings.php:911
+msgid "Filter Preset"
+msgstr "حالت فیلتر"
+
+#: includes/pf-composer.php:83
+msgid "Show Categories"
+msgstr "نمایش دسته بندی ها"
+
+#: includes/pf-composer.php:96
+msgid "Category Columns"
+msgstr "ستون های دسته بندی"
+
+#: includes/pf-composer.php:106
+msgid "Show Products (Step Filter mode when set to NO)"
+msgstr "نمایش محصولات (وقتی فیلتر مرحله ای بر روی \"خیر\" تنظیم شده باشد)"
+
+#: includes/pf-composer.php:119
+msgid "Product Columns"
+msgstr "ستون های محصول"
+
+#: includes/pf-composer.php:129
+msgid "Product Rows"
+msgstr "ردیف های محصول"
+
+#: includes/pf-composer.php:139 includes/pf-settings.php:1553
+#: includes/pf-settings.php:1597
+msgid "Pagination"
+msgstr "صفحه بندی"
+
+#: includes/pf-composer.php:154
+msgid "Ajax"
+msgstr ""
+
+#: includes/pf-composer.php:167 includes/pf-frontend.php:3671
+#: includes/pf-settings.php:117 includes/pf-settings.php:1543
+#: includes/pf-settings.php:1670
+msgid "Order By"
+msgstr "مرتب سازی بر اساس"
+
+#: includes/pf-composer.php:177 includes/pf-settings.php:135
+msgid "Order"
+msgstr "مرتب سازی"
+
+#: includes/pf-composer.php:187
+msgid "Min Price"
+msgstr "کمترین قیمت"
+
+#: includes/pf-composer.php:197
+msgid "Max Price"
+msgstr "بیشترین قیمت"
+
+#: includes/pf-composer.php:207 includes/pf-settings.php:1493
+msgid "Product Category"
+msgstr "دسته بندی محصول"
+
+#: includes/pf-composer.php:217
+msgid "Product Tag"
+msgstr "برچسب محصول"
+
+#: includes/pf-composer.php:227
+msgid "Product Characteristics"
+msgstr "مشخصات محصول"
+
+#: includes/pf-composer.php:237
+msgid "Sale Products"
+msgstr "محصولات حراجی"
+
+#: includes/pf-composer.php:251
+msgid "Instock Products"
+msgstr "محصولات موجود"
+
+#: includes/pf-composer.php:266
+msgid "HTTP Query"
+msgstr ""
+
+#: includes/pf-composer.php:276
+msgid "Custom Action"
+msgstr "عمل سفارشی"
+
+#: includes/pf-composer.php:286
+msgid "Show Loop Title"
+msgstr "نمایش عنوان حلقه"
+
+#: includes/pf-composer.php:299
+msgid "Show Loop Price"
+msgstr "نمایش قیمت حلقه"
+
+#: includes/pf-composer.php:312
+msgid "Show Loop Rating"
+msgstr "نمایش امتیاز حلقه"
+
+#: includes/pf-composer.php:325
+msgid "Show Loop Add to Cart"
+msgstr "نمایش حلقه افزودن به سبد خرید"
+
+#: includes/pf-composer.php:338
+msgid "Fallback CSS (If columns option is not working)"
+msgstr "استایل جایگزین (درصورتی که تنظیمات ستون کار نکند)"
+
+#: includes/pf-composer.php:364
+msgid "Disable Preset Overrides"
+msgstr "غیرفعال کردن حالات غیر فعال"
+
+#: includes/pf-composer.php:377
+msgid "Bottom Margin"
+msgstr "فاصله از پایین"
+
+#: includes/pf-composer.php:387
+msgid "Shortcode ID"
+msgstr "شناسه شورت کد"
+
+#: includes/pf-composer.php:397 includes/pf-settings.php:1790
+#: includes/pf-widget.php:159
+msgid "Class"
+msgstr "کلاس"
+
+#: includes/pf-composer.php:428
+msgid "Product Filter - Activate"
+msgstr "فیلتر محصول - فعال"
+
+#: includes/pf-composer.php:441
+msgid "Product Filter - Ajax"
+msgstr "فیلتر محصول - Ajax"
+
+#: includes/pf-composer.php:453
+msgid "Product Filter - Select Preset"
+msgstr "فیلتر محصول - انتخاب حالت"
+
+#: includes/pf-composer.php:462
+msgid "Product Filter - Pagination"
+msgstr "فیلتر محصول - صفحه بندی"
+
+#: includes/pf-frontend.php:336
+msgid "Close filter"
+msgstr "بستن فیلتر"
+
+#: includes/pf-frontend.php:337
+msgid "Filter terms"
+msgstr "جستجو ..."
+
+#: includes/pf-frontend.php:338
+msgid "AJAX Error!"
+msgstr "خطای Ajax!"
+
+#: includes/pf-frontend.php:339 includes/pf-settings.php:149
+msgid "Show more"
+msgstr "نمایش بیشتر"
+
+#: includes/pf-frontend.php:340
+msgid "Show less"
+msgstr "نمایش کمتر"
+
+#: includes/pf-frontend.php:341 includes/pf-frontend.php:2873
+msgid "No products found!"
+msgstr "محصولی یافت نشد!"
+
+#: includes/pf-frontend.php:342
+msgid "Clear filters"
+msgstr "پاکسازی فیلترها"
+
+#: includes/pf-frontend.php:343
+msgid "Show products"
+msgstr "نمایش محصولات"
+
+#: includes/pf-frontend.php:344 includes/svx-settings/svx-settings.php:408
+msgid "Out of stock"
+msgstr "نا موجود"
+
+#: includes/pf-frontend.php:345
+msgid "On backorder"
+msgstr "در سفارش مجدد"
+
+#: includes/pf-frontend.php:1998
+msgid "Filter selected"
+msgstr "فیلتر انتخاب شد"
+
+#: includes/pf-frontend.php:2010
+msgid "Show only products on sale"
+msgstr "فقط نمایش محصولات حراجی"
+
+#: includes/pf-frontend.php:2025
+msgid "Show out of stock products"
+msgstr "نمایش محصولات بدون موجودی"
+
+#: includes/pf-frontend.php:2033
+msgid "In stock only"
+msgstr "فقط موجود"
+
+#: includes/pf-frontend.php:2290
+msgid "trillion"
+msgstr "تریلیون"
+
+#: includes/pf-frontend.php:2293
+msgid "billion"
+msgstr "میلیارد"
+
+#: includes/pf-frontend.php:2296
+msgid "million"
+msgstr "میلیون"
+
+#: includes/pf-frontend.php:2299
+msgid "thousand"
+msgstr "هزار"
+
+#: includes/pf-frontend.php:2605 includes/pf-frontend.php:3727
+#: includes/pf-settings.php:773 includes/pf-settings.php:1372
+#: includes/svx-settings/svx-settings.php:533
+msgid "Price"
+msgstr "قیمت"
+
+#: includes/pf-frontend.php:2638 includes/pf-settings.php:1939
+msgid "Categories"
+msgstr "دسته بندی ها"
+
+#: includes/pf-frontend.php:2641 includes/pf-settings.php:1942
+msgid "Tags"
+msgstr "برچسب ها"
+
+#: includes/pf-frontend.php:2644 includes/pf-settings.php:1945
+msgid "Characteristics"
+msgstr "خصوصیات"
+
+#: includes/pf-frontend.php:2877
+msgid "Found a single result"
+msgstr "پیدا کردن یک نتیجه"
+
+#: includes/pf-frontend.php:2880
+msgid "Showing the single result"
+msgstr "نمایش یک نتیجه"
+
+#: includes/pf-frontend.php:2885 includes/pf-frontend.php:2893
+msgid "Found"
+msgstr "پیدا کردن"
+
+#: includes/pf-frontend.php:2885 includes/pf-frontend.php:2888
+#: includes/pf-frontend.php:2893 includes/pf-frontend.php:2896
+msgid "results"
+msgstr "نتایج"
+
+#: includes/pf-frontend.php:2888
+msgid "Showing all"
+msgstr "نمایش همه"
+
+#: includes/pf-frontend.php:2896
+msgid "Showing"
+msgstr "نمایش"
+
+#: includes/pf-frontend.php:2896
+msgid "of"
+msgstr "از"
+
+#: includes/pf-frontend.php:2930
+msgid "Filter products"
+msgstr "فیلتر محصولات"
+
+#: includes/pf-frontend.php:3366
+msgid "Product keywords"
+msgstr "کلمات کلیدی محصولات"
+
+#: includes/pf-frontend.php:3382 includes/pf-frontend.php:3534
+#: includes/pf-frontend.php:4425
+msgid "Error! No terms!"
+msgstr "خطا! بدون طبقه بندی!"
+
+#: includes/pf-frontend.php:3624
+msgid "Search Products"
+msgstr "جستجو محصولات"
+
+#: includes/pf-frontend.php:3639
+msgid "Per Page"
+msgstr "در صفحه"
+
+#: includes/pf-frontend.php:3652 includes/pf-settings.php:772
+#: includes/pf-settings.php:1371
+msgid "Availability"
+msgstr "دسترس پذیری"
+
+#: includes/pf-frontend.php:3689 includes/pf-settings.php:770
+#: includes/pf-settings.php:1368
+msgid "Vendor"
+msgstr "فروشنده"
+
+#: includes/pf-frontend.php:3708 includes/pf-settings.php:776
+#: includes/pf-settings.php:1375
+msgid "Rating"
+msgstr "امتیاز"
+
+#: includes/pf-frontend.php:3747 includes/pf-settings.php:1366
+msgid "Meta"
+msgstr "متا"
+
+#: includes/pf-frontend.php:4509 includes/pf-settings.php:315
+#: includes/pf-settings.php:1218 includes/svx-settings/svx-settings.php:357
+msgid "None"
+msgstr "هیچ یک"
+
+#: includes/pf-frontend.php:4524
+msgid "1 Star"
+msgstr "1 ستاره"
+
+#: includes/pf-frontend.php:4525
+msgid "2 Stars"
+msgstr "2 ستاره"
+
+#: includes/pf-frontend.php:4526
+msgid "3 Stars"
+msgstr "3 ستاره"
+
+#: includes/pf-frontend.php:4527
+msgid "4 Stars"
+msgstr "4 ستاره"
+
+#: includes/pf-frontend.php:4528
+msgid "5 Stars"
+msgstr "5 ستاره"
+
+#: includes/pf-settings.php:17
+msgid "Product Filter for WooCommerce"
+msgstr "فیلتر محصولات برای ووکامرس"
+
+#: includes/pf-settings.php:18
+msgid "Product Filters"
+msgstr "فیلترهای محصول"
+
+#: includes/pf-settings.php:75
+msgid "Select Taxonomy"
+msgstr "انتخاب طبقه بندی"
+
+#: includes/pf-settings.php:77
+msgid "Select taxonomy for this filter"
+msgstr "انتخاب طبقه بندی برای این فیلتر"
+
+#: includes/pf-settings.php:87 includes/pf-settings.php:314
+#: includes/pf-settings.php:329
+msgid "Title"
+msgstr "عنوان"
+
+#: includes/pf-settings.php:89
+msgid "Use alternative title"
+msgstr "انتخاب عنوان جایگزین"
+
+#: includes/pf-settings.php:97
+msgid "Description"
+msgstr "توضیحات"
+
+#: includes/pf-settings.php:99
+msgid "Enter filter description"
+msgstr "توضیحات فیلتر را وارد کنید"
+
+#: includes/pf-settings.php:107
+msgid "Include/Exclude"
+msgstr "وارد کردن/خارج کردن"
+
+#: includes/pf-settings.php:109
+msgid "Select terms to include/exclude"
+msgstr "انتخاب طبقه بندی برای واردکردن/خارج کردن"
+
+#: includes/pf-settings.php:119
+msgid "Select term order"
+msgstr "انتخاب طبقه بندی برای مرتب سازی"
+
+#: includes/pf-settings.php:123
+msgid "None (Custom Menu Order)"
+msgstr "هیچ یک (منو شخصی سازی شده مرتب سازی)"
+
+#: includes/pf-settings.php:124 includes/pf-settings.php:1783
+#: includes/pf-widget.php:154
+msgid "ID"
+msgstr ""
+
+#: includes/pf-settings.php:125 includes/pf-settings.php:1424
+#: includes/pf-settings.php:1726 includes/pf-settings.php:1731
+#: includes/pf-settings.php:1870 includes/pf-settings.php:1875
+#: includes/svx-settings/svx-settings.php:447
+#: includes/svx-settings/svx-settings.php:512
+msgid "Name"
+msgstr "نام"
+
+#: includes/pf-settings.php:126
+msgid "Number"
+msgstr "شماره"
+
+#: includes/pf-settings.php:127
+msgid "Slug"
+msgstr "نامک"
+
+#: includes/pf-settings.php:128 includes/svx-settings/svx-settings.php:484
+msgid "Count"
+msgstr "تعداد"
+
+#: includes/pf-settings.php:137
+msgid "Select ascending/descending"
+msgstr "انتخاب صعودی/نزولی"
+
+#: includes/pf-settings.php:141
+msgid "ASC"
+msgstr "صعودی"
+
+#: includes/pf-settings.php:142
+msgid "DESC"
+msgstr "نزولی"
+
+#: includes/pf-settings.php:151
+msgid "Show more button on term"
+msgstr "دکمه \"نمایش بیشتر\" در طبقه بندی"
+
+#: includes/pf-settings.php:159
+msgid "Hierarchy"
+msgstr "سلسله مراتب"
+
+#: includes/pf-settings.php:161
+msgid "Use hierarchy."
+msgstr "از سلسله مراتب استفاده کنید."
+
+#: includes/pf-settings.php:169
+msgid "Hierarchy Mode"
+msgstr "نوع سلسله مراتب"
+
+#: includes/pf-settings.php:171
+msgid "Select hierarchy mode"
+msgstr "انتخاب نوع سلسله مراتب"
+
+#: includes/pf-settings.php:175
+msgid "Show all terms"
+msgstr "نمایش همه طبقه بندی ها"
+
+#: includes/pf-settings.php:176
+msgid "Show current level terms (Drill filter)"
+msgstr "نمایش شرایط سطح فعلی (فیلتر مته)"
+
+#: includes/pf-settings.php:177
+msgid "Show current level terms with parent term support (Drill filter)"
+msgstr "نمایش شرایط سطح فعلی با پشتیبانی از طبقه بندی والدین (فیلتر مته)"
+
+#: includes/pf-settings.php:178
+msgid "Show lower level hierarchy terms"
+msgstr "شرایط سلسله مراتب سطح پایین را نشان دهید"
+
+#: includes/pf-settings.php:179
+msgid "Show lower level hierarchy terms with parent term support"
+msgstr ""
+"شرایط سلسله مراتبی سطح پایین را با پشتیبانی از طبقه بندی والدین نشان دهید"
+
+#: includes/pf-settings.php:186
+msgid "Hierarchy Expand"
+msgstr "گسترش سلسله مراتب"
+
+#: includes/pf-settings.php:188
+msgid "Expand hierarchy tree on load"
+msgstr "گسترش سلسله مراتب درختی در هنگام بارگزاری"
+
+#: includes/pf-settings.php:196
+msgid "Multiselect"
+msgstr "چند انتخابی"
+
+#: includes/pf-settings.php:198
+msgid "Use multiselect"
+msgstr "استفاده از چند انتخابی"
+
+#: includes/pf-settings.php:206
+msgid "Multiselect Relation"
+msgstr "روابط چند انتخابی"
+
+#: includes/pf-settings.php:208
+msgid "Select multiselect relation"
+msgstr "انتخاب روابط چند انتخابی"
+
+#: includes/pf-settings.php:220
+msgid "Selection Reset"
+msgstr "پاکسازی انتخاب ها"
+
+#: includes/pf-settings.php:222
+msgid "Reset filters on select"
+msgstr "پاکسازی فیلترهای در انتخاب"
+
+#: includes/pf-settings.php:230 includes/pf-settings.php:247
+#: includes/pf-settings.php:932
+msgid "Adoptive"
+msgstr "وابستگی"
+
+#: includes/pf-settings.php:232 includes/pf-settings.php:249
+msgid "Select adoptive filtering"
+msgstr "انتخاب وابستگی فیلتر"
+
+#: includes/pf-settings.php:236 includes/pf-settings.php:253
+msgid "Not active on this filter"
+msgstr "روی این فیلتر فعال نباشد"
+
+#: includes/pf-settings.php:237 includes/pf-settings.php:254
+msgid "Terms will be hidden"
+msgstr "طبقه بندی ها مخفی خواهند شد"
+
+#: includes/pf-settings.php:238
+msgid "Terms will be shown, but unclickable"
+msgstr "طبقه بندی نمایش داده خواهد شد، اما قابل کلیک نیست"
+
+#: includes/pf-settings.php:239
+msgid "Terms will be shown and clickable"
+msgstr "طبقه بندی نمایش داده خواهد شد و قابل کلیک است"
+
+#: includes/pf-settings.php:262
+msgid "Term Count"
+msgstr "تعداد طبقه بندی"
+
+#: includes/pf-settings.php:264
+msgid "Show term count"
+msgstr "نمایش تعداد طبقه بندی"
+
+#: includes/pf-settings.php:272
+msgid "Term Search"
+msgstr "جستجو طبقه بندی"
+
+#: includes/pf-settings.php:274
+msgid "Show term search input"
+msgstr "نمایش فیلد جستجو طبقه بندی"
+
+#: includes/pf-settings.php:282
+msgid "Term Display"
+msgstr "نمایش طبقه بندی"
+
+#: includes/pf-settings.php:284
+msgid "Select terms display style"
+msgstr "انتخاب ظاهر نمایش طبقه بندی"
+
+#: includes/pf-settings.php:289
+msgid "Inline"
+msgstr "درونی"
+
+#: includes/pf-settings.php:290
+msgid "Split into two columns"
+msgstr "تقسیم به دو ستون"
+
+#: includes/pf-settings.php:291
+msgid "Split into three columns"
+msgstr "تقسیم به سه ستون"
+
+#: includes/pf-settings.php:298
+msgid "None Text"
+msgstr "متن هیچ"
+
+#: includes/pf-settings.php:300
+msgid "Change none text"
+msgstr "تغییر متن \"هیچ\""
+
+#: includes/pf-settings.php:308 includes/pf-settings.php:323
+#: includes/pf-settings.php:1042
+msgid "Hide Elements"
+msgstr "مخفی کردن عنصر"
+
+#: includes/pf-settings.php:310 includes/pf-settings.php:325
+#: includes/pf-settings.php:1044
+msgid "Select elements to hide"
+msgstr "انتخاب عنصر برای مخفی کردن"
+
+#: includes/pf-settings.php:337 includes/pf-settings.php:339
+#: includes/pf-settings.php:931 includes/pf-widget.php:164
+#: includes/svx-settings/svx-settings.php:388
+msgid "Style"
+msgstr "ظاهر"
+
+#: includes/pf-settings.php:343 includes/pf-settings.php:984
+msgid "Flat"
+msgstr "تخت"
+
+#: includes/pf-settings.php:344
+msgid "Modern"
+msgstr "مدرن"
+
+#: includes/pf-settings.php:345
+msgid "HTML5"
+msgstr ""
+
+#: includes/pf-settings.php:346
+msgid "White"
+msgstr "سفید"
+
+#: includes/pf-settings.php:347
+msgid "Thin"
+msgstr "لاغر"
+
+#: includes/pf-settings.php:348
+msgid "Knob"
+msgstr "دستگیره"
+
+#: includes/pf-settings.php:349
+msgid "Metal"
+msgstr "فلز"
+
+#: includes/pf-settings.php:356
+msgid "Grid"
+msgstr "شبکه"
+
+#: includes/pf-settings.php:358
+msgid "Show grid"
+msgstr "نمایش شبکه"
+
+#: includes/pf-settings.php:366
+msgid "Start"
+msgstr "ابتدا"
+
+#: includes/pf-settings.php:368
+msgid "Range start"
+msgstr "محدوده ابتدا"
+
+#: includes/pf-settings.php:376
+msgid "End"
+msgstr "انتها"
+
+#: includes/pf-settings.php:378
+msgid "Range end"
+msgstr "محدوده انتها"
+
+#: includes/pf-settings.php:386
+msgid "Prefix"
+msgstr "پیشوند"
+
+#: includes/pf-settings.php:388
+msgid "Terms prefix"
+msgstr "پیشوند طبقه بندی"
+
+#: includes/pf-settings.php:396
+msgid "Postfix"
+msgstr "پسوند"
+
+#: includes/pf-settings.php:398
+msgid "Terms postfix"
+msgstr "پسوند طبقه بندی"
+
+#: includes/pf-settings.php:406
+msgid "Step"
+msgstr "گام"
+
+#: includes/pf-settings.php:408
+msgid "Step value"
+msgstr "مقدار گام"
+
+#: includes/pf-settings.php:416
+msgid "Grid density"
+msgstr "تراکم شبکه"
+
+#: includes/pf-settings.php:418
+msgid "Grid density value"
+msgstr "مقدار تراکم شبکه"
+
+#: includes/pf-settings.php:426
+msgid "Meta key"
+msgstr "کلید متا"
+
+#: includes/pf-settings.php:428
+msgid "Enter meta key"
+msgstr "کلید متا را وارد کنید"
+
+#: includes/pf-settings.php:436
+msgid "Meta compare"
+msgstr "مقایسه کردن متا"
+
+#: includes/pf-settings.php:438
+msgid "Select meta compare"
+msgstr "انتخاب مقایسه متا"
+
+#: includes/pf-settings.php:462
+msgid "Numeric"
+msgstr "عددی"
+
+#: includes/pf-settings.php:464
+msgid "Meta values are numeric"
+msgstr "مقدار متا عددی است"
+
+#: includes/pf-settings.php:472
+msgid "Meta type"
+msgstr "نوع متا"
+
+#: includes/pf-settings.php:474
+msgid "Select meta type"
+msgstr "انتخاب نوع متا"
+
+#: includes/pf-settings.php:493
+msgid "Placeholder"
+msgstr "متن جایگزین"
+
+#: includes/pf-settings.php:495
+msgid "Placeholder text"
+msgstr "مقدار متن جایگزین"
+
+#: includes/pf-settings.php:503
+msgid "Label"
+msgstr "لیبل"
+
+#: includes/pf-settings.php:505
+msgid "Label text"
+msgstr "متن لیبل"
+
+#: includes/pf-settings.php:724
+msgid "Settings page for"
+msgstr "تنظیمات برگه برای"
+
+#: includes/pf-settings.php:728
+msgid "Visit XforWooCommerce.com"
+msgstr "مشاهده XforWooCommerce.com"
+
+#: includes/pf-settings.php:732
+msgid "Get help"
+msgstr "دریافت کمک"
+
+#: includes/pf-settings.php:737
+msgid "Dashboard"
+msgstr "داشبورد"
+
+#: includes/pf-settings.php:738
+msgid "Dashboard Overview"
+msgstr "نمای کلی داشبورد"
+
+#: includes/pf-settings.php:741
+msgid "Filter Presets"
+msgstr "حالات فیلتر"
+
+#: includes/pf-settings.php:742
+msgid "Filter Presets Options"
+msgstr "گزینه های حالات فیلتر"
+
+#: includes/pf-settings.php:745 includes/pf-settings.php:1776
+msgid "Presets Manager"
+msgstr "مدیریت حالات"
+
+#: includes/pf-settings.php:746
+msgid "Presets Manager Options"
+msgstr "گزینه های مدیریت حالات"
+
+#: includes/pf-settings.php:749
+msgid "Shop Integration"
+msgstr "ادغام فروشگاه"
+
+#: includes/pf-settings.php:750
+msgid "Shop Integration Options"
+msgstr "گزینه های ادغام فروشگاه"
+
+#: includes/pf-settings.php:753
+msgid "AJAX"
+msgstr ""
+
+#: includes/pf-settings.php:754
+msgid "AJAX Options"
+msgstr "گزینه های AJAX"
+
+#: includes/pf-settings.php:757
+msgid "Advanced"
+msgstr "پیشرفته"
+
+#: includes/pf-settings.php:758
+msgid "Advanced Options"
+msgstr "گزینه های پیشرفته"
+
+#: includes/pf-settings.php:761
+msgid "Analytics"
+msgstr "تجزیه و تحلیل"
+
+#: includes/pf-settings.php:762 includes/pf-settings.php:1838
+#: includes/pf-settings.php:1841
+msgid "Filtering Analytics"
+msgstr "تجزیه و تحلیل فیلترها"
+
+#: includes/pf-settings.php:768 includes/pf-settings.php:1369
+msgid "Order by"
+msgstr "مرتب سازی بر اساس"
+
+#: includes/pf-settings.php:769 includes/pf-settings.php:1374
+msgid "Per page"
+msgstr "در صفحه"
+
+#: includes/pf-settings.php:771 includes/pf-settings.php:1370 prdctfltr.php:258
+msgid "Search"
+msgstr "جستجو"
+
+#: includes/pf-settings.php:774
+msgid "Price range"
+msgstr "محدوده قیمت"
+
+#: includes/pf-settings.php:775
+msgid "Meta filter"
+msgstr "فیلتر متا"
+
+#: includes/pf-settings.php:887
+msgid "Visit XforWooCommerce.com store, demos and knowledge base."
+msgstr "مشاهده فروشگاه، دموها و پایگاه دانش XforWooCommerce.com."
+
+#: includes/pf-settings.php:892
+msgid "Help Center"
+msgstr "مرکز کمک"
+
+#: includes/pf-settings.php:893
+msgid "Need support? Visit the Help Center."
+msgstr "به پشتیبانی نیاز دارید؟ از مرکز کمک دیدن کنید."
+
+#: includes/pf-settings.php:901
+msgid "Plugin Options"
+msgstr "تنظیمات افزونه"
+
+#: includes/pf-settings.php:904
+msgid "Quick export/import, backup and restore, or just reset your optons here"
+msgstr "وارد کردن/خارج کردن ، بک آپ و بازگردانی یا بازنشانی تنظیمات از اینجا"
+
+#: includes/pf-settings.php:914
+msgid "Editing selected filter preset"
+msgstr "ویرایش حالت فیلتر انتخاب شده"
+
+#: includes/pf-settings.php:923
+msgid "Filter Options"
+msgstr "تنظیمات فیلتر"
+
+#: includes/pf-settings.php:926
+msgid "Select options group for the current preset"
+msgstr "انتخاب گروه تنظیمات برای این حالت"
+
+#: includes/pf-settings.php:929 includes/pf-settings.php:1355
+msgid "Filters"
+msgstr "فیلترها"
+
+#: includes/pf-settings.php:930
+msgid "General"
+msgstr "عمومی"
+
+#: includes/pf-settings.php:933
+msgid "Responsive"
+msgstr "واکنش گرا"
+
+#: includes/pf-settings.php:941
+msgid "Filter on Click"
+msgstr "فیلتر با کلیک"
+
+#: includes/pf-settings.php:943
+msgid "Check this option to filter on click"
+msgstr "برای فیلتر با کلیک این گزینه را انتخاب کنید"
+
+#: includes/pf-settings.php:951
+msgid "Stepped Selection"
+msgstr "گزینش مرحله ای"
+
+#: includes/pf-settings.php:953
+msgid "Check this option to use stepped selection"
+msgstr "برای گزینش مرحله ای این گزینه را انتخاب کنید"
+
+#: includes/pf-settings.php:961
+msgid "Show Selected Terms In"
+msgstr "نمایش طبقه بندی انتخاب شده در"
+
+#: includes/pf-settings.php:963
+msgid "Select areas where to show the selected terms"
+msgstr "مناطقی را انتخاب کنید که طبقه بندی انتخاب شده را نشان دهند"
+
+#: includes/pf-settings.php:967
+msgid "Top bar"
+msgstr "نوار بالا"
+
+#: includes/pf-settings.php:968
+msgid "Collector"
+msgstr "جمع کننده"
+
+#: includes/pf-settings.php:969
+msgid "Filter title"
+msgstr "عنوان فیلتر"
+
+#: includes/pf-settings.php:970
+msgid "After filter title"
+msgstr "بعد از عنوان فیلتر"
+
+#: includes/pf-settings.php:978
+msgid "Selected Terms Style"
+msgstr "انتخاب ظاهر طبقه بندی"
+
+#: includes/pf-settings.php:980
+msgid "Select selected terms style"
+msgstr "انتخاب ظاهر طبقه بندی انتخاب شده"
+
+#: includes/pf-settings.php:985 includes/svx-settings/svx-settings.php:390
+msgid "Border"
+msgstr "مرز (border)"
+
+#: includes/pf-settings.php:992
+msgid "Reorder Selected"
+msgstr "مرتب سازی دوباره انتخاب شده ها"
+
+#: includes/pf-settings.php:994
+msgid "Check this option to bring selected terms to the top"
+msgstr "این گزینه را انتخاب کنید تا طبقه بندی انتخاب شده به بالا منتقل شود"
+
+#: includes/pf-settings.php:1002
+msgid "Filter Form Action"
+msgstr "Action برای فرم فیلتر"
+
+#: includes/pf-settings.php:1004
+msgid "Enter custom filter form action=\"\" parameter"
+msgstr "یک مقدار شخصی برای action=\"\" در فرم فیلتر وارد کنید"
+
+#: includes/pf-settings.php:1012
+msgid "Select Design"
+msgstr "انتخاب طرح"
+
+#: includes/pf-settings.php:1014
+msgid "Select filter design style"
+msgstr "طرح ظاهری فیلتر را انتخاب کنید"
+
+#: includes/pf-settings.php:1019
+msgid "Pop up"
+msgstr "پاپ آپ"
+
+#: includes/pf-settings.php:1020
+msgid "Left fixed sidebar"
+msgstr "سایدبار چسبیده به چپ"
+
+#: includes/pf-settings.php:1021
+msgid "Right fixed sidebar"
+msgstr "سایدبار چسبیده به راست"
+
+#: includes/pf-settings.php:1022
+msgid "Left fixed sidebar with overlay"
+msgstr "سایدبار چسبیده به چپ با پوشش صفحه"
+
+#: includes/pf-settings.php:1023
+msgid "Right fixed sidebar with overlay"
+msgstr "سایدبار چسبیده به راست با پوشش صفحه"
+
+#: includes/pf-settings.php:1024
+msgid "Full screen filters"
+msgstr "پوشش تمام صفحه"
+
+#: includes/pf-settings.php:1025
+msgid "Filters inside select boxes"
+msgstr "فیلتر داخل باکس انتخاب شد"
+
+#: includes/pf-settings.php:1032
+msgid "Always Visible"
+msgstr "همیشه نشان داده شود"
+
+#: includes/pf-settings.php:1034
+msgid "Disable slide in/out animation"
+msgstr "غیر فعال کردن انیمیشن ورود/خروج"
+
+#: includes/pf-settings.php:1048
+msgid "Filter icon"
+msgstr "آیکون فیلتر"
+
+#: includes/pf-settings.php:1049
+msgid "The whole top bar"
+msgstr "کل نوار بالا"
+
+#: includes/pf-settings.php:1050
+msgid "Showing text in top bar"
+msgstr "نمایش متن در نوار بالا"
+
+#: includes/pf-settings.php:1051
+msgid "Sale button"
+msgstr "دکمه حراج"
+
+#: includes/pf-settings.php:1052
+msgid "Instock button"
+msgstr "دکمه موجود در انبار"
+
+#: includes/pf-settings.php:1053
+msgid "Reset button"
+msgstr "دکمه بازنشانی"
+
+#: includes/pf-settings.php:1061
+msgid "Row Display"
+msgstr "نمایش ردیف"
+
+#: includes/pf-settings.php:1063
+msgid "Select row display mode"
+msgstr "انتخاب نوع نمایش ردیف"
+
+#: includes/pf-settings.php:1067
+msgid "One row"
+msgstr "یک ردیف"
+
+#: includes/pf-settings.php:1068
+msgid "Multiple rows"
+msgstr "چند ردیف"
+
+#: includes/pf-settings.php:1069
+msgid "Masonry Filters"
+msgstr "فیلتر های طرح آجر چینی"
+
+#: includes/pf-settings.php:1076
+msgid "Max Columns"
+msgstr "بیشترین ستون"
+
+#: includes/pf-settings.php:1078
+msgid "Set max filter columns"
+msgstr "تنظیم تعداد بیشترین ستون فیلتر"
+
+#: includes/pf-settings.php:1086
+msgid "Max Height"
+msgstr "بیشترین ارتفاع"
+
+#: includes/pf-settings.php:1088
+msgid "Set max filter height"
+msgstr "تنظیم بیشترین ارتفاع فیلتر"
+
+#: includes/pf-settings.php:1096
+msgid "Scroll Bar Style"
+msgstr "استایل اسکرول بار"
+
+#: includes/pf-settings.php:1098
+msgid "Enable enhanced scroll bars display"
+msgstr "نمایش پیشرفته اسکرول بار را فعال کنید"
+
+#: includes/pf-settings.php:1106
+msgid "Checkbox Style"
+msgstr "ظاهر چک باکس"
+
+#: includes/pf-settings.php:1108
+msgid "Select term checkbox style"
+msgstr "انتخاب ظاهر چک باکس ها"
+
+#: includes/pf-settings.php:1112 includes/pf-settings.php:1129
+msgid "Hide"
+msgstr "مخفی"
+
+#: includes/pf-settings.php:1113 includes/svx-settings/svx-settings.php:392
+msgid "Round"
+msgstr "گوشه گرد"
+
+#: includes/pf-settings.php:1114
+msgid "Square"
+msgstr "گوشه تخت"
+
+#: includes/pf-settings.php:1115 includes/svx-settings/svx-settings.php:369
+msgid "Checkbox"
+msgstr "چک باکس"
+
+#: includes/pf-settings.php:1116
+msgid "System Checkboxes"
+msgstr "چک باکس سیستم"
+
+#: includes/pf-settings.php:1123
+msgid "Hierarchy Style"
+msgstr "ظاهر سلسله مراتب"
+
+#: includes/pf-settings.php:1125
+msgid "Select hierarchy style"
+msgstr "انتخاب ظاهر سلسله مراتب"
+
+#: includes/pf-settings.php:1130
+msgid "Circle"
+msgstr "دایره"
+
+#: includes/pf-settings.php:1131
+msgid "Circle Solid"
+msgstr "دایره توپر"
+
+#: includes/pf-settings.php:1132
+msgid "Lined"
+msgstr "خط دار"
+
+#: includes/pf-settings.php:1133
+msgid "Arrows"
+msgstr "فلش"
+
+#: includes/pf-settings.php:1140
+msgid "Filter Icon"
+msgstr "آیکون فیلتر"
+
+#: includes/pf-settings.php:1142
+msgid ""
+"Enter icon class. Use icon class e.g. prdctfltr-filter or FontAwesome fa fa-"
+"shopping-cart or any other"
+msgstr ""
+"کلاس آیکون را وارد کنید برای مثال: \"prdctfltr-filter\" یا \"fa fa-shopping-"
+"cart\""
+
+#: includes/pf-settings.php:1150
+msgid "Filter Title Text"
+msgstr "متن عنوان فیلتر"
+
+#: includes/pf-settings.php:1152
+msgid "Enter title text"
+msgstr "متن عنوان را وارد کنید"
+
+#: includes/pf-settings.php:1160
+msgid "Filter Button Text"
+msgstr "متن دکمه فیلتر"
+
+#: includes/pf-settings.php:1162
+msgid "Enter filter button text"
+msgstr "متن دکمه فیلتر را وارد کنید"
+
+#: includes/pf-settings.php:1170
+msgid "Button Position"
+msgstr "مکان دکمه"
+
+#: includes/pf-settings.php:1172
+msgid "Select button position"
+msgstr "مکان دکمه را انتخاب کنید"
+
+#: includes/pf-settings.php:1176
+msgid "Bottom"
+msgstr "پایین"
+
+#: includes/pf-settings.php:1177
+msgid "Top"
+msgstr "بالا"
+
+#: includes/pf-settings.php:1178
+msgid "Both"
+msgstr "هردو"
+
+#: includes/pf-settings.php:1185
+msgid "Content Align"
+msgstr "تراز محتوا"
+
+#: includes/pf-settings.php:1187
+msgid "Set content align"
+msgstr "تراز متن محتوا را تعیین کیند"
+
+#: includes/pf-settings.php:1191
+msgid "Left"
+msgstr "چپ"
+
+#: includes/pf-settings.php:1192
+msgid "Center"
+msgstr "وسط"
+
+#: includes/pf-settings.php:1193
+msgid "Right"
+msgstr "راست"
+
+#: includes/pf-settings.php:1200
+msgid "Loader Animation"
+msgstr "انیمیشن بارگذاری"
+
+#: includes/pf-settings.php:1202
+msgid "Select loader animation"
+msgstr "انتخاب انیمیشن بارگذاری"
+
+#: includes/pf-settings.php:1206 includes/pf-settings.php:1207
+#: includes/pf-settings.php:1208 includes/pf-settings.php:1209
+#: includes/pf-settings.php:1210 includes/pf-settings.php:1211
+#, php-format
+msgid "Overlay #%s"
+msgstr "پوشش #%s"
+
+#: includes/pf-settings.php:1212 includes/pf-settings.php:1213
+#: includes/pf-settings.php:1214 includes/pf-settings.php:1215
+#: includes/pf-settings.php:1216 includes/pf-settings.php:1217
+#, php-format
+msgid "In title #%s"
+msgstr "در عنوان #%s"
+
+#: includes/pf-settings.php:1225
+msgid "Sale Text"
+msgstr "متن حراج"
+
+#: includes/pf-settings.php:1227
+msgid "Enter sale button text"
+msgstr "متن دکمه حراج  را وارد کنید"
+
+#: includes/pf-settings.php:1235
+msgid "Instock Text"
+msgstr "متن موجود در انبار"
+
+#: includes/pf-settings.php:1237
+msgid "Enter instock button text"
+msgstr "متن دکمه موجود در انبار را وارد کنید"
+
+#: includes/pf-settings.php:1245
+msgid "Clear All Text"
+msgstr "متن پاکسازی همه"
+
+#: includes/pf-settings.php:1247
+msgid "Enter clear all button text"
+msgstr "متن دکمه پاکسازی همه را وارد کنید"
+
+#: includes/pf-settings.php:1256
+msgid "Enable"
+msgstr "فعال"
+
+#: includes/pf-settings.php:1258
+msgid "Check this option to use adoptive filtering in current preset"
+msgstr "برای استفاده از وابسگی فیلتر در این حالت این گزینه را انتخاب کنید"
+
+#: includes/pf-settings.php:1266
+msgid "Active On"
+msgstr "فعال در"
+
+#: includes/pf-settings.php:1268
+msgid "Select when to activate adoptive filtering"
+msgstr "انتخاب کنید چه زمانی وابستگی فیلتر فعال باشد"
+
+#: includes/pf-settings.php:1272
+msgid "Always active"
+msgstr "همیشه فعال"
+
+#: includes/pf-settings.php:1273
+msgid "Active on permalinks and filters"
+msgstr "فعال در لینک های ثابت و فیلترها"
+
+#: includes/pf-settings.php:1274
+msgid "Active on filters"
+msgstr "فعال در فیلترها"
+
+#: includes/pf-settings.php:1281
+msgid "Depend On"
+msgstr "وابسته به"
+
+#: includes/pf-settings.php:1283
+msgid "Select taxonomy terms can depend on"
+msgstr "انتخاب طبقه بندی که میتواند به آن وابسته باشد"
+
+#: includes/pf-settings.php:1292
+msgid "Product Count"
+msgstr "تعداد محصولات"
+
+#: includes/pf-settings.php:1294
+msgid "Select adoptive product count display"
+msgstr "نوع نمایش تعداد محصولات وابسته را انتخاب کنید"
+
+#: includes/pf-settings.php:1298
+msgid "Filtered count / Total"
+msgstr "تعداد/جمع فیلتر شده ها"
+
+#: includes/pf-settings.php:1299
+msgid "Filtered count"
+msgstr "تعداد فیلتر شده ها"
+
+#: includes/pf-settings.php:1300
+msgid "Total"
+msgstr "جمع"
+
+#: includes/pf-settings.php:1307
+msgid "Reorder Terms"
+msgstr "مرتب سازی دوباره طبقه بندی ها"
+
+#: includes/pf-settings.php:1309
+msgid "Reorder remaining terms to the top"
+msgstr "مرتب سازی دوباره طبقه بندی های باقی مانده به بالا"
+
+#: includes/pf-settings.php:1317
+msgid "Responsive Behaviour"
+msgstr "رفتار واکنش گرا"
+
+#: includes/pf-settings.php:1319
+msgid "Set filter preset behaviour on defined resolution"
+msgstr "تنظیم رفتار فیلتر برای وضوح تعریف شده"
+
+#: includes/pf-settings.php:1323
+msgid "Do not do a thing"
+msgstr "کاری انجام ندهد"
+
+#: includes/pf-settings.php:1324
+msgid "Switch with filter preset"
+msgstr "انتخاب بین حالت فیلتر"
+
+#: includes/pf-settings.php:1325
+msgid "Show on screen resolution smaller than"
+msgstr "نمایش در صفحه نمایش کوچک تر از"
+
+#: includes/pf-settings.php:1326
+msgid "Show on screen resolution larger than"
+msgstr "نمایش در صفحه نمایش بزرگتر از"
+
+#: includes/pf-settings.php:1334
+msgid "Responsive Resolution"
+msgstr "صفحه نمایش واکنشگرا"
+
+#: includes/pf-settings.php:1336
+msgid ""
+"Set screen resolution in pixels that will trigger the responsive behaviour"
+msgstr "تنظیم اندازه به پیکسل برای رفتار واکنش گرا"
+
+#: includes/pf-settings.php:1344 includes/pf-settings.php:1767
+#: includes/pf-settings.php:1891 includes/pf-widget.php:133
+msgid "Preset"
+msgstr "حالت"
+
+#: includes/pf-settings.php:1346 includes/pf-settings.php:1770
+#: includes/pf-settings.php:1894
+msgid "Set filter preset"
+msgstr "انتخاب حالت فیلتر"
+
+#: includes/pf-settings.php:1358
+msgid "Add more filters to the current preset"
+msgstr "اضافه کردن تعداد بیشتری فیلتر به این حالت"
+
+#: includes/pf-settings.php:1364
+msgid "Taxonomy"
+msgstr "طبقه بندی"
+
+#: includes/pf-settings.php:1365
+msgid "Taxonomy Range"
+msgstr "محدوده طبقه بندی"
+
+#: includes/pf-settings.php:1367
+msgid "Meta Range"
+msgstr "محدوده متا"
+
+#: includes/pf-settings.php:1373
+msgid "Price Range"
+msgstr "محدوده قیمت"
+
+#: includes/pf-settings.php:1387
+msgid "Select Taxonomies"
+msgstr "انتخاب طبقه بندی"
+
+#: includes/pf-settings.php:1389
+msgid ""
+"Select supported taxonomies for Presets Manager (needs a Save and page "
+"refresh to take effect!)"
+msgstr ""
+"انتخاب طبقه بندی های پشتیبانی شده برای مدیریت حالات (برای اعمال ذخیره کنید و "
+"یک بار صفحه را بروزرسانی کنید)"
+
+#: includes/pf-settings.php:1400
+msgid "Switch Variable Images"
+msgstr "انتخاب بین تصاویر متغیر"
+
+#: includes/pf-settings.php:1402
+msgid "Check this option to switch variable images when filtering attributes"
+msgstr "برای تغییر تصاویر متغیر در هنگام اجرای فیلتر این گزینه را انتخاب کنید"
+
+#: includes/pf-settings.php:1409
+msgid "Clear All"
+msgstr "پاکسازی همه"
+
+#: includes/pf-settings.php:1411
+msgid "Select taxonomies which Clear All button cannot clear"
+msgstr "انتخاب طبقه بندی که هنگام کلیک بر روی پاکسازی همه، پاکسازی نشود"
+
+#: includes/pf-settings.php:1419
+msgid "Register Taxonomy"
+msgstr "ثبت طبقه بندی"
+
+#: includes/pf-settings.php:1422
+msgid ""
+"Register custom product taxonomies (needs a Save and page refresh to take "
+"effect!)"
+msgstr ""
+"ثبت طبقه بندی شخصی سازی شده (برای اعمال ذخیره کنید و یک بار صفحه را "
+"بروزرسانی کنید)"
+
+#: includes/pf-settings.php:1429
+msgid "Plural name"
+msgstr "نام جمع"
+
+#: includes/pf-settings.php:1432
+msgid "Enter plural taxonomy name"
+msgstr "نام جمع طبقه بندی را وارد کنید"
+
+#: includes/pf-settings.php:1436
+msgid "Singular name"
+msgstr "نام تکی"
+
+#: includes/pf-settings.php:1439
+msgid "Enter singular taxonomy name"
+msgstr "نام تکی طبقه بندی را وارد کنید"
+
+#: includes/pf-settings.php:1443
+msgid "Use hierarchy"
+msgstr "استفاده از سلسله مراتب"
+
+#: includes/pf-settings.php:1446
+msgid "Enable hierarchy for this taxonomy"
+msgstr "فعال سازی سلسله مراتب برای این طبقه بندی"
+
+#: includes/pf-settings.php:1453
+msgid "Hide Empty Terms"
+msgstr "مخفی کردن دسته های خالی"
+
+#: includes/pf-settings.php:1455
+msgid "Hide empty terms"
+msgstr "مخفی کردن دسته های خالی"
+
+#: includes/pf-settings.php:1462
+msgid "Use AJAX"
+msgstr "استفاده از AJAX"
+
+#: includes/pf-settings.php:1464
+msgid "Check this option to use AJAX in Shop"
+msgstr "برای استفاده از AJAX در فروشگاه این گزینه را انتخاب کنید"
+
+#: includes/pf-settings.php:1472
+msgid "Automatic AJAX"
+msgstr "AJAX خودکار"
+
+#: includes/pf-settings.php:1474
+msgid "Check this option to use automatic AJAX installation."
+msgstr "برای نصب AJAX خودکار این گزینه را انتخاب کنید."
+
+#: includes/pf-settings.php:1474
+msgid "Theme supported! AJAX is set for"
+msgstr "قالب پشتیبانی میکند! AJAX تنظیم شد برای"
+
+#: includes/pf-settings.php:1474
+msgid "Theme not found in database. Using default settings."
+msgstr "قالب در دیتابیس پیدا نشد. از تنظیمات پیشفرض استفاده میشود."
+
+#: includes/pf-settings.php:1483
+msgid "Product Wrapper"
+msgstr "باکس محصولات"
+
+#: includes/pf-settings.php:1485
+msgid "Enter product wrapper jQuery selector."
+msgstr "انتخاب کننده jQuery برای باکس محصولات را وارد کنید."
+
+#: includes/pf-settings.php:1485 includes/pf-settings.php:1495
+#: includes/pf-settings.php:1505 includes/pf-settings.php:1535
+#: includes/pf-settings.php:1545 includes/pf-settings.php:1555
+#: includes/pf-settings.php:1565
+msgid "Currently set to"
+msgstr "در حال حاضر تنظیم شده به"
+
+#: includes/pf-settings.php:1495
+msgid "Enter product category jQuery selector."
+msgstr "انتخاب کننده jQuery برای دسته محصولات را وارد کنید."
+
+#: includes/pf-settings.php:1503
+msgid "Product"
+msgstr "محصول"
+
+#: includes/pf-settings.php:1505
+msgid "Enter product jQuery selector."
+msgstr "انتخاب کننده jQuery برای محصول را وارد کنید."
+
+#: includes/pf-settings.php:1513
+msgid "Columns"
+msgstr "ستون ها"
+
+#: includes/pf-settings.php:1515
+msgid "Fix columns problems"
+msgstr "تعمیر مشکلات ستون ها"
+
+#: includes/pf-settings.php:1523
+msgid "Rows"
+msgstr "ردیف ها"
+
+#: includes/pf-settings.php:1525
+msgid "Fix rows problems"
+msgstr "تعمیر مشکلات ردیف ها"
+
+#: includes/pf-settings.php:1533
+msgid "Result Count"
+msgstr "تعداد نتایج"
+
+#: includes/pf-settings.php:1535
+msgid "Enter result count jQuery selector."
+msgstr "انتخاب کننده jQuery برای تعداد نتایج را وارد کنید."
+
+#: includes/pf-settings.php:1545
+msgid "Enter order by jQuery selector."
+msgstr "انتخاب کننده jQuery برای مرتب سازی را وارد کنید."
+
+#: includes/pf-settings.php:1555
+msgid "Enter pagination jQuery selector."
+msgstr "انتخاب کننده jQuery برای صفحه بندی را وارد کنید."
+
+#: includes/pf-settings.php:1563
+msgid "Pagination Function"
+msgstr "تابع صفحه بندی"
+
+#: includes/pf-settings.php:1565
+msgid "Enter pagination function."
+msgstr "تابع صفحه بندی را وارد کنید."
+
+#: includes/pf-settings.php:1573
+msgid "Pagination Type"
+msgstr "نوع صفحه بندی"
+
+#: includes/pf-settings.php:1575
+msgid "Select pagination type"
+msgstr "نوع صفحه بندی را انتخاب کنید"
+
+#: includes/pf-settings.php:1579
+msgid "Default (Theme)"
+msgstr "پیش فرض (از قالب)"
+
+#: includes/pf-settings.php:1580
+msgid "Custom pagination (Product Filter)"
+msgstr "صفحه بندی شخصی (از افزونه فیلتر محصول)"
+
+#: includes/pf-settings.php:1581
+msgid "Load more (Product Filter)"
+msgstr "بارگذاری بیشتر (از افزونه فیلتر محصول)"
+
+#: includes/pf-settings.php:1582
+msgid "Infinite load (Product Filter)"
+msgstr "بارگذاری بینهایت (از افزونه فیلتر محصول)"
+
+#: includes/pf-settings.php:1589
+msgid "Failsafe"
+msgstr "با خرابی امن"
+
+#: includes/pf-settings.php:1591
+msgid ""
+"Select which missing element will not trigger AJAX and will reload the page"
+msgstr ""
+"انتخاب کنید که کدام عنصر اگر مشکل داشت باعث ایجاد AJAX نمی شود و صفحه را "
+"بارگیری مجدد می کند"
+
+#: includes/pf-settings.php:1595
+msgid "Products wrapper"
+msgstr "باکس محصولات"
+
+#: includes/pf-settings.php:1604
+msgid "After AJAX JS"
+msgstr "جاوا اسکریپت بعد از AJAX"
+
+#: includes/pf-settings.php:1606
+msgid "Enter JavaScript or jQuery code to execute after AJAX"
+msgstr ""
+"کدهای جاوا اسکریپت یا جی کوئری که بعد از AJAX میخواهید اجرا شود را وارد کنید"
+
+#: includes/pf-settings.php:1614
+msgid "Product Animation"
+msgstr "انیمیشن محصول"
+
+#: includes/pf-settings.php:1616
+msgid "Select product animation after AJAX"
+msgstr "انتخاب انیمیشن محصول بعد از AJAX"
+
+#: includes/pf-settings.php:1620
+msgid "No animation"
+msgstr "بدون انیمیشن"
+
+#: includes/pf-settings.php:1621
+msgid "Fade in products"
+msgstr "محو"
+
+#: includes/pf-settings.php:1622
+msgid "Fade in random products"
+msgstr "محو با محصولات تصادفی"
+
+#: includes/pf-settings.php:1629
+msgid "Scroll To"
+msgstr "برو به"
+
+#: includes/pf-settings.php:1631
+msgid "Select scroll to after AJAX"
+msgstr "انتخاب حرکت بعد از AJAX"
+
+#: includes/pf-settings.php:1635
+msgid "Disable scroll"
+msgstr "غیرفعال کردن حرکت"
+
+#: includes/pf-settings.php:1638
+msgid "Page top"
+msgstr "بالای صفحه"
+
+#: includes/pf-settings.php:1645
+msgid "Browser URL/Permalinks"
+msgstr "لینک مروگر"
+
+#: includes/pf-settings.php:1647
+msgid "Select how to display browser URLs or permalinks on AJAX"
+msgstr "انتخاب چگونگی نمایش لینک در مروگر در حالت AJAX"
+
+#: includes/pf-settings.php:1651 includes/pf-settings.php:1703
+msgid "Use Product Filter redirects"
+msgstr "استفاده از منتقل کننده افزونه"
+
+#: includes/pf-settings.php:1652
+msgid "Only add query parameters"
+msgstr "فقط اضافه کردن پارامترهای کوئری"
+
+#: includes/pf-settings.php:1653
+msgid "Disable URL changes"
+msgstr "تغییر لینک غیر فعال"
+
+#: includes/pf-settings.php:1660
+msgid "Disable Elements"
+msgstr "غیر فعال کردن المنت ها"
+
+#: includes/pf-settings.php:1662
+msgid "Select which elements will not be used with AJAX"
+msgstr "المنت هایی که نمیخواهید از AJAX استفاده کنند انتخاب کنید"
+
+#: includes/pf-settings.php:1666
+msgid "Breadcrumbs"
+msgstr "بردکرامب"
+
+#: includes/pf-settings.php:1667
+msgid "Shop title"
+msgstr "عنوان فروشگاه"
+
+#: includes/pf-settings.php:1668
+msgid "Shop description"
+msgstr "توضیحات فروشگاه"
+
+#: includes/pf-settings.php:1669
+msgid "Result count"
+msgstr "تعداد نتایج"
+
+#: includes/pf-settings.php:1677
+msgid "Post Type"
+msgstr "نوع نوشته"
+
+#: includes/pf-settings.php:1679
+msgid ""
+"Check this option to add the ?post_type=product parameter when filtering"
+msgstr ""
+"اگر میخواهید پارامتر ?post_type=produc در هنگام فیلتر اضافه شود این گزینه را "
+"انتخاب کنید"
+
+#: includes/pf-settings.php:1687
+msgid "Stay on Permalink "
+msgstr "ماندن در همین لینک "
+
+#: includes/pf-settings.php:1689
+msgid "Check this option to force filtering on same permalink (URL)"
+msgstr "برای فیلتر فقط در همین لینک این گزینه را انتخاب کنید"
+
+#: includes/pf-settings.php:1697
+msgid "Permalink Structure"
+msgstr "ساختار لینک"
+
+#: includes/pf-settings.php:1699
+msgid "Set permalinks structure"
+msgstr "ساختار لینک را انتخاب کنید"
+
+#: includes/pf-settings.php:1704
+msgid "Use .htaccess and native WordPress redirects"
+msgstr "از ریدایرکت های وردپرس و .htaccess استفاده کنید"
+
+#: includes/pf-settings.php:1711
+msgid "Single Product"
+msgstr "تک محصول"
+
+#: includes/pf-settings.php:1713
+msgid "Check this option to remove redirect when only one product is found"
+msgstr ""
+"این گزینه را انتخاب کنید تا زمانی که فقط یک محصول یافت شد از ریدایرکت "
+"جلوگیری کند"
+
+#: includes/pf-settings.php:1721
+msgid "Integration Hooks"
+msgstr "هوک های ادغام"
+
+#: includes/pf-settings.php:1724
+msgid "Add filter presets to hooks"
+msgstr "حالت فیلتر را به هوک ها اضافه کنید"
+
+#: includes/pf-settings.php:1734 includes/pf-settings.php:1878
+msgid "Enter name"
+msgstr "نام را وارد کنید"
+
+#: includes/pf-settings.php:1738
+msgid "Common Hooks"
+msgstr "هوک های معمولی"
+
+#: includes/pf-settings.php:1741
+msgid "Select a common hook"
+msgstr "یک هوک معمولی را انتخاب کنید"
+
+#: includes/pf-settings.php:1743
+msgid "Use custom hook"
+msgstr "استفاده از هوک شخصی"
+
+#: includes/pf-settings.php:1753
+msgid "Custom Hook"
+msgstr "هوک شخصی"
+
+#: includes/pf-settings.php:1756
+msgid "If you use custom hook, rather than common hooks, please enter it here"
+msgstr ""
+"اگر به جای هوک های معمولی از هوک های سفارشی استفاده می کنید ، لطفاً آن را در "
+"اینجا وارد کنید"
+
+#: includes/pf-settings.php:1760
+msgid "Priority"
+msgstr "اولویت"
+
+#: includes/pf-settings.php:1763
+msgid "Set hook priority"
+msgstr "اولویت هوک را انتخاب کنید"
+
+#: includes/pf-settings.php:1779 includes/pf-widget.php:150
+msgid "Disable presets manager settings"
+msgstr "غیر فعال کردن تنظیمات مدیریت حالت"
+
+#: includes/pf-settings.php:1786
+msgid "Enter filter element ID attribute"
+msgstr "ویژگی ID فیلتر را وارد کنید"
+
+#: includes/pf-settings.php:1793
+msgid "Enter filter element class attribute"
+msgstr "ویژگی کلاس فیلتر را وارد کنید"
+
+#: includes/pf-settings.php:1800
+msgid "Result Count Integration"
+msgstr "ادغام تعداد نتایج"
+
+#: includes/pf-settings.php:1802
+msgid "Replace WooCommerce result count element with a product filter"
+msgstr "جایگزینی تعداد نتایج پیشفرض ووکامرس با افزونه"
+
+#: includes/pf-settings.php:1810
+msgid "Order By Integration"
+msgstr "ادغام مرتب سازی"
+
+#: includes/pf-settings.php:1812
+msgid "Replace WooCommerce order by element with a product filter"
+msgstr "جایگزینی مرتب سازی پیشفرض ووکامرس با افزونه"
+
+#: includes/pf-settings.php:1820 includes/pf-settings.php:1823
+msgid "Widget Integration"
+msgstr "ادغام ابزارک"
+
+#: includes/pf-settings.php:1823
+msgid ""
+"Looking for widget integration options? Product Filter widgets are added to "
+"sidebars in the WordPress Widgets screen."
+msgstr ""
+"به دنبال گزینه های ادغام ابزارک هستید؟ ابزارهای فیلتر محصولات در صفحه ابزارک "
+"های وردپرس به سایدبارها اضافه می شوند."
+
+#: includes/pf-settings.php:1823
+msgid "Click here to navigate to WordPress Widgets"
+msgstr "اینجا کلیک کنید تا به صفحه ابزارک های وردپرس بروید"
+
+#: includes/pf-settings.php:1823
+msgid ""
+"If theme that you are using has limited sidebar options, try plugins such as"
+msgstr ""
+"اگر قالبی که استفاده میکنید سایدبارهای محدودی دارد از افزونه ها استفاده کنید "
+"برای مثال"
+
+#: includes/pf-settings.php:1829
+msgid "Use Analytics"
+msgstr "استفاده از تحلیل و بررسی"
+
+#: includes/pf-settings.php:1831
+msgid "Check this option to use filtering analytics"
+msgstr "برای استفاده از تحلیل و بررسی این گزینه را انتخاب کنید"
+
+#: includes/pf-settings.php:1865
+msgid "Presets"
+msgstr "حالات"
+
+#: includes/pf-settings.php:1868
+msgid "Add filter presets for"
+msgstr "یک حالت فیلتر را اضافه کنید برای"
+
+#: includes/pf-settings.php:1882
+msgid "Term"
+msgstr "شرط"
+
+#: includes/pf-settings.php:1885
+msgid "Choose term, that when selected, will show the set filter preset"
+msgstr ""
+"وقتی یک شرط را انتخاب میکنید حالت فیلتر انتخابی برای آن نمایش داده خواهد شد"
+
+#: includes/pf-settings.php:1917
+msgid "Filtering analytics are empty!"
+msgstr "فعلا تحلیل و بررسی موجود نیست!"
+
+#: includes/pf-settings.php:1987
+msgid "Click the button to reset filtering analytics."
+msgstr "روی دکمه کلیک کنید تا تحلیل و بررسی با بازنشانی شود."
+
+#: includes/pf-settings.php:1988
+msgid "Reset analytics"
+msgstr "بازنشانی تحلیل ها"
+
+#: includes/pf-widget.php:15
+msgid "Product Filter widget version."
+msgstr "نسخه ابزارک فیلتر محصولات."
+
+#: includes/pf-widget.php:166
+msgid "Inherit from preset (Styles are set within presets)"
+msgstr "ارث بری از حالت (ظاهر از حالت تنظیم میشود)"
+
+#: includes/pf-widget.php:167
+msgid "Flat inline (DEPRECATED)"
+msgstr "تخت داخلی (منسوخ شده)"
+
+#: includes/pf-widget.php:168
+msgid "Flat block (DEPRECATED)"
+msgstr "تخت جعبه ای (منسوخ شده)"
+
+#: includes/pf-widget.php:169
+msgid "Flat select (DEPRECATED)"
+msgstr "تخت انتخاب (منسوخ شده)"
+
+#: includes/svx-settings/svx-settings.php:170
+msgid "License details"
+msgstr "اطلاعات لایسنس"
+
+#: includes/svx-settings/svx-settings.php:202
+#: includes/svx-settings/svx-settings.php:211
+msgid "Save"
+msgstr "ذخیره"
+
+#: includes/svx-settings/svx-settings.php:240
+msgid "Export"
+msgstr "خروجی گرفتن"
+
+#: includes/svx-settings/svx-settings.php:240
+msgid "Import"
+msgstr "وارد کردن"
+
+#: includes/svx-settings/svx-settings.php:240
+msgid "Backup"
+msgstr "بک آپ"
+
+#: includes/svx-settings/svx-settings.php:240
+msgid "Restore"
+msgstr "بازگردانی"
+
+#: includes/svx-settings/svx-settings.php:240
+msgid "Reset"
+msgstr "بازنشانی"
+
+#: includes/svx-settings/svx-settings.php:248
+msgid "Add +"
+msgstr "افزودن +"
+
+#: includes/svx-settings/svx-settings.php:288
+msgid "Configure"
+msgstr "پیکربندی"
+
+#: includes/svx-settings/svx-settings.php:296
+#: includes/svx-settings/svx-settings.php:317
+msgid "Add Item +"
+msgstr "افزودن آیتم +"
+
+#: includes/svx-settings/svx-settings.php:325
+msgid "Include/Exclude Manager"
+msgstr "مدیریت وارد کردن/خارج کردن"
+
+#: includes/svx-settings/svx-settings.php:326
+msgid "Exclude"
+msgstr "خارج کردن"
+
+#: includes/svx-settings/svx-settings.php:327
+msgid "Include"
+msgstr "وارد کردن"
+
+#: includes/svx-settings/svx-settings.php:339
+msgid "Terms Manager"
+msgstr "مدیریت شرایط"
+
+#: includes/svx-settings/svx-settings.php:346
+msgid "Custom Order"
+msgstr "مرتب سازی شخصی"
+
+#: includes/svx-settings/svx-settings.php:355
+msgid "Type"
+msgstr "نوع"
+
+#: includes/svx-settings/svx-settings.php:358
+msgid "Plain Text"
+msgstr "متن ساده"
+
+#: includes/svx-settings/svx-settings.php:359
+msgid "Color"
+msgstr "رنگ"
+
+#: includes/svx-settings/svx-settings.php:360
+msgid "Thumbnail"
+msgstr "تصویر بند انگشتی"
+
+#: includes/svx-settings/svx-settings.php:361
+msgid "Select Box"
+msgstr "باکس انتخاب"
+
+#: includes/svx-settings/svx-settings.php:363
+#: includes/svx-settings/svx-settings.php:371
+msgid "System Select"
+msgstr "انتخاب سیستم"
+
+#: includes/svx-settings/svx-settings.php:364
+msgid "Live Select"
+msgstr "انتخاب زنده"
+
+#: includes/svx-settings/svx-settings.php:368
+msgid "Input Field"
+msgstr "فیلد متن"
+
+#: includes/svx-settings/svx-settings.php:370
+msgid "Textarea"
+msgstr "متن بلند"
+
+#: includes/svx-settings/svx-settings.php:391
+msgid "Background"
+msgstr "پس زمینه"
+
+#: includes/svx-settings/svx-settings.php:396
+msgid "Normal"
+msgstr "معمولی"
+
+#: includes/svx-settings/svx-settings.php:400
+msgid "Active"
+msgstr "فعال"
+
+#: includes/svx-settings/svx-settings.php:404
+msgid "Disabled"
+msgstr "غیرفعال"
+
+#: includes/svx-settings/svx-settings.php:415
+msgid "Show labels"
+msgstr "نمایش لیبل"
+
+#: includes/svx-settings/svx-settings.php:422
+msgid "Design"
+msgstr "طرح"
+
+#: includes/svx-settings/svx-settings.php:429
+msgid "Swatch size"
+msgstr "انتخاب سایز"
+
+#: includes/svx-settings/svx-settings.php:453
+msgid "Meta value"
+msgstr "مقدار متا"
+
+#: includes/svx-settings/svx-settings.php:460
+#: includes/svx-settings/svx-settings.php:518
+msgid "Value"
+msgstr "مقدار"
+
+#: includes/svx-settings/svx-settings.php:475
+msgid "Min"
+msgstr "کمترین"
+
+#: includes/svx-settings/svx-settings.php:477
+msgid "Max"
+msgstr "بیشترین"
+
+#: includes/svx-settings/svx-settings.php:491
+#: includes/svx-settings/svx-settings.php:539
+msgid "Tooltip"
+msgstr "متن جایگزین"
+
+#: includes/svx-settings/svx-settings.php:526
+msgid "Add Image +"
+msgstr "اضافه کردن تصویر +"
+
+#: prdctfltr.php:75
+msgid ""
+"This plugin requires WooCommerce. Download it from WooCommerce official "
+"website"
+msgstr "اجرای این افزونه نیاز به ووکامرس دارد. لطفا ووکامرس را نصب کنید"
+
+#: prdctfltr.php:259
+msgid "Popular"
+msgstr "محبوب"
+
+#: prdctfltr.php:260
+msgid "All"
+msgstr "همه"
+
+#: prdctfltr.php:263
+msgid "Edit"
+msgstr "ویرایش"
+
+#: prdctfltr.php:264
+msgid "Update"
+msgstr "بروزرسانی"
+
+#: prdctfltr.php:265
+msgid "Add New"
+msgstr "افزودن جدید"
+
+#: prdctfltr.php:266
+msgid "New"
+msgstr "جدید"
+
+#: prdctfltr.php:266
+msgid "name"
+msgstr "نام"
+
+#: prdctfltr.php:267
+msgid "Separate"
+msgstr "جدا"
+
+#: prdctfltr.php:267
+msgid "with commas"
+msgstr "با کاما"
+
+#: prdctfltr.php:268
+msgid "Add or remove"
+msgstr "اضافه یا حذف"
+
+#: prdctfltr.php:269
+msgid "Choose from the most used"
+msgstr "انتخاب از بیشتر استفاده شده ها"
+
+#: prdctfltr.php:270
+msgid "No"
+msgstr "خیر"
+
+#: prdctfltr.php:270
+msgid "found"
+msgstr "یافتن"
+
+#: prdctfltr.php:270
+msgid "No Characteristics found"
+msgstr "خصوصیتی یافت نشد"
+
+#: templates/getright.php:79 templates/getright.php:98
+msgid "Load more"
+msgstr "بارگذاری بیشتر"
+
+#~ msgid "Automatic Updates"
+#~ msgstr "بروزرسانی خودکار"
+
+#~ msgid "Plugin not registered!"
+#~ msgstr "افزونه ثبت نشده است!"
+
+#~ msgid ""
+#~ "license is not registered. Please register! Click Register now button to "
+#~ "start."
+#~ msgstr "لایسنس شما ثبت نشده است. لطفا ثبت کنید! روی دکمه ثبت کلیک کنید."
+
+#~ msgid "Need help? Visit this link"
+#~ msgstr "کمک نیاز دارید؟ این لینک را ببینید"
+
+#~ msgid "How to register?"
+#~ msgstr "چگونه ثبت نام کنم؟"
+
+#~ msgid "Register now"
+#~ msgstr "حالا ثبت نام کنید"
+
+#~ msgid "Connecting to server"
+#~ msgstr "اتصال به سرور"
+
+#~ msgid "Remove license"
+#~ msgstr "حذف لایسنس"
+
+#~ msgid "Extend support"
+#~ msgstr "پشتیبانی گسترده"
+
+#~ msgid "Confirm key"
+#~ msgstr "کلید تایید"
+
+#~ msgid "Get key"
+#~ msgstr "دریافت کلید"
+
+#~ msgid "https://xforwoocommerce.com"
+#~ msgstr "https://xforwoocommerce.com"
+
+#~ msgid ""
+#~ "XforWooCommerce Themes and Plugins! Visit https://xforwoocommerce.com"
+#~ msgstr ""
+#~ "قالب ها و افزونه های XforWooCommerce!  مشاهده https://xforwoocommerce.com"
+
+#~ msgid "XforWooCommerce"
+#~ msgstr "XforWooCommerce"
+
+#~ msgid "Avalibility"
+#~ msgstr "دسترس پذیری"
+
+#~ msgid "Load More"
+#~ msgstr "بارگذاری بیشتر"
+
+#~ msgid "No More Products!"
+#~ msgstr "دیگر محصولات وجود ندارد!"
+
+#~ msgid "No products found"
+#~ msgstr "محصولی یافت نشد"

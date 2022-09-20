@@ -1,0 +1,119 @@
+@import "variables";
+@import "global";
+
+.invoice {
+    .template-4 {
+        &.container {
+            padding: 0 !important;
+        }
+        .shop-info {
+            text-align: center;
+            border-bottom: 3px solid #000;
+            .component.url {
+                margin-bottom: 10px;
+            }
+        }
+        .invoice-title {
+            background: #000;
+            color: #FFF;
+            font-size: 23px;
+            padding: 5px 30px;
+            display: inline-block;
+            position: relative;
+            bottom: 23px;
+            font-weight: bold;
+            border-radius: 22px;
+        }
+        .sender-customer-table {
+            margin: 20px 0;
+            td {
+                padding-top: 0;
+                vertical-align: top;
+            }
+            /*@media (max-width: $break_point) {
+                td {
+                    margin-bottom: 15px;
+                }
+            }*/
+        }
+        .products-table {
+            border: none;
+            text-align: left;
+            td.row span {
+                display: inline-block;
+                text-align: center;
+                background: #000;
+                color: #fff;
+                border-radius: 50%;
+                width: 34px;
+            }
+            @media (min-width: $break_point) {
+                th, td {
+                    border: none;
+                }
+                th {
+                    border-bottom: 3px solid #000;
+                }
+                tbody > tr:last-child td {
+                    border-bottom: 1px solid #000;
+                }
+                tfoot th {
+                    border: none;
+                }
+            }
+        }
+        .total-table {
+            border: none;
+            text-align: left;
+            width: 50%;
+            margin: 20px auto 20px 0;
+            th, td {
+                border: none;
+            }
+            /*@media (max-width: $break_point) {
+                width: 100%;
+                tbody tr:not(:last-child) td:last-child,
+                tbody tr:not(:last-child) th {
+                    border-bottom: none;
+                }
+            }*/
+            .final {
+                background: #000;
+                color: #fff;
+            }
+            th.final {
+                border-top-left-radius: 27px;
+                border-bottom-left-radius: 27px;
+            }
+            td.final {
+                border-top-right-radius: 27px;
+                border-bottom-right-radius: 27px;
+            }
+        }
+    }
+    &.rtl .template-4 {
+        .products-table {
+            text-align: right;
+        }
+        .total-table th.final {
+            border-radius: 0 27px 27px 0;
+        }
+        .total-table td.final {
+            border-radius: 27px 0 0 27px;
+        }
+    }
+    &.condensed .template-4 {
+        .sender-customer-table {
+            margin-top: 3px;
+            margin-bottom: 3px;
+        }
+        .total-table {
+            margin-top: 3px;
+            margin-bottom: 3px;
+        }
+        .customer-note, .order-note {
+            margin-top: 3px;
+            margin-bottom: 3px;
+        }
+    }
+}

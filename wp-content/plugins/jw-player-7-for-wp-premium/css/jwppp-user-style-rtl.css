@@ -1,0 +1,54 @@
+@font-face {
+	font-family: isans;
+	font-style: normal;
+	font-weight: 900;
+	src: url('fonts/eot/IRANSansWeb_Black.eot');
+	src: url('fonts/eot/IRANSansWeb_Black.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/IRANSansWeb_Black.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/IRANSansWeb_Black.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/ttf/IRANSansWeb_Black.ttf') format('truetype');
+}
+@font-face {
+	font-family: isans;
+	font-style: normal;
+	font-weight: bold;
+	src: url('fonts/eot/IRANSansWeb_Bold.eot');
+	src: url('fonts/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/IRANSansWeb_Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/IRANSansWeb_Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/ttf/IRANSansWeb_Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: isans;
+	font-style: normal;
+	font-weight: normal;
+	src: url('fonts/eot/IRANSansWeb.eot');
+	src: url('fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('fonts/woff2/IRANSansWeb.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('fonts/woff/IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('fonts/ttf/IRANSansWeb.ttf') format('truetype');
+}
+
+.rtl .jw-title-primary,.rtl .jw-title-secondary{float:right !important;text-align:right !important;direction: rtl !important;font-family:isans !important;}
+.rtl .jw-title-primary{font-weight:bold;}
+.rtl .jw-reset.jw-settings-content-item.jw-sharing-link{direction:rtl !important;}
+.rtl .jw-settings-content-item .jw-svg-icon{margin-right:0  !important;margin-left:1rem !important;}
+.rtl .jw-reset.jw-sharing-link{direction:rtl;float:right;}
+.rtl .jw-settings-content-item{float:right  !important;direction:rtl  !important;text-align:right  !important;font-family:isans !important;}
+.rtl .jw-reset.jw-settings-topbar{direction:rtl  !important;}
+.rtl .jw-settings-topbar .jw-settings-close{margin-right:auto !important;margin-left:0 !important;}
+.rtl .jw-related-container{direction:rtl !important;text-align:right !important;font-family:isans !important;}
+.rtl .jw-nextup-close{left:0 ;right : auto;}
+.rtl .jw-nextup-tooltip{text-align:right !important; direction:rtl;font-family:isans;}
+.rtl .jw-nextup-header,
+.rtl .jw-nextup-title {     text-align: right;    direction: rtl;    font-family: isans;}
+.rtl .jw-tooltip .jw-text{font-family:isans !important;}
+.rtl .jw-related-close{right:auto !important;left:0 !important;}
+.rtl .jw-related-item{float:right !important;}
+.rtl .jw-related-item.jw-related-item-next-up{max-height:400px;}
+.rtl .jw-button-color.jw-related-page-left{left:auto !important;right:0 !important}
+.rtl .jw-button-color.jw-related-page-left svg{transform: rotate(180deg);}
+.rtl .jw-related-page-right{left:0 !important;right:auto !important;}
+.rtl .jw-button-color.jw-related-page-right svg{transform: rotate(180deg);}
+img.question-mark {float: inherit; position: initial; padding-right: 2%;}

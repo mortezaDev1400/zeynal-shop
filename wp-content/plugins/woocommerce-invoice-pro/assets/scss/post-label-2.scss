@@ -1,0 +1,60 @@
+@import "variables";
+@import "global";
+
+
+.post-label {
+    .template-2 {
+        &.container {
+            border: none;
+        }
+        .shop-info {
+            .component {
+                display: inline-block;
+            }
+        }
+        .customer-phone-date {
+            .component {
+                display: inline-block;
+            }
+            .order-date {
+                float: right;
+            }
+        }
+        .logo-url {
+            text-align: center;
+            .url {
+                margin: 10px 0;
+            }
+        }
+        .customer-info {
+            .component {
+                display: inline-block;
+            }
+        }
+        .with-icon {
+            img {
+                float: left;
+                margin-right: 3px;
+            }
+            .component {
+                float: left;
+            }
+        }
+        .barcode {
+            text-align: center;
+        }
+    }
+    &.rtl .template-2 {
+        .customer-phone-date .order-date {
+            float: left;
+        }
+        .with-icon img {
+            float: right;
+            margin-right: 0;
+            margin-left: 3px;
+        }
+        .with-icon .component {
+            float: right;
+        }
+    }
+}

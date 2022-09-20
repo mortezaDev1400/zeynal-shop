@@ -1,0 +1,349 @@
+pre.xdebug-var-dump {
+  direction: ltr;
+  text-align: left;
+  font-family: monospace; }
+
+@page {
+  size: auto;
+  margin: 0; }
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    color-adjust: exact; } }
+@media print {
+  html, body {
+    height: 99%;
+    page-break-after: avoid;
+    page-break-before: avoid; } }
+* {
+  box-sizing: border-box; }
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em,
+img, ins, kbd, q, samp, small, strong, sub,
+sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption,
+tbody, tfoot, thead, tr, th, td, article,
+aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section,
+summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 34px;
+  color: #000;
+  font-size: 16px;
+  font-family: Tahoma, Arial, sans-serif; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+a {
+  color: #000;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none; }
+
+ul {
+  list-style: none; }
+
+ins {
+  text-decoration: none;
+  display: block; }
+
+del {
+  text-decoration: line-through;
+  display: block; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  max-width: 100%; }
+  table th, table td {
+    vertical-align: middle;
+    padding: 10px; }
+  table.table-fixed {
+    table-layout: fixed; }
+
+.button {
+  background: #FF6348;
+  color: #FFF;
+  text-align: center;
+  border-radius: 2px;
+  line-height: 46px;
+  cursor: pointer;
+  padding: 0 15px;
+  display: inline-block;
+  border: none;
+  font-size: 100%; }
+
+/*@media (max-width: $break_point) {
+    .table-responsive {
+        thead {
+            display: none;
+        }
+        td {
+            width: 100%;
+            display: block;
+        }
+    }
+}*/
+.table-bordered {
+  border: 1px solid #000;
+  /*@media (max-width: $break_point) {
+      th, td {
+          border: none;
+      }
+      tbody tr:not(:last-child) td:last-child {
+          border-bottom: 1px solid #000;
+      }
+  }*/ }
+  .table-bordered th, .table-bordered td {
+    border: 1px solid #000; }
+
+/*@media (max-width: $break_point) {
+    .total-table {
+        tbody tr:not(:last-child) td:last-child {
+            display: table-cell;
+            width: auto;
+        }
+        tbody tr:not(:last-child) th {
+            border-bottom: 1px solid #000;
+        }
+    }
+}*/
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.container {
+  position: relative;
+  border: 1px solid transparent;
+  padding: 10px; }
+
+.component {
+  margin: 0 5px; }
+  .component .title {
+    font-weight: bold;
+    display: inline-block;
+    margin: 0 5px; }
+  .component .content {
+    display: inline-block; }
+
+.barcode > * {
+  margin: auto; }
+.barcode desc {
+  display: none !important; }
+
+.products-table td .td-title {
+  display: none; }
+.products-table img.wp-post-image {
+  max-width: 100px; }
+.products-table .product-attributes li {
+  display: inline-block; }
+
+/*@media (max-width: $break_point) {
+    .products-table {
+        .row {
+            display: none;
+        }
+
+        td {
+            min-height: 54px;
+            text-align: right;
+        }
+
+        td .td-title {
+            font-weight: bold;
+            float: left;
+            margin-right: 5px;
+        }
+
+        tbody tr.even td {
+            background: rgba(72, 72, 72, 0.25);
+        }
+
+        tfoot {
+            display: none;
+        }
+    }
+    .rtl .products-table td {
+        text-align: left;
+
+        .td-title {
+            float: right;
+            margin-right: 0;
+            margin-left: 5px;
+        }
+    }
+}*/
+.profit-wrapper {
+  text-align: right;
+  margin: 10px 0; }
+  .profit-wrapper > div {
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 20px; }
+  .profit-wrapper .profit {
+    border-right: 1px solid #000; }
+
+.signature-table td {
+  vertical-align: top; }
+.signature-table .shop-signature .title,
+.signature-table .signature-customer .title {
+  display: block;
+  margin-bottom: 10px; }
+
+img.watermark {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+  z-index: 999; }
+
+.print {
+  text-align: center;
+  margin: 10px 0; }
+  @media print {
+    .print {
+      display: none; } }
+
+.condensed {
+  line-height: 20px; }
+  .condensed table th, .condensed table td {
+    padding: 1px; }
+  .condensed .profit-wrapper {
+    margin-top: 0;
+    margin-bottom: 0; }
+
+/*@media (max-width: $break_point) {
+    td.to-word {
+        display: table-cell;
+    }
+}*/
+.post-label .total-table {
+  border: none; }
+  .post-label .total-table tbody {
+    display: flex;
+    justify-content: center; }
+    .post-label .total-table tbody th, .post-label .total-table tbody td {
+      border: none;
+      padding-top: 0;
+      padding-bottom: 0; }
+    .post-label .total-table tbody tr:not(:last-child) td {
+      border-right: 1px solid #000000; }
+
+.rtl {
+  text-align: right;
+  direction: rtl; }
+  .rtl .container {
+    text-align: right;
+    direction: rtl; }
+  .rtl .profit-wrapper .profit {
+    border-left: 1px solid #000;
+    border-right: none; }
+  .rtl.post-label .total-table tbody tr:not(:last-child) td {
+    border-right: none;
+    border-left: 1px solid #000000; }
+
+.invoice .template-4.container {
+  padding: 0 !important; }
+.invoice .template-4 .shop-info {
+  text-align: center;
+  border-bottom: 3px solid #000; }
+  .invoice .template-4 .shop-info .component.url {
+    margin-bottom: 10px; }
+.invoice .template-4 .invoice-title {
+  background: #000;
+  color: #FFF;
+  font-size: 23px;
+  padding: 5px 30px;
+  display: inline-block;
+  position: relative;
+  bottom: 23px;
+  font-weight: bold;
+  border-radius: 22px; }
+.invoice .template-4 .sender-customer-table {
+  margin: 20px 0;
+  /*@media (max-width: $break_point) {
+      td {
+          margin-bottom: 15px;
+      }
+  }*/ }
+  .invoice .template-4 .sender-customer-table td {
+    padding-top: 0;
+    vertical-align: top; }
+.invoice .template-4 .products-table {
+  border: none;
+  text-align: left; }
+  .invoice .template-4 .products-table td.row span {
+    display: inline-block;
+    text-align: center;
+    background: #000;
+    color: #fff;
+    border-radius: 50%;
+    width: 34px; }
+  @media (min-width: 576px) {
+    .invoice .template-4 .products-table th, .invoice .template-4 .products-table td {
+      border: none; }
+    .invoice .template-4 .products-table th {
+      border-bottom: 3px solid #000; }
+    .invoice .template-4 .products-table tbody > tr:last-child td {
+      border-bottom: 1px solid #000; }
+    .invoice .template-4 .products-table tfoot th {
+      border: none; } }
+.invoice .template-4 .total-table {
+  border: none;
+  text-align: left;
+  width: 50%;
+  margin: 20px auto 20px 0;
+  /*@media (max-width: $break_point) {
+      width: 100%;
+      tbody tr:not(:last-child) td:last-child,
+      tbody tr:not(:last-child) th {
+          border-bottom: none;
+      }
+  }*/ }
+  .invoice .template-4 .total-table th, .invoice .template-4 .total-table td {
+    border: none; }
+  .invoice .template-4 .total-table .final {
+    background: #000;
+    color: #fff; }
+  .invoice .template-4 .total-table th.final {
+    border-top-left-radius: 27px;
+    border-bottom-left-radius: 27px; }
+  .invoice .template-4 .total-table td.final {
+    border-top-right-radius: 27px;
+    border-bottom-right-radius: 27px; }
+.invoice.rtl .template-4 .products-table {
+  text-align: right; }
+.invoice.rtl .template-4 .total-table th.final {
+  border-radius: 0 27px 27px 0; }
+.invoice.rtl .template-4 .total-table td.final {
+  border-radius: 27px 0 0 27px; }
+.invoice.condensed .template-4 .sender-customer-table {
+  margin-top: 3px;
+  margin-bottom: 3px; }
+.invoice.condensed .template-4 .total-table {
+  margin-top: 3px;
+  margin-bottom: 3px; }
+.invoice.condensed .template-4 .customer-note, .invoice.condensed .template-4 .order-note {
+  margin-top: 3px;
+  margin-bottom: 3px; }

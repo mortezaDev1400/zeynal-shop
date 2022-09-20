@@ -1,0 +1,63 @@
+@import "admin-variables";
+
+.wip-options .wip-side-menu .wip-plugin-name img {
+    margin-right: 0;
+    float: right;
+    margin-left: 10px;
+}
+
+.wip-options .wip-side-menu .wip-menu-item a {
+    border-left: none;
+    border-right: 3px solid transparent;
+}
+
+.wip-options .wip-side-menu .wip-menu-item a.wip-active,
+.wip-options .wip-side-menu .wip-menu-item a:hover {
+    border-right-color: $primary;
+}
+
+.wip-options .wip-options-content {
+    padding-right: 0;
+}
+
+.wip-options .wip-side-menu .wip-menu-item .wip-menu-icon {
+    float: left;
+}
+
+.wip-options .wip-description .uk-icon {
+    margin-right: 0;
+    margin-left: 3px;
+}
+
+.uk-form-custom .uk-button-default {
+    text-align: right;
+}
+
+.uk-form-custom .uk-button-default .uk-icon {
+    float: left;
+}
+
+.wip-upload-file-wrapper .wip-remove {
+    right: auto;
+    left: 5px;
+}
+
+.wip-upload-file-wrapper .wip-remove + .wip-url {
+    left: 30px;
+    right: unset;
+}
+
+.wip-confirm-activation:before {
+    left: auto;
+    right: 15px;
+}
+
+.wip-options .wip-options-content .wip-save .loader {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+.wip-custom-alert .wip-custom-alert-icon {
+    left: 10px;
+    right: unset;
+}

@@ -1,0 +1,43 @@
+@import "variables";
+@import "global";
+
+.order-label {
+    .component {
+        display: inline-block;
+        margin: 0;
+    }
+
+    .shop-info {
+        text-align: center;
+
+        img {
+            max-width: 22px;
+            height: auto;
+            position: relative;
+            top: 4px;
+        }
+    }
+
+    .barcode {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .component.order-id {
+        display: block;
+        text-align: center;
+        line-height: 10px;
+
+        .title {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .table-bordered {
+        th, td {
+            border: 1px solid #000;
+        }
+    }
+}

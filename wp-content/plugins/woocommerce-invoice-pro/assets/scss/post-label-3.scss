@@ -1,0 +1,64 @@
+@import "variables";
+@import "global";
+
+.post-label {
+    .template-3 {
+        background-image: repeating-linear-gradient(135deg, #CF2004 0px, #CF2004 15px, transparent 15px, transparent 25px, #3EA8F2 25px, #3EA8F2 40px, transparent 40px, transparent 50px);
+        padding: 10px;
+
+        &.container {
+            border: none;
+        }
+
+        .inner {
+            background: #FFF;
+            height: 100%;
+            padding: 15px;
+        }
+
+        .stamp-placeholder {
+            border-color: #b7b7b7;
+            width: 160px;
+            height: 180px;
+            margin: auto;
+            color: #b7b7b7;
+
+            td {
+                border: none;
+                text-align: center;
+            }
+        }
+
+        .shop-logo {
+            text-align: center;
+        }
+
+        .operations {
+            text-align: center;
+            color: #b7b7b7;
+        }
+
+        tfoot td > div {
+            text-align: center;
+
+            .component {
+                display: inline-block;
+                margin: 0;
+                padding: 0 10px;
+            }
+
+            .component:not(:last-child) {
+                border-right: 1px solid #000;
+            }
+        }
+    }
+
+    &.rtl .template-3 {
+        tfoot td > div {
+            .component:not(:last-child) {
+                border-right: none;
+                border-left: 1px solid #000;
+            }
+        }
+    }
+}

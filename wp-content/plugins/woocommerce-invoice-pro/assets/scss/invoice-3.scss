@@ -1,0 +1,114 @@
+@import "variables";
+@import "global";
+
+.invoice {
+    .template-3 {
+        &.container {
+            padding: 0 !important;
+        }
+        .shop-info {
+            color: #FFF;
+            background: #000;
+            .invoice-title {
+                font-size: 46px;
+            }
+        }
+        .shop-info2 {
+            margin: 20px 0;
+            td {
+                padding-left: 0;
+            }
+        }
+        .sender-customer-table {
+            margin: 20px 0;
+            td {
+                padding-top: 0;
+                vertical-align: top;
+                border-left: 4px solid #000;
+            }
+            /*@media (max-width: $break_point) {
+                td {
+                    margin-bottom: 15px;
+                }
+            }*/
+        }
+        .products-table {
+            border: none;
+            text-align: left;
+            @media (min-width: $break_point) {
+                th, td {
+                    border: none;
+                    border-bottom: 1px solid #000;
+                }
+            }
+            th {
+                border-bottom: 3px solid #000;
+            }
+            tfoot th {
+                border-bottom-width: 1px;
+            }
+        }
+        .total-table {
+            border: none;
+            text-align: left;
+            width: 50%;
+            margin: 20px auto 20px 0;
+            th, td {
+                border: none;
+            }
+            /*@media (max-width: $break_point) {
+                width: 100%;
+                tbody tr:not(:last-child) td:last-child {
+                    border-bottom: none;
+                }
+            }*/
+        }
+        .customer-note, .order-note {
+            border-left: 4px solid #000;
+            padding-left: 20px;
+            margin: 20px 0;
+        }
+    }
+    &.rtl .template-3 {
+        .sender-customer-table td {
+            border-left: none;
+            border-right: 4px solid #000;
+        }
+        .products-table {
+            text-align: right;
+        }
+        .customer-note, .order-note {
+            border-left: none;
+            padding-left: 0;
+            border-right: 4px solid #000;
+            padding-right: 20px;
+        }
+    }
+    &.condensed .template-3 {
+        .shop-info .invoice-title {
+            font-size: 35px;
+        }
+        .shop-info2 {
+            margin-top: 3px;
+            margin-bottom: 3px;
+        }
+        .sender-customer-table {
+            margin-top: 3px;
+            margin-bottom: 3px;
+        }
+        .total-table td.final:after {
+            border-top-width: 16px;
+            border-bottom-width: 16px;
+            border-left-width: 16px;
+            right: -16px
+        }
+        .total-table {
+            margin-top: 3px;
+            margin-bottom: 3px;
+        }
+        .customer-note, .order-note {
+            margin-top: 3px;
+            margin-bottom: 3px;
+        }
+    }
+}

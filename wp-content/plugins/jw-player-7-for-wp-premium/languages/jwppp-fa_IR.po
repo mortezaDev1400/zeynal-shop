@@ -1,0 +1,1310 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: JW Player for Wordpress - Premium\n"
+"POT-Creation-Date: 2022-08-02 11:17+0430\n"
+"PO-Revision-Date: 2022-08-02 13:21+0430\n"
+"Last-Translator: \n"
+"Language-Team: WwW.Samandon.CoM | وبسایـــت سمنــــــدون\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: admin/activatezhk/jwp_license.php:105 admin/activatezhk/jwp_license.php:106
+msgid "Register version"
+msgstr "ثبت لایسنس"
+
+#: admin/activatezhk/jwp_license.php:392 admin/activatezhk/jwp_license.php:460
+msgid "Please insert your license code"
+msgstr "لطفا کلید لایسنس خود را وارد کنید"
+
+#: admin/activatezhk/jwp_license.php:408
+msgid "License code is valid."
+msgstr "کلید لایسنس معتبر است."
+
+#: admin/activatezhk/jwp_license.php:412 admin/activatezhk/jwp_license.php:474
+msgid "Thanks! Your license activated successfully."
+msgstr "با تشکر! لایسنس شما با موفقیت فعال شد."
+
+#: admin/activatezhk/jwp_license.php:439
+#, php-format
+msgid "To activating your %s please insert you license key"
+msgstr "برای فعال کردن افزونه %s ، لطفاً کلید لایسنس خود را وارد کنید"
+
+#: admin/activatezhk/jwp_license.php:446
+#, php-format
+msgid "There is something wrong with your %s license. please check it."
+msgstr "مشکلی در لایسنس %s شما وجود دارد. لطفا آن را چک کنید."
+
+#: admin/jwppp-admin-ads.php:220
+msgid "Active Video Ads"
+msgstr "فعال کردن تبلیغات ویدیویی"
+
+#: admin/jwppp-admin-ads.php:225
+msgid "Add a <strong>Basic Preroll Video Ads</strong>"
+msgstr "یک <strong>تبلیغات ویدیویی اولیه قبل از پخش</strong> اضافه کنید"
+
+#: admin/jwppp-admin-ads.php:226
+msgid ""
+"This option is only available with the <u>JW Player Enterprise license</u> -- "
+"details <a href=\"https://www.jwplayer.com/pricing/\" target=\"_blank\">here</"
+"a> "
+msgstr ""
+"این گزینه تنها با خرید لایسنس <u> سازمانی JWPlayer </u> امکان پذیر است. <a href="
+"\"https://www.jwplayer.com/pricing/\" target=\"_blank\">جزئیات بیشتر</a> "
+
+#: admin/jwppp-admin-ads.php:232
+msgid "Ads Variable"
+msgstr "متغیرهای تبلیغاتی"
+
+#: admin/jwppp-admin-ads.php:237
+msgid "Use an advertising embed block variable"
+msgstr "از یک متغیر بلوک جاسازی تبلیغاتی استفاده کنید"
+
+#: admin/jwppp-admin-ads.php:243
+msgid "Ads variable name"
+msgstr "نام متغیر تبلیغات"
+
+#: admin/jwppp-admin-ads.php:246
+msgid "Add the name of the advertising variable."
+msgstr "نام متغیر تبلیغاتی را اضافه کنید."
+
+#: admin/jwppp-admin-ads.php:252
+msgid "Ads Client"
+msgstr "Client تبلیغات"
+
+#: admin/jwppp-admin-ads.php:262
+msgid ""
+"Select your ADS Client. More info <a href=\"https://support.jwplayer.com/"
+"customer/portal/articles/1431638-ad-formats-reference\" target=\"_blank\">here</"
+"a>"
+msgstr ""
+"مشتری ADS خود را انتخاب کنید. اطلاعات بیشتر <a href=\"https://support.jwplayer."
+"com/customer/portal/articles/1431638-ad-formats-reference\" target=\"_blank"
+"\">در اینجا</a>"
+
+#: admin/jwppp-admin-ads.php:273
+msgid "Ad Tags"
+msgstr "برچسب های تبلیغ"
+
+#: admin/jwppp-admin-ads.php:291
+msgid "Ad tag URL | Ad Tag Name"
+msgstr "آدرس برچسب تبلیغات | نام برچسب تبلیغات"
+
+#: admin/jwppp-admin-ads.php:297
+msgid "Ad Skipping"
+msgstr "رد شدن از تبلیغ"
+
+#: admin/jwppp-admin-ads.php:300
+msgid "Total seconds viewers must watch an ad before being allowed to skip"
+msgstr ""
+"مجموع ثانیه هایی که کاربر مجبور است ویدیو را ببیند سپس حق استفاده از رد شدن از "
+"آگهی را دارد"
+
+#: admin/jwppp-admin-ads.php:306
+msgid "Player Bidding"
+msgstr "Player Bidding"
+
+#: admin/jwppp-admin-ads.php:311
+msgid "Enable Video Player Bidding"
+msgstr "فعال کردن Player Bidding"
+
+#: admin/jwppp-admin-ads.php:313
+msgid ""
+"All the benefits of Header Bidding are now built directly into your JW Player. "
+"With a simple one-click integration, you get access to quality demand at scale "
+"with reduced latency. SpotX is the leading video ad serving platform and gives "
+"publishers control, transparency and insights to maximize revenue.<br><a href="
+"\"https://support.jwplayer.com/articles/how-to-setup-video-player-bidding\" "
+"target=\"_blank\">Contact SpotX to get started</a>"
+msgstr ""
+"همه مزایای Header Bidding اکنون مستقیماً در JW Player شما تعبیه شده است. با یک "
+"ادغام ساده با یک کلیک، به تقاضای کیفیت در مقیاس با تاخیر کمتر دسترسی خواهید "
+"داشت. SpotX پلتفرم پیشرو در ارائه تبلیغات ویدیویی است و به ناشران کنترل، شفافیت "
+"و بینش برای به حداکثر رساندن درآمد می دهد.<br><a href=\"https://support."
+"jwplayer.com/articles/how-to-setup-video-player- bidding\" target=\"_blank"
+"\">برای شروع با SpotX تماس بگیرید</a>"
+
+#: admin/jwppp-admin-ads.php:319
+msgid "Ad partners"
+msgstr "شرکای تبلیغاتی"
+
+#: admin/jwppp-admin-ads.php:339
+msgid "Select your ad partners"
+msgstr "انتخاب شرکای تبلیغاتی خود"
+
+#: admin/jwppp-admin-ads.php:345
+msgid "Mediation"
+msgstr "واسطه"
+
+#: admin/jwppp-admin-ads.php:351
+msgid "JW Player"
+msgstr "پخش کننده JW"
+
+#: admin/jwppp-admin-ads.php:356
+msgid "JW Player + DFP"
+msgstr "پخش کننده JW + DFP"
+
+#: admin/jwppp-admin-ads.php:361
+msgid "Google Ad Manager"
+msgstr "مدیریت تبلغات گوگل"
+
+#: admin/jwppp-admin-ads.php:366
+msgid "SpotX as Primary Adserver"
+msgstr "SpotX به عنوان سرور تبلیغات اولیه"
+
+#: admin/jwppp-admin-ads.php:368
+msgid "Select mediation option"
+msgstr "گزینه واسطه را انتخاب کنید"
+
+#: admin/jwppp-admin-ads.php:374
+msgid "Floor Price"
+msgstr "قیمت Floor"
+
+#: admin/jwppp-admin-ads.php:378
+msgid "Set floor price"
+msgstr "قیمت Floor را تنظیم کنید"
+
+#: admin/jwppp-admin-ads.php:384
+msgid "Price Range"
+msgstr "محدوده قیمت"
+
+#: admin/jwppp-admin-ads.php:388
+msgid "Nearest increment to which a bid is rounded down, in bidding currency\t"
+msgstr "نزدیکترین افزایشی که یک پیشنهاد به آن گرد می شود، به ارز پیشنهادی\t"
+
+#: admin/jwppp-admin-ads.php:391
+msgid "Maximum value of a price bucket, in bidding currency"
+msgstr "حداکثر مقدار یک سطل قیمت، به ارز پیشنهادی"
+
+#: admin/jwppp-admin-ads.php:394
+msgid "Minimum value of a price bucket, in bidding currency"
+msgstr "حداقل مقدار یک سطل قیمت، به ارز پیشنهادی"
+
+#: admin/jwppp-admin-ads.php:400
+msgid "GDPR"
+msgstr "GDPR"
+
+#: admin/jwppp-admin-ads.php:405
+msgid "Enable GDPR"
+msgstr "فعال کردن GDPR"
+
+#: admin/jwppp-admin-ads.php:409 admin/jwppp-admin-ads.php:440
+msgid "IAB"
+msgstr "IAB"
+
+#: admin/jwppp-admin-ads.php:412 admin/jwppp-admin-ads.php:443
+msgid "Static"
+msgstr "استاتیک"
+
+#: admin/jwppp-admin-ads.php:414 admin/jwppp-admin-ads.php:445
+msgid "The CMP interface that is in use."
+msgstr "رابط CMP که در حال استفاده است."
+
+#: admin/jwppp-admin-ads.php:416 admin/jwppp-admin-ads.php:447
+msgid ""
+"Length of time (in milliseconds) to allow the CMP to obtain the GDPR consent "
+"string"
+msgstr "مدت زمانی (بر حسب میلی ثانیه) تا CMP بتواند رشته رضایت GDPR را بدست آورد"
+
+#: admin/jwppp-admin-ads.php:420
+msgid "False"
+msgstr "خیر"
+
+#: admin/jwppp-admin-ads.php:423
+msgid "True"
+msgstr "بله"
+
+#: admin/jwppp-admin-ads.php:425
+msgid ""
+"Defines what the gdprApplies flag should be when the CMP doesn’t respond in "
+"time or the static data doesn’t supply."
+msgstr ""
+"زمانی که CMP به موقع پاسخ نمی‌دهد یا داده‌های استاتیک ارائه نمی‌شوند، پرچم GDPR "
+"Applies را تعریف می‌کند."
+
+#: admin/jwppp-admin-ads.php:431
+msgid "CCPA"
+msgstr "CCPA"
+
+#: admin/jwppp-admin-ads.php:436
+msgid "Enable CCPA"
+msgstr "فعال کردن CCPA"
+
+#: admin/jwppp-admin-ads.php:457 admin/jwppp-admin-security.php:84
+#: admin/jwppp-admin-sharing.php:81
+msgid "Save options"
+msgstr "ذخیره تنظیمات"
+
+#: admin/jwppp-admin-playlist-carousel.php:36
+msgid "Title"
+msgstr "عنوان"
+
+#: admin/jwppp-admin-playlist-carousel.php:38
+msgid "More videos"
+msgstr "ویدیو های بیشتر"
+
+#: admin/jwppp-admin-playlist-carousel.php:39
+msgid "Add a title for the playlist widget"
+msgstr "عنوانی برای ابزارک لیست پخش اضافه کنید"
+
+#: admin/jwppp-admin-playlist-carousel.php:43
+msgid "Text color"
+msgstr "رنگ متن"
+
+#: admin/jwppp-admin-playlist-carousel.php:46
+msgid "Set the text color for the playlist widget"
+msgstr "رنگ متن را برای ابزارک لیست پخش تنظیم کنید"
+
+#: admin/jwppp-admin-playlist-carousel.php:51
+msgid "Background color"
+msgstr "رنگ پس زمینه"
+
+#: admin/jwppp-admin-playlist-carousel.php:54
+msgid "Set the background color for the playlist widget"
+msgstr "رنگ پس زمینه ابزارک لیست پخش را تنظیم کنید"
+
+#: admin/jwppp-admin-playlist-carousel.php:59
+msgid "Icon color"
+msgstr "رنگ ایکون"
+
+#: admin/jwppp-admin-playlist-carousel.php:62
+msgid "Set the icon color for the playlist widget"
+msgstr "رنگ آیکون را برای ابزارک لیست پخش تنظیم کنید"
+
+#: admin/jwppp-admin-playlist-carousel.php:71
+#: admin/jwppp-admin-related-posts.php:134 admin/jwppp-admin-subtitles.php:120
+#: admin/skin/jwppp-admin-skin-7.php:107 admin/skin/jwppp-admin-skin-8.php:111
+msgid "Save chages"
+msgstr "ذخیره تغییرات"
+
+#: admin/jwppp-admin-related-posts.php:57
+msgid "Active Related Posts option"
+msgstr "فعال کردن پست های مرتبط"
+
+#: admin/jwppp-admin-related-posts.php:62
+msgid "Show Related Posts overlay as default option."
+msgstr "نمایش همپوشانی پست های مرتبط به عنوان گزینه پیش فرض."
+
+#: admin/jwppp-admin-related-posts.php:68
+msgid "Next Up tooltip"
+msgstr "راهنما بعدی"
+
+#: admin/jwppp-admin-related-posts.php:71
+msgid "Related Posts"
+msgstr "پست های مرتبط"
+
+#: admin/jwppp-admin-related-posts.php:72
+msgid "Title of the Next Up tooltip in Related mode, default is Related."
+msgstr "عنوان راهنما بعدی در حالت مرتبط ، پیش فرض مرتبط است."
+
+#: admin/jwppp-admin-related-posts.php:78
+msgid "Related image"
+msgstr "تصویر مرتبط"
+
+#: admin/jwppp-admin-related-posts.php:84
+msgid "Featured image"
+msgstr "تصویر ویژه"
+
+#: admin/jwppp-admin-related-posts.php:88
+msgid "Custom field"
+msgstr "فیلد سفارشی"
+
+#: admin/jwppp-admin-related-posts.php:91
+msgid "Select how get images for related contents."
+msgstr "نحوه دریافت تصاویر برای مطالب مرتبط را انتخاب کنید."
+
+#: admin/jwppp-admin-related-posts.php:96 admin/jwppp-admin-related-posts.php:99
+msgid "Custom field name"
+msgstr "نام فیلد سفارشی"
+
+#: admin/jwppp-admin-related-posts.php:100
+msgid "Add the name of the custom field you want to use."
+msgstr "نام فیلد سفارشی را که می خواهید استفاده کنید اضافه کنید."
+
+#: admin/jwppp-admin-related-posts.php:123 includes/jwppp-functions.php:352
+#: includes/jwppp-functions.php:362
+msgid "Video categories"
+msgstr "دسته های ویدیو"
+
+#: admin/jwppp-admin-related-posts.php:129
+msgid ""
+"Select an existing taxonomy or create the new \"Video categories\" to get more "
+"specific related posts."
+msgstr ""
+"یک طبقه‌بندی موجود را انتخاب کنید یا \"دسته‌های ویدیویی\" جدید را ایجاد کنید تا "
+"پست‌های مرتبط بیشتری را دریافت کنید."
+
+#: admin/jwppp-admin-security.php:49
+msgid "Secure Video URLs"
+msgstr "آدرس های ویدئویی ایمن"
+
+#: admin/jwppp-admin-security.php:54 admin/jwppp-admin-security.php:65
+msgid ""
+"Must match setting on JW Platform Account > Properties > (Choose Property) "
+"settings"
+msgstr ""
+"باید تنظیمات را در JW Platform Account > Properties > (Choose Property) تنظیمات "
+"داشته باشد"
+
+#: admin/jwppp-admin-security.php:60
+msgid "Secure Player Embeds"
+msgstr "جاسازی های پخش امن"
+
+#: admin/jwppp-admin-security.php:71
+msgid "Set timeout"
+msgstr "تنظیم اتمام مهلت"
+
+#: admin/jwppp-admin-security.php:74
+msgid "Timeout in minutes"
+msgstr "اتمام مهلت در دقیقه"
+
+#: admin/jwppp-admin-sharing.php:46
+msgid "Activate Sharing Option"
+msgstr "فعال کردن اشتراک گذاری ویدو"
+
+#: admin/jwppp-admin-sharing.php:51
+msgid "Activate sharing option -- can be changed on single video."
+msgstr "فعال کردن گزینه اشتراک گذاری -- می تواند در یک ویدیو تغییر کند."
+
+#: admin/jwppp-admin-sharing.php:57
+msgid "Heading"
+msgstr "سربرگ"
+
+#: admin/jwppp-admin-sharing.php:59 includes/jwppp-player-code.php:403
+#: includes/jwppp-player-code.php:464
+msgid "Share Video"
+msgstr "اشتراک گذاری ویدیو"
+
+#: admin/jwppp-admin-sharing.php:60
+msgid "Add a custom heading, default is <strong>Share Video</strong>"
+msgstr "یک عنوان سفارشی اضافه کنید، پیش‌فرض <strong>اشتراک‌گذاری ویدیو</strong> است"
+
+#: admin/jwppp-admin-sharing.php:66
+msgid "Active embed option"
+msgstr "فعال کردن گزینه جاسازی (embed)"
+
+#: admin/jwppp-admin-sharing.php:71
+msgid ""
+"Active <strong>embed video</strong> as default option. You'll be able to change "
+"it on single video."
+msgstr ""
+"<strong> جاسازی ویدیو</strong> به عنوان گزینه پیش فرض فعال است. شما می توانید "
+"آن را در یک ویدیو واحد تغییر دهید."
+
+#: admin/jwppp-admin-subtitles.php:19
+msgid "Please, insert a valid color."
+msgstr "لطفا، یک رنگ معتبر وارد کنید."
+
+#: admin/jwppp-admin-subtitles.php:51
+msgid "Please, insert a valid background color."
+msgstr "لطفا یک رنگ پس زمینه معتبر وارد کنید."
+
+#: admin/jwppp-admin-subtitles.php:67
+msgid "Text Color"
+msgstr "رنگ متن"
+
+#: admin/jwppp-admin-subtitles.php:70
+msgid "Color of subtitles text."
+msgstr "رنگ متن زیرنویس."
+
+#: admin/jwppp-admin-subtitles.php:75
+msgid "Font Size"
+msgstr "اندازه فونت"
+
+#: admin/jwppp-admin-subtitles.php:78
+msgid "Font size of subtitles."
+msgstr "اندازه فونت زیرنویس را انتخاب نمایید."
+
+#: admin/jwppp-admin-subtitles.php:83
+msgid "Font Family"
+msgstr "نوع فونت"
+
+#: admin/jwppp-admin-subtitles.php:86
+msgid "Font family of subtitles."
+msgstr "نوع فونت زیرنویس را انتخاب نمایید."
+
+#: admin/jwppp-admin-subtitles.php:91
+msgid "Font Opacity"
+msgstr "شفافیت فونت"
+
+#: admin/jwppp-admin-subtitles.php:94 admin/jwppp-admin-subtitles.php:110
+msgid "Opacity of subtitles."
+msgstr "شفافیت زیرنویس ها."
+
+#: admin/jwppp-admin-subtitles.php:99
+msgid "Background Color"
+msgstr "رنگ پس زمینه"
+
+#: admin/jwppp-admin-subtitles.php:102
+msgid "Background color of subtitles."
+msgstr "رنگ پس زمینه زیرنویس."
+
+#: admin/jwppp-admin-subtitles.php:107
+msgid "Background Opacity"
+msgstr "شفافیت پس زمینه"
+
+#: admin/jwppp-admin.php:383
+msgid "The Ad partner"
+msgstr "شریک تبلیغاتی"
+
+#: admin/jwppp-admin.php:385
+msgid "Add a Channel ID"
+msgstr "افزودن یک شناسه کانال"
+
+#: admin/jwppp-admin.php:386
+msgid ""
+"Identifier issued by the bidding partner that represents a segment of a "
+"publisher's inventory"
+msgstr "شناسه صادر شده توسط شریک مناقصه که نشان دهنده بخشی از موجودی ناشر است"
+
+#: admin/jwppp-admin.php:389
+msgid "Delivery domain"
+msgstr "دامنه تحویل"
+
+#: admin/jwppp-admin.php:390
+msgid "The delivey domain provided by OpenX"
+msgstr "دامنه تحویل ارائه شده توسط OpenX"
+
+#: admin/jwppp-admin.php:394
+msgid "Site ID"
+msgstr "شناسه (ID) سایت"
+
+#: admin/jwppp-admin.php:395
+msgid "The site id required by Rubicon"
+msgstr "شناسه سایت مورد نیاز Rubicon"
+
+#: admin/jwppp-admin.php:399
+msgid "Zone ID"
+msgstr "شناسه منطقه(Zone)"
+
+#: admin/jwppp-admin.php:400
+msgid "The zone id required by Rubicon"
+msgstr "شناسه منطقه مورد نیاز Rubicon"
+
+#: admin/jwppp-admin.php:404
+msgid "Inventory code"
+msgstr "کد موجودی"
+
+#: admin/jwppp-admin.php:405
+msgid "The inventory code required by AppNexus"
+msgstr "کد موجودی مورد نیاز AppNexus"
+
+#: admin/jwppp-admin.php:409
+msgid "Member id"
+msgstr "شناسه عضو"
+
+#: admin/jwppp-admin.php:410
+msgid "The member id required by AppNexus"
+msgstr "شناسه عضو مورد نیاز AppNexus"
+
+#: admin/jwppp-admin.php:414
+msgid "Publisher id"
+msgstr "شناسه ناشر"
+
+#: admin/jwppp-admin.php:415
+msgid "The publisher id required by AppNexus"
+msgstr "شناسه ناشر مورد نیاز AppNexus"
+
+#: admin/jwppp-admin.php:441
+msgid "It looks like you do not have sufficient permissions to view this page."
+msgstr "به نظر می رسد مجوز کافی برای مشاهده این صفحه را ندارید."
+
+#: admin/jwppp-admin.php:452 includes/jwppp-functions.php:34
+msgid "JW Player for WordPress - Premium"
+msgstr "JW Player برای وردپرس - نسخه پرمیوم"
+
+#: admin/jwppp-admin.php:498
+msgid "Player library URL"
+msgstr "آدرس کتابخانه پخش کننده"
+
+#: admin/jwppp-admin.php:502
+msgid "Cloud-hosted or self-hosted player library URL"
+msgstr "آدرس کتابخانه پخش‌کننده با هاست ابری یا هاست خودتان"
+
+#: admin/jwppp-admin.php:538
+msgid "API v2 Credentials"
+msgstr "اعتبارنامه API v2"
+
+#: admin/jwppp-admin.php:542
+msgid "Add your Site ID"
+msgstr "افزودن شناسه سایت خود"
+
+#: admin/jwppp-admin.php:544
+msgid "Add your API Secret"
+msgstr "افزودن API Secret"
+
+#: admin/jwppp-admin.php:545
+msgid "Site ID and API Secret"
+msgstr "شناسه سایت و API Secret"
+
+#: admin/jwppp-admin.php:563
+msgid "Post types"
+msgstr "انواع پست"
+
+#: admin/jwppp-admin.php:584
+msgid "Content types that use video"
+msgstr "انواع محتوایی که از ویدئو استفاده می کنند"
+
+#: admin/jwppp-admin.php:595
+msgid "Video Player position"
+msgstr "موقعیت ویدیو"
+
+#: admin/jwppp-admin.php:600
+msgid "Before the content"
+msgstr "قبل از محتوا"
+
+#: admin/jwppp-admin.php:603
+msgid "After the content"
+msgstr "بعد از محتوا"
+
+#: admin/jwppp-admin.php:606
+msgid "Custom"
+msgstr "دلخواه"
+
+#: admin/jwppp-admin.php:610
+msgid ""
+"Position of the video embed. Custom position requires use of shortcode <b>[jwp-"
+"video]</b> provided by the plugin."
+msgstr ""
+"موقعیت جاسازی ویدیو را مشخص کنید، موقعیت سفارشی نیاز به استفاده از کد کوتاه "
+"<b>[jwp-video]</b> ارائه شده توسط افزونه دارد."
+
+#: admin/jwppp-admin.php:627
+msgid "Auto thumbnail"
+msgstr "تصویر شاخص خودکار"
+
+#: admin/jwppp-admin.php:632
+msgid "Use video poster image as post thumbnail."
+msgstr "از تصویر پوستر ویدیویی به عنوان تصویر شاخص پست استفاده کنید."
+
+#: admin/jwppp-admin.php:646
+msgid "Default poster image"
+msgstr "تصویر پیش فرض ویدئوها"
+
+#: admin/jwppp-admin.php:649
+msgid "Default poster image URL."
+msgstr "آدرس تصویر پوستر پیش فرض."
+
+#: admin/jwppp-admin.php:661
+msgid "Post thumbnail"
+msgstr "تصویر شاخص پست"
+
+#: admin/jwppp-admin.php:665
+msgid "Use the post thumbnail"
+msgstr "استفاده از تصویر شاخص"
+
+#: admin/jwppp-admin.php:666
+msgid "Use post thumbnail as poster image."
+msgstr "از تصویر شاخص پست به عنوان تصویر پوستر استفاده کنید."
+
+#: admin/jwppp-admin.php:678
+msgid "Video Loading Message"
+msgstr "پیام بارگذاری ویدیو"
+
+#: admin/jwppp-admin.php:680 includes/jwppp-functions.php:673
+#: includes/jwppp-player-code.php:174 includes/jwppp-player-code.php:256
+msgid "Loading the player..."
+msgstr "در حال بارگذاری پخش کننده..."
+
+#: admin/jwppp-admin.php:681
+msgid "Video loading message."
+msgstr "یک پیام دلخواه برای زمانی که ویدیو در حال بارگذاری هست را وارد نمائید."
+
+#: admin/jwppp-admin.php:693
+msgid "Player Embed Type"
+msgstr "نوع embed پخش کننده"
+
+#: admin/jwppp-admin.php:698
+msgid "Fixed"
+msgstr "ثابت"
+
+#: admin/jwppp-admin.php:701
+msgid "Responsive"
+msgstr "ریسپانسیو"
+
+#: admin/jwppp-admin.php:703
+msgid "Player embed type."
+msgstr "نوع جاسازی پخش کننده."
+
+#: admin/jwppp-admin.php:722
+msgid "Fixed measures"
+msgstr "اندازه ثابت"
+
+#: admin/jwppp-admin.php:743 admin/jwppp-admin.php:748
+msgid "Player width"
+msgstr "عرض پخش کننده"
+
+#: admin/jwppp-admin.php:760
+msgid "Player Aspect Ratio"
+msgstr "نسبت ابعاد پخش کننده"
+
+#: admin/jwppp-admin.php:773
+msgid "Player aspect ratio"
+msgstr "نسبت ابعاد پخش کننده"
+
+#: admin/jwppp-admin.php:785
+msgid "Logo Image"
+msgstr "تصویر لوگو"
+
+#: admin/jwppp-admin.php:788
+msgid "Image url"
+msgstr "آدرس تصویر"
+
+#: admin/jwppp-admin.php:789
+msgid "Custom logo image URL."
+msgstr "آدرس لوگو سفارشی."
+
+#: admin/jwppp-admin.php:806
+msgid "Logo Position"
+msgstr "موقعیت لوگو"
+
+#: admin/jwppp-admin.php:824
+msgid "Logo position."
+msgstr "موقعیت لوگو."
+
+#: admin/jwppp-admin.php:836
+msgid "Logo Link"
+msgstr "لینک لوگو"
+
+#: admin/jwppp-admin.php:839
+msgid "Link url"
+msgstr "آدرس لینک"
+
+#: admin/jwppp-admin.php:840
+msgid "Logo click-through URL."
+msgstr "لوگو با کلیک از طریق آدرس."
+
+#: admin/jwppp-admin.php:852
+msgid "User Prompt"
+msgstr "متن بعدی"
+
+#: admin/jwppp-admin.php:855
+msgid "Next Up"
+msgstr "بعدی"
+
+#: admin/jwppp-admin.php:856
+msgid "Text for user prompt"
+msgstr "متن دلخواه خود برای نمایش ویدیو بعدی را وارد کنید"
+
+#: admin/jwppp-admin.php:868
+msgid "Playlist Tooltip"
+msgstr "راهنما لیست پخش"
+
+#: admin/jwppp-admin.php:871
+msgid "لیست پخش"
+msgstr ""
+
+#: admin/jwppp-admin.php:872
+msgid "Text for playlist tooltip."
+msgstr "متن برای راهنما فهرست پخش."
+
+#: admin/jwppp-admin.php:885
+msgid "Save changes "
+msgstr "ذخیره تغییرات "
+
+#: admin/skin/jwppp-admin-skin-7.php:18
+msgid "Skin"
+msgstr "تنظیمات پوسته"
+
+#: admin/skin/jwppp-admin-skin-7.php:53
+msgid "Add a custom skin..."
+msgstr "افزودن یک پوسته سفارشی ..."
+
+#: admin/skin/jwppp-admin-skin-7.php:55
+msgid "Select a skin or add a new one for customizing your player."
+msgstr ""
+"یک پوسته انتخاب کنید یا یک پوسته جدید برای سفارشی کردن پخش کننده خود اضافه کنید."
+
+#: admin/skin/jwppp-admin-skin-7.php:61
+msgid "Skin URL"
+msgstr "آدرس پوسته"
+
+#: admin/skin/jwppp-admin-skin-7.php:64
+msgid "The url of the style.css file of your custom skin."
+msgstr "آدرس فایل style.css پوسته سفارشی شما."
+
+#: admin/skin/jwppp-admin-skin-7.php:69
+msgid "Skin name"
+msgstr "نام پوسته"
+
+#: admin/skin/jwppp-admin-skin-7.php:72
+msgid "The name of your custom skin."
+msgstr "نام پوست سفارشی شما."
+
+#: admin/skin/jwppp-admin-skin-7.php:78
+msgid "Active"
+msgstr "فعال"
+
+#: admin/skin/jwppp-admin-skin-7.php:81
+msgid ""
+"    Active skin elements. This includes active and highlighted labels, as well "
+"scrubber time that has elapsed."
+msgstr ""
+"    عناصر فعال پوسته، این شامل برچسب های فعال و برجسته(های لایت شده)، و همچنین "
+"زمان اسکرابر است که سپری شده است."
+
+#: admin/skin/jwppp-admin-skin-7.php:86
+msgid "Inactive"
+msgstr "غیرفعال"
+
+#: admin/skin/jwppp-admin-skin-7.php:89
+msgid ""
+"    Skin elements that are not active. This includes scrubber time that has not "
+"yet elapsed."
+msgstr ""
+"    عناصر پوسته که فعال نیستند. این شامل زمان اسکرابر است که هنوز سپری نشده است."
+
+#: admin/skin/jwppp-admin-skin-7.php:94
+msgid "Background"
+msgstr "پس زمینه"
+
+#: admin/skin/jwppp-admin-skin-7.php:97
+msgid "The color of hovered or selected icons in the control bar."
+msgstr ""
+"رنگ آیکون های نوار کنترل در زمان انتخاب شده یا حالت هاور (بردن ماوس روی آن)."
+
+#: admin/skin/jwppp-admin-skin-8.php:18
+msgid "Controlbar Text"
+msgstr "متن نوار کنترل"
+
+#: admin/skin/jwppp-admin-skin-8.php:21
+msgid "Color of plain text in the control bar, such as the time."
+msgstr "رنگ متن ساده در نوار کنترل، مانند زمان."
+
+#: admin/skin/jwppp-admin-skin-8.php:26
+msgid "Controlbar Icons"
+msgstr "آیکون های نوار کنترل"
+
+#: admin/skin/jwppp-admin-skin-8.php:29
+msgid "Default, inactive color of all icons in the control bar."
+msgstr "پیش‌فرض، رنگ غیر فعال تمام آیکون ها در نوار کنترل."
+
+#: admin/skin/jwppp-admin-skin-8.php:34
+msgid "Controlbar Active Icons"
+msgstr "آیکون های فعال نوار کنترل"
+
+#: admin/skin/jwppp-admin-skin-8.php:37
+msgid "Color of hovered or selected icons in the control bar."
+msgstr ""
+"رنگ آیکون های نوار کنترل در زمان انتخاب شده یا حالت هاور (بردن ماوس روی آن)."
+
+#: admin/skin/jwppp-admin-skin-8.php:42
+msgid "Controlbar Background"
+msgstr "پس زمینه نوار کنترل"
+
+#: admin/skin/jwppp-admin-skin-8.php:45
+msgid ""
+"Background color of the control bar and the volume slider. Default background "
+"is transparent."
+msgstr "رنگ پس زمینه نوار کنترل و نوار اسلایدر صدا. پس‌زمینه پیش‌فرض شفاف است."
+
+#: admin/skin/jwppp-admin-skin-8.php:50
+msgid "Timeslider Progress"
+msgstr "نوار پیشرفت زمان"
+
+#: admin/skin/jwppp-admin-skin-8.php:53
+msgid "Color of the progress bar in the time slider."
+msgstr "رنگ نوار پیشرفت در نوار زمان."
+
+#: admin/skin/jwppp-admin-skin-8.php:58
+msgid "Timeslider Rail"
+msgstr "ریل نوار زمان"
+
+#: admin/skin/jwppp-admin-skin-8.php:61
+msgid "Base color of the timeslider, known as the rail."
+msgstr "رنگ پایه نوار زمان، معروف به ریل."
+
+#: admin/skin/jwppp-admin-skin-8.php:66
+msgid "Menus Text"
+msgstr "متن منوها"
+
+#: admin/skin/jwppp-admin-skin-8.php:69
+msgid "Color of inactive, default text in menus and the Next Up overlay."
+msgstr "رنگ غیرفعال، متن پیش‌فرض در منوها و روکش بعدی."
+
+#: admin/skin/jwppp-admin-skin-8.php:74
+msgid "Menus Active Text"
+msgstr "متن فعال منوها"
+
+#: admin/skin/jwppp-admin-skin-8.php:77
+msgid "Color of hovered or selected text in menus. "
+msgstr "رنگ متن در زمان انتخاب/هاور شده در منوها. "
+
+#: admin/skin/jwppp-admin-skin-8.php:82
+msgid "Menus Background"
+msgstr "پس زمینه منو ها"
+
+#: admin/skin/jwppp-admin-skin-8.php:85
+msgid "Background color of menus and the Next Up overlay."
+msgstr "رنگ پس‌زمینه منوها و روکش بعدی را انتخاب کنید."
+
+#: admin/skin/jwppp-admin-skin-8.php:90
+msgid "Tooltips Text"
+msgstr "متن راهنما"
+
+#: admin/skin/jwppp-admin-skin-8.php:93
+msgid "Color of tooltips text."
+msgstr "رنگ متن راهنما."
+
+#: admin/skin/jwppp-admin-skin-8.php:98
+msgid "Tooltips Background"
+msgstr "پس زمینه راهنما"
+
+#: admin/skin/jwppp-admin-skin-8.php:101
+msgid "Background color of tooltips."
+msgstr "رنگ پس زمینه راهنما را انتخاب کنید."
+
+#: includes/jwppp-functions.php:129
+msgid ""
+"You need to set the VIDEO PLAYER POSITION option to CUSTOM in order to use this "
+"shortcode."
+msgstr ""
+"برای استفاده از این کد کوتاه باید تنظیم موقعیت پخش کننده ویدیو را روی دلخواه "
+"تنظیم کنید."
+
+#: includes/jwppp-functions.php:353
+msgid "Video category"
+msgstr "دسته ویدیو"
+
+#: includes/jwppp-functions.php:354
+msgid "Search video categories"
+msgstr "جستجوی دسته های ویدیو"
+
+#: includes/jwppp-functions.php:355
+msgid "All video categories"
+msgstr "همه دسته های ویدیو"
+
+#: includes/jwppp-functions.php:356
+msgid "Parent video category"
+msgstr "دسته ویدیو مادر"
+
+#: includes/jwppp-functions.php:357
+msgid "Parent video category:"
+msgstr "دسته ویدیو مادر:"
+
+#: includes/jwppp-functions.php:358
+msgid "Edit video category"
+msgstr "ویرایش دسته ویدیو"
+
+#: includes/jwppp-functions.php:359
+msgid "Update video category"
+msgstr "بروز رسانی دسته ویدیو"
+
+#: includes/jwppp-functions.php:360
+msgid "Add New video category"
+msgstr "افزودن دسته ویدیوی جدید"
+
+#: includes/jwppp-functions.php:361
+msgid "New video category Name"
+msgstr "نام دسته ویدیوی جدید"
+
+#: includes/jwppp-functions.php:876
+msgid "clear"
+msgstr "پاک کردن"
+
+#: includes/jwppp-functions.php:903
+msgid "Clear"
+msgstr "پاک کردن"
+
+#: includes/jwppp-functions.php:923
+msgid "Invalid API Credentials."
+msgstr "مجوز API نامعتبر است."
+
+#: includes/jwppp-functions.php:928
+msgid "API Credentials are required for using this tool."
+msgstr "برای استفاده از این ابزار، اعتبار API مورد نیاز است."
+
+#: includes/jwppp-functions.php:966
+msgid "Select Player"
+msgstr "انتخاب پخش کننده"
+
+#: includes/jwppp-player-code.php:479
+msgid "Related Videos"
+msgstr "ویدیو های مرتبط"
+
+#: includes/jwppp-single-video-box.php:87
+msgid "Choose"
+msgstr "انتخاب"
+
+#: includes/jwppp-single-video-box.php:88
+msgid "Add url"
+msgstr "افزودن آدرس"
+
+#: includes/jwppp-single-video-box.php:96
+msgid "Select video/playlist or search by ID"
+msgstr "ویدیو/لیست پخش را انتخاب کنید یا بر اساس شناسه جستجو کنید"
+
+#: includes/jwppp-single-video-box.php:119 includes/jwppp-single-video-box.php:125
+msgid "Media URL"
+msgstr "آدرس رسانه"
+
+#: includes/jwppp-single-video-box.php:130 includes/jwppp-video-tools.php:86
+msgid "Label (HD, 720p, 360p)"
+msgstr "لیبل (مثلا : HD, 720p, 360p)"
+
+#: includes/jwppp-single-video-box.php:141
+msgid "Show options"
+msgstr "نمایش گزینه ها"
+
+#: includes/jwppp-video-tools.php:65
+msgid "More sources"
+msgstr "کیفیت های بیشتر"
+
+#: includes/jwppp-video-tools.php:66
+msgid "Used for quality toggling and alternate sources."
+msgstr "برای افزودن کیفیت های بیشتر استفاده می شود."
+
+#: includes/jwppp-video-tools.php:85
+msgid "Source URL"
+msgstr "آدرس ویدیو"
+
+#: includes/jwppp-video-tools.php:96
+msgid "Video poster image"
+msgstr "تصویر پوستر ویدیو"
+
+#: includes/jwppp-video-tools.php:99
+msgid "Poster Image URL"
+msgstr "آدرس تصویر پوستر"
+
+#: includes/jwppp-video-tools.php:106
+msgid "Video title"
+msgstr "عنوان ویدیو"
+
+#: includes/jwppp-video-tools.php:108
+msgid "Video Title"
+msgstr "عنوان ویدیو"
+
+#: includes/jwppp-video-tools.php:114
+msgid "Video description"
+msgstr "توضیحات ویدیو"
+
+#: includes/jwppp-video-tools.php:116
+msgid "Video Description"
+msgstr "توضیحات ویدیو"
+
+#: includes/jwppp-video-tools.php:122
+msgid "Select Ad Tag"
+msgstr "انتخاب یک برچسب تبلیغات"
+
+#: includes/jwppp-video-tools.php:144
+msgid "No ad tag"
+msgstr "بدون برچسب تبلیغاتی"
+
+#: includes/jwppp-video-tools.php:147
+msgid "No ad tags available"
+msgstr "هیچ برچسب تبلیغاتی موجود نیست"
+
+#: includes/jwppp-video-tools.php:163
+msgid "Show a carousel with the playlist's video thumbnails."
+msgstr "نمایش یک کاروسل با تصاویر کوچک ویدیوی لیست پخش."
+
+#: includes/jwppp-video-tools.php:176
+msgid "Force a media type"
+msgstr "یک نوع رسانه را اجباری کنید"
+
+#: includes/jwppp-video-tools.php:177
+msgid "Only required when a file extension is missing or not recognized"
+msgstr "فقط زمانی مورد نیاز است که پسوند فایل گم شده باشد یا شناسایی نشود"
+
+#: includes/jwppp-video-tools.php:210
+msgid "Autostart on page load"
+msgstr "پخش خودکار در بارگذاری صفحه"
+
+#: includes/jwppp-video-tools.php:223
+msgid "Mute"
+msgstr "بی صدا"
+
+#: includes/jwppp-video-tools.php:236
+msgid "Repeat"
+msgstr "تکرار"
+
+#: includes/jwppp-video-tools.php:258
+msgid "Allow to embed this video"
+msgstr "اجازه برداشتن کد این ویدیو برای نمایش در دیگر سایت ها"
+
+#: includes/jwppp-video-tools.php:274
+msgid "افزودن"
+msgstr ""
+
+#: includes/jwppp-video-tools.php:276
+msgid "اضافه کردن فصل، زیرنویس یا پیش نمایش تصاویر شاخص"
+msgstr ""
+
+#: includes/jwppp-video-tools.php:323
+msgid "Subtitle"
+msgstr "زیرنویس"
+
+#: includes/jwppp-video-tools.php:325
+msgid "Thumbnail url"
+msgstr "آدرس تصویر شاخص"
+
+#: includes/jwppp-video-tools.php:327
+msgid "Chapter title"
+msgstr "عنوان فصل"
+
+#: includes/jwppp-video-tools.php:331
+msgid "Start"
+msgstr "شروع"
+
+#: includes/jwppp-video-tools.php:332
+msgid "End"
+msgstr "پایان"
+
+#: includes/jwppp-video-tools.php:333
+msgid "در ثانیه"
+msgstr "در ثانیه"
+
+#: includes/jwppp-video-tools.php:341 includes/jwppp-video-tools.php:365
+msgid "Default"
+msgstr "پیش‌فرض"
+
+#: includes/jwppp-video-tools.php:342
+msgid "These subtitles will be activated by default"
+msgstr "این زیرنویس ها به صورت پیش فرض فعال می شوند"
+
+#: includes/jwppp-video-tools.php:357
+msgid "Subtitles file url (VTT, SRT, DFXP)"
+msgstr "آدرس فایل زیرنویس (فرمت های VTT, SRT, DFXP)"
+
+#: includes/jwppp-video-tools.php:358
+msgid "Label (EN, IT, FR )"
+msgstr "لیبل (مثلا : EN,IT,FR)"
+
+#: includes/jwppp-video-tools.php:366
+msgid "These first subtitles will be activated by default"
+msgstr "اولین زیرنویس به صورت پیش فرض فعال خواهند شد"
+
+#: jwp/jwplayer.controls.js:1
+msgid "rewind"
+msgstr "باز پیچی"
+
+#: jwp/jwplayer.controls.js:1
+msgid "display"
+msgstr "نمایش"
+
+#: jwp/jwplayer.controls.js:1
+msgid "next"
+msgstr "بعدی"
+
+#: jwp/jwplayer.core.controls.polyfills.html5.js:1
+msgid "jw-spacer"
+msgstr "jw-spacer"
+
+#: jwp/jwplayer.core.controls.polyfills.html5.js:1
+msgid "jw-button-container"
+msgstr "jw-button-container"
+
+#: plugin-update-checker/Puc/v4p11/Plugin/Ui.php:54
+msgid "View details"
+msgstr "مشاهده جزئیات"
+
+#: plugin-update-checker/Puc/v4p11/Plugin/Ui.php:77
+#, php-format
+msgid "More information about %s"
+msgstr "اطلاعات بیشتر در مورد %s"
+
+#: plugin-update-checker/Puc/v4p11/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr "بررسی برای بروز رسانی"
+
+#: plugin-update-checker/Puc/v4p11/Plugin/Ui.php:224
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr "وضعیت بررسی بروز رسانی \"%s\" نامشخص است"
+
+#: plugin-update-checker/Puc/v4p11/Vcs/PluginUpdateChecker.php:100
+msgid "There is no changelog available."
+msgstr "هیچ تغییری در دسترس نیست."
+
+#~ msgid ""
+#~ "Number of failed Activation checks is reached (%s). your plugin or theme "
+#~ "will be disabled soon. Please check cron job settings on your WordPress or "
+#~ "host. <a href=\"%s\">cron manual</a>"
+#~ msgstr ""
+#~ "تعداد بررسی‌های فعال‌سازی ناموفق (%s) رسیده است. افزونه یا قالب زمینه شما به "
+#~ "زودی غیرفعال می شود. لطفاً تنظیمات cron job را در وردپرس یا هاست خود بررسی "
+#~ "کنید. <a href=\"%s\">کتابچه راهنمای cron</a>"
+
+#~ msgid "Premium Key"
+#~ msgstr "کلید پرمیوم"
+
+#~ msgid "Add your Premium Key"
+#~ msgstr "کلید پرمیوم خود را اضافه کنید"
+
+#~ msgid "The Premium key received by purchasing this plugin"
+#~ msgstr "کلید پرمیوم که با خرید این افزونه دریافت کرده اید"
+
+#~ msgid "JWP License Key"
+#~ msgstr "کلید لایسنس JWP"
+
+#~ msgid "For Self hosted player, add your JW Player license key."
+#~ msgstr "برای پخش کننده هاست خودتان، کلید لایسنس JW Player خود را اضافه کنید."
+
+#~ msgid "Playlist"
+#~ msgstr "لیست پخش"
+
+#~ msgid "Add"
+#~ msgstr "افزودن"
+
+#~ msgid "Add Chapters, Subtitles or Preview Thumbnails"
+#~ msgstr "اضافه کردن فصل، زیرنویس یا پیش نمایش تصاویر شاخص"
+
+#~ msgid "in seconds"
+#~ msgstr "در ثانیه"
+
+#~ msgid "Channel ID"
+#~ msgstr "شناسه کانال"
+
+#~ msgid "Add your API Key"
+#~ msgstr "افزودن کلید API خود"
+
+#~ msgid "Add the url of your XML file."
+#~ msgstr "آدرس فایل XML  خود را وارد کنید."
+
+#~ msgid ""
+#~ "Please, set this to the URL of the ad tag that contains the pre-roll ad."
+#~ msgstr ""
+#~ "لطفا این را به آدرس تگ تبلیغاتی که حاوی آگهی قبل از نمایش است، تنظیم کنید."
+
+#~ msgid ""
+#~ "Use a taxonomy to get more specific related videos. It will be add to all "
+#~ "post types you choosed."
+#~ msgstr ""
+#~ "از یک طبقه بندی استفاده کنید تا ویدیوهای خاص مرتبط را دریافت کنید. این به "
+#~ "تمام انواع پست انتخابی شما اضافه خواهد شد."
+
+#~ msgid ""
+#~ "You can even use <strong>Video categories</strong> provided by this plugin."
+#~ msgstr ""
+#~ "شما حتی می توانید از <strong> دسته های ویدیو </strong> ارائه شده توسط این "
+#~ "افزونه استفاده کنید."
+
+#~ msgid "Choose the text-color for your subtitles."
+#~ msgstr "یک رنگ برای متن برگزینید."
+
+#~ msgid "Add opacity to your subtitles background."
+#~ msgstr "شفافیت پس زمینه زیرنویس را مشخص نمایید."
+
+#~ msgid "Settings"
+#~ msgstr "تنظیمات"
+
+#~ msgid "Subtitles"
+#~ msgstr "رنگ زیرنویس"
+
+#~ msgid "Related videos"
+#~ msgstr "ویدئو های مرتبط"
+
+#~ msgid "Sharing"
+#~ msgstr "اشتراک"
+
+#~ msgid "Ads"
+#~ msgstr "تبلیغات"
+
+#~ msgid ""
+#~ "Please, paste here the <strong>Premium Key</strong> that you received buying "
+#~ "this plugin.<br>You'll be able to keep upgraded with the new versions of JW "
+#~ "Player for Wordpress - Premium."
+#~ msgstr "لطفا <strong> کلید پرمیوم <strong/> را وارد کنید."
+
+#~ msgid "Select the type of content to display videos."
+#~ msgstr "نوع محتوای ویدئو را انتخاب کنید."
+
+#~ msgid "Select the location where you want the video player is displayed."
+#~ msgstr "پیشنهاد می شود در حالت سفارشی قرار دهید."
+
+#~ msgid "Video text"
+#~ msgstr "متن ویدئو"
+
+#~ msgid "Add custom text that appears while the player is loading."
+#~ msgstr "متن سفارشی خود را برای جایگزینی \"در حال بارگذاری..\" بنویسید."
+
+#~ msgid "Add the url of a default poster image."
+#~ msgstr "آدرس پیشفرض کاور را وارد کنید."
+
+#~ msgid "Select how define the measures of the player."
+#~ msgstr "حالت نمایش پلیر را انتخاب کنید."
+
+#~ msgid "Add the player's width (eg. 80%)"
+#~ msgstr "عرض پلیر را وارد کنید (برای مثال 80% )"
+
+#~ msgid "Logo"
+#~ msgstr "لوگو"
+
+#~ msgid "Add your logo to the player."
+#~ msgstr "آدرس لوگو خود را برای نمایش در پلیر وارد کنید."
+
+#~ msgid "Choose the logo position."
+#~ msgstr "موقعیت نمایش لوگو را مشخص کنید."
+
+#~ msgid "Add a link to the logo."
+#~ msgstr "یک آدرس برای لینک شدن لوگو درج کنید."
+
+#~ msgid "Add a different text for the \"Next Up\" prompt"
+#~ msgstr "در صورت تمایل یک متن متفاوت را برای \"بعدی\" اضافه کنید"
+
+#~ msgid ""
+#~ "Skin customization options depends from the JW Player version in use."
+#~ "<br>Please add first the <b><i>Player library URL</i></b>"
+#~ msgstr ""
+#~ "تنظیمات سفارشی سازی پوسته بستگی به نسخه JW Player مورد استفاده دارد. لطفا "
+#~ "ابتدا <b><i>آدرس کتابخانه پخش</i></b> را اضافه کنید"
+
+#~ msgid ""
+#~ "If you like <strong>JW Player for Wordpress - Premium</strong>, please give "
+#~ "it a <a href=\"http://www.ilghera.com/product/jw-player-7-for-wordpress-"
+#~ "premium\" target=\"_blank\">★★★★★</a> rating. Thanks in advance! "
+#~ msgstr ""
+#~ "اگر <strong> JW Player برای وردپرس نسخه پرمیوم</strong> را دوست دارید، لطفا "
+#~ "یک امتیاز <a href=\"http://www.ilghera.com/product/jw-player-7-for-wordpress-"
+#~ "premium\" target=\"_blank\">★★★★★</a> به ما بدهید. پیشاپیش از گذاشتن نظر شما "
+#~ "سپاسگذاریم! "
+
+#~ msgid ""
+#~ "The color of the bar in the time slider filled in from the beginning of the "
+#~ "video through the current position."
+#~ msgstr "رنگ نوار پیشرفت زمان را انتخاب کنید."
+
+#~ msgid "Video (YouTube or self-hosted), Audio or Playlist"
+#~ msgstr "ویدئو, صدا یا لیست پخش"
+
+#~ msgid "Add a different poster image for this video"
+#~ msgstr "استفاده از کاور مخصوص برای این ویدئو"
+
+#~ msgid "Add a title to your video"
+#~ msgstr "اضافه کردن عنوان به ویدئو"
+
+#~ msgid "Add a description to your video"
+#~ msgstr "توضیحات ویدئو را اضافه کنید"
+
+#~ msgid "Mute the video during playback."
+#~ msgstr "بدون صدا کردن فیلم در حال پخش."
+
+#~ msgid "Repeat the video during playback."
+#~ msgstr "تکرار و پخش مجدد ویدئو."
+
+#~ msgid "Allow to download this video"
+#~ msgstr "اجازه دانلود این ویدئو"
+
+#~ msgid "Only with self-hosted videos and not with playlists."
+#~ msgstr "فقط با فیلم های خود میزبانی شده و نه با لیست های پخش."
+
+#~ msgid "تنظیمات بیشتر"
+#~ msgstr "تنظیمات بیشتر"
+
+#~ msgid ""
+#~ "A valid license for the Advertising edition of JW Player is required. The "
+#~ "Free, Premium, and Enterprise editions do not support this function."
+#~ msgstr " "
+
+#~ msgid "You already register your license key. to re validate it, you can use this form."
+#~ msgstr "شما قبلاً کلید لایسنس خود را ثبت کرده اید. برای تایید مجدد آن، می توانید از این فرم استفاده کنید."
+
+#~ msgid "Your current license"
+#~ msgstr "لایسنس شما"

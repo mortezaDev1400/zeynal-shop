@@ -1,0 +1,381 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Checkout Field Editor for WooCommerce (Pro)\n"
+"POT-Creation-Date: 2022-06-24 22:24+0430\n"
+"PO-Revision-Date: 2022-06-24 22:26+0430\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woocommerce-checkout-field-editor-pro.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-thwcfe-admin-settings-advanced.php:383
+msgid "Click here to get your API Key"
+msgstr "برای دریافت کلید API خود اینجا را کلیک کنید"
+
+#: admin/class-thwcfe-admin-settings-general.php:119
+msgid "All sections are successfully reset."
+msgstr "همه بخش ها با موفقیت بازنشانی می شوند."
+
+#: admin/class-thwcfe-admin-settings-general.php:135
+msgid "This section is successfully reset."
+msgstr "این بخش با موفقیت بازنشانی شد."
+
+#: admin/class-thwcfe-admin-settings-general.php:411
+#: admin/class-thwcfe-admin-settings-general.php:436
+msgid "Apply"
+msgstr "اعمال کردن"
+
+#: admin/class-thwcfe-admin-settings-general.php:457
+msgid "Else click here to get the default fields."
+msgstr "در غیر این صورت برای دریافت فیلدهای پیش فرض اینجا را کلیک کنید."
+
+#. translators: 1: Media library URL 2: Exported file URL
+#: admin/class-thwcfe-admin-settings-import-export.php:107
+#, php-format
+msgid ""
+"Section exported successfully. The exported file is available in <a href="
+"\"%1$s\">Media Library</a> or You can download it <a download href=\"%2$s"
+"\">here</a>."
+msgstr ""
+"بخش با موفقیت صادر شد. فایل صادر شده در دسترس است<a href=\"%1$s\">کتابخانه ی "
+"رسانه</a>یا می توانید آن را بارگیری کنید<a download href=\"%2$s\">اینجا</a>."
+
+#: admin/class-thwcfe-admin-settings-import-export.php:117
+#: admin/class-thwcfe-admin-settings-import-export.php:171
+msgid "An error occurred while exporting data. Please try again!"
+msgstr "خطایی روی داد، هنگام صادر کردن داده ها لطفا دوباره تلاش کنید!"
+
+#: admin/class-thwcfe-admin-settings-import-export.php:136
+msgid "Field(s) not exported. Choose at least one field to export!"
+msgstr "زمینه (ها) صادر نشده است حداقل یک زمینه برای برون ریزی انتخاب کنید!"
+
+#. translators: 1: Media library URL 2: Exported file URL
+#: admin/class-thwcfe-admin-settings-import-export.php:162
+#, php-format
+msgid ""
+"Field(s) exported successfully. The exported file is available in <a href="
+"\"%1$s\">Media Library</a> or You can download it <a download href=\"%2$s"
+"\">here</a>."
+msgstr ""
+"زمینه (ها) با موفقیت صادر شد. فایل صادر شده در دسترس است<a href=\"%1$s"
+"\">کتابخانه ی رسانه</a>یا می توانید آن را بارگیری کنید<a download href=\"%2$s"
+"\">اینجا</a>."
+
+#: admin/class-thwcfe-admin-settings-import-export.php:261
+msgid "An error occurred while importing file. Please try again!"
+msgstr "هنگام وارد کردن فایل خطایی روی داد. لطفا دوباره تلاش کنید!"
+
+#: admin/class-thwcfe-admin-settings-import-export.php:271
+msgid "Invalid file type. The importer supports TXT file format."
+msgstr "نوع فایل نامعتبر است. وارد کننده از قالب فایل TXT پشتیبانی می کند."
+
+#: admin/class-thwcfe-admin-settings-import-export.php:281
+#: admin/class-thwcfe-admin-settings-import-export.php:291
+msgid "An error occurred while importing file. Invalid file!"
+msgstr "هنگام وارد کردن فایل خطایی روی داد. فایل نامعتبر!"
+
+#: admin/class-thwcfe-admin-settings-import-export.php:314
+msgid "Section imported successfully."
+msgstr "بخش با موفقیت وارد شد."
+
+#: admin/class-thwcfe-admin-settings-import-export.php:320
+#: admin/class-thwcfe-admin-settings-import-export.php:360
+msgid "Your changes were not saved due to an error (or you made none!)."
+msgstr ""
+"تغییرات شما به دلیل خطا ذخیره نشده اند (یا شما تغییری انجام نداده اید!)"
+
+#: admin/class-thwcfe-admin-settings-import-export.php:354
+msgid "Field(s) imported successfully."
+msgstr "زمینه (ها) با موفقیت وارد شد."
+
+#: admin/class-thwcfe-admin-utils.php:422
+msgid "Order notes"
+msgstr "سفارش یادداشت"
+
+#: admin/class-thwcfe-admin-utils.php:424
+msgid "Notes about your order, e.g. special notes for delivery."
+msgstr ""
+"یادداشت هایی در مورد سفارش شما ، به عنوان مثال یادداشت های ویژه برای تحویل."
+
+#: admin/class-thwcfe-admin.php:96
+msgid "WooCommerce"
+msgstr "ووکامرس"
+
+#: class-thwcfe-license-manager.php:463
+msgid "License Details"
+msgstr "جزئیات مجوز"
+
+#: class-thwcfe-license-manager.php:486
+msgid "License status"
+msgstr "وضعیت مجوز"
+
+#: class-thwcfe-license-manager.php:491
+msgid "Expiry"
+msgstr "انقضا"
+
+#: class-thwcfe-license-manager.php:546
+msgid "Your license key expired."
+msgstr "کلید مجوز شما منقضی شده است."
+
+#: class-thwcfe-license-manager.php:552
+msgid "Your license key has been disabled."
+msgstr "کلید مجوز شما غیرفعال شده است."
+
+#: class-thwcfe-license-manager.php:557
+msgid "Invalid license."
+msgstr "مجوز نامعتبر."
+
+#: class-thwcfe-license-manager.php:563
+msgid "Your license is not active for this URL."
+msgstr "مجوز شما برای این URL فعال نیست."
+
+#: class-thwcfe-license-manager.php:568
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr "به نظر می رسد این یک کلید مجوز نامعتبر برای %s باشد."
+
+#: class-thwcfe-license-manager.php:573
+msgid "Your license key has reached its activation limit."
+msgstr "کلید مجوز شما به حد مجاز فعال سازی خود رسیده است."
+
+#: class-thwcfe-license-manager.php:578 class-thwcfe-license-manager.php:583
+msgid "An error occurred, please try again."
+msgstr "خطایی روی داد، هنگام صادر کردن داده ها لطفا دوباره تلاش کنید."
+
+#: class-thwcfe-license-manager.php:593
+msgid "License activated successfully."
+msgstr "زمینه ها با موفقیت وارد شد."
+
+#: class-thwcfe-license-manager.php:598
+msgid "License deactivated successfully."
+msgstr "زمینه ها با موفقیت وارد شد."
+
+#: classes/fe/class-wcfe-checkout-field-editor-utils.php:248
+#: includes/utils/class-thwcfe-utils.php:389
+msgid "Standard"
+msgstr "استاندارد"
+
+#: public/class-thwcfe-public-checkout.php:143
+#: public/class-thwcfe-public-myaccount.php:129
+msgid "Maximum upload size exceeded"
+msgstr "از حداکثر اندازه بارگذاری فراتر رفت"
+
+#: public/class-thwcfe-public-myaccount.php:601
+#, php-format
+msgid "Removed customer \"%s\""
+msgstr "مشتری حذف شد\"%s\""
+
+#. translators: %s: field label
+#: public/class-thwcfe-public.php:299
+#, php-format
+msgctxt "woocommerce-checkout-field-editor-pro"
+msgid "Shipping %s"
+msgstr "حمل و نقل%s"
+
+#. translators: %s: field label
+#: public/class-thwcfe-public.php:303
+#, php-format
+msgctxt "woocommerce-checkout-field-editor-pro"
+msgid "Billing %s"
+msgstr "صورتحساب%s"
+
+#. translators: 1: Field name
+#: public/class-thwcfe-public.php:369
+#, php-format
+msgid "<strong>%1$s field:</strong> Please fill in the displayed format"
+msgstr "<strong>فیلد %1$s:</strong> لطفاً قالب نمایش داده شده را پر کنید"
+
+#. translators: 1: Field name 2: Minimum length
+#: public/class-thwcfe-public.php:396
+#, php-format
+msgid ""
+"<strong>%1$s field:</strong> The text entered is less than the minimum "
+"length. Minimum %2$s characters are required."
+msgstr ""
+"<strong>فیلد %1$s:</strong> متن وارد شده کمتر از حداقل طول است. حداقل %2$s "
+"نویسه مورد نیاز است."
+
+#. translators: 1: Field name 2: Maximum length
+#: public/class-thwcfe-public.php:418
+#, php-format
+msgid "<strong>%1$s field:</strong> You can only select %2$s items."
+msgstr "<strong>فیلد %1$s:</strong> فقط می‌توانید %2$s مورد را انتخاب کنید."
+
+#. translators: 1: Field name 2: Maximum length
+#: public/class-thwcfe-public.php:445
+#, php-format
+msgid ""
+"<strong>%1$s field:</strong> The text entered exceeds the maximum length. "
+"Maximum %2$s characters are allowed."
+msgstr ""
+"<strong>%1$s field:</strong>متن وارد شده بیش از حداکثر طول است. بیشترین"
+"%2$scharacters are allowed."
+
+#. translators: 1: Field name 2: Minimum time
+#: public/class-thwcfe-public.php:465
+#, php-format
+msgid ""
+"<strong>%1$s field:</strong> The time entered is lesser than the minimum "
+"time. Value must be %2$s or later."
+msgstr ""
+"<strong>فیلد %1$s:</strong> متن وارد شده کمتر از حداقل طول است. حداقل %2$s "
+"نویسه مورد نیاز است."
+
+#. translators: 1: Field name 2: Maximum time
+#: public/class-thwcfe-public.php:482
+#, php-format
+msgid ""
+"<strong>%1$s field:</strong> The time entered is greater than the maximum "
+"time. Value must be %2$s or earlier."
+msgstr ""
+"<strong>فیلد %1$s:</strong> متن وارد شده کمتر از حداقل طول است. حداقل %2$s "
+"نویسه مورد نیاز است."
+
+#. translators: 1: Field name 2: Minimum time
+#: public/class-thwcfe-public.php:499
+#, php-format
+msgid ""
+"<strong>%1$s field:</strong> The date time entered is lesser than the "
+"minimum value. Value must be %2$s or later."
+msgstr ""
+"<strong>فیلد %1$s:</strong> متن وارد شده کمتر از حداقل طول است. حداقل %2$s "
+"نویسه مورد نیاز است."
+
+#. translators: 1: Field name 2: Maximum datetime local
+#: public/class-thwcfe-public.php:517
+#, php-format
+msgid ""
+"<strong>%1$s field:</strong> The date time local entered is greater than the "
+"maximum value. Value must be %2$s or earlier."
+msgstr ""
+"<strong>فیلد %1$s:</strong> متن وارد شده کمتر از حداقل طول است. حداقل %2$s "
+"نویسه مورد نیاز است."
+
+#: public/class-thwcfe-public.php:1084
+msgid "required"
+msgstr "ضروری"
+
+#: public/class-thwcfe-public.php:1086
+msgid "optional"
+msgstr "انتخابی"
+
+#: public/class-thwcfe-public.php:1303
+msgid "Select a country / region&hellip;"
+msgstr "انتخاب کشور / منطقه؛"
+
+#: public/class-thwcfe-public.php:1311
+msgid "Update country / region"
+msgstr "کشور / منطقه را به روز کنید"
+
+#: public/class-thwcfe-public.php:1333 public/class-thwcfe-public.php:1334
+msgid "Select an option&hellip;"
+msgstr "یک گزینه را انتخاب کنید ؛"
+
+#: public/class-thwcfe-public.php:1531 public/class-thwcfe-public.php:1583
+msgid "Choose an option"
+msgstr "یک گزینه را انتخاب کنید"
+
+#. Plugin Name of the plugin/theme
+msgid "Checkout Field Editor for WooCommerce (Pro)"
+msgstr "سفارشی سازی فرم پرداخت(حرفه ای)"
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://www.themehigh.com/product/woocommerce-checkout-field-editor-pro/"
+msgstr ""
+"https://www.themehigh.com/product/woocommerce-checkout-field-editor-pro/"
+
+#. Description of the plugin/theme
+msgid ""
+"Design woocommerce checkout form in your own way, customize checkout "
+"fields(Add, Edit, Delete and re arrange fields)."
+msgstr ""
+"فرم پرداخت ووکامرس را به روش خود طراحی کنید ، زمینه های پرداخت را سفارشی "
+"کنید(افزودن ، ویرایش ، حذف و ترتیب مجدد زمینه ها)."
+
+#. Author of the plugin/theme
+msgid "ThemeHigh"
+msgstr "تم بالا"
+
+#. Author URI of the plugin/theme
+msgid "https://www.themehigh.com"
+msgstr "https://www.themehigh.com"
+
+#~ msgid "Email"
+#~ msgstr "ایمیل"
+
+#~ msgid "Phone"
+#~ msgstr "تلفن"
+
+#~ msgid "Postcode"
+#~ msgstr "کد پستی"
+
+#~ msgid "State"
+#~ msgstr "استان"
+
+#~ msgid "Number"
+#~ msgstr "شماره"
+
+#~ msgid "Url"
+#~ msgstr "لینک"
+
+#~ msgid "first_name"
+#~ msgstr "نام"
+
+#~ msgid "last_name"
+#~ msgstr "نام خانوادگی"
+
+#~ msgid "company"
+#~ msgstr "شرکت"
+
+#~ msgid "country"
+#~ msgstr "کشور"
+
+#~ msgid "address_1"
+#~ msgstr "آدرس 1"
+
+#~ msgid "address_2"
+#~ msgstr "آدرس 2"
+
+#~ msgid "city"
+#~ msgstr "شهر"
+
+#~ msgid "state"
+#~ msgstr "استان"
+
+#~ msgid "postcode"
+#~ msgstr "کد پستی"
+
+#, fuzzy
+#~| msgid "Removed customer \"%s\""
+#~ msgid "Before customer details"
+#~ msgstr "مشتری حذف شد\"%s\""
+
+#, fuzzy
+#~| msgid "Order notes"
+#~ msgid "Before order_notes"
+#~ msgstr "سفارش یادداشت"
+
+#, fuzzy
+#~| msgid "Order notes"
+#~ msgid "After order notes"
+#~ msgstr "سفارش یادداشت"
+
+#~ msgid "Fields display position in email"
+#~ msgstr "فیلدها موقعیت را در ایمیل نشان می دهند"
+
+#~ msgid "Custom validators"
+#~ msgstr "اعتبار سنجی سفارشی"

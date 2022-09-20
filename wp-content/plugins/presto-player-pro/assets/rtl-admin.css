@@ -1,0 +1,96 @@
+.components-color-picker__alpha-bar, .components-color-picker__hue-bar {
+    margin: 0 17px 0 -10px !important;
+}
+
+.components-button.components-color-picker__saturation-pointer {
+    margin: 0px -14px;
+}
+
+.components-snackbar-list {
+    right: auto !important;
+    left: 40px !important;
+}
+
+table.presto-table td, table.presto-table th, .components-color-picker__inputs-fields .components-base-control__field {
+	text-align: right !important;
+}
+
+.litepicker[data-plugins*="ranges"] .container__predefined-ranges[data-pos="right"] {
+	transform: translateX(100%);
+    left: 0;
+    box-shadow: 2px 0px 2px var(--litepicker-footer-box-shadow-color);
+}
+
+.litepicker[data-plugins*="ranges"] .container__predefined-ranges[data-pos="right"] {
+	transform: translateX(-100%);
+	left: 0;
+	right: unset !important;
+}
+
+.litepicker[data-plugins*="ranges"] .container__predefined-ranges[data-pos="left"] {
+	transform: translateX(100%);
+    right: 0;
+	left: unset !important;
+    box-shadow: 2px 0px 2px var(--litepicker-footer-box-shadow-color);
+}
+
+.litepicker .container__months .month-item-header div > .month-item-name {
+	margin-left: 5px;
+	margin-right: 0 !important;
+}
+
+.css-1x1ditr {
+	margin-left: 0 !important;
+	margin-right: 10px;
+}
+
+.litepicker .container__months .month-item-header div > .month-item-year {
+	padding: 0 8px 0 24px !important;
+}
+
+.litepicker .container__months .month-item-header .button-previous-month, .litepicker .container__months .month-item-header .button-next-month {
+	transform: rotate(180deg);
+    margin-top: -7px;
+}
+
+.litepicker .container__days .day-item.is-start-date, .litepicker .container__days .day-item.is-end-date.is-flipped {
+	border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+}
+
+.litepicker .container__days .day-item.is-end-date, .litepicker .container__days .day-item.is-start-date.is-flipped {
+	border-top-left-radius: 5px !important;
+    border-bottom-left-radius: 5px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.presto-player__menu-item .submenu-icon, .presto-player__menu-item.is-back-button svg {
+    transform: rotate(180deg);
+}
+
+div.presto-player__preset-options .components-range-control__mark-label {
+    left: unset !important;
+    transform: unset !important;
+}
+
+.presto-player__modal-presets .presto-player__style-sidebar {
+    padding-left: 2em;
+    padding-right: 0 !important;
+}
+
+.components-modal__header-heading-container {
+    justify-content: right !important;
+}
+
+.presto-player__menu-icon {
+    margin-left: 15px !important;
+    margin-right: 0 !important;
+}
+
+.presto-player__menu-item.is-back-button .back-icon {
+    margin-left: 0 !important;
+    margin-right: -5px !important;
+}

@@ -1,0 +1,2137 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Mail SMTP 3.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-mail-smtp-pro\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-11-17T07:26:40+00:00\n"
+"PO-Revision-Date: 2021-12-26 12:23+0330\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Domain: wp-mail-smtp-pro\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"Language: fa_IR\n"
+
+#. Plugin Name of the plugin
+msgid "WP Mail SMTP Pro"
+msgstr "WP Mail SMTP Pro"
+
+#. Plugin URI of the plugin
+msgid "https://wpmailsmtp.com/"
+msgstr "https://megatheme.net/"
+
+#. Description of the plugin
+msgid ""
+"Reconfigures the <code>wp_mail()</code> function to use Gmail/Mailgun/"
+"SendGrid/SMTP instead of the default <code>mail()</code> and creates an "
+"options page to manage the settings."
+msgstr ""
+"تابع <code>wp_mail()</code> را برای استفاده از Gmail / Mailgun / SendGrid / "
+"SMTP به جای پست پیش فرض <code>wp_mail()</code> مجدداً پیکربندی کرده و یک صفحه "
+"گزینه برای مدیریت تنظیمات ایجاد می کند."
+
+#. Author of the plugin
+#: src/Pro/Admin/DashboardWidget.php:540
+msgid "WPForms"
+msgstr "WPForms"
+
+#. Author URI of the plugin
+msgid "https://wpforms.com/"
+msgstr "https://megatheme.net"
+
+#: src/Pro/Admin/DashboardWidget.php:204
+#: src/Pro/Emails/Logs/Reports/Admin.php:193
+msgid "Confirmed sent emails"
+msgstr "ایمیل های ارسالی تایید شده"
+
+#: src/Pro/Admin/DashboardWidget.php:205
+#: src/Pro/Emails/Logs/Reports/Admin.php:194
+msgid "Sent emails"
+msgstr "ارسال ایمیل"
+
+#: src/Pro/Admin/DashboardWidget.php:206
+#: src/Pro/Emails/Logs/Reports/Admin.php:195
+msgid "Unconfirmed sent emails"
+msgstr "ایمیل های ارسالی تایید نشده"
+
+#: src/Pro/Admin/DashboardWidget.php:207
+#: src/Pro/Emails/Logs/Reports/Admin.php:196
+msgid "Failed emails"
+msgstr "ایمیل های شکست خورده"
+
+#: src/Pro/Admin/DashboardWidget.php:227 src/Pro/Admin/DashboardWidget.php:421
+msgid "WP Mail SMTP"
+msgstr "WP Mail SMTP"
+
+#: src/Pro/Admin/DashboardWidget.php:284
+msgid "Pattie the WP Mail SMTP mascot"
+msgstr "پتی وپ ایمیل SMTP ماسکو"
+
+#: src/Pro/Admin/DashboardWidget.php:285
+msgid "Enable Email Logs to View Stats"
+msgstr "فعال کردن سیاهههای مربوط به ایمیل برای مشاهده آمار"
+
+#: src/Pro/Admin/DashboardWidget.php:286
+msgid ""
+"Automatically keep track of every email sent from your WordPress site and "
+"view valuable statistics right here in your dashboard."
+msgstr ""
+"به طور خودکار پیگیری هر ایمیل ارسال شده از سایت وردپرس خود را و مشاهده آمار "
+"ارزشمند درست در اینجا در داشبورد خود را."
+
+#: src/Pro/Admin/DashboardWidget.php:288
+msgid "Enable Email Logging"
+msgstr "فعال کردن ورود به سیستم ایمیل"
+
+#: src/Pro/Admin/DashboardWidget.php:291 src/Pro/Admin/DashboardWidget.php:544
+msgid "Learn More"
+msgstr "بارگذاری بیشتر"
+
+#: src/Pro/Admin/DashboardWidget.php:318
+msgid "View Full Log"
+msgstr "مشاهده ورود کامل"
+
+#: src/Pro/Admin/DashboardWidget.php:344
+msgid "Select timespan"
+msgstr "مدت زمان را انتخاب کنید"
+
+#. translators: %d - Number of days.
+#: src/Pro/Admin/DashboardWidget.php:348
+msgid "Last %d day"
+msgid_plural "Last %d days"
+msgstr[0] "‫%d روز اخیر"
+msgstr[1] "آخرین%d روز"
+
+#: src/Pro/Admin/DashboardWidget.php:365
+#: src/Pro/Emails/Logs/Reports/Admin.php:191
+#: src/Pro/Emails/Logs/Reports/Admin.php:292
+msgid "All Emails"
+msgstr "همه ایمیل ها"
+
+#: src/Pro/Admin/DashboardWidget.php:366
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:183
+msgid "Confirmed Emails"
+msgstr "ایمیل های تایید شده"
+
+#: src/Pro/Admin/DashboardWidget.php:367
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:190
+msgid "Unconfirmed Emails"
+msgstr "ایمیل های تایید نشده"
+
+#: src/Pro/Admin/DashboardWidget.php:368
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:198
+msgid "Failed Emails"
+msgstr "ایمیل های شکست خورده"
+
+#: src/Pro/Admin/DashboardWidget.php:373
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:176
+msgid "Sent Emails"
+msgstr "ایمیلهای ارسال شده"
+
+#: src/Pro/Admin/DashboardWidget.php:377
+msgid "Select email type"
+msgstr "انتخاب نوع ایمیل"
+
+#: src/Pro/Admin/DashboardWidget.php:404
+msgid "Graph Style"
+msgstr "سبک گراف"
+
+#: src/Pro/Admin/DashboardWidget.php:408
+msgid "Bar"
+msgstr "بار"
+
+#: src/Pro/Admin/DashboardWidget.php:412
+msgid "Line"
+msgstr "خط"
+
+#: src/Pro/Admin/DashboardWidget.php:417
+msgid "Color Scheme"
+msgstr "طرح رنگی"
+
+#: src/Pro/Admin/DashboardWidget.php:425
+msgid "WordPress"
+msgstr "وردپرس"
+
+#: src/Pro/Admin/DashboardWidget.php:429
+msgid "Save Changes"
+msgstr "ذخيره تغييرات"
+
+#: src/Pro/Admin/DashboardWidget.php:463
+msgid "No email logs for selected period."
+msgstr "بدون سیاهههای مربوط به ایمیل برای دوره انتخاب شده."
+
+#: src/Pro/Admin/DashboardWidget.php:510
+msgid "Table cell icon"
+msgstr "آیکون سلول جدول"
+
+#: src/Pro/Admin/DashboardWidget.php:538
+msgid "Recommended Plugin:"
+msgstr "پلاگین توصیه شده:"
+
+#: src/Pro/Admin/DashboardWidget.php:542
+msgid "Install"
+msgstr "نصب"
+
+#: src/Pro/Admin/DashboardWidget.php:547
+msgid "Dismiss recommended plugin block"
+msgstr "رد بلوک پلاگین توصیه می شود"
+
+#: src/Pro/Admin/DashboardWidget.php:566
+msgid "No email logs yet"
+msgstr "هیچ سیاهههای مربوط به ایمیل هنوز"
+
+#: src/Pro/Admin/DashboardWidget.php:567
+msgid "Please check back tomorrow."
+msgstr "لطفا فردا برگردين"
+
+#. translators: %d number of total emails sent.
+#: src/Pro/Admin/DashboardWidget.php:1061
+msgid "%d total"
+msgstr "%d کل"
+
+#. translators: %d number of confirmed emails sent.
+#: src/Pro/Admin/DashboardWidget.php:1068
+msgid "%d confirmed"
+msgstr "%d تایید شد"
+
+#. translators: %d number of unconfirmed emails sent.
+#: src/Pro/Admin/DashboardWidget.php:1075
+msgid "%d unconfirmed"
+msgstr "%d تایید نشده"
+
+#. translators: %d number of failed email sent attempts.
+#: src/Pro/Admin/DashboardWidget.php:1082
+msgid "%d failed"
+msgstr "%d شکست خورد"
+
+#. translators: %d number of sent emails.
+#: src/Pro/Admin/DashboardWidget.php:1094
+msgid "%d sent"
+msgstr "%d فرستاده شد"
+
+#: src/Pro/Emails/Control/Admin/SettingsTab.php:31
+msgid ""
+"WordPress, by default, will send out emails for many events on your site. "
+"Using the toggles below, you can decide exactly which emails you'd like "
+"enabled."
+msgstr ""
+"وردپرس به طور پیش فرض برای بسیاری از رویدادهای سایت شما ایمیل ارسال خواهد "
+"کرد. با استفاده از ضربات زیر ، می توانید دقیقاً تصمیم بگیرید که کدام ایمیل را "
+"فعال کنید."
+
+#: src/Pro/Emails/Control/Admin/SettingsTab.php:73
+msgid "On"
+msgstr "روشن"
+
+#: src/Pro/Emails/Control/Admin/SettingsTab.php:74
+msgid "Off"
+msgstr "از"
+
+#: src/Pro/Emails/Control/Admin/SettingsTab.php:128
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:313
+msgid "Settings were successfully saved."
+msgstr "تنظیمات با موفقیت ذخیره شدند."
+
+#: src/Pro/Emails/Logs/Admin/ArchivePage.php:43
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:55
+msgid "Email Log"
+msgstr "گزارش ایمیل"
+
+#. translators: %1$s - number of email logs found; %2$s - filtered status.
+#: src/Pro/Emails/Logs/Admin/ArchivePage.php:108
+msgid "Found <strong>%1$s %2$s email log</strong>"
+msgid_plural "Found <strong>%1$s %2$s email logs</strong>"
+msgstr[0] "در بر داشت <strong> %1$s %2$s ورود به سیستم ایمیل</strong>"
+msgstr[1] "<strong> %1$s %2$s سیاهههای مربوط به ایمیل یافت</strong>"
+
+#: src/Pro/Emails/Logs/Admin/ArchivePage.php:137
+#: src/Pro/Emails/Logs/Reports/Table.php:319
+msgid "Search Emails"
+msgstr "جستجوی ایمیل"
+
+#: src/Pro/Emails/Logs/Admin/ArchivePage.php:209
+msgid "Email Address"
+msgstr "آدرس ایمیل"
+
+#: src/Pro/Emails/Logs/Admin/ArchivePage.php:210
+msgid "is"
+msgstr "است"
+
+#: src/Pro/Emails/Logs/Admin/ArchivePage.php:214
+msgid "Subject or Headers"
+msgstr "موضوع و عنوان ها"
+
+#: src/Pro/Emails/Logs/Admin/ArchivePage.php:215
+#: src/Pro/Emails/Logs/Admin/ArchivePage.php:220
+msgid "contains"
+msgstr "شامل"
+
+#: src/Pro/Emails/Logs/Admin/ArchivePage.php:219
+#: src/Pro/Emails/Logs/Admin/Table.php:825
+#: src/Pro/Emails/Logs/Export/Admin.php:252
+msgid "Content"
+msgstr "محتوا"
+
+#. translators: %1$s - field name; %2$s - verb; %3$s - term.
+#: src/Pro/Emails/Logs/Admin/ArchivePage.php:225
+msgid "where %1$s %2$s \"%3$s\""
+msgstr "که در %1$s %2$s \"%3$s\""
+
+#. translators: %s - Date.
+#: src/Pro/Emails/Logs/Admin/ArchivePage.php:261
+msgid "on %s"
+msgstr "در %s"
+
+#. translators: %1$s - Date. %2$s - Date.
+#: src/Pro/Emails/Logs/Admin/ArchivePage.php:267
+msgid "between %1$s and %2$s"
+msgstr "بین %1$s و %2$s"
+
+#: src/Pro/Emails/Logs/Admin/PageAbstract.php:59
+msgid "Email Log is Not Enabled"
+msgstr "ورود ایمیل فعال نیست"
+
+#: src/Pro/Emails/Logs/Admin/PageAbstract.php:62
+msgid ""
+"Emails sent when logging is disabled are not stored in the database and will "
+"not display when enabled. "
+msgstr ""
+"ایمیلهایی که هنگام ورود به سیستم غیرفعال می شوند در پایگاه داده ذخیره نمی "
+"شوند و هنگام فعال شدن نمایش داده نمی شوند."
+
+#: src/Pro/Emails/Logs/Admin/PageAbstract.php:66
+#: src/Pro/Emails/Logs/Reports/Admin.php:378
+msgid "Enable Email Log"
+msgstr "فعال کردن ورود ایمیل"
+
+#: src/Pro/Emails/Logs/Admin/PageAbstract.php:84
+msgid "Email Logging is Not Installed Correctly"
+msgstr "ورود به سیستم به طور صحیح نصب نشده است"
+
+#: src/Pro/Emails/Logs/Admin/PageAbstract.php:89
+#: src/Pro/Emails/Logs/Reports/Admin.php:399
+msgid ""
+"The database table was not installed correctly. Please contact plugin "
+"support to diagnose and fix the issue. Provide them the error message below:"
+msgstr ""
+"جدول پایگاه داده به درستی نصب نشده بود. لطفا با پشتیبانی پلاگین برای تشخیص و "
+"رفع مسئله تماس بگیرید. پیام خطا را در زیر به آنها ارائه دهید:"
+
+#: src/Pro/Emails/Logs/Admin/PageAbstract.php:93
+#: src/Pro/Emails/Logs/Reports/Admin.php:403
+msgid ""
+"For some reason the database table was not installed correctly. Please "
+"contact plugin support team to diagnose and fix the issue."
+msgstr ""
+"به دلایلی جدول بانک اطلاعاتی به درستی نصب نشده است. لطفاً برای تشخیص و رفع "
+"مشکل ، با تیم پشتیبانی افزونه تماس بگیرید."
+
+#: src/Pro/Emails/Logs/Admin/PageAbstract.php:97
+msgid "Right now all sent emails are not logged."
+msgstr "در حال حاضر همه ایمیل های ارسالی ثبت نشده اند."
+
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:78
+msgid "WPMailSMTP - Email Details"
+msgstr "WPMailSMTP - جزئیات ایمیل"
+
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:105
+msgid "Normal view"
+msgstr "نمایش عادی"
+
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:107
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:153
+msgid "Compact view"
+msgstr "نمایش فشرده"
+
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:148
+#: src/Pro/Providers/Providers.php:217
+msgid "Close"
+msgstr "نزدیک"
+
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:149
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:511
+msgid "Print"
+msgstr "چاپ"
+
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:170
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:166
+msgid "Created"
+msgstr "ایجاد"
+
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:185
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:179
+#: src/Pro/Emails/Logs/Admin/Table.php:211
+msgid "From"
+msgstr "از"
+
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:193
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:210
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:187
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:202
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:705
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:723
+#: src/Pro/Emails/Logs/Admin/Table.php:397
+#: src/Pro/Emails/Logs/Admin/Table.php:423
+#: src/Pro/Emails/Logs/Admin/Table.php:463
+#: src/Pro/Emails/Logs/Admin/Table.php:489
+#: src/Pro/Emails/Logs/Admin/Table.php:507
+#: src/Pro/Emails/Logs/Admin/Table.php:527
+#: src/Pro/Emails/Logs/Admin/Table.php:556
+#: src/Pro/Emails/Logs/Export/AbstractData.php:169
+#: src/Pro/Emails/Logs/Export/AbstractData.php:189
+msgid "N/A"
+msgstr "نامعلوم"
+
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:202
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:194
+#: src/Pro/Emails/Logs/Admin/Table.php:212
+msgid "To"
+msgstr "به"
+
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:224
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:214
+#: src/Pro/Emails/Logs/Export/Export.php:166
+msgid "Carbon Copy (CC)"
+msgstr "Carbon Copy (CC)"
+
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:236
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:224
+#: src/Pro/Emails/Logs/Export/Export.php:167
+msgid "Blind Carbon Copy (BCC)"
+msgstr "کپی کربن کور (BCC)"
+
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:243
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:229
+#: src/Pro/Emails/Logs/Admin/Table.php:210
+#: src/Pro/Emails/Logs/Export/Export.php:129
+#: src/Pro/Emails/Logs/Reports/Table.php:60
+msgid "Subject"
+msgstr "موضوع"
+
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:249
+#: src/Pro/Emails/Logs/Export/Export.php:165
+#: src/Pro/Providers/AmazonSES/IdentitiesTable.php:66
+msgid "Status"
+msgstr "وضعیت"
+
+#: src/Pro/Emails/Logs/Admin/PrintPreview.php:259
+#: src/Pro/Emails/Logs/Export/Export.php:169
+msgid "Mailer"
+msgstr "میلر"
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:92
+msgid "Enable Log"
+msgstr "فعال کردن ورود"
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:100
+msgid "Keep a record of basic details for all emails sent from your site."
+msgstr "ضبط کردن از جزئیات اصلی برای همه ایمیل های ارسال شده از سایت خود."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:104
+msgid ""
+"This will allow you to view both general information (date sent, subject, "
+"email status) and technical information (all the headers, including TO, CC, "
+"BCC) for all sent emails."
+msgstr ""
+"با این کار به شما امکان مشاهده اطلاعات کلی (تاریخ ارسال ، موضوع ، وضعیت "
+"ایمیل) و اطلاعات فنی (کلیه هدرها از جمله TO ، CC ، BCC) برای همه ایمیلهای "
+"ارسال شده را می دهید."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:118
+msgid "Log Email Content"
+msgstr "محتوای ایمیل را وارد کنید"
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:126
+msgid "Keep a record of all content for all emails sent from your site."
+msgstr "برای همه ایمیلهایی که از سایت شما ارسال می شود ، ضبط کنید."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:130
+msgid ""
+"Email content may contain personal information, such as plain text "
+"passwords. Please carefully consider before enabling this option, as it will "
+"store all sent email content to your site’s database."
+msgstr ""
+"محتوای ایمیل ممکن است حاوی اطلاعات شخصی مانند رمزهای عبور متن ساده باشد. "
+"لطفاً قبل از فعال کردن این گزینه ، دقت کنید زیرا همه محتوای ایمیل ارسالی را "
+"به پایگاه داده سایت شما ذخیره می کند."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:144
+msgid "Save Attachments"
+msgstr "پیوست ها"
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:152
+msgid "Save the sent attachments to the Email Log."
+msgstr "پیوست های ارسال شده به ایمیل Log را ذخیره کنید."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:156
+msgid ""
+"All sent attachments will be saved to your WordPress uploads folder. If your "
+"site sends a lot of big unique attachments, this could potentially cause "
+"some disk space issue."
+msgstr ""
+"همه پیوست های ارسال شده در پوشه آپلود وردپرس ذخیره می شوند. اگر سایت شما می "
+"فرستد بسیاری از پیوست های بزرگ منحصر به فرد, این به طور بالقوه می تواند برخی "
+"از مسئله فضای دیسک باعث."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:170
+msgid "Open Email Tracking"
+msgstr "باز کردن ردیابی ایمیل"
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:178
+msgid "Track when an email is opened."
+msgstr "پیگیری زمانی که یک ایمیل باز می شود."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:182
+msgid "This will allow you to see which emails were opened by the recipients."
+msgstr ""
+"این به شما این امکان را می دهد که ببینید کدام ایمیل ها توسط گیرندگان باز شده "
+"اند."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:196
+msgid "Click Link Tracking"
+msgstr "روی ردیابی لینک کلیک کنید"
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:204
+msgid "Track clicked links in emails."
+msgstr "پیگیری لینک های کلیک شده در ایمیل."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:208
+msgid "This will allow you to see which links were clicked in the sent emails."
+msgstr ""
+"این به شما این امکان را می دهد که ببینید کدام لینک ها در ایمیل های ارسال شده "
+"کلیک شده اند."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:222
+msgid "Log Retention Period"
+msgstr "دوره نگهداری ورود به سیستم"
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:229
+msgid "Forever"
+msgstr "برای همیشه"
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:236
+msgid ""
+"Email logs older than the selected period will be permanently deleted from "
+"the database."
+msgstr ""
+"گزارشات مربوط به ایمیل قدیمی تر از دوره انتخاب شده برای همیشه از پایگاه داده "
+"حذف خواهد شد."
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:328
+msgid "1 Day"
+msgstr "1 روز"
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:329
+msgid "1 Week"
+msgstr "1 هفته"
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:330
+msgid "1 Month"
+msgstr "1 ماه"
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:331
+msgid "6 Months"
+msgstr "6 ماه"
+
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:332
+msgid "1 Year"
+msgstr "1 سال"
+
+#. translators: %d - days count.
+#: src/Pro/Emails/Logs/Admin/SettingsTab.php:346
+msgid "%d Day"
+msgid_plural "%d Days"
+msgstr[0] "%d روز"
+msgstr[1] "%d روز"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:60
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:474
+#: src/Pro/Emails/Logs/Admin/Table.php:300
+msgid "View Email"
+msgstr "نمایش ایمیل"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:77
+msgid "Back to Email Log"
+msgstr "بازگشت به ایمیل"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:160
+msgid "Email Details"
+msgstr "جزئیات ایمیل"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:255
+msgid "Technical Details"
+msgstr "جزییات فنی"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:264
+msgid "Toggle panel: Technical Details"
+msgstr "تغییر پنل: جزئیات فنی"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:274
+msgid "Hide Technical Details"
+msgstr "مخفی کردن جزئیات فنی"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:277
+#: src/Pro/Emails/Logs/Export/Export.php:168
+msgid "Headers"
+msgstr "سربرگ ها"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:286
+#: src/Pro/Emails/Logs/Admin/Table.php:213
+msgid "Source"
+msgstr "سورس"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:294 src/Pro/SiteHealth.php:187
+msgid "Error"
+msgstr "خطا"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:319
+msgid "Log Details"
+msgstr "جزییات گزارش"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:329
+#: src/Pro/Emails/Logs/Admin/Table.php:85
+#: src/Pro/Emails/Logs/Admin/Table.php:260 src/Pro/Emails/Logs/Email.php:388
+msgid "Delivered"
+msgstr "تحویل داده شده"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:332
+#: src/Pro/Emails/Logs/Admin/Table.php:86
+#: src/Pro/Emails/Logs/Admin/Table.php:262 src/Pro/Emails/Logs/Email.php:386
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:85
+#: src/Pro/Emails/Logs/Reports/Table.php:64 src/Pro/Providers/Providers.php:207
+msgid "Sent"
+msgstr "ارسال"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:335
+#: src/Pro/Emails/Logs/Admin/Table.php:264 src/Pro/Emails/Logs/Email.php:387
+msgid "Waiting for confirmation"
+msgstr "در انتظار تایید"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:338
+#: src/Pro/Emails/Logs/Admin/Table.php:266 src/Pro/Emails/Logs/Email.php:385
+msgid "Not Sent"
+msgstr "فرستاده نشد"
+
+#. translators: %s - Sent status text (like Delivered or Not Sent, ...)
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:348
+msgid "Status: %s"
+msgstr "وضعیت: %s"
+
+#. translators: %s - name of the mailer.
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:370
+msgid "Mailer: %s"
+msgstr "پستچی: %s"
+
+#. translators: %s - number of attachments.
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:384
+msgid "Attachments: %s"
+msgstr "پیوست ها : %s"
+
+#. translators: %s - ID of an email log.
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:394
+msgid "Log ID: %s"
+msgstr "شناسه ورود: %s"
+
+#. translators: %s - whether email was opened.
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:404
+msgid "Opened: %s"
+msgstr "باز شده: %s"
+
+#. translators: %s - whether one of email links was clicked.
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:415
+msgid "Clicked: %s"
+msgstr "کلیک شده: %s"
+
+#. translators: %s - email source.
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:426
+msgid "Source: %s"
+msgstr "منبع: %s"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:451
+msgid "Delete Log"
+msgstr "حذف ورود"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:516
+msgid "Export (CSV)"
+msgstr "خروجی (CSV)"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:521
+msgid "Export (XLSX)"
+msgstr "صادرات (XLSX)"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:526
+msgid "Export (EML)"
+msgstr "صادرات (EML)"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:534
+#: src/Pro/Emails/Logs/Admin/Table.php:590
+#: src/Pro/Providers/AmazonSES/Identity.php:190
+#: src/Pro/Providers/Providers.php:208
+msgid "Resend"
+msgstr "ارسال مجدد"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:550
+msgid "Actions"
+msgstr "فعالیت ها"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:600
+#: src/Pro/Emails/Logs/Export/Export.php:133
+msgid "Attachments"
+msgstr "پیوست ها"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:656
+msgid "Something went wrong"
+msgstr "مشکلی پیش آمد"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:658
+msgid ""
+"You are trying to access an email log entry that is no longer available or "
+"never existed."
+msgstr ""
+"شما در حال تلاش برای دسترسی به ورودی ورود به ایمیل هستید که دیگر در دسترس "
+"نیست یا هرگز وجود ندارد."
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:661
+msgid ""
+"Please use the \"Back to Email Log\" button to return to the list of all "
+"saved emails."
+msgstr ""
+"لطفاً برای بازگشت به لیست همه ایمیلهای ذخیره شده ، از دکمه \"بازگشت به ایمیل "
+"ورود\" استفاده کنید."
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:709
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:727
+#: src/Pro/Emails/Logs/Admin/Table.php:511
+#: src/Pro/Emails/Logs/Admin/Table.php:531
+#: src/Pro/Emails/Logs/Export/AbstractData.php:173
+#: src/Pro/Emails/Logs/Export/AbstractData.php:193
+#: src/Pro/Emails/Logs/Logs.php:449 src/Pro/Providers/Providers.php:218
+msgid "Yes"
+msgstr "بلی"
+
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:710
+#: src/Pro/Emails/Logs/Admin/SinglePage.php:728
+#: src/Pro/Emails/Logs/Admin/Table.php:512
+#: src/Pro/Emails/Logs/Admin/Table.php:532
+#: src/Pro/Emails/Logs/Export/AbstractData.php:174
+#: src/Pro/Emails/Logs/Export/AbstractData.php:194
+msgid "No"
+msgstr "خیر"
+
+#: src/Pro/Emails/Logs/Admin/Table.php:87
+msgid "Pending"
+msgstr "فاصله"
+
+#: src/Pro/Emails/Logs/Admin/Table.php:88
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:123
+#: src/Pro/Emails/Logs/Reports/Table.php:70
+msgid "Failed"
+msgstr "انجام نشد"
+
+#: src/Pro/Emails/Logs/Admin/Table.php:153
+msgid "All"
+msgstr "همه"
+
+#: src/Pro/Emails/Logs/Admin/Table.php:214
+msgid "CC"
+msgstr "CC"
+
+#: src/Pro/Emails/Logs/Admin/Table.php:215
+msgid "BCC"
+msgstr "BCC"
+
+#: src/Pro/Emails/Logs/Admin/Table.php:218
+#: src/Pro/Emails/Logs/Export/Export.php:172
+msgid "Opened"
+msgstr "باز"
+
+#: src/Pro/Emails/Logs/Admin/Table.php:222
+#: src/Pro/Emails/Logs/Export/Export.php:173
+msgid "Clicked"
+msgstr "کلیک شده"
+
+#: src/Pro/Emails/Logs/Admin/Table.php:225
+msgid "Date Sent"
+msgstr "تاریخ ارسال"
+
+#: src/Pro/Emails/Logs/Admin/Table.php:290
+msgid "View Log"
+msgstr "دیدن گزارش"
+
+#: src/Pro/Emails/Logs/Admin/Table.php:309
+#: src/Pro/Emails/Logs/Admin/Table.php:589
+#: src/Pro/Providers/AmazonSES/Identity.php:199
+msgid "Delete"
+msgstr "حذف کردن"
+
+#: src/Pro/Emails/Logs/Admin/Table.php:823
+#: src/Pro/Emails/Logs/Export/Admin.php:246
+msgid "Email Addresses"
+msgstr "آدرس ایمیل"
+
+#: src/Pro/Emails/Logs/Admin/Table.php:824
+#: src/Pro/Emails/Logs/Export/Admin.php:249
+msgid "Subject & Headers"
+msgstr "موضوع و عنوان ها"
+
+#: src/Pro/Emails/Logs/Admin/Table.php:855
+msgid "No emails found."
+msgstr "هیچ ایمیلی پیدا نشد."
+
+#: src/Pro/Emails/Logs/Admin/Table.php:857
+msgid "No emails have been logged for now."
+msgstr "اکنون هیچ ایمیلی وارد نشده است."
+
+#: src/Pro/Emails/Logs/Admin/Table.php:892
+#: src/Pro/Emails/Logs/Export/Admin.php:230
+#: src/Pro/Emails/Logs/Reports/Table.php:373
+msgid "Select a date range"
+msgstr "یک بازه زمانی را انخاب کنید"
+
+#: src/Pro/Emails/Logs/Admin/Table.php:896
+#: src/Pro/Emails/Logs/Reports/Table.php:377
+msgid "Filter"
+msgstr "فیــلتر"
+
+#: src/Pro/Emails/Logs/Admin/Table.php:908
+msgid "Delete All Logs"
+msgstr "حذف تمامی گزارش ها"
+
+#: src/Pro/Emails/Logs/CanResendEmailTrait.php:38
+msgid "Email can't be resent with empty content."
+msgstr "ایمیل نمی تواند با محتوای خالی ارسال شود."
+
+#: src/Pro/Emails/Logs/Export/Admin.php:111
+msgid "Export Email Logs"
+msgstr "صادرات سیاهههای مربوط به ایمیل"
+
+#: src/Pro/Emails/Logs/Export/Admin.php:114
+msgid "Export Type"
+msgstr "نوع برون بری"
+
+#: src/Pro/Emails/Logs/Export/Admin.php:119
+msgid "Common Information"
+msgstr "اطلاعات رایج"
+
+#: src/Pro/Emails/Logs/Export/Admin.php:124
+msgid "Additional Information"
+msgstr "اطلاعات اضافه"
+
+#: src/Pro/Emails/Logs/Export/Admin.php:129
+#: src/Pro/Emails/Logs/Reports/Table.php:354
+msgid "Custom Date Range"
+msgstr "محدوده تاریخ سفارشی"
+
+#: src/Pro/Emails/Logs/Export/Admin.php:134
+msgid "Search"
+msgstr "جستجو"
+
+#: src/Pro/Emails/Logs/Export/Admin.php:142
+msgid "Download Export File"
+msgstr "دانلود فایل خروجی"
+
+#: src/Pro/Emails/Logs/Export/Admin.php:149 src/Pro/Emails/Logs/Logs.php:450
+#: src/Pro/Providers/Providers.php:216
+msgid "Cancel"
+msgstr "لغو"
+
+#. translators: %1$d - email log ID; %2$s - error message.
+#: src/Pro/Emails/Logs/Export/EMLData.php:39
+msgid "Email #%1$s was skipped. Reason: %2$s."
+msgstr "ایمیل #%1$s صرف نظر شد. دلیل: %2$s."
+
+#: src/Pro/Emails/Logs/Export/Export.php:64
+#: src/Pro/Emails/Logs/Export/Export.php:73
+msgid ""
+"An error occurred while preparing your export file. Please recheck export "
+"settings and try again."
+msgstr ""
+"خطایی هنگام تهیه پرونده صادراتی شما رخ داد. لطفاً تنظیمات صادرات را دوباره "
+"بررسی کنید و دوباره امتحان کنید."
+
+#: src/Pro/Emails/Logs/Export/Export.php:65
+msgid "You don't have enough capabilities to complete this request."
+msgstr "شما قابلیت‌های کافی برای تکمیل این درخواست را ندارید."
+
+#: src/Pro/Emails/Logs/Export/Export.php:66
+msgid "Unknown request."
+msgstr "درخواست غیرقابل بررسی."
+
+#: src/Pro/Emails/Logs/Export/Export.php:67
+msgid "Incorrect email ID has been specified."
+msgstr "شناسه ایمیل نادرست مشخص شده است."
+
+#: src/Pro/Emails/Logs/Export/Export.php:68
+msgid "Export file cannot be retrieved from the file system."
+msgstr "فایل برون ریزی را نمی توان از سیستم پرونده بازیابی کرد."
+
+#: src/Pro/Emails/Logs/Export/Export.php:69
+msgid "Export file is empty."
+msgstr "فایل خروجی خالی است."
+
+#: src/Pro/Emails/Logs/Export/Export.php:74
+msgid "Generating a list of email logs according to your filters."
+msgstr "تولید یک لیست از سیاهههای مربوط به ایمیل با توجه به فیلترهای خود را."
+
+#: src/Pro/Emails/Logs/Export/Export.php:75
+msgid "This can take a while. Please wait."
+msgstr "ممکن است مدتی طول بکشد. لطفا صبر کنید."
+
+#: src/Pro/Emails/Logs/Export/Export.php:76
+msgid "No email logs found after applying your filters."
+msgstr "پس از اعمال فیلترها ، هیچ گونه نامه ایمیل یافت نشد."
+
+#: src/Pro/Emails/Logs/Export/Export.php:77
+msgid "The file was generated successfully."
+msgstr "فایل با موفقیت تولید شد."
+
+#: src/Pro/Emails/Logs/Export/Export.php:78
+msgid "The file was generated partially. Please check below notices."
+msgstr "فایل تا حدی تولید شد. لطفاً اطلاعیه های زیر را بررسی کنید."
+
+#: src/Pro/Emails/Logs/Export/Export.php:79
+msgid "If the download does not start automatically"
+msgstr "اگر دانلود به صورت خودکار شروع نشد"
+
+#: src/Pro/Emails/Logs/Export/Export.php:80
+msgid "click here"
+msgstr "اینجا کلیک کنید"
+
+#: src/Pro/Emails/Logs/Export/Export.php:126
+msgid "To Address"
+msgstr "آدرس IP"
+
+#: src/Pro/Emails/Logs/Export/Export.php:127
+msgid "From Address"
+msgstr "از آدرس"
+
+#: src/Pro/Emails/Logs/Export/Export.php:128
+msgid "From Name"
+msgstr "از نام"
+
+#: src/Pro/Emails/Logs/Export/Export.php:130
+msgid "Body"
+msgstr "بدنه"
+
+#: src/Pro/Emails/Logs/Export/Export.php:131
+msgid "Created Date"
+msgstr "تاریخ ایجاد"
+
+#: src/Pro/Emails/Logs/Export/Export.php:132
+msgid "Number of Attachments"
+msgstr "تعداد فایل های پیوست"
+
+#: src/Pro/Emails/Logs/Export/Export.php:170
+msgid "Error Details"
+msgstr "جزئیات خطا"
+
+#: src/Pro/Emails/Logs/Export/Export.php:171
+msgid "Email log ID"
+msgstr "شناسه ورود به سیستم ایمیل"
+
+#: src/Pro/Emails/Logs/Export/Export.php:195
+msgid "Export in CSV (.csv)"
+msgstr "صادرات در CSV (.csv)"
+
+#: src/Pro/Emails/Logs/Export/Export.php:199
+msgid "Export in Microsoft Excel (.xlsx)"
+msgstr "صادرات در مایکروسافت اکسل (.xlsx)"
+
+#: src/Pro/Emails/Logs/Export/Export.php:200
+msgid "Export in EML (.eml)"
+msgstr "صادرات در EML (.eml)"
+
+#. translators: %s - Error code.
+#: src/Pro/Emails/Logs/Export/File.php:158
+msgid "An error occurred when creating a zip file. Error code: %s."
+msgstr "هنگام ایجاد یک فایل زیپ خطایی رخ داد. کد خطا: %s."
+
+#: src/Pro/Emails/Logs/Export/Handler.php:250
+msgid ""
+"No Email Logs found. It looks like the Email Logs database table is missing."
+msgstr ""
+"هیچ گزارش ایمیل یافت نشد. به نظر می رسد جدول پایگاه داده گزارش ایمیل ها وجود "
+"ندارد."
+
+#: src/Pro/Emails/Logs/Logs.php:189
+msgid "Number of log entries per page:"
+msgstr "تعداد ورودی های گزارش در هر صفحه:"
+
+#: src/Pro/Emails/Logs/Logs.php:444
+msgid ""
+"Are you sure that you want to delete this email log? This action cannot be "
+"undone."
+msgstr ""
+"آیا مطمئن هستید که می خواهید این ورود ایمیل را حذف کنید؟ این عملکرد قابل "
+"برگشت نیست."
+
+#: src/Pro/Emails/Logs/Logs.php:445 src/Pro/Providers/Providers.php:212
+msgid "OK"
+msgstr "بله"
+
+#: src/Pro/Emails/Logs/Logs.php:446 src/Pro/Providers/Providers.php:214
+msgid "Icon"
+msgstr "آیکون"
+
+#: src/Pro/Emails/Logs/Logs.php:447
+msgid "Are you sure you want to permanently delete all email logs?"
+msgstr ""
+"آیا مطمئن هستید که می خواهید تمام سیاهههای مربوط به ایمیل را به طور دائم حذف "
+"کنید؟"
+
+#: src/Pro/Emails/Logs/Logs.php:448
+msgid "Heads up!"
+msgstr "توجه!"
+
+#: src/Pro/Emails/Logs/Logs.php:451
+msgid "An error occurred!"
+msgstr "یک خطا رخ داده است!"
+
+#: src/Pro/Emails/Logs/Logs.php:470
+msgid "Are you sure you want to resend selected emails?"
+msgstr ""
+"آیا مطمئن هستید که می خواهید ایمیل های انتخاب شده را دوباره ارسال کنید؟"
+
+#: src/Pro/Emails/Logs/Logs.php:471
+msgid "Queuing emails..."
+msgstr "صف بندی ایمیل ها..."
+
+#: src/Pro/Emails/Logs/Logs.php:478
+msgid "Sending email..."
+msgstr "ارسال ایمیل..."
+
+#: src/Pro/Emails/Logs/Logs.php:479 src/Pro/Emails/Logs/Resend.php:56
+msgid "Invalid recipients email addresses."
+msgstr "آدرس های ایمیل گیرندگان نامعتبر."
+
+#: src/Pro/Emails/Logs/Logs.php:715 src/Pro/Emails/Logs/Logs.php:955
+#: src/Pro/Emails/Logs/Reports/Admin.php:423 src/Pro/Emails/Logs/Resend.php:42
+#: src/Pro/Emails/Logs/Resend.php:96 src/Pro/Multisite.php:877
+msgid "You don't have the capability to perform this action."
+msgstr "شما قابلیت انجام این عمل را داري ."
+
+#: src/Pro/Emails/Logs/Logs.php:764
+msgid "Email Log entry was successfully deleted."
+msgstr "ورودی ورود به ایمیل با موفقیت حذف شد."
+
+#: src/Pro/Emails/Logs/Logs.php:771
+msgid "Email Log entries were successfully deleted."
+msgstr "نوشته های ورود به ایمیل با موفقیت حذف شد."
+
+#: src/Pro/Emails/Logs/Logs.php:778
+msgid ""
+"There was an error while processing your request, and no email log entries "
+"were deleted. Please try again."
+msgstr ""
+"هنگام پردازش درخواست شما خطایی روی داد و هیچ ورودی ورود به سیستم ایمیل حذف "
+"نشد. لطفا دوباره تلاش کنید."
+
+#: src/Pro/Emails/Logs/Logs.php:951 src/Pro/Emails/Logs/Reports/Admin.php:419
+#: src/Pro/Emails/Logs/Resend.php:38 src/Pro/Emails/Logs/Resend.php:92
+msgid "Access rejected."
+msgstr "دسترسی رد شد."
+
+#: src/Pro/Emails/Logs/Logs.php:974
+msgid "All email log entries were deleted successfully."
+msgstr "تمام ورودی های ورود به سیستم ایمیل با موفقیت حذف شدند."
+
+#. translators: %s - WPDB error message.
+#: src/Pro/Emails/Logs/Logs.php:979
+msgid ""
+"There was an issue while trying to delete all email log entries. Error "
+"message: %s"
+msgstr ""
+"یک مسئله در حالی که تلاش برای حذف تمام ورودی های ورود به سیستم ایمیل وجود "
+"دارد. پیام خطا: %s"
+
+#: src/Pro/Emails/Logs/Reports/Admin.php:192
+#: src/Pro/Emails/Logs/Reports/Admin.php:290
+msgid "Search Results"
+msgstr "نتایج جستجو"
+
+#: src/Pro/Emails/Logs/Reports/Admin.php:197
+msgid "Opened emails"
+msgstr "ایمیل های باز شده"
+
+#: src/Pro/Emails/Logs/Reports/Admin.php:198
+msgid "Clicked links"
+msgstr "لینک کلیک"
+
+#: src/Pro/Emails/Logs/Reports/Admin.php:232
+msgid "Number of items per page:"
+msgstr "تعداد آیتم در هر صفحه:"
+
+#: src/Pro/Emails/Logs/Reports/Admin.php:299
+msgid "total"
+msgstr "جمع"
+
+#: src/Pro/Emails/Logs/Reports/Admin.php:303
+msgid "sent"
+msgstr "ارسال"
+
+#: src/Pro/Emails/Logs/Reports/Admin.php:307
+msgid "confirmed"
+msgstr "تایید شده"
+
+#: src/Pro/Emails/Logs/Reports/Admin.php:310
+msgid "unconfirmed"
+msgstr "تائید نشده"
+
+#: src/Pro/Emails/Logs/Reports/Admin.php:314
+msgid "failed"
+msgstr "ناموفق"
+
+#: src/Pro/Emails/Logs/Reports/Admin.php:318
+msgid "open count"
+msgstr "تعداد مشاهده"
+
+#: src/Pro/Emails/Logs/Reports/Admin.php:323
+msgid "click count"
+msgstr "تعداد کلیک"
+
+#. translators: %1$d - items count; %2$s - search term.
+#: src/Pro/Emails/Logs/Reports/Admin.php:341
+msgid ""
+"Found <strong>%1$d items</strong> where the subject contains <i>%2$s</i>"
+msgstr "موارد یافت <strong> %1$d شده که</strong> در آن موضوع شامل<i>%2$s</i>"
+
+#: src/Pro/Emails/Logs/Reports/Admin.php:371
+msgid "Email Log Required"
+msgstr "ورود به سیستم ایمیل مورد نیاز"
+
+#: src/Pro/Emails/Logs/Reports/Admin.php:374
+msgid ""
+"Email Reports provide valuable insights by aggregating data from the Email "
+"Log, allowing you to measure the success of your emails."
+msgstr ""
+"گزارش ایمیل ارائه بینش ارزشمند با تجمیع داده ها از ورود به سیستم ایمیل، به "
+"شما اجازه می دهد برای اندازه گیری موفقیت ایمیل های خود را."
+
+#: src/Pro/Emails/Logs/Reports/Admin.php:395
+msgid "Email Reports are Not Installed Correctly"
+msgstr "گزارش های ایمیل به درستی نصب نشده اند"
+
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:60
+msgid "Hi there,"
+msgstr "سلام،"
+
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:63
+msgid "Let’s see how your emails performed in the past week."
+msgstr "بیایید ببینیم ایمیل های شما در هفته گذشته چگونه انجام شده است."
+
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:71
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:168
+msgid "Total Emails"
+msgstr "کل ایمیل ها"
+
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:97
+#: src/Pro/Emails/Logs/Reports/Table.php:66
+msgid "Confirmed"
+msgstr "تایید شده"
+
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:109
+#: src/Pro/Emails/Logs/Reports/Table.php:67
+msgid "Unconfirmed"
+msgstr "تأیید نشده"
+
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:140
+msgid "Last Week’s Top Emails"
+msgstr "ایمیل های برتر هفته گذشته"
+
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:145
+msgid "View All Emails"
+msgstr "نمایش همه ورودی ها"
+
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:206
+msgid "Opened Emails"
+msgstr "ایمیل های باز شده"
+
+#: src/Pro/Emails/Logs/Reports/Emails/Summary.php:219
+msgid "Clicked Links"
+msgstr "لینک کلیک"
+
+#: src/Pro/Emails/Logs/Reports/Table.php:61
+msgid "Total"
+msgstr "رقم کل"
+
+#: src/Pro/Emails/Logs/Reports/Table.php:73
+msgid "Open Count"
+msgstr "تعداد مشاهده"
+
+#: src/Pro/Emails/Logs/Reports/Table.php:77
+msgid "Click Count"
+msgstr "تعداد کلیک"
+
+#: src/Pro/Emails/Logs/Reports/Table.php:80
+msgid "Graph"
+msgstr "نمودار"
+
+#: src/Pro/Emails/Logs/Reports/Table.php:284
+msgid "No email reports are available."
+msgstr "هیچ گزارش ایمیلی در دسترس نیست."
+
+#: src/Pro/Emails/Logs/Reports/Table.php:351
+msgid "Last 7 days"
+msgstr "7 روز گذشته"
+
+#: src/Pro/Emails/Logs/Reports/Table.php:352
+msgid "Last 14 days"
+msgstr "14 روز گذشته"
+
+#: src/Pro/Emails/Logs/Reports/Table.php:353
+msgid "Last 30 days"
+msgstr "30 روز گذشته"
+
+#: src/Pro/Emails/Logs/Resend.php:48
+msgid "Email ID must be specified."
+msgstr "شناسه ایمیل باید مشخص شود."
+
+#: src/Pro/Emails/Logs/Resend.php:54
+msgid "Email recipients must be specified."
+msgstr "گیرندگان ایمیل باید مشخص شوند."
+
+#: src/Pro/Emails/Logs/Resend.php:62
+msgid "Invalid email ID."
+msgstr "شناسه ایمیل نامعتبر."
+
+#: src/Pro/Emails/Logs/Resend.php:68
+msgid "Email was successfully sent!"
+msgstr "ایمیل با موفقیت ارسال شد!"
+
+#. translators: %s - Error message.
+#: src/Pro/Emails/Logs/Resend.php:73
+msgid "Email sending error. <br>%s"
+msgstr "خطای ارسال ایمیل. <br>%s"
+
+#: src/Pro/Emails/Logs/Resend.php:102
+msgid "Email ID's must be specified."
+msgstr "شناسه های ایمیل باید مشخص شده باشد."
+
+#: src/Pro/Emails/Logs/Resend.php:107
+msgid ""
+"Emails were added to the send queue. If these selected emails have their "
+"email content, they will be resent shortly."
+msgstr ""
+"ایمیل ها به صف ارسال اضافه شدند. اگر این ایمیل های انتخابی دارای محتوای "
+"ایمیل خود باشند، به زودی مجددا ارسال خواهند شد."
+
+#: src/Pro/Emails/Logs/Resend.php:150
+msgid "Are you sure you want to resend this email?"
+msgstr "آیا مطمئن هستید که می خواهید این ایمیل را دوباره ارسال کنید؟"
+
+#: src/Pro/Emails/Logs/Resend.php:153
+msgid "Email recipients (separate with a comma)"
+msgstr "گیرندگان ایمیل (جدا با کاما)"
+
+#: src/Pro/License/License.php:123 src/Pro/Providers/Providers.php:242
+msgid "Something went wrong. Please try again later."
+msgstr "مشکلی پیش آمد. لطفا بعدا دوباره امتحان کنید."
+
+#: src/Pro/License/License.php:193
+msgid "Verify Key"
+msgstr "کلید تایید"
+
+#: src/Pro/License/License.php:203
+msgid "Deactivate Key"
+msgstr "غیرفعال کردن کلید"
+
+#. translators: $s - license type.
+#: src/Pro/License/License.php:215
+msgid "Your license key type is %s."
+msgstr "نوع کلید لایسنس شما %s است."
+
+#: src/Pro/License/License.php:229
+msgid ""
+"If your license has been upgraded or is incorrect, <a href=\"#\" id=\"wp-"
+"mail-smtp-setting-license-key-refresh\">click here to force a refresh</a>."
+msgstr "لایسنس به درستی توسط filevatan.ir فعال شده است."
+
+#: src/Pro/License/License.php:305
+msgid ""
+"There was an error connecting to the remote key API. Please try again later."
+msgstr ""
+"هنگام اتصال به API کلید از راه دور خطایی روی داد. لطفا بعدا دوباره امتحان "
+"کنید."
+
+#: src/Pro/License/License.php:326
+msgid "Congratulations! This site is now receiving automatic updates."
+msgstr "تبریک می گویم! این سایت اکنون به روزرسانی های خودکار را دریافت می کند."
+
+#: src/Pro/License/License.php:420 src/Pro/License/License.php:538
+msgid ""
+"There was an error connecting to the remote server. Please try again later."
+msgstr ""
+"هنگام اتصال به سرور راه دور خطایی روی داد. لطفا بعدا دوباره امتحان کنید."
+
+#: src/Pro/License/License.php:444 src/Pro/License/License.php:651
+msgid ""
+"Your license key for WP Mail SMTP Pro is invalid. The key no longer exists "
+"or the user associated with the key has been deleted. Please use a different "
+"key to continue receiving automatic updates."
+msgstr ""
+"کلید مجوز شما برای WP Mail SMTP Pro نامعتبر است. کلید دیگر وجود ندارد یا "
+"کاربر مرتبط با کلید حذف شده است. لطفاً برای ادامه دریافت به روزرسانی های "
+"خودکار ، از کلید دیگری استفاده کنید."
+
+#: src/Pro/License/License.php:463
+msgid ""
+"Your license key for WP Mail SMTP Pro has expired. Please renew your license "
+"key on WPMailSMTP.com to continue receiving automatic updates."
+msgstr ""
+"کلید مجوز شما برای WP Mail SMTP Pro منقضی شده است. لطفا کلید مجوز خود را در "
+"WPMailSMTP.com برای ادامه دریافت به روز رسانی خودکار تجدید."
+
+#: src/Pro/License/License.php:482 src/Pro/License/License.php:642
+msgid ""
+"Your license key for WP Mail SMTP Pro has been disabled. Please use a "
+"different key to continue receiving automatic updates."
+msgstr ""
+"کلید مجوز شما برای WP Mail SMTP Pro غیرفعال شده است. لطفاً برای ادامه دریافت "
+"به روزرسانی های خودکار ، از کلید دیگری استفاده کنید."
+
+#: src/Pro/License/License.php:504
+msgid "Your key has been refreshed successfully."
+msgstr "کلید شما با موفقیت بارگیری شد."
+
+#: src/Pro/License/License.php:560
+msgid "You have deactivated the key from this site successfully."
+msgstr "شما با موفقیت کلید این سایت را غیرفعال کرده اید."
+
+#. translators: %s - plugin settings page URL.
+#: src/Pro/License/License.php:598 src/Pro/License/License.php:741
+msgid ""
+"Please <a href=\"%s\">enter and activate</a> your license key for WP Mail "
+"SMTP Pro to enable automatic updates."
+msgstr ""
+"لطفا <a href=\"%s\"> وارد و فعال کنید</a>کلید مجوز خود را برای WP Mail SMTP "
+"Pro برای فعال کردن به روز رسانی خودکار."
+
+#. translators: %s - WPMailSMTP.com login page URL.
+#: src/Pro/License/License.php:621 src/Pro/License/License.php:757
+msgid ""
+"Your license key for WP Mail SMTP Pro has expired. <a href=\"%s\" target="
+"\"_blank\" rel=\"noopener noreferrer\">Please click here to renew your "
+"license key and continue receiving automatic updates.</a>"
+msgstr ""
+"کلید مجوز شما برای WP Mail SMTP Pro منقضی شده است. <a href=\"%s\" target="
+"\"_blank\" rel=\"noopener noreferrer\">لطفاً برای تمدید کلید مجوز خود و ادامه "
+"دریافت به روزرسانی های خودکار ، اینجا را کلیک کنید.</a>"
+
+#. translators: %s - plugin settings page URL.
+#: src/Pro/License/License.php:775
+msgid ""
+"Your license key for WP Mail SMTP Pro has been disabled. Please <a href=\"%s"
+"\">enter and activate</a> a different key for WP Mail SMTP Pro to continue "
+"receiving automatic updates."
+msgstr ""
+"کلید مجوز شما را برای WP Mail SMTP Pro غیر فعال شده است. لطفا <a href=\"%s"
+"\">وارد و فعال کردن</a> کلید های مختلف برای WP Mail SMTP Pro را برای ادامه "
+"دریافت به روز رسانی خودکار وارد کنید."
+
+#. translators: %s - plugin settings page URL.
+#: src/Pro/License/License.php:791
+msgid ""
+"Your license key for WP Mail SMTP Pro is invalid. Please <a href=\"%s"
+"\">enter and activate</a> a different key for WP Mail SMTP Pro to continue "
+"receiving automatic updates."
+msgstr ""
+"کلید مجوز شما برای WP Mail SMTP Pro نامعتبر است. لطفا <a href=\"%s\">وارد و "
+"فعال کردن</a> کلید های مختلف برای WP ایمیل SMTP طرفدار برای ادامه دریافت به "
+"روز رسانی خودکار."
+
+#: src/Pro/License/License.php:806
+msgid "Your WP Mail SMTP Pro license is active and valid."
+msgstr "شما وپ ایمیل SMTP مجوز نرم افزار فعال و معتبر است."
+
+#: src/Pro/Multisite.php:232
+msgid "The results could not be loaded."
+msgstr "نتایج قابل بارگیری نیست."
+
+#: src/Pro/Multisite.php:233
+msgid "Loading more results..."
+msgstr ""
+"<strong> پیمایش بی نهایت </strong> - باعث بارگذاری نتایج بیشتر در پیمایش در "
+"نزدیکی پایان لیست نتایج"
+
+#: src/Pro/Multisite.php:234
+msgid "No results found."
+msgstr "نتیجه ای پیدا نشد."
+
+#: src/Pro/Multisite.php:235
+msgid "Searching..."
+msgstr "در حال جستجو..."
+
+#: src/Pro/Multisite.php:270
+msgid "Multisite"
+msgstr "چند سایته"
+
+#: src/Pro/Multisite.php:277
+msgid "Settings control"
+msgstr "کنترل تنظیمات"
+
+#: src/Pro/Multisite.php:285
+msgid "Make the plugin settings global network-wide"
+msgstr "تنظیمات افزونه را در سطح شبکه جهانی"
+
+#: src/Pro/Multisite.php:289
+msgid ""
+"If disabled, each subsite of this multisite will have its own WP Mail SMTP "
+"settings page that has to be configured separately."
+msgstr ""
+"در صورت غیرفعال شدن، هر زیر سایت این چند سایت صفحه تنظیمات SmTP ایمیل WP خود "
+"را خواهد داشت که باید به طور جداگانه پیکربندی شود."
+
+#: src/Pro/Multisite.php:291
+msgid ""
+"If enabled, these global settings will manage email sending for all subsites "
+"of this multisite."
+msgstr ""
+"در صورت فعال شدن، این تنظیمات جهانی ارسال ایمیل برای تمام زیرنویس های این "
+"چند استنادی را مدیریت خواهند کرد."
+
+#: src/Pro/Multisite.php:407
+msgid ""
+"Sorry, you are not allowed to access the WP Mail SMTP settings for "
+"individual network subsite. The network-wide setting is enabled, so the "
+"plugin settings are only accessible in the network admin dashboard."
+msgstr ""
+"با عرض پوزش، شما مجاز به دسترسی به تنظیمات SMTP ایمیل WP برای زیر سایت شبکه "
+"فردی نیستید. تنظیمات شبکه گسترده فعال است، بنابراین تنظیمات پلاگین تنها در "
+"داشبورد مدیریت شبکه قابل دسترسی است."
+
+#: src/Pro/Multisite.php:674
+msgid "Clear these errors"
+msgstr "پاک کردن این خطاها"
+
+#: src/Pro/Multisite.php:748
+msgid "Site"
+msgstr "سایت"
+
+#: src/Pro/Pro.php:406
+msgid "Go to WP Mail SMTP Settings page"
+msgstr "برو به صفحه تنظیمات افزونه"
+
+#: src/Pro/Pro.php:407
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: src/Pro/Pro.php:413
+msgid "Go to WPMailSMTP.com documentation page"
+msgstr "به صفحه مستندات WPMailSMTP.com بروید"
+
+#: src/Pro/Pro.php:414
+msgid "Docs"
+msgstr "مستندات"
+
+#: src/Pro/Pro.php:420
+msgid "Go to WPMailSMTP.com support page"
+msgstr "به صفحه پشتیبانی WPMailSMTP.com بروید"
+
+#: src/Pro/Pro.php:421
+msgid "Support"
+msgstr "پشتیبانی آنلاین مگاتم"
+
+#: src/Pro/Pro.php:499
+msgid ""
+"There was an error while processing the authentication request. Please try "
+"again."
+msgstr ""
+"هنگام پردازش درخواست تأیید اعتبار خطایی روی داد. لطفا دوباره تلاش کنید."
+
+#: src/Pro/Pro.php:506
+msgid ""
+"There was an error while processing the authentication request. Please make "
+"sure that you have Client ID and Client Secret both valid and saved."
+msgstr ""
+"هنگام پردازش درخواست تأیید اعتبار خطایی روی داد. لطفاً مطمئن شوید که Client "
+"ID و Client Secret را هم معتبر و هم ذخیره کرده اید."
+
+#. translators: %s - error code, returned by Zoho API.
+#: src/Pro/Pro.php:514
+msgid ""
+"There was an error while processing the authentication request: %s. Please "
+"try again."
+msgstr ""
+"هنگام پردازش درخواست تأیید اعتبار خطایی رخ داد. %s لطفا دوباره تلاش کنید."
+
+#: src/Pro/Pro.php:521
+msgid ""
+"There was an error while processing the authentication request. Please "
+"recheck your Region, Client ID and Client Secret and try again."
+msgstr ""
+"خطایی هنگام پردازش درخواست احراز هویت وجود داشت. لطفاً منطقه، شناسه مشتری و "
+"سرویس گیرنده راز خود را دوباره بررسی کنید و دوباره امتحان کنید."
+
+#: src/Pro/Pro.php:530
+msgid ""
+"You have successfully linked the current site with your Microsoft API "
+"project. Now you can start sending emails through Outlook."
+msgstr ""
+"شما سایت فعلی را با موفقیت با پروژه API Microsoft خود پیوند داده اید. اکنون "
+"می توانید ایمیل را از طریق Outlook شروع کنید."
+
+#: src/Pro/Pro.php:536
+msgid ""
+"You have successfully linked the current site with your Zoho Mail API "
+"project. Now you can start sending emails through Zoho Mail."
+msgstr ""
+"شما با موفقیت سایت فعلی خود را با پروژه Zoho ایمیل API مرتبط. در حال حاضر "
+"شما می توانید شروع به ارسال ایمیل از طریق ایمیل Zoho."
+
+#: src/Pro/Pro.php:566
+msgid "Auto-updates are not available."
+msgstr "به روز رسانی خودکار در دسترس نیست."
+
+#: src/Pro/Pro.php:790 src/Pro/Providers/Providers.php:278
+#: src/Pro/Providers/Providers.php:322
+msgid "Please provide a valid email address."
+msgstr "لطفا یک آدرس ایمیل معتبر ارائه کنید."
+
+#: src/Pro/Pro.php:792
+msgid "Please provide a domain."
+msgstr "لطفاً یک دامنه ارائه دهید."
+
+#: src/Pro/Pro.php:868
+msgid "You don't have the permission to perform this action."
+msgstr "شما اجازه انجام این عمل را داري ."
+
+#: src/Pro/Pro.php:874
+msgid "Please enter a valid license key!"
+msgstr "لطفاً یک کلید مجوز معتبر وارد کنید."
+
+#: src/Pro/Pro.php:884
+msgid "License functionality missing!"
+msgstr "قابلیت مجوز از دست رفته!"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:129
+msgid "US East (N. Virginia)"
+msgstr "شرق ایالات متحده (N. ویرجینیا)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:130
+msgid "US East (Ohio)"
+msgstr "ایاالت متحده شرقی (اوهایو)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:131
+msgid "US West (N. California)"
+msgstr "ایالات متحده غرب (N. کالیفرنیا)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:132
+msgid "US West (Oregon)"
+msgstr "ایالات متحده غرب (اورگان)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:133
+msgid "EU (Ireland)"
+msgstr "اتحادیه اروپا (ایرلند)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:134
+msgid "EU (London)"
+msgstr "اتحادیه اروپا (لندن)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:135
+msgid "EU (Paris)"
+msgstr "اتحادیه اروپا (پاریس)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:136
+msgid "EU (Frankfurt)"
+msgstr "اتحادیه اروپا (فرانکفورت)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:137
+msgid "EU (Stockholm)"
+msgstr "اتحادیه اروپا (استکهلم)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:138
+msgid "EU (Milan)"
+msgstr "اتحادیه اروپا (میلان)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:139
+msgid "Asia Pacific (Mumbai)"
+msgstr "آسیا و اقیانوسیه (بمبئی)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:140
+msgid "Asia Pacific (Tokyo)"
+msgstr "آسیا و اقیانوسیه (توکیو)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:141
+msgid "Asia Pacific (Seoul)"
+msgstr "آسیا و اقیانوسیه (سئول)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:142
+msgid "Asia Pacific (Singapore)"
+msgstr "آسیا اقیانوسیه (سنگاپور)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:143
+msgid "Asia Pacific (Sydney)"
+msgstr "آسیا و اقیانوسیه (سیدنی)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:144
+msgid "Africa (Cape Town)"
+msgstr "آفریقا (کیپ تاون)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:145
+msgid "Canada (Central)"
+msgstr "کانادا (مرکزی)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:146
+msgid "Middle East (Bahrain)"
+msgstr "Middle East (Bahrain)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:147
+msgid "South America (São Paulo)"
+msgstr "آمریکای جنوبی (سائوپائولو)"
+
+#: src/Pro/Providers/AmazonSES/Auth.php:148
+msgid "GovCloud (US-West)"
+msgstr "گوف کلود (آمریکا-غرب)"
+
+#: src/Pro/Providers/AmazonSES/IdentitiesTable.php:64
+msgid "Sender"
+msgstr "فرستنده"
+
+#: src/Pro/Providers/AmazonSES/IdentitiesTable.php:65
+msgid "Type"
+msgstr "نوع"
+
+#: src/Pro/Providers/AmazonSES/IdentitiesTable.php:67
+msgid "Action"
+msgstr "فعالیت"
+
+#: src/Pro/Providers/AmazonSES/IdentitiesTable.php:97
+msgid "Email"
+msgstr "ایمیل"
+
+#: src/Pro/Providers/AmazonSES/IdentitiesTable.php:100
+#: src/Pro/Providers/Providers.php:336
+msgid "Domain"
+msgstr "دامنه"
+
+#: src/Pro/Providers/AmazonSES/IdentitiesTable.php:194
+msgid "No registered SES identities found."
+msgstr "هیچ هویت ثبت شده SES یافت نشد."
+
+#: src/Pro/Providers/AmazonSES/Identity.php:172
+msgid "Delete this domain"
+msgstr "حذف این دامنه"
+
+#: src/Pro/Providers/AmazonSES/Identity.php:173
+msgid "Delete this email"
+msgstr "این آدرس ایمیل را حذف کنید"
+
+#: src/Pro/Providers/AmazonSES/Identity.php:179
+#: src/Pro/Providers/AmazonSES/Identity.php:183
+msgid "View DNS"
+msgstr "مشاهده DNS"
+
+#: src/Pro/Providers/AmazonSES/Identity.php:186
+msgid "Resend a verification email to this address"
+msgstr "ارسال یک ایمیل تأیید مجدد به این آدرس"
+
+#: src/Pro/Providers/AmazonSES/Mailer.php:96
+msgid "Amazon SES request failed (empty response)."
+msgstr "درخواست SES آمازون شکست خورد (پاسخ خالی)."
+
+#: src/Pro/Providers/AmazonSES/Mailer.php:100
+msgid "Something went wrong. Please try again."
+msgstr "مشکلی پیش آمد. لطفا دوباره تلاش کنید."
+
+#: src/Pro/Providers/AmazonSES/Options.php:34
+msgid "Amazon SES"
+msgstr "آمازون SES"
+
+#: src/Pro/Providers/AmazonSES/Options.php:35
+msgid ""
+"Amazon SES is a transactional email provider that allows you to send email "
+"via its API. We recommend this mailer for existing users of Amazon Web "
+"Services because the set-up steps are a little more complicated than other "
+"mailers."
+msgstr ""
+"Amazon SES یک ارائه دهنده ایمیل تراکنشی است که به شما امکان می دهد از طریق "
+"API خود ایمیل ارسال کنید. ما این ایمیل را برای کاربران موجود خدمات وب آمازون "
+"توصیه می کنیم زیرا مراحل راه اندازی کمی پیچیده تر از سایر ایمیل ها هستند."
+
+#. translators: %s - WPMailSMTP.com URL.
+#: src/Pro/Providers/AmazonSES/Options.php:39
+msgid ""
+"To get started, read our <a href=\"%s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">Amazon SES documentation</a>."
+msgstr ""
+"برای شروع، <a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer"
+"\">اسناد آمازون SES</a> ما را بخوانید."
+
+#: src/Pro/Providers/AmazonSES/Options.php:53
+msgid ""
+"The Amazon SES mailer will be a good choice for technically advanced users "
+"who already have experience working with Amazon's web services.<br><br>If "
+"you aren't sure whether this mailer sounds like the right fit for your site, "
+"then we recommend considering one of our other mailer options."
+msgstr ""
+"ایمیل دهنده SES آمازون انتخاب خوبی برای کاربران پیشرفته فنی خواهد بود که در "
+"حال حاضر تجربه کار با خدمات وب آمازون را دارند.<br><br>اگر شما مطمئن نیستید "
+"که آیا این mailer برای تلفن های موبایل مانند مناسب مناسب برای سایت شما، سپس "
+"ما توصیه می کنیم با توجه به یکی از گزینه های ایمیل دیگر ما."
+
+#: src/Pro/Providers/AmazonSES/Options.php:98
+msgid "Access Key ID"
+msgstr "شناسه کلید دسترسی"
+
+#: src/Pro/Providers/AmazonSES/Options.php:115
+msgid "Secret Access Key"
+msgstr "کلید دسترسی مخفی"
+
+#: src/Pro/Providers/AmazonSES/Options.php:139
+msgid "Closest Region"
+msgstr "نزدیکترین منطقه"
+
+#: src/Pro/Providers/AmazonSES/Options.php:158
+msgid "--- Select region ---"
+msgstr "--- منطقه را انتخاب کنید ---"
+
+#: src/Pro/Providers/AmazonSES/Options.php:165
+msgid "The closest Amazon SES region to your website was preselected."
+msgstr "نزدیکترین منطقه آمازون SES به وب سایت شما انتخاب شده است."
+
+#: src/Pro/Providers/AmazonSES/Options.php:167
+msgid ""
+"Please select the Amazon SES API region which is the closest to where your "
+"website is hosted."
+msgstr ""
+"لطفاً منطقه API Amazon SES را انتخاب کنید که نزدیکترین مکان به میزبانی وب "
+"سایت شما باشد."
+
+#: src/Pro/Providers/AmazonSES/Options.php:169
+msgid ""
+"This can help to decrease network latency between your site and Amazon SES, "
+"which will speed up email sending."
+msgstr ""
+"این می تواند به کاهش تأخیر شبکه بین سایت شما و Amazon SES کمک کند ، که باعث "
+"تسریع در ارسال ایمیل می شود."
+
+#: src/Pro/Providers/AmazonSES/Options.php:172
+msgid "To access this section, please click the Save Settings button."
+msgstr "برای دسترسی به این بخش ، روی دکمه Save Settings کلیک کنید."
+
+#: src/Pro/Providers/AmazonSES/Options.php:181
+msgid "SES Identities"
+msgstr "هویت های SES"
+
+#: src/Pro/Providers/AmazonSES/Options.php:254
+msgid ""
+"Here are the domains and email addresses that have been verified and can be "
+"used as the From Email address."
+msgstr ""
+"در اینجا دامنه ها و آدرس های ایمیل است که تایید شده اند و می تواند به عنوان "
+"آدرس ایمیل استفاده می شود."
+
+#: src/Pro/Providers/AmazonSES/Options.php:260
+msgid "No registered domains or emails."
+msgstr "بدون دامنه ثبت شده و یا ایمیل."
+
+#: src/Pro/Providers/AmazonSES/Options.php:261
+msgid ""
+"You will not be able to send emails until you verify at least one domain or "
+"email address."
+msgstr ""
+"شما قادر به ارسال ایمیل تا زمانی که حداقل یک دامنه و یا آدرس ایمیل را تایید "
+"کنید نیستید."
+
+#: src/Pro/Providers/AmazonSES/Options.php:267
+msgid "Add new SES identity"
+msgstr "افزودن هویت جدید SES"
+
+#: src/Pro/Providers/AmazonSES/Options.php:269
+msgid "Add New"
+msgstr "ایجاد جدید"
+
+#: src/Pro/Providers/AmazonSES/Options.php:292
+msgid ""
+"Enter the domain name to verify it on Amazon SES and generate the required "
+"DNS TXT record."
+msgstr ""
+"نام دامنه بالا را وارد کنید تا آن را در آمازون SES تأیید کنید و رکورد DNS "
+"TXT مورد نیاز را تولید کنید."
+
+#: src/Pro/Providers/AmazonSES/Options.php:295
+msgid ""
+"Enter a valid email address. A verification email will be sent to the email "
+"address you entered."
+msgstr ""
+"یک آدرس ایمیل معتبر وارد کنید. یک ایمیل تأیید به آدرس ایمیلی که وارد کرده "
+"بودید ارسال خواهد شد."
+
+#: src/Pro/Providers/AmazonSES/Options.php:299
+msgid "Verify Domain"
+msgstr "بررسی دامنه"
+
+#: src/Pro/Providers/AmazonSES/Options.php:301
+msgid "Verify Email Address"
+msgstr "تایید آدرس ایمیل"
+
+#: src/Pro/Providers/AmazonSES/Options.php:304
+msgid "Please enter a domain"
+msgstr "لطفا دامنه ای را وارد کنید"
+
+#: src/Pro/Providers/AmazonSES/Options.php:305
+msgid "Please enter a valid email address"
+msgstr "لطفا یک آدرس ایمیل معتبر وارد کنید"
+
+#: src/Pro/Providers/AmazonSES/Options.php:308
+msgid "Verify"
+msgstr "تأیید کنید"
+
+#: src/Pro/Providers/AmazonSES/Options.php:326
+msgid "Verify SES identity"
+msgstr "بررسی هویت SES"
+
+#: src/Pro/Providers/AmazonSES/Options.php:338
+msgid ""
+"To access this section, please add an Access Key ID and Secret Access Key, "
+"select the Closest Region, then click the Save Settings button."
+msgstr ""
+"برای دسترسی به این بخش ، لطفاً یک کلید دستیابی به کلید (Key Key ID) و کلید "
+"رمز دسترسی (Secret Access Key) اضافه کنید ، نزدیکترین منطقه را انتخاب کنید و "
+"سپس بر روی دکمه ذخیره تنظیمات کلیک کنید."
+
+#: src/Pro/Providers/AmazonSES/Options.php:386
+msgid "Please add this TXT record to your domain's DNS settings:"
+msgstr "لطفا این رکورد TXT را به تنظیمات DNS دامنه خود اضافه کنید:"
+
+#: src/Pro/Providers/AmazonSES/Options.php:388
+msgid "Name:"
+msgstr "نام :"
+
+#: src/Pro/Providers/AmazonSES/Options.php:393
+msgid "Value:"
+msgstr "مقدار:"
+
+#. translators: %s - URL to Amazon SES documentation.
+#: src/Pro/Providers/AmazonSES/Options.php:400
+msgid ""
+"For information on how to add TXT DNS records, please <br><a href=\"%s\" "
+"target=\"_blank\" rel=\"noopener noreferrer\">refer to the Amazon SES "
+"documentation</a>."
+msgstr ""
+"برای کسب اطلاعات در مورد چگونگی اضافه کردن رکوردهای TXT DNS، لطفا <br>مراجعه "
+"<a href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">به اسناد SES "
+"آمازون.</a>"
+
+#: src/Pro/Providers/Outlook/Mailer.php:551
+msgid ""
+"Outlook did not provide any specific reason why the email failed to send. "
+"Usually this means an attachment bigger than the allowed 4MB was attached to "
+"the email."
+msgstr ""
+"Outlook دلیل خاصی ارائه نکرد که چرا ایمیل موفق به ارسال نشد. معمولا این بدان "
+"معنی است که پیوست بزرگتر از 4MB مجاز به ایمیل متصل شده بود."
+
+#: src/Pro/Providers/Outlook/Options.php:31
+msgid "365 / Outlook"
+msgstr "365 / Outlook"
+
+#. translators: %s - URL to Outlook doc.
+#: src/Pro/Providers/Outlook/Options.php:34
+msgid ""
+"Our Microsoft 365 / Outlook.com mailer allows you to send emails from a "
+"Microsoft email account on Outlook.com or a Microsoft 365 email address. "
+"It's free, but you'll need to provide a credit card to get started. The set-"
+"up steps are more technical than other options, so we created a detailed "
+"guide to walk you through the process.<br><br>To get started, read our <a "
+"href=\"%s\" target=\"_blank\" rel=\"noopener noreferrer\">Microsoft 365 / "
+"Outlook documentation</a>."
+msgstr ""
+"ایمیل مایکروسافت 365 / Outlook.com به شما امکان می دهد از یک حساب ایمیل "
+"Microsoft در Outlook.com یا یک آدرس ایمیل Microsoft 365 ایمیل ارسال کنید. "
+"این رایگان است، اما برای شروع باید یک کارت اعتباری ارائه دهید. مراحل "
+"راه‌اندازی فنی‌تر از گزینه‌های دیگر هستند، بنابراین راهنمای دقیقی برای راهنمایی "
+"شما در این فرآیند ایجاد کردیم.<br><br>برای شروع، <a href=\"%s\" target="
+"\"_blank\" ما را بخوانید. rel=\"noopener noreferrer\">مستندات Microsoft "
+"365 / Outlook</a>."
+
+#: src/Pro/Providers/Outlook/Options.php:48
+msgid ""
+"The Microsoft 365 / Outlook mailer is a great choice if you're already using "
+"paid email services with Microsoft, as you'll have the benefit of high email "
+"sending limits without signing up for a separate service. Due to the fairly "
+"complex setup, however, this option is recommended for more technical users."
+"<br><br>If you'd prefer a more straightforward setup, then we'd recommend "
+"considering one of the other mailer options."
+msgstr ""
+"اگر قبلاً از خدمات ایمیل پولی با مایکروسافت استفاده می‌کنید، میلر Microsoft "
+"365 / Outlook یک انتخاب عالی است، زیرا از مزایای محدودیت‌های ارسال ایمیل بدون "
+"ثبت نام در یک سرویس جداگانه برخوردار خواهید بود. با این حال، به دلیل تنظیمات "
+"نسبتاً پیچیده، این گزینه برای کاربران فنی بیشتری توصیه می‌شود.<br><br>اگر "
+"راه‌اندازی ساده‌تری را ترجیح می‌دهید، توصیه می‌کنیم یکی از گزینه‌های پست "
+"الکترونیکی دیگر را در نظر بگیرید."
+
+#: src/Pro/Providers/Outlook/Options.php:92
+msgid "Application ID"
+msgstr "شناسه برنامه"
+
+#: src/Pro/Providers/Outlook/Options.php:107
+msgid "Application Password"
+msgstr "رمز عبور برنامه"
+
+#: src/Pro/Providers/Outlook/Options.php:129
+#: src/Pro/Providers/Zoho/Options.php:158
+msgid "Redirect URI"
+msgstr "تغییر مسیر URI"
+
+#: src/Pro/Providers/Outlook/Options.php:137
+#: src/Pro/Providers/Zoho/Options.php:166
+msgid "Copy URL to clipboard"
+msgstr "URL را در کلیپ بورد کپی کنید"
+
+#: src/Pro/Providers/Outlook/Options.php:142
+msgid ""
+"This is the page on your site that you will be redirected to after you have "
+"authenticated with Microsoft."
+msgstr ""
+"این صفحه در سایت شماست که پس از تأیید اعتبار با مایکروسافت به شما هدایت می "
+"شوید."
+
+#: src/Pro/Providers/Outlook/Options.php:144
+msgid ""
+"You need to copy this URL into \"Authentication > Redirect URIs\" web field "
+"for your application on Microsoft Azure site for your project there."
+msgstr ""
+"برای برنامه خود در سایت Microsoft Azure باید این URL را در قسمت \"تأیید "
+"هویت> تغییر مسیر URI\" کپی کنید."
+
+#: src/Pro/Providers/Outlook/Options.php:153
+#: src/Pro/Providers/Zoho/Options.php:182
+msgid "Authorization"
+msgstr "مجوز"
+
+#: src/Pro/Providers/Outlook/Options.php:181
+msgid "Allow plugin to send emails using your Microsoft account"
+msgstr "به افزونه اجازه دهید با استفاده از حساب Microsoft خود ایمیل ارسال کند"
+
+#: src/Pro/Providers/Outlook/Options.php:184
+#: src/Pro/Providers/Zoho/Options.php:213
+msgid "Click the button above to confirm authorization."
+msgstr "برای تأیید مجوز ، روی دکمه بالا کلیک کنید."
+
+#: src/Pro/Providers/Outlook/Options.php:190
+#: src/Pro/Providers/Zoho/Options.php:219
+msgid "Remove Connection"
+msgstr "حذف اتصال"
+
+#. translators: %s - Display name and email, as received from oAuth provider.
+#: src/Pro/Providers/Outlook/Options.php:199
+#: src/Pro/Providers/Zoho/Options.php:228
+msgid "Connected as %s"
+msgstr "به عنوان %s وصل شد"
+
+#: src/Pro/Providers/Outlook/Options.php:206
+msgid ""
+"Removing the connection will give you an ability to redo the connection or "
+"link to another Microsoft account."
+msgstr ""
+"حذف اتصال به شما امکان می دهد مجدداً اتصال یا پیوند را به حساب دیگر "
+"مایکروسافت پیوند دهید."
+
+#: src/Pro/Providers/Outlook/Options.php:214
+msgid ""
+"To access this section, please add an Application ID and Application "
+"Password, then click the Save Settings button."
+msgstr ""
+"برای دسترسی به این بخش ، لطفاً یک برنامه کاربردی و رمز عبور برنامه را اضافه "
+"کنید ، سپس بر روی دکمه ذخیره تنظیمات کلیک کنید."
+
+#: src/Pro/Providers/Providers.php:206
+msgid "Sending..."
+msgstr "در حال ارسال..."
+
+#: src/Pro/Providers/Providers.php:209
+msgid ""
+"Are you sure you want to delete this email address? You will need to add and "
+"verify it again if you want to use it in the future."
+msgstr ""
+"آیا مطمئن هستید که می خواهید این آدرس ایمیل را حذف کنید؟ اگر می خواهید در "
+"آینده از آن استفاده کنید مجدداً آن را اضافه کرده و تأیید کنید."
+
+#: src/Pro/Providers/Providers.php:210
+msgid "Something went wrong, please reload the page and try again."
+msgstr "مشکلی پیش آمد ، لطفاً صفحه را بارگیری مجدد کنید و دوباره امتحان کنید."
+
+#: src/Pro/Providers/Providers.php:211
+msgid "Please make sure that the email address is valid."
+msgstr "لطفاً اطمینان حاصل کنید که آدرس ایمیل معتبر است."
+
+#: src/Pro/Providers/Providers.php:215
+msgid "Resend failed!"
+msgstr "ارسال مجدد شکست خورد!"
+
+#: src/Pro/Providers/Providers.php:219
+msgid "Done"
+msgstr "انجام شد"
+
+#: src/Pro/Providers/Providers.php:220
+msgid ""
+"Are you sure you want to delete this domain? You will need to add and verify "
+"it again if you want to use it in the future."
+msgstr ""
+"آیا مطمئن هستید که می خواهید این دامنه را حذف کنید؟ شما نیاز به اضافه کردن و "
+"تایید آن دوباره اگر شما می خواهید آن را در آینده استفاده کنید."
+
+#: src/Pro/Providers/Providers.php:221
+msgid "Add verified domain"
+msgstr "افزودن دامنه تأیید شده"
+
+#: src/Pro/Providers/Providers.php:222
+msgid "The AWS SES identities could not load because of an error."
+msgstr "هویت های AWS SES به دلیل خطا نمی توانستند بارگذاری شوند."
+
+#: src/Pro/Providers/Providers.php:280 src/Pro/Providers/Providers.php:324
+msgid "Please provide a domain name."
+msgstr "لطفاً یک نام دامنه ارائه دهید."
+
+#. translators: %s - email address.
+#: src/Pro/Providers/Providers.php:292
+msgid "Please check inbox of <code>%s</code> address for a verification email."
+msgstr ""
+"لطفاً صندوق ورودی آدرس <code>%s</code> را برای یک ایمیل تأیید بررسی کنید."
+
+#. translators: %1$s - "Email address" or "Domain"; %2$s - actual email address or domain name.
+#: src/Pro/Providers/Providers.php:333
+msgid "%1$s <code>%2$s</code> was successfully deleted."
+msgstr "%1$s <code>%2$s</code> موفقیت حذف شد."
+
+#: src/Pro/Providers/Providers.php:336
+msgid "Email address"
+msgstr "نشانی رایانامه"
+
+#: src/Pro/Providers/Zoho/Options.php:50
+msgid "Zoho Mail"
+msgstr "زوهو میل"
+
+#. translators: %1$s - URL to Zoho Mail page, %2$s - URL to Zoho Mail documentation page on WP Mail SMTP.
+#: src/Pro/Providers/Zoho/Options.php:53
+msgid ""
+"<a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Zoho Mail</a> "
+"allows you to create secure email accounts for your business without "
+"providing your credit card details. It's easy to connect to Zoho Mail using "
+"its API. This allows you to send WordPress emails from your Zoho Mail "
+"address.<br><br>To get started, read our <a href=\"%2$s\" target=\"_blank\" "
+"rel=\"noopener noreferrer\">Zoho Mail documentation</a>."
+msgstr ""
+"<a href=\"%1$s\" target=\"_blank\" rel=\"noopener noreferrer\">Zoho Mail</a> "
+"به شما امکان می‌دهد بدون ارائه جزئیات کارت اعتباری خود، حساب‌های ایمیل امن "
+"برای کسب و کار خود ایجاد کنید. اتصال به Zoho Mail با استفاده از API آن آسان "
+"است. این به شما امکان می‌دهد ایمیل‌های وردپرس را از آدرس ایمیل Zoho خود ارسال "
+"کنید.<br><br>برای شروع، <a href=\"%2$s\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">اسناد ایمیل Zoho ما را بخوانید. </a>."
+
+#: src/Pro/Providers/Zoho/Options.php:100
+msgid "Region"
+msgstr "منطقه"
+
+#: src/Pro/Providers/Zoho/Options.php:112
+msgid "The data center location used by your Zoho account"
+msgstr "محل مرکز داده استفاده شده توسط حساب Zoho خود را."
+
+#: src/Pro/Providers/Zoho/Options.php:121
+msgid "Client ID"
+msgstr "شناسه مشتری"
+
+#: src/Pro/Providers/Zoho/Options.php:136
+msgid "Client Secret"
+msgstr "رمز مشتری"
+
+#: src/Pro/Providers/Zoho/Options.php:171
+msgid ""
+"This is the page on your site that you will be redirected to after you have "
+"authenticated with Zoho Mail."
+msgstr ""
+"این صفحه در سایت شما است که شما را به بعد از شما با ایمیل Zoho تصدیق هدایت "
+"خواهد شد."
+
+#: src/Pro/Providers/Zoho/Options.php:173
+msgid ""
+"You need to copy this URL into \"Client Details > Authorized Redirect URIs\" "
+"web field for your application on Zoho Developer Console."
+msgstr ""
+"شما نیاز به کپی کردن این آدرس را به \"جزئیات مشتری > مجاز تغییر مسیر URIs\" "
+"زمینه وب برای برنامه خود را در کنسول توسعه دهنده Zoho."
+
+#: src/Pro/Providers/Zoho/Options.php:210
+msgid "Allow plugin to send emails using your Zoho Mail account"
+msgstr ""
+"اجازه دهید پلاگین برای ارسال ایمیل با استفاده از حساب ایمیل Zoho خود را"
+
+#: src/Pro/Providers/Zoho/Options.php:235
+msgid ""
+"Removing the connection will give you the ability to redo the connection or "
+"link to another Zoho Mail account."
+msgstr ""
+"از بین بردن اتصال به شما این توانایی را می دهد که اتصال را دوباره انجام داده "
+"یا به یک حساب ایمیل زوهو دیگر لینک کنید."
+
+#: src/Pro/Providers/Zoho/Options.php:243
+msgid ""
+"To access this section, please add a Domain, Client ID and Client Secret, "
+"then click the Save Settings button."
+msgstr ""
+"برای دسترسی به این بخش، لطفاً یک Domain، Client ID و Client Secret اضافه "
+"کنید، سپس روی دکمه ذخیره تنظیمات کلیک کنید."
+
+#: src/Pro/SiteHealth.php:53
+msgid "Is WP Mail SMTP Pro license active and valid?"
+msgstr "آیا لایسنس WP Mail SMTP Pro تایید شده است ؟"
+
+#: src/Pro/SiteHealth.php:85
+msgid "Pro install date"
+msgstr "تاریخ نصب حرفه ای"
+
+#: src/Pro/SiteHealth.php:92
+msgid "Email log entries"
+msgstr "ورودی های ایمیل ورود به سیستم"
+
+#: src/Pro/SiteHealth.php:119
+msgid "WP Mail SMTP Pro license is active and valid"
+msgstr "مجوز نرم افزار فعال و معتبر است"
+
+#: src/Pro/SiteHealth.php:129
+msgid "View license setting"
+msgstr "مشاهده تنظیمات مجوز"
+
+#: src/Pro/SiteHealth.php:139
+msgid "WP Mail SMTP Pro license is invalid"
+msgstr "مجوز نرم افزار نامعتبر است"
+
+#: src/Pro/SiteHealth.php:161
+msgid "Your site can communicate with wpmailsmtp.com"
+msgstr "سایت شما می تواند ارتباط با wpmailsmtp.com"
+
+#: src/Pro/SiteHealth.php:169
+msgid ""
+"Communicating with the wpmailsmtp.com servers is used to check for new "
+"plugin versions, and to verify license keys."
+msgstr ""
+"برقراری ارتباط با سرورهای wpmailsmtp.com برای بررسی نسخه های جدید افزونه و "
+"تأیید کلیدهای مجوز استفاده می شود."
+
+#: src/Pro/SiteHealth.php:181
+msgid "Could not reach wpmailsmtp.com"
+msgstr "نتوانست به wpmailsmtp.com برسد"
+
+#. translators: %s - The error returned by the lookup.
+#: src/Pro/SiteHealth.php:189
+msgid "Your site is unable to reach wpmailsmtp.com, and returned the error: %s"
+msgstr "سایت شما قادر به رسیدن به wpmailsmtp.com نیست و خطا را بازگرداند: %s"
+
+#: src/Pro/Tasks/Logs/Mailgun/VerifySentStatusTask.php:107
+#: src/Pro/Tasks/Logs/Sendinblue/VerifySentStatusTask.php:97
+#: src/Pro/Tasks/Logs/SMTPcom/VerifySentStatusTask.php:115
+msgid ""
+"The email failed to be delivered. No specific reason was provided by the API."
+msgstr "ایمیل موفق به تحویل نشد. هیچ دلیل خاصی توسط API ارائه نشد."
+
+#. translators: %d - The number of tries.
+#: src/Pro/Tasks/Logs/VerifySentStatusTaskAbstract.php:84
+msgid ""
+"The email sent status verification timed-out after %d tries. No information "
+"on email status (delivered/failed) was provided by the mailer API."
+msgstr ""
+"ایمیل ارسال تایید وضعیت به موقع پس از تلاش %d کند. هیچ اطلاعاتی در مورد "
+"وضعیت ایمیل (تحویل/ شکست خورده) توسط API mailer ارائه نشده است."

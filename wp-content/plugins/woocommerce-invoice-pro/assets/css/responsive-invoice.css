@@ -1,0 +1,91 @@
+@media (max-width: 576px) {
+  .table-responsive thead {
+    display: none; }
+  .table-responsive td {
+    width: 100%;
+    display: block; } }
+@media (max-width: 576px) {
+  .invoice .template-1 .shop-info tfoot, .invoice .template-1 .shop-info tfoot tr {
+    display: block; } }
+@media (max-width: 576px) {
+  .invoice .template-1 .total-table {
+    width: 100%; } }
+@media (max-width: 576px) {
+  .invoice .template-2 .sender-customer-table td {
+    margin-bottom: 15px; } }
+@media (max-width: 576px) {
+  .invoice .template-2 .total-table {
+    width: 100%; }
+    .invoice .template-2 .total-table tbody tr:not(:last-child) td:last-child {
+      border-bottom: none; } }
+@media (max-width: 576px) {
+  .invoice .template-3 .sender-customer-table td {
+    margin-bottom: 15px; } }
+@media (max-width: 576px) {
+  .invoice .template-3 .total-table {
+    width: 100%; }
+    .invoice .template-3 .total-table tbody tr:not(:last-child) td:last-child {
+      border-bottom: none; } }
+@media (max-width: 576px) {
+  .invoice .template-4 .sender-customer-table td {
+    margin-bottom: 15px; } }
+@media (max-width: 576px) {
+  .invoice .template-4 .total-table {
+    width: 100%; }
+    .invoice .template-4 .total-table tbody tr:not(:last-child) td:last-child,
+    .invoice .template-4 .total-table tbody tr:not(:last-child) th {
+      border-bottom: none; } }
+@media (max-width: 576px) {
+  .invoice .template-6 .shop-info > tbody > tr > td:first-child {
+    border-bottom: 2px dashed #000; } }
+@media (max-width: 576px) {
+  .invoice .template-6 .shop-info table td {
+    width: auto;
+    display: table-cell;
+    vertical-align: top; }
+  .invoice .template-6 .shop-info table .component.title .title, .invoice .template-6 .shop-info table .component.address .title, .invoice .template-6 .shop-info table .component.print-date .title, .invoice .template-6 .shop-info table .component.phone .title {
+    display: none; }
+  .invoice .template-6 .shop-info table tr > td:nth-child(2) {
+    text-align: right; } }
+@media (max-width: 576px) {
+  .invoice .template-6 .products-table .row {
+    display: table-cell; }
+  .invoice .template-6 .products-table.table-responsive td {
+    width: auto;
+    display: table-cell; }
+  .invoice .template-6 .products-table tbody tr.even td {
+    background: transparent; }
+  .invoice .template-6 .products-table.table-bordered tbody tr:not(:last-child) td:last-child {
+    border-bottom: none; } }
+@media (max-width: 576px) {
+  .invoice .template-6 .total-table tbody tr:not(:last-child) th {
+    border-bottom: none; }
+  .invoice .template-6 .total-table tbody tr:not(:last-child) td:last-child {
+    border-bottom: none; } }
+@media (max-width: 576px) {
+  .invoice.rtl .template-6 .shop-info table tr > td:nth-child(2) {
+    text-align: left; } }
+@media (max-width: 576px) {
+  .invoice .template-7 .header-table table {
+    table-layout: fixed;
+    margin-top: 15px; } }
+@media (max-width: 576px) {
+  .invoice .template-7 .header-table table td {
+    display: table-cell; } }
+@media (max-width: 576px) {
+  .invoice .template-7 .total-table td.final {
+    background: transparent;
+    color: #000;
+    width: 100%; } }
+@media (max-width: 576px) {
+  .invoice .template-8 .header-table {
+    text-align: center; } }
+
+@media (max-width: 576px) {
+  .pre-invoice .template-1 .shop-info tfoot, .pre-invoice .template-1 .shop-info tfoot tr {
+    display: block; } }
+@media (max-width: 576px) {
+  .pre-invoice .template-1 .cart-total-table {
+    width: 100%; } }
+
+/*# sourceMappingURL=responsive-invoice.css.map */

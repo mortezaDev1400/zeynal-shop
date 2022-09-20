@@ -1,0 +1,16 @@
+@import "variables";
+@import "global";
+
+.order-label {
+    .inner {
+        padding: 30px;
+        border: 1px dashed #000;
+        .component {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .barcode {
+            margin-top: 15px;
+        }
+    }
+}

@@ -1,0 +1,232 @@
+@import "variables";
+@import "global";
+
+.invoice {
+    .template-7 {
+        &.container {
+            padding: 0;
+        }
+        .header-table {
+            text-align: center;
+            margin-top: 5px;
+            .content {
+                .title {
+                    display: none;
+                }
+            }
+            table {
+                @media (min-width: $break_point) {
+                    width: 80%;
+                }
+                /*@media (max-width: $break_point) {
+                    table-layout: fixed;
+                    margin-top: 15px;
+                }*/
+                .invoice-title {
+                    font-size: 300%;
+                    text-transform: uppercase;
+                    td {
+                        text-align: center !important;
+                        padding-bottom: 15px;
+                    }
+                }
+                td {
+                    padding-top: 0;
+                    padding-bottom: 0;
+                    /*@media (max-width: $break_point) {
+                        display: table-cell;
+                    }*/
+                }
+                tr:not(.barcode) td:first-child {
+                    text-align: left;
+                }
+                tr:not(.barcode) td:last-child {
+                    text-align: right;
+                }
+            }
+        }
+        .shop-info {
+            background: #000;
+            color: #FFF;
+            padding: 30px 10px 10px;
+            position: relative;
+            .component  {
+                display: inline-block;
+            }
+            .dollar {
+                position: absolute;
+                left: 50%;
+                top: -18px;
+                transform: translateX(-50%);
+                display: inline-block;
+                border-radius: 50%;
+                border: 3px solid #FFF;
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                background: #000;
+                font-size: 20px;
+            }
+        }
+        .customer-info {
+            margin: 20px;
+            > div {
+                img {
+                    position: relative;
+                    top: 2px;
+                }
+                .component {
+                    display: inline-block;
+                }
+            }
+            .full-name {
+                font-size: 140%;
+                margin-bottom: 15px;
+                font-weight: bold;
+            }
+        }
+        .products-table {
+            border: none;
+            text-align: center;
+            th, td {
+                border: none;
+                border-bottom: 2px solid #000;
+            }
+            tr {
+                th:first-child, td:first-child {
+                    text-align: left;
+                }
+                th:last-child, td:last-child {
+                    text-align: right;
+                }
+            }
+            th.row, th.id, th.image, th.product {
+                background: #000;
+                color: #FFF;
+            }
+            th.product {
+                position: relative;
+                &:after {
+                    content: '';
+                    position: absolute;
+                    width: 0;
+                    height: 0;
+                    border-top: 55px solid transparent;
+                    border-left: 55px solid #000;
+                    right: -55px;
+                    top: 0;
+                }
+            }
+            th, tr.even td {
+                background: $bg-color;
+            }
+        }
+        .total-table {
+            border: none;
+            text-align: right;
+            th, td {
+                border: none;
+            }
+            td {
+                width: 30%;
+            }
+            .final {
+                font-size: 120%;
+                font-weight: bold;
+            }
+            th.final {
+                border-top: 2px solid #000;
+            }
+            td.final {
+                background: #000;
+                color: #FFF;
+                border-top: 2px solid #000;
+                position: relative;
+                &:after {
+                    content: '';
+                    position: absolute;
+                    width: 0;
+                    height: 0;
+                    border-top: 55px solid transparent;
+                    border-left: 55px solid #FFF;
+                    left: 0;
+                    top: 0;
+                }
+            }
+        }
+        .footer-table {
+            text-align: center;
+            border-top: 4px solid #000;
+            background: $bg-color;
+            .component .content .title {
+                display: none;
+            }
+        }
+    }
+    &.rtl .template-7 {
+        .products-table {
+            tr {
+                th:first-child, td:first-child {
+                    text-align: right;
+                }
+                th:last-child, td:last-child {
+                    text-align: left;
+                }
+            }
+            th.product:after {
+                border-left: none !important;
+                border-right: 55px solid #000 !important;
+                right: auto !important;
+                left: -55px !important;
+                top: 0;
+            }
+        }
+        .total-table {
+            text-align: left;
+            td.final:after {
+                border-right: 55px solid #FFF !important;
+                border-left: none !important;
+                right: 0 !important;
+                left: auto !important;
+            }
+        }
+    }
+    &.condensed .template-7 {
+        .header-table {
+            table {
+                .invoice-title {
+                    font-size: 150%;
+                }
+            }
+        }
+        .shop-info {
+            padding-top: 2px;
+            padding-bottom: 2px;
+            .dollar {
+                display: none;
+            }
+        }
+        .customer-info {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+        .full-name {
+            font-size: 100%;
+            margin-bottom: 0;
+        }
+        .products-table th.product:after {
+            border-top-width: 23px;
+            border-left-width: 23px;
+            right: -23px;
+        }
+        .total-table td.final:after {
+            border-top-width: 23px;
+            border-left-width: 23px;
+        }
+    }
+}
+
+.is-email .template-7 .shop-info .dollar {
+    display: none;
+}

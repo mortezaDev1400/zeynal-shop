@@ -1,0 +1,2287 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 07:10:26
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |WINNT
+PHP VERSION_________: 7.4.30                                |7.4.19
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 7.4.19 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache/2.4.47 (Win64) OpenSSL/1.1.1k PHP/7.4.19
+DOC ROOT____________: "D:/laragon/www/zeynal-shop"
+REQUEST URL_________: "http://localhost/zeynal-shop"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "D:/laragon/www/zeynal-shop"
+URL_NEW_____________: "http://localhost/zeynal-shop"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "D:/laragon/www/zeynal-shop/zeynal_new_addon_[HASH]_20220916014608_archive.zip"
+ARCHIVE SIZE________: 121.02MB
+CREATED_____________: 2022-09-16 01:46:08
+WP VERSION__________: 6.0.2
+DUP VERSION_________: 1.5.0
+LICENSE_____________: Free version
+DB VERSION__________: 10.3.35
+DB FILE SIZE________: 7.67MB
+DB TABLES___________: 85
+DB ROWS_____________: 11083
+URL HOME____________: https://zeynal.ir
+URL CORE____________: https://zeynal.ir
+URL CONTENT_________: https://zeynal.ir/wp-content
+URL UPLOAD__________: https://zeynal.ir/wp-content/uploads
+URL PLUGINS_________: https://zeynal.ir/wp-content/plugins
+URL MU PLUGINS______: https://zeynal.ir/wp-content/mu-plugins
+URL THEMES__________: https://zeynal.ir/wp-content/themes
+PATH HOME___________: /home/zeynalir/public_html
+PATH ABS____________: /home/zeynalir/public_html
+PATH WPCONFIG_______: /home/zeynalir/public_html
+PATH WPCONTENT______: /home/zeynalir/public_html/wp-content
+PATH UPLOADS________: /home/zeynalir/public_html/wp-content/uploads
+PATH PLUGINS________: /home/zeynalir/public_html/wp-content/plugins
+PATH MUPLUGINS______: /home/zeynalir/public_html/wp-content/mu-plugins
+PATH THEMES_________: /home/zeynalir/public_html/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "zeynal.ir/"
+
+PLUGINS
+PLUGIN [SLUG:acf-persian-date-field/acf-persian-date-field.php ][ON:true ]  Advanced Custom Fields: Persian Date Field
+PLUGIN [SLUG:advanced-custom-fields-pro/acf.php                ][ON:true ]  Advanced Custom Fields PRO
+PLUGIN [SLUG:all-in-one-wp-security-and-firewall/wp-security.php][ON:true ]  All In One WP Security
+PLUGIN [SLUG:woocommerce-checkout-field-editor-pro/woocommerce-checkout-field-editor-pro.php][ON:true ]  Checkout Field Editor for WooCommerce (Pro)
+PLUGIN [SLUG:classic-editor/classic-editor.php                 ][ON:false]  Classic Editor
+PLUGIN [SLUG:classic-widgets/classic-widgets.php               ][ON:true ]  Classic Widgets
+PLUGIN [SLUG:woocommerce-all-discounts/wad.php                 ][ON:true ]  Conditional Discounts for WooCommerce by ORION
+PLUGIN [SLUG:contact-form-7/wp-contact-form-7.php              ][ON:true ]  Contact Form 7
+PLUGIN [SLUG:dokan-lite/dokan.php                              ][ON:true ]  Dokan
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:jw-player-7-for-wp-premium/jw-player-7-for-wp-premium.php][ON:false]  JW Player for WordPress - Premium
+PLUGIN [SLUG:presto-player/presto-player.php                   ][ON:true ]  Presto Player
+PLUGIN [SLUG:presto-player-pro/presto-player-pro.php           ][ON:true ]  Presto Player Pro
+PLUGIN [SLUG:prdctfltr/prdctfltr.php                           ][ON:true ]  Product Filter for WooCommerce
+PLUGIN [SLUG:woocommerce/woocommerce.php                       ][ON:true ]  WooCommerce
+PLUGIN [SLUG:woocommerce-invoice-pro/woocommerce-invoice-pro.php][ON:true ]  Woocommerce Invoice Pro
+PLUGIN [SLUG:wordpress-importer/wordpress-importer.php         ][ON:true ]  WordPress Importer
+PLUGIN [SLUG:wp-parsidate/wp-parsidate.php                     ][ON:true ]  WP-Parsidate
+PLUGIN [SLUG:wp-mail-smtp-pro/wp_mail_smtp.php                 ][ON:true ]  WP Mail SMTP Pro
+PLUGIN [SLUG:wp-statistics/wp-statistics.php                   ][ON:true ]  WP Statistics
+PLUGIN [SLUG:wordpress-seo/wp-seo.php                          ][ON:true ]  Yoast SEO
+PLUGIN [SLUG:wordpress-seo-premium/wp-seo-premium.php          ][ON:true ]  Yoast SEO Premium
+PLUGIN [SLUG:persian-woocommerce-shipping/woocommerce-shipping.php][ON:true ]  افزونه حمل و نقل ووکامرس
+PLUGIN [SLUG:persian-woocommerce-shipping-pro/pws-pro.php      ][ON:true ]  افزونه حمل و نقل ووکامرس - حرفه‌ای
+PLUGIN [SLUG:zarinpal-woocommerce-payment-gateway/index.php    ][ON:true ]  افزونه پرداخت امن زرین‌پال برای ووکامرس
+PLUGIN [SLUG:dokan-pro/dokan-pro.php                           ][ON:true ]  دکان پرو|استارتر
+PLUGIN [SLUG:RTL-CareUnit/RTL-CareUnit.php                     ][ON:true ]  مدیریت لایسنس راستچین
+PLUGIN [SLUG:persian-woocommerce/woocommerce-persian.php       ][ON:true ]  ووکامرس فارسی
+
+********************************************************************************
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.34111]  MESSAGE:END RENDER PAGE
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.33476]  MESSAGE:END RENDER PAGE
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "D:/laragon/www/zeynal-shop"
+--------------------------------------
+LOG-TIME[DELTA:   0.03015]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00020]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.01195]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.03875]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00029]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.02396]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00270]  MESSAGE:TEST "Database Version" RESULT: soft warning
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00025]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00017]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00019]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00049]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00024]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.42949]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00106]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00069]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00121]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: passed
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00059]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "D:/laragon/www/zeynal-shop"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 07:15:59
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "فروشگاه اینترنتی زینال"
+HOME URL NEW________: "http://localhost/zeynal-shop"
+SITE URL NEW________: "http://localhost/zeynal-shop/"
+CONTENT URL NEW_____: "http://localhost/zeynal-shop/wp-content"
+UPLOAD URL NEW______: "http://localhost/zeynal-shop/wp-content/uploads"
+PLUGINS URL NEW_____: "http://localhost/zeynal-shop/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://localhost/zeynal-shop/wp-content/mu-plugins"
+HOME PATH NEW_______: "D:/laragon/www/zeynal-shop"
+SITE PATH NEW_______: "D:/laragon/www/zeynal-shop/"
+CONTENT PATH NEW____: "D:/laragon/www/zeynal-shop/wp-content"
+UPLOAD PATH NEW_____: "D:/laragon/www/zeynal-shop/wp-content/uploads"
+PLUGINS PATH NEW____: "D:/laragon/www/zeynal-shop/wp-content/plugins"
+MUPLUGINS PATH NEW__: "D:/laragon/www/zeynal-shop/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: false
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: false
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "D:/laragon/www/zeynal-shop/dup-installer"
+	FILE: "D:/laragon/www/zeynal-shop/zeynal_new_addon_[HASH]_20220916014608_installer-backup.php"
+	FILE: "D:/laragon/www/zeynal-shop/zeynal_new_addon_[HASH]_20220916014608_archive.zip"
+	FILE: "D:/laragon/www/zeynal-shop/installer.php"
+	FILE: "D:/laragon/www/zeynal-shop/dup-installer-bootlog__08847c5-16014608.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "zeynal_new_addon_[HASH]_20220916014608_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.0051 sec. - Files processed: 7,336 of 74,282
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 7336
+--------------------------------------
+PATHS MAPPING : "D:/laragon/www/zeynal-shop"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0558 sec. - Files processed: 16,095 of 74,282
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 16095
+--------------------------------------
+PATHS MAPPING : "D:/laragon/www/zeynal-shop"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0047 sec. - Files processed: 21,840 of 74,282
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 21840
+--------------------------------------
+PATHS MAPPING : "D:/laragon/www/zeynal-shop"
+--------------------------------------
+FILE EXTRACTION: done processing last file in list of 25353
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 07:16:15 - RUNTIME: 17.0287 sec. - Files processed: 74,282 of 74,282
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 dappq_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 07:16:16
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "dappq_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "dappq_actionscheduler_actions"___________________[ROWS:      34] [EXTRACT|REPLACE] [INST NAME: dappq_actionscheduler_actions]
+TABLE "dappq_actionscheduler_claims"____________________[ROWS:       7] [EXTRACT|REPLACE] [INST NAME: dappq_actionscheduler_claims]
+TABLE "dappq_actionscheduler_groups"____________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: dappq_actionscheduler_groups]
+TABLE "dappq_actionscheduler_logs"______________________[ROWS:      96] [EXTRACT|REPLACE] [INST NAME: dappq_actionscheduler_logs]
+TABLE "dappq_aiowps_debug_log"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_aiowps_debug_log]
+TABLE "dappq_aiowps_events"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_aiowps_events]
+TABLE "dappq_aiowps_failed_logins"______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: dappq_aiowps_failed_logins]
+TABLE "dappq_aiowps_global_meta"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_aiowps_global_meta]
+TABLE "dappq_aiowps_login_activity"_____________________[ROWS:      99] [EXTRACT|REPLACE] [INST NAME: dappq_aiowps_login_activity]
+TABLE "dappq_aiowps_login_lockdown"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_aiowps_login_lockdown]
+TABLE "dappq_aiowps_permanent_block"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_aiowps_permanent_block]
+TABLE "dappq_commentmeta"_______________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: dappq_commentmeta]
+TABLE "dappq_comments"__________________________________[ROWS:      18] [EXTRACT|REPLACE] [INST NAME: dappq_comments]
+TABLE "dappq_dokan_announcement"________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: dappq_dokan_announcement]
+TABLE "dappq_dokan_delivery_time"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_dokan_delivery_time]
+TABLE "dappq_dokan_orders"______________________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: dappq_dokan_orders]
+TABLE "dappq_dokan_refund"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_dokan_refund]
+TABLE "dappq_dokan_shipping_tracking"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_dokan_shipping_tracking]
+TABLE "dappq_dokan_shipping_zone_locations"_____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_dokan_shipping_zone_locations]
+TABLE "dappq_dokan_shipping_zone_methods"_______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_dokan_shipping_zone_methods]
+TABLE "dappq_dokan_vendor_balance"______________________[ROWS:       7] [EXTRACT|REPLACE] [INST NAME: dappq_dokan_vendor_balance]
+TABLE "dappq_dokan_withdraw"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_dokan_withdraw]
+TABLE "dappq_duplicator_packages"_______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: dappq_duplicator_packages]
+TABLE "dappq_links"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_links]
+TABLE "dappq_options"___________________________________[ROWS:    1475] [EXTRACT|REPLACE] [INST NAME: dappq_options]
+TABLE "dappq_postmeta"__________________________________[ROWS:    1188] [EXTRACT|REPLACE] [INST NAME: dappq_postmeta]
+TABLE "dappq_posts"_____________________________________[ROWS:     215] [EXTRACT|REPLACE] [INST NAME: dappq_posts]
+TABLE "dappq_presto_player_audio_presets"_______________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: dappq_presto_player_audio_presets]
+TABLE "dappq_presto_player_email_collection"____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_presto_player_email_collection]
+TABLE "dappq_presto_player_presets"_____________________[ROWS:       6] [EXTRACT|REPLACE] [INST NAME: dappq_presto_player_presets]
+TABLE "dappq_presto_player_videos"______________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: dappq_presto_player_videos]
+TABLE "dappq_presto_player_visits"______________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: dappq_presto_player_visits]
+TABLE "dappq_statistics_exclusions"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_statistics_exclusions]
+TABLE "dappq_statistics_historical"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_statistics_historical]
+TABLE "dappq_statistics_pages"__________________________[ROWS:     127] [EXTRACT|REPLACE] [INST NAME: dappq_statistics_pages]
+TABLE "dappq_statistics_search"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_statistics_search]
+TABLE "dappq_statistics_useronline"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_statistics_useronline]
+TABLE "dappq_statistics_visit"__________________________[ROWS:      16] [EXTRACT|REPLACE] [INST NAME: dappq_statistics_visit]
+TABLE "dappq_statistics_visitor"________________________[ROWS:      12] [EXTRACT|REPLACE] [INST NAME: dappq_statistics_visitor]
+TABLE "dappq_statistics_visitor_relationships"__________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_statistics_visitor_relationships]
+TABLE "dappq_termmeta"__________________________________[ROWS:    3978] [EXTRACT|REPLACE] [INST NAME: dappq_termmeta]
+TABLE "dappq_terms"_____________________________________[ROWS:    1593] [EXTRACT|REPLACE] [INST NAME: dappq_terms]
+TABLE "dappq_term_relationships"________________________[ROWS:      43] [EXTRACT|REPLACE] [INST NAME: dappq_term_relationships]
+TABLE "dappq_term_taxonomy"_____________________________[ROWS:    1593] [EXTRACT|REPLACE] [INST NAME: dappq_term_taxonomy]
+TABLE "dappq_usermeta"__________________________________[ROWS:     236] [EXTRACT|REPLACE] [INST NAME: dappq_usermeta]
+TABLE "dappq_users"_____________________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: dappq_users]
+TABLE "dappq_wc_admin_notes"____________________________[ROWS:      38] [EXTRACT|REPLACE] [INST NAME: dappq_wc_admin_notes]
+TABLE "dappq_wc_admin_note_actions"_____________________[ROWS:      45] [EXTRACT|REPLACE] [INST NAME: dappq_wc_admin_note_actions]
+TABLE "dappq_wc_category_lookup"________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: dappq_wc_category_lookup]
+TABLE "dappq_wc_customer_lookup"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_wc_customer_lookup]
+TABLE "dappq_wc_download_log"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_wc_download_log]
+TABLE "dappq_wc_order_coupon_lookup"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_wc_order_coupon_lookup]
+TABLE "dappq_wc_order_product_lookup"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_wc_order_product_lookup]
+TABLE "dappq_wc_order_stats"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_wc_order_stats]
+TABLE "dappq_wc_order_tax_lookup"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_wc_order_tax_lookup]
+TABLE "dappq_wc_product_attributes_lookup"______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_wc_product_attributes_lookup]
+TABLE "dappq_wc_product_download_directories"___________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: dappq_wc_product_download_directories]
+TABLE "dappq_wc_product_meta_lookup"____________________[ROWS:      26] [EXTRACT|REPLACE] [INST NAME: dappq_wc_product_meta_lookup]
+TABLE "dappq_wc_rate_limits"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_wc_rate_limits]
+TABLE "dappq_wc_reserved_stock"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_wc_reserved_stock]
+TABLE "dappq_wc_tax_rate_classes"_______________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: dappq_wc_tax_rate_classes]
+TABLE "dappq_wc_webhooks"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_wc_webhooks]
+TABLE "dappq_woocommerce_api_keys"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_woocommerce_api_keys]
+TABLE "dappq_woocommerce_attribute_taxonomies"__________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_woocommerce_attribute_taxonomies]
+TABLE "dappq_woocommerce_downloadable_product_permissions"[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_woocommerce_downloadable_product_permissions]
+TABLE "dappq_woocommerce_ir"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_woocommerce_ir]
+TABLE "dappq_woocommerce_log"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_woocommerce_log]
+TABLE "dappq_woocommerce_order_itemmeta"________________[ROWS:      63] [EXTRACT|REPLACE] [INST NAME: dappq_woocommerce_order_itemmeta]
+TABLE "dappq_woocommerce_order_items"___________________[ROWS:       7] [EXTRACT|REPLACE] [INST NAME: dappq_woocommerce_order_items]
+TABLE "dappq_woocommerce_payment_tokenmeta"_____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_woocommerce_payment_tokenmeta]
+TABLE "dappq_woocommerce_payment_tokens"________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_woocommerce_payment_tokens]
+TABLE "dappq_woocommerce_sessions"______________________[ROWS:      15] [EXTRACT|REPLACE] [INST NAME: dappq_woocommerce_sessions]
+TABLE "dappq_woocommerce_shipping_zones"________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: dappq_woocommerce_shipping_zones]
+TABLE "dappq_woocommerce_shipping_zone_locations"_______[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: dappq_woocommerce_shipping_zone_locations]
+TABLE "dappq_woocommerce_shipping_zone_methods"_________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: dappq_woocommerce_shipping_zone_methods]
+TABLE "dappq_woocommerce_tax_rates"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_woocommerce_tax_rates]
+TABLE "dappq_woocommerce_tax_rate_locations"____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: dappq_woocommerce_tax_rate_locations]
+TABLE "dappq_wpmailsmtp_debug_events"___________________[ROWS:       9] [EXTRACT|REPLACE] [INST NAME: dappq_wpmailsmtp_debug_events]
+TABLE "dappq_wpmailsmtp_tasks_meta"_____________________[ROWS:      38] [EXTRACT|REPLACE] [INST NAME: dappq_wpmailsmtp_tasks_meta]
+TABLE "dappq_yoast_indexable"___________________________[ROWS:     284] [EXTRACT|REPLACE] [INST NAME: dappq_yoast_indexable]
+TABLE "dappq_yoast_indexable_hierarchy"_________________[ROWS:     329] [EXTRACT|REPLACE] [INST NAME: dappq_yoast_indexable_hierarchy]
+TABLE "dappq_yoast_migrations"__________________________[ROWS:      25] [EXTRACT|REPLACE] [INST NAME: dappq_yoast_migrations]
+TABLE "dappq_yoast_primary_term"________________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: dappq_yoast_primary_term]
+TABLE "dappq_yoast_prominent_words"_____________________[ROWS:      38] [EXTRACT|REPLACE] [INST NAME: dappq_yoast_prominent_words]
+TABLE "dappq_yoast_seo_links"___________________________[ROWS:       7] [EXTRACT|REPLACE] [INST NAME: dappq_yoast_seo_links]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.33 -- Build Server: 10.3.35
+FILE SIZE:	dup-database__[HASH].sql (2.75MB)
+TIMEOUT:	5000
+MAXPACK:	536870912
+SQLMODE-GLOBAL:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`root`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+DATABASE CHUNK: CREATION TABLE MARKER FOUND
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 58788
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 89234
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 119515
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 166684
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 223258
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 260930
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 303198
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 380750
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 518252
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 676774
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 1237961
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 1502606
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 1536969
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 1559972
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 1588502
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 1610222
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 1659059
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 1713367
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 1825765
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 1848366
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 1864227
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 1889973
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 1915258
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 1939925
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 1966713
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 1991034
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2013543
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2034832
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2053412
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2068791
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2084148
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2099536
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2115406
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2131982
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2148815
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2166380
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2183213
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2200596
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2217429
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2234266
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2251556
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2268118
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2285858
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2303706
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2321460
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2339124
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2356698
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2374362
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2392086
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2411546
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2433572
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2456440
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2480717
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2502652
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2523307
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2543634
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2567069
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2615024
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2676816
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2775299
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2859877
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2875126
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	11859
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "dappq_actionscheduler_actions"___________________[ROWS:    34]
+TABLE "dappq_actionscheduler_claims"____________________[ROWS:     7]
+TABLE "dappq_actionscheduler_groups"____________________[ROWS:     4]
+TABLE "dappq_actionscheduler_logs"______________________[ROWS:    96]
+TABLE "dappq_aiowps_debug_log"__________________________[ROWS:     0]
+TABLE "dappq_aiowps_events"_____________________________[ROWS:     0]
+TABLE "dappq_aiowps_failed_logins"______________________[ROWS:     1]
+TABLE "dappq_aiowps_global_meta"________________________[ROWS:     0]
+TABLE "dappq_aiowps_login_activity"_____________________[ROWS:    99]
+TABLE "dappq_aiowps_login_lockdown"_____________________[ROWS:     0]
+TABLE "dappq_aiowps_permanent_block"____________________[ROWS:     0]
+TABLE "dappq_commentmeta"_______________________________[ROWS:     3]
+TABLE "dappq_comments"__________________________________[ROWS:    18]
+TABLE "dappq_dokan_announcement"________________________[ROWS:     2]
+TABLE "dappq_dokan_delivery_time"_______________________[ROWS:     0]
+TABLE "dappq_dokan_orders"______________________________[ROWS:     4]
+TABLE "dappq_dokan_refund"______________________________[ROWS:     0]
+TABLE "dappq_dokan_shipping_tracking"___________________[ROWS:     0]
+TABLE "dappq_dokan_shipping_zone_locations"_____________[ROWS:     0]
+TABLE "dappq_dokan_shipping_zone_methods"_______________[ROWS:     0]
+TABLE "dappq_dokan_vendor_balance"______________________[ROWS:     7]
+TABLE "dappq_dokan_withdraw"____________________________[ROWS:     0]
+TABLE "dappq_duplicator_packages"_______________________[ROWS:     1]
+TABLE "dappq_links"_____________________________________[ROWS:     0]
+TABLE "dappq_options"___________________________________[ROWS:  1475]
+TABLE "dappq_postmeta"__________________________________[ROWS:  1188]
+TABLE "dappq_posts"_____________________________________[ROWS:   215]
+TABLE "dappq_presto_player_audio_presets"_______________[ROWS:     4]
+TABLE "dappq_presto_player_email_collection"____________[ROWS:     0]
+TABLE "dappq_presto_player_presets"_____________________[ROWS:     6]
+TABLE "dappq_presto_player_videos"______________________[ROWS:     2]
+TABLE "dappq_presto_player_visits"______________________[ROWS:     2]
+TABLE "dappq_statistics_exclusions"_____________________[ROWS:     0]
+TABLE "dappq_statistics_historical"_____________________[ROWS:     0]
+TABLE "dappq_statistics_pages"__________________________[ROWS:   127]
+TABLE "dappq_statistics_search"_________________________[ROWS:     0]
+TABLE "dappq_statistics_useronline"_____________________[ROWS:     0]
+TABLE "dappq_statistics_visit"__________________________[ROWS:    16]
+TABLE "dappq_statistics_visitor"________________________[ROWS:    12]
+TABLE "dappq_statistics_visitor_relationships"__________[ROWS:     0]
+TABLE "dappq_term_relationships"________________________[ROWS:    43]
+TABLE "dappq_term_taxonomy"_____________________________[ROWS:  1593]
+TABLE "dappq_termmeta"__________________________________[ROWS:  3978]
+TABLE "dappq_terms"_____________________________________[ROWS:  1593]
+TABLE "dappq_usermeta"__________________________________[ROWS:   236]
+TABLE "dappq_users"_____________________________________[ROWS:     3]
+TABLE "dappq_wc_admin_note_actions"_____________________[ROWS:    45]
+TABLE "dappq_wc_admin_notes"____________________________[ROWS:    38]
+TABLE "dappq_wc_category_lookup"________________________[ROWS:     1]
+TABLE "dappq_wc_customer_lookup"________________________[ROWS:     0]
+TABLE "dappq_wc_download_log"___________________________[ROWS:     0]
+TABLE "dappq_wc_order_coupon_lookup"____________________[ROWS:     0]
+TABLE "dappq_wc_order_product_lookup"___________________[ROWS:     0]
+TABLE "dappq_wc_order_stats"____________________________[ROWS:     0]
+TABLE "dappq_wc_order_tax_lookup"_______________________[ROWS:     0]
+TABLE "dappq_wc_product_attributes_lookup"______________[ROWS:     0]
+TABLE "dappq_wc_product_download_directories"___________[ROWS:     2]
+TABLE "dappq_wc_product_meta_lookup"____________________[ROWS:    26]
+TABLE "dappq_wc_rate_limits"____________________________[ROWS:     0]
+TABLE "dappq_wc_reserved_stock"_________________________[ROWS:     0]
+TABLE "dappq_wc_tax_rate_classes"_______________________[ROWS:     2]
+TABLE "dappq_wc_webhooks"_______________________________[ROWS:     0]
+TABLE "dappq_woocommerce_api_keys"______________________[ROWS:     0]
+TABLE "dappq_woocommerce_attribute_taxonomies"__________[ROWS:     0]
+TABLE "dappq_woocommerce_downloadable_product_permissions"[ROWS:     0]
+TABLE "dappq_woocommerce_ir"____________________________[ROWS:     0]
+TABLE "dappq_woocommerce_log"___________________________[ROWS:     0]
+TABLE "dappq_woocommerce_order_itemmeta"________________[ROWS:    63]
+TABLE "dappq_woocommerce_order_items"___________________[ROWS:     7]
+TABLE "dappq_woocommerce_payment_tokenmeta"_____________[ROWS:     0]
+TABLE "dappq_woocommerce_payment_tokens"________________[ROWS:     0]
+TABLE "dappq_woocommerce_sessions"______________________[ROWS:    15]
+TABLE "dappq_woocommerce_shipping_zone_locations"_______[ROWS:     1]
+TABLE "dappq_woocommerce_shipping_zone_methods"_________[ROWS:     4]
+TABLE "dappq_woocommerce_shipping_zones"________________[ROWS:     1]
+TABLE "dappq_woocommerce_tax_rate_locations"____________[ROWS:     0]
+TABLE "dappq_woocommerce_tax_rates"_____________________[ROWS:     0]
+TABLE "dappq_wpmailsmtp_debug_events"___________________[ROWS:     9]
+TABLE "dappq_wpmailsmtp_tasks_meta"_____________________[ROWS:    38]
+TABLE "dappq_yoast_indexable"___________________________[ROWS:   284]
+TABLE "dappq_yoast_indexable_hierarchy"_________________[ROWS:   329]
+TABLE "dappq_yoast_migrations"__________________________[ROWS:    25]
+TABLE "dappq_yoast_primary_term"________________________[ROWS:     5]
+TABLE "dappq_yoast_prominent_words"_____________________[ROWS:    38]
+TABLE "dappq_yoast_seo_links"___________________________[ROWS:     7]
+
+INSERT DATA RUNTIME: 347.5513 sec.
+STEP-2 COMPLETE @ 07:22:03 - RUNTIME: 347.5514 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /home/zeynalir/public_html REPLACE: D:/laragon/www/zeynal-shop/ [SCOPE: ALL]
+SEARCH ITEM[T:path |P:12] SEARCH: /home/zeynalir/public_html REPLACE: D:/laragon/www/zeynal-shop [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://zeynal.ir REPLACE: http://localhost/zeynal-shop/ [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://zeynal.ir REPLACE: http://localhost/zeynal-shop [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 07:22:03
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = 1]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = 1], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 3000M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+CLEAN OPTIONS [dappq_options]
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+	`option_name` IN ("duplicator_ui_view_state","duplicator_package_active","duplicator_settings","duplicator_is_pro_enable_notice_dismissed")
+DATABASE OPTIONS DELETED [ROWS:   223]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "dappq_actionscheduler_actions"___________________[ROWS:    34][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_actionscheduler_actions][0]
+
+EVALUATE TABLE: "dappq_actionscheduler_claims"____________________[ROWS:     7][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_actionscheduler_groups"____________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_actionscheduler_groups][0]
+
+EVALUATE TABLE: "dappq_actionscheduler_logs"______________________[ROWS:    96][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_actionscheduler_logs][0]
+
+EVALUATE TABLE: "dappq_aiowps_debug_log"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_aiowps_events"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_aiowps_failed_logins"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_aiowps_failed_logins][0]
+
+EVALUATE TABLE: "dappq_aiowps_global_meta"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_aiowps_login_activity"_____________________[ROWS:    99][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_aiowps_login_activity][0]
+
+EVALUATE TABLE: "dappq_aiowps_login_lockdown"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_aiowps_permanent_block"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_commentmeta"_______________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_commentmeta][0]
+
+EVALUATE TABLE: "dappq_comments"__________________________________[ROWS:    18][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_comments][0]
+
+EVALUATE TABLE: "dappq_dokan_announcement"________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_dokan_announcement][0]
+
+EVALUATE TABLE: "dappq_dokan_delivery_time"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_dokan_orders"______________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_dokan_orders][0]
+
+EVALUATE TABLE: "dappq_dokan_refund"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_dokan_shipping_tracking"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_dokan_shipping_zone_locations"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_dokan_shipping_zone_methods"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_dokan_vendor_balance"______________________[ROWS:     7][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_dokan_vendor_balance][0]
+
+EVALUATE TABLE: "dappq_dokan_withdraw"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_duplicator_packages"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_links"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_options"___________________________________[ROWS:  1252][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_options][0]
+	CHUNK ACTION: CURRENT [search_replace][dappq_options][1]
+	
+STEP-3 CHUNK STOP @ 07:22:08 - RUNTIME: 5.2159 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+EVALUATE TABLE: "dappq_postmeta"__________________________________[ROWS:  1188][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][dappq_postmeta][1]
+
+EVALUATE TABLE: "dappq_posts"_____________________________________[ROWS:   215][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_posts][0]
+
+EVALUATE TABLE: "dappq_presto_player_audio_presets"_______________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_presto_player_audio_presets][0]
+
+EVALUATE TABLE: "dappq_presto_player_email_collection"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_presto_player_presets"_____________________[ROWS:     6][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_presto_player_presets][0]
+
+EVALUATE TABLE: "dappq_presto_player_videos"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_presto_player_videos][0]
+
+EVALUATE TABLE: "dappq_presto_player_visits"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_presto_player_visits][0]
+
+EVALUATE TABLE: "dappq_statistics_exclusions"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_statistics_historical"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_statistics_pages"__________________________[ROWS:   127][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_statistics_pages][0]
+
+EVALUATE TABLE: "dappq_statistics_search"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_statistics_useronline"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_statistics_visit"__________________________[ROWS:    16][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_statistics_visitor"________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_statistics_visitor][0]
+	
+STEP-3 CHUNK STOP @ 07:22:14 - RUNTIME: 5.1376 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+EVALUATE TABLE: "dappq_statistics_visitor_relationships"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_termmeta"__________________________________[ROWS:  3978][PG:   4][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_termmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][dappq_termmeta][1]
+	CHUNK ACTION: CURRENT [search_replace][dappq_termmeta][2]
+	CHUNK ACTION: CURRENT [search_replace][dappq_termmeta][3]
+
+EVALUATE TABLE: "dappq_terms"_____________________________________[ROWS:  1593][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_terms][0]
+	CHUNK ACTION: CURRENT [search_replace][dappq_terms][1]
+
+EVALUATE TABLE: "dappq_term_relationships"________________________[ROWS:    43][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_term_taxonomy"_____________________________[ROWS:  1593][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_term_taxonomy][0]
+	CHUNK ACTION: CURRENT [search_replace][dappq_term_taxonomy][1]
+
+EVALUATE TABLE: "dappq_usermeta"__________________________________[ROWS:   236][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_usermeta][0]
+
+EVALUATE TABLE: "dappq_users"_____________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_users][0]
+
+EVALUATE TABLE: "dappq_wc_admin_notes"____________________________[ROWS:    38][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_wc_admin_notes][0]
+
+EVALUATE TABLE: "dappq_wc_admin_note_actions"_____________________[ROWS:    45][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_wc_admin_note_actions][0]
+
+EVALUATE TABLE: "dappq_wc_category_lookup"________________________[ROWS:     1][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_wc_customer_lookup"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_wc_download_log"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_wc_order_coupon_lookup"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_wc_order_product_lookup"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_wc_order_stats"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_wc_order_tax_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_wc_product_attributes_lookup"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_wc_product_download_directories"___________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_wc_product_download_directories][0]
+
+EVALUATE TABLE: "dappq_wc_product_meta_lookup"____________________[ROWS:    26][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_wc_product_meta_lookup][0]
+
+EVALUATE TABLE: "dappq_wc_rate_limits"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_wc_reserved_stock"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_wc_tax_rate_classes"_______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_wc_tax_rate_classes][0]
+
+EVALUATE TABLE: "dappq_wc_webhooks"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_woocommerce_api_keys"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_woocommerce_attribute_taxonomies"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_woocommerce_downloadable_product_permissions"[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_woocommerce_ir"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_woocommerce_log"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_woocommerce_order_itemmeta"________________[ROWS:    63][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_woocommerce_order_itemmeta][0]
+
+EVALUATE TABLE: "dappq_woocommerce_order_items"___________________[ROWS:     7][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_woocommerce_order_items][0]
+
+EVALUATE TABLE: "dappq_woocommerce_payment_tokenmeta"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_woocommerce_payment_tokens"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_woocommerce_sessions"______________________[ROWS:    15][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_woocommerce_sessions][0]
+
+EVALUATE TABLE: "dappq_woocommerce_shipping_zones"________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_woocommerce_shipping_zones][0]
+
+EVALUATE TABLE: "dappq_woocommerce_shipping_zone_locations"_______[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_woocommerce_shipping_zone_locations][0]
+
+EVALUATE TABLE: "dappq_woocommerce_shipping_zone_methods"_________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_woocommerce_shipping_zone_methods][0]
+
+EVALUATE TABLE: "dappq_woocommerce_tax_rates"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_woocommerce_tax_rate_locations"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_wpmailsmtp_debug_events"___________________[ROWS:     9][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_wpmailsmtp_debug_events][0]
+
+EVALUATE TABLE: "dappq_wpmailsmtp_tasks_meta"_____________________[ROWS:    38][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_wpmailsmtp_tasks_meta][0]
+
+EVALUATE TABLE: "dappq_yoast_indexable"___________________________[ROWS:   284][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_yoast_indexable][0]
+	
+STEP-3 CHUNK STOP @ 07:22:21 - RUNTIME: 7.3759 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+EVALUATE TABLE: "dappq_yoast_indexable_hierarchy"_________________[ROWS:   329][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "dappq_yoast_migrations"__________________________[ROWS:    25][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_yoast_migrations][0]
+
+EVALUATE TABLE: "dappq_yoast_primary_term"________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_yoast_primary_term][0]
+
+EVALUATE TABLE: "dappq_yoast_prominent_words"_____________________[ROWS:    38][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_yoast_prominent_words][0]
+
+EVALUATE TABLE: "dappq_yoast_seo_links"___________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/zeynalir/public_html" ======================> "D:/laragon/www/zeynal-shop"
+	SEARCH[urlnd]  2:"https://zeynal.ir" ===============================> "http://localhost/zeynal-shop"
+	CHUNK ACTION: CURRENT [search_replace][dappq_yoast_seo_links][0]
+--------------------------------------
+SCANNED:	Tables:85 	|	 Rows:11089 	|	 Cells:68028 
+UPDATED:	Tables:12 	|	 Rows:684 	|	 Cells:838 
+ERRORS:		0 
+RUNTIME:	18.112400 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:D:/laragon/www/zeynal-shop/wp-config.php
+New htaccess file created:D:/laragon/www/zeynal-shop/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE WP_SITEURL "http://localhost/zeynal-shop/"
+	UPDATE DB_NAME ""zeynal1""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE DISALLOW_FILE_EDIT "false"
+	WP CONFIG UPDATE WP_DEBUG "false"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+Activated plugins listed here will be deactivated: Array
+(
+)
+
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+\n SKIP FOLDER PERMISSION AFTER EXTRACTION
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 07:22:22 - RUNTIME: 0.5780 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+====================================
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\ctrls\ctrl.base.php:227][DELTA:   0.08529]  MESSAGE:END RENDER PAGE
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\ctrls\ctrl.base.php:227][DELTA:   0.09535]  MESSAGE:END RENDER PAGE
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+====================================
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\ctrls\ctrl.base.php:227][DELTA:   0.10862]  MESSAGE:END RENDER PAGE
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+====================================
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\ctrls\ctrl.base.php:227][DELTA:   0.11585]  MESSAGE:END RENDER PAGE
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\ctrls\ctrl.base.php:227][DELTA:   0.09466]  MESSAGE:END RENDER PAGE
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+====================================
+LOG-TIME[D:\laragon\www\zeynal-shop\dup-installer\ctrls\ctrl.base.php:227][DELTA:   0.09158]  MESSAGE:END RENDER PAGE

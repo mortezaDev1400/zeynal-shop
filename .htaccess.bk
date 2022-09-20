@@ -1,0 +1,65 @@
+
+# BEGIN All In One WP Security
+#AIOWPS_BASIC_HTACCESS_RULES_START
+<Files .htaccess>
+<IfModule mod_authz_core.c>
+Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+Order deny,allow
+Deny from all
+</IfModule>
+</Files>
+ServerSignature Off
+LimitRequestBody 10485760
+<Files wp-config.php>
+<IfModule mod_authz_core.c>
+Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+Order deny,allow
+Deny from all
+</IfModule>
+</Files>
+#AIOWPS_BASIC_HTACCESS_RULES_END
+#AIOWPS_FORBID_PROXY_COMMENTS_START
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{REQUEST_METHOD} ^POST
+RewriteCond %{HTTP:VIA} !^$ [OR]
+RewriteCond %{HTTP:FORWARDED} !^$ [OR]
+RewriteCond %{HTTP:USERAGENT_VIA} !^$ [OR]
+RewriteCond %{HTTP:X_FORWARDED_FOR} !^$ [OR]
+RewriteCond %{HTTP:X_FORWARDED_HOST} !^$ [OR]
+RewriteCond %{HTTP:PROXY_CONNECTION} !^$ [OR]
+RewriteCond %{HTTP:XPROXY_CONNECTION} !^$ [OR]
+RewriteCond %{HTTP:HTTP_PC_REMOTE_ADDR} !^$ [OR]
+RewriteCond %{HTTP:HTTP_CLIENT_IP} !^$
+RewriteRule wp-comments-post\.php - [F]
+</IfModule>
+#AIOWPS_FORBID_PROXY_COMMENTS_END
+#AIOWPS_PREVENT_IMAGE_HOTLINKS_START
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteCond %{REQUEST_FILENAME} \.(gif|jpe?g?|png)$ [NC]
+RewriteCond %{HTTP_REFERER} !^http(s)?://zeynal\.ir [NC]
+RewriteRule \.(gif|jpe?g?|png)$ - [F,NC,L]
+</IfModule>
+#AIOWPS_PREVENT_IMAGE_HOTLINKS_END
+# END All In One WP Security
+
+# BEGIN WordPress
+# دستورالعمل‌های (خطوط) بین "BEGIN WordPress" و "END WordPress"
+# به طور پویا تولید شده‌اند، و فقط باید به وسیلهٔ صافی‌های وردرپرس ویرایش شوند.
+# هر تغییری در دستورالعمل‌های بین این نشان‌گرها بازنویشی خواهند شد.
+
+# END WordPress
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php73” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php73 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

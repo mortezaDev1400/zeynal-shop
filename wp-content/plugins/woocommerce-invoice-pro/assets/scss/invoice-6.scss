@@ -1,0 +1,229 @@
+@import "variables";
+@import "global";
+
+.invoice {
+    .template-6 {
+        margin: 0;
+        line-height: 30px;
+        table {
+            th, td {
+                padding-left: 0;
+                padding-right: 0;
+            }
+        }
+        .star-line {
+            line-height: 34px;
+            height: 34px;
+            overflow: hidden;
+            font-family: Tahoma, sans-serif;
+            font-size: 89%;
+        }
+        .component .title {
+            font-weight: normal;
+            margin: 0;
+        }
+        .shop-info {
+            /*@media (max-width: $break_point) {
+                > tbody > tr > td:first-child {
+                    border-bottom: 2px dashed #000;
+                }
+            }*/
+            > tbody > tr > td:last-child {
+                padding-top: 0;
+                padding-bottom: 0;
+            }
+            .order-id, .shop-logo {
+                text-align: center;
+            }
+            .order-id {
+                font-size: 250%;
+                margin-bottom: 15px;
+                .title {
+                    display: none;
+                }
+            }
+            /*table {
+                @media (max-width: $break_point) {
+                    td {
+                        width: auto;
+                        display: table-cell;
+                        vertical-align: top;
+                    }
+                    .component {
+                        &.title, &.address, &.print-date, &.phone {
+                            .title {
+                                display: none;
+                            }
+                        }
+                    }
+                    tr > td:nth-child(2) {
+                        text-align: right;
+                    }
+                }
+            }*/
+        }
+        .products-table {
+            border: none;
+            margin-top: 20px;
+            thead {
+                display: contents;
+            }
+            th {
+                font-weight: normal;
+                border-top: 2px solid #000;
+                border-bottom: 2px solid #000;
+            }
+            th, td {
+                text-align: left;
+            }
+            tr th:last-child,
+            tr td:last-child {
+                text-align: right;
+            }
+            .td-title {
+                display: none;
+            }
+            tr th:not(:last-child),
+            tr td:not(:last-child) {
+                padding-right: 10px;
+            }
+            @media (max-width: $break_point) {
+                td .td-title {
+                    display: none !important;
+                }
+            }
+            /*@media (max-width: $break_point) {
+                .row {
+                    display: table-cell;
+                }
+                &.table-responsive td {
+                    width: auto;
+                    display: table-cell;
+                }
+                tbody tr.even td {
+                    background: transparent;
+                }
+                &.table-bordered tbody tr:not(:last-child) td:last-child {
+                    border-bottom: none;
+                }
+            }*/
+        }
+        .total-table {
+            border: none;
+            th {
+                text-align: left;
+                font-weight: normal;
+            }
+            td {
+                text-align: right;
+            }
+            .final {
+                font-weight: bold;
+                border-top: 2px dashed #000;
+            }
+            .to-word {
+                text-align: right;
+            }
+            /*@media (max-width: 576px) {
+                tbody tr:not(:last-child) th {
+                    border-bottom: none;
+                }
+                tbody tr:not(:last-child) td:last-child {
+                    border-bottom: none;
+                }
+            }*/
+        }
+        .customer-info {
+            td {
+                vertical-align: top;
+            }
+            .component {
+                .title {
+                    display: none;
+                }
+            }
+            tr > td:nth-child(2) {
+                text-align: right;
+            }
+        }
+        .profit-wrapper {
+            border-top: 2px dashed #000;
+            border-bottom: 2px dashed #000;
+        }
+        .footer {
+            text-align: center;
+        }
+        .customer-note, .order-note {
+            margin: 20px 0;
+            .content .title {
+                display: none;
+            }
+        }
+        .barcode {
+            height: 60px;
+            svg, rect {
+                height: 60px;
+            }
+        }
+        .component {
+            &.order-status, &.url, &.email {
+                .title {
+                    display: none;
+                }
+            }
+        }
+    }
+    &.rtl .template-6 {
+        /*@media (max-width: 576px) {
+            .shop-info table tr > td:nth-child(2) {
+                text-align: left;
+            }
+        }*/
+        .products-table {
+            th, td {
+                text-align: right;
+            }
+            tr th:last-child,
+            tr td:last-child {
+                text-align: left;
+            }
+            tr th:not(:last-child),
+            tr td:not(:last-child) {
+                padding-right: 0;
+                padding-left: 10px;
+            }
+        }
+        .profit-wrapper > div:nth-child(1) {
+           padding-right: 0;
+        }
+        .total-table {
+            th {
+                text-align: right;
+            }
+            td {
+                text-align: left;
+            }
+            .to-word {
+                text-align: left;
+            }
+        }
+        .customer-info tr > td:nth-child(2) {
+            text-align: left;
+        }
+    }
+    &.condensed .template-6 {
+        .star-line {
+            line-height: 24px;
+            height: 24px;
+        }
+        .profit-wrapper {
+            .profit {
+                padding-right: 0;
+            }
+        }
+        .customer-note, .order-note {
+            margin-top: 3px;
+            margin-bottom: 3px;
+        }
+    }
+}

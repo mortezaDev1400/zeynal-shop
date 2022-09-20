@@ -1,0 +1,397 @@
+{
+    "key": "group_628e7f76899e7",
+    "title": "تنظیمات زینال",
+    "fields": [
+        {
+            "key": "field_628e7f7f98d31",
+            "label": "اسلایدر",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_628e8069da0d4",
+            "label": "کنترل اسلایدر",
+            "name": "slider_control",
+            "type": "true_false",
+            "instructions": "اسلایدر فقط در صفحه اصلی نشان داده میشود.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 1,
+            "ui_on_text": "فعال",
+            "ui_off_text": "غیرفعال"
+        },
+        {
+            "key": "field_628e7f9c98d32",
+            "label": "اسلاید های خود را اضافه کنید.",
+            "name": "slider_items",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "block",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_628e7fbb98d33",
+                    "label": "تصویر اسلایدر",
+                    "name": "slider_item_image",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_628e7fe198d34",
+                    "label": "لینک اسلایدر",
+                    "name": "slider_item_link",
+                    "type": "link",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array"
+                }
+            ]
+        },
+        {
+            "key": "field_6299ff220c9b1",
+            "label": "محصول",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_629b990e32be0",
+            "label": "لینک صفحه پیشنهاد قیمت بهتر",
+            "name": "single_product_best_price_suggested",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url"
+        },
+        {
+            "key": "field_6299ff430c9b2",
+            "label": "توضیحات کلی محصولات",
+            "name": "product_information_general",
+            "type": "repeater",
+            "instructions": "این توضیحات در بالای دکمه افزودن به سبد خرید در کلیه محصولات نمایش داده میشود.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "block",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_6299ffe70c9b6",
+                    "label": "عنوان ویژگی",
+                    "name": "product_information_general_text",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "60",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_6299fffc0c9b7",
+                    "label": "آیکون ویژگی",
+                    "name": "product_information_general_icon",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "40",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "shop_thumbnail",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_628e860024d7a",
+            "label": "تبلیغات",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_628e860c24d7b",
+            "label": "بنر ابتدایی صفحه اصلی",
+            "name": "index_ads_top",
+            "type": "textarea",
+            "instructions": "این بنر در پایین هدر قرار میگیرد",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_628e865a24d7c",
+            "label": "بنر انتهایی صفحه اصلی",
+            "name": "index_ads_bottom",
+            "type": "textarea",
+            "instructions": "این بنر در بالای فوتر قرار میگیرد",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_629bce3fb5fa7",
+            "label": "بنر انتهایی صفحه محصول",
+            "name": "product_ads_bottom",
+            "type": "textarea",
+            "instructions": "این بنر در بالای فوتر قرار میگیرد",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_629bd0a5b5fa8",
+            "label": "بنر میانی صفحه محصول - برای نمایش بنر های میانی هر دو فیلد باید تنظیم گردد",
+            "name": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 1,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_629bd0bdb5fa9",
+            "label": "بنر میانی صفحه محصول ( سمت چپ )",
+            "name": "product_ads_middle_left",
+            "type": "textarea",
+            "instructions": "این بنر در بالای بخش پیشنهاد های ویژه قرار میگیرد",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_629bd0c1b5faa",
+            "label": "بنر میانی صفحه محصول ( سمت راست )",
+            "name": "product_ads_middle_right",
+            "type": "textarea",
+            "instructions": "این بنر در بالای بخش پیشنهاد های ویژه قرار میگیرد",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_628fa7ed811b4",
+            "label": "بنر میانی - برای نمایش بنر های میانی هر دو فیلد باید تنظیم گردد",
+            "name": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 1,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_628f7e66c1da6",
+            "label": "بنر میانی صفحه اصلی ( سمت چپ )",
+            "name": "index_ads_middle_left",
+            "type": "textarea",
+            "instructions": "این بنر در بالای بخش پیشنهاد های ویژه قرار میگیرد",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_628e868224d7d",
+            "label": "بنر میانی صفحه اصلی ( سمت راست )",
+            "name": "index_ads_middle_right",
+            "type": "textarea",
+            "instructions": "این بنر در بالای بخش پیشنهاد های ویژه قرار میگیرد",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "zeynal_Setting"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1654378791
+}

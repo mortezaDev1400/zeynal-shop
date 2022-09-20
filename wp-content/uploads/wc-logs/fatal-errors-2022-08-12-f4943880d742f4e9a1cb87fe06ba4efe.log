@@ -1,0 +1,24 @@
+2022-08-12T18:47:23+00:00 CRITICAL Uncaught Error: Call to undefined function have_rows() in /home/zeynalir/public_html/wp-content/themes/zeynal/header.php:249
+Stack trace:
+#0 /home/zeynalir/public_html/wp-includes/template.php(770): require_once()
+#1 /home/zeynalir/public_html/wp-includes/template.php(716): load_template('/home/zeynalir/...', true, Array)
+#2 /home/zeynalir/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/zeynalir/public_html/wp-content/themes/zeynal/page-fullwidth.php(2): get_header()
+#4 /home/zeynalir/public_html/wp-includes/template-loader.php(106): include('/home/zeynalir/...')
+#5 /home/zeynalir/public_html/wp-blog-header.php(19): require_once('/home/zeynalir/...')
+#6 /home/zeynalir/public_html/index.php(17): require('/home/zeynalir/...')
+#7 {main}
+  thrown در /home/zeynalir/public_html/wp-content/themes/zeynal/header.php در خط 249
+
+2022-08-12T18:47:26+00:00 CRITICAL Uncaught Error: Call to undefined function have_rows() in /home/zeynalir/public_html/wp-content/themes/zeynal/header.php:249
+Stack trace:
+#0 /home/zeynalir/public_html/wp-includes/template.php(770): require_once()
+#1 /home/zeynalir/public_html/wp-includes/template.php(716): load_template('/home/zeynalir/...', true, Array)
+#2 /home/zeynalir/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/zeynalir/public_html/wp-content/themes/zeynal/404.php(1): get_header()
+#4 /home/zeynalir/public_html/wp-includes/template-loader.php(106): include('/home/zeynalir/...')
+#5 /home/zeynalir/public_html/wp-blog-header.php(19): require_once('/home/zeynalir/...')
+#6 /home/zeynalir/public_html/index.php(17): require('/home/zeynalir/...')
+#7 {main}
+  thrown در /home/zeynalir/public_html/wp-content/themes/zeynal/header.php در خط 249
+

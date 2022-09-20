@@ -1,0 +1,240 @@
+@import "variables";
+@import "global";
+
+.invoice {
+    .template-10 {
+        .tapin-table {
+            border: 1px solid #000;
+
+            .tapin-desc .title {
+                display: none;
+            }
+
+            .tapin-barcode {
+                text-align: center;
+            }
+        }
+
+        .sender-desc-table {
+            margin: 10px 0;
+
+            > tbody > tr > td {
+                padding: 0;
+            }
+
+            @media (min-width: $break_point) {
+                > tbody > tr > td:first-child {
+                    padding-right: 10px;
+                }
+            }
+
+            .component {
+                margin: 0;
+            }
+
+            .title {
+                margin-left: 0;
+            }
+        }
+
+        .component.product-info {
+            .title {
+                margin-right: 0;
+            }
+        }
+
+        .shop-info-table {
+            table, table td {
+                border: none;
+            }
+        }
+
+        .total-services-table {
+            margin-bottom: 10px;
+        }
+
+        .total-table {
+            border: none;
+            width: auto;
+
+            th, td {
+                border: none;
+            }
+        }
+
+        .customer-info-table {
+            border-collapse: separate;
+
+            > tbody > tr > td {
+                padding: 0;
+            }
+
+            @media (min-width: $break_point) {
+                > tbody > tr > td:first-child {
+                    padding-right: 10px;
+                }
+            }
+        }
+
+        .customer-info table {
+            border: 1px solid #000;
+
+            .component, .title {
+                margin-left: 0;
+            }
+        }
+
+        .signature {
+            border: 1px solid #000;
+            border-radius: 15px;
+
+            table {
+                text-align: center;
+
+                span.title {
+                    display: block;
+                    width: 100%;
+                }
+            }
+
+            .customer-sign {
+                border-left: 1px dashed #000;
+            }
+        }
+
+        .refund-post-table {
+            border-collapse: separate;
+            margin: 10px 0;
+
+            > tbody > tr > td {
+                padding: 0;
+            }
+
+            .refund-table-cell {
+                border: 1px solid #000;
+                border-radius: 15px;
+
+                .square {
+                    display: inline-block;
+                    width: 16px;
+                    height: 16px;
+                    margin-right: 10px;
+                    border: 1px solid #000;
+                }
+
+                .postman-name div {
+                    border: 1px solid #000;
+                    height: 44px;
+                    border-radius: 22px;
+                    margin-top: 10px;
+                }
+            }
+
+            .post-table-cell {
+                @media (min-width: $break_point) {
+                    padding-left: 10px;
+                }
+
+                div {
+                    display: inline-block;
+                }
+
+                .component {
+                    margin-left: 0;
+                    display: inline-block;
+                }
+
+                .component .component .title {
+                    display: none;
+                }
+
+                .post-logo {
+                    text-align: center;
+                }
+
+                .post-title {
+                    margin-top: 15px;
+                    display: block;
+                }
+            }
+
+            .tapin-barcode {
+                margin-top: 10px;
+                text-align: center;
+                display: block !important;
+            }
+        }
+
+        .footer-desc {
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #000;
+            border-radius: 28px;
+            margin: 20px;
+
+            .title {
+                display: none;
+            }
+        }
+
+        .footer-destination {
+            text-align: center;
+            font-weight: bold;
+            font-size: 26px;
+            margin-top: 20px;
+
+            div {
+                display: inline-block;
+            }
+        }
+    }
+
+    &.rtl .template-10 {
+        @media (min-width: $break_point) {
+            .sender-desc-table > tbody > tr > td:first-child {
+                padding-right: 0;
+                padding-left: 10px;
+            }
+
+            .customer-info-table > tbody > tr > td:first-child {
+                padding-right: 0;
+                padding-left: 10px;
+            }
+
+            .refund-post-table .post-table-cell {
+                padding-left: 0;
+                padding-right: 10px;
+            }
+        }
+
+        .component.product-info {
+            .title {
+                margin-right: 10px;
+                margin-left: 0;
+            }
+        }
+
+        .sender-desc-table .title {
+            margin-left: 10px;
+        }
+
+        .customer-info table .component,
+        .customer-info table .title {
+            margin-left: 10px;
+        }
+
+        .signature .customer-sign {
+            border-right: 1px dashed #000;
+            border-left: none;
+        }
+
+        .refund-post-table .refund-table-cell .square {
+            margin-right: 0;
+            margin-left: 10px;
+        }
+    }
+
+    &.condensed .template-10 {
+
+    }
+}

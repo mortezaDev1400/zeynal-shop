@@ -1,0 +1,616 @@
+@import "admin-variables";
+
+pre.xdebug-var-dump {
+    text-align: left;
+    direction: ltr;
+}
+
+.wip-options.wrap {
+    a {
+        &:focus {
+            box-shadow: none;
+        }
+    }
+}
+
+.uk-tab {
+    &:before {
+        border-bottom: none !important;
+    }
+
+    & > .uk-active > a {
+        border-color: $primary !important;
+        color: $primary !important;
+    }
+}
+
+.uk-tab > * > a {
+    border-bottom-color: #A4A4A4;
+}
+
+.uk-margin {
+    margin-bottom: 30px;
+}
+
+.uk-notification-message {
+    border: 1px solid transparent;
+}
+
+.uk-notification-message-success {
+    background: #DDF9EE;
+    border-color: rgba(50, 210, 150, 0.7);
+}
+
+.uk-notification-message-danger {
+    background: #FBEDEF;
+    border-color: rgba(240, 80, 110, 0.7);
+}
+
+.uk-form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.uk-input, .uk-select, .uk-textarea {
+    border-color: #e5e5e5 !important;
+    border-radius: 0 !important;
+
+    &:focus {
+        box-shadow: none !important;
+    }
+}
+
+.uk-form-custom select {
+    max-width: unset;
+}
+
+.uk-checkbox {
+    background-repeat: no-repeat !important;
+    background-position-y: 2px !important;
+    border-color: #e5e5e5 !important;
+    border-radius: 0 !important;
+
+    &:focus {
+        box-shadow: none !important;
+    }
+
+    &:checked:before {
+        content: "" !important;
+    }
+}
+
+.uk-radio {
+    &:checked {
+        background-position: -1px -1px;
+    }
+
+    &:checked:before {
+        content: "" !important;
+        background-color: transparent !important;
+    }
+
+    &:focus {
+        box-shadow: none !important;
+    }
+}
+
+.uk-button {
+    border-radius: 3px;
+    transition: 200ms;
+}
+
+.uk-button-primary {
+    background-color: $primary;
+
+    &:active, &:hover, &:focus {
+        background-color: darken($primary, 5%);
+        transform: translateY(-2px);
+        box-shadow: 0 7px 14px rgba(50, 50, 93, 0.25), 0 3px 6px rgba(0, 0, 0, 0.2);
+    }
+}
+
+.uk-button-primary:disabled {
+    background-color: $primary;
+    color: #FFF;
+    border-color: transparent;
+    opacity: 0.65;
+}
+
+.uk-form-custom {
+    width: 100%;
+
+    .uk-button-default {
+        width: 100%;
+        text-align: left;
+        padding-left: 10px;
+        padding-right: 10px;
+
+        .uk-icon {
+            float: right;
+            position: relative;
+            top: 9px;
+        }
+    }
+}
+
+input[type=number].uk-input {
+    height: 40px;
+}
+
+.uk-modal-title {
+    font-size: 20px;
+}
+
+.wip-confirm-activation {
+    background: $orange;
+    color: #FFF;
+    position: relative;
+    border-radius: 2px;
+    padding: 15px 10px;
+    margin-top: 10px;
+    display: none;
+
+    &:before {
+        position: absolute;
+        content: '';
+        left: 15px;
+        top: -6px;
+        width: 0;
+        height: 0;
+        border-bottom: 6px solid $orange;
+        border-right: 6px solid transparent;
+        border-left: 6px solid transparent;
+    }
+
+    .uk-icon {
+        position: relative;
+        bottom: 2px;
+    }
+}
+
+.wip-upload-file-wrapper {
+    border: 2px dashed #E5E5E5;
+    padding: 10px;
+    text-align: center;
+    border-radius: 3px;
+    margin: 5px 0;
+
+    img {
+        max-width: 200px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .uk-button-primary {
+        background-color: #1e87f0 !important;
+    }
+
+    .uk-button-default {
+        background-color: #efefef;
+    }
+}
+
+#adminmenu {
+    #toplevel_page_wip-invoice {
+        .wp-menu-image {
+            img {
+                max-width: 20px;
+                position: relative;
+                bottom: 4px;
+            }
+        }
+    }
+}
+
+.wip-options {
+    a {
+        color: #000;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    .uk-grid {
+        margin-left: 0;
+    }
+
+    .uk-margin:hover .wip-view-page {
+        display: inline-block;
+    }
+
+    .wip-view-page {
+        font-weight: normal;
+        display: none;
+    }
+
+    .wip-description {
+        color: #898989;
+        margin: 7px 0 15px 0;
+
+        a {
+            color: #898989 !important;
+        }
+
+        .uk-icon {
+            margin-right: 3px;
+            position: relative;
+            bottom: 3px;
+            color: $orange;
+        }
+    }
+}
+
+.wip-options {
+    .wip-side-menu {
+        padding-left: 0;
+
+        > .uk-card-default {
+            box-shadow: none;
+        }
+
+        .uk-card {
+            background: transparent;
+            padding-right: 0;
+            padding-left: 0;
+        }
+
+        .wip-menu-item {
+            padding: 0;
+            margin: 0;
+
+            a {
+                text-decoration: none;
+                color: #121116;
+                display: block;
+                padding: 20px 10px;
+                border-left: 3px solid transparent;
+                transition: 200ms;
+
+                &.wip-active, &:hover {
+                    border-left-color: $primary;
+                    background: #FFF;
+
+                    .wip-menu-title, .wip-menu-icon {
+                        color: $primary;
+                    }
+                }
+
+                &:focus {
+                    box-shadow: none;
+                }
+            }
+
+            .wip-menu-icon {
+                float: right;
+                color: #878D93;
+                position: relative;
+                top: 8px;
+                transition: 200ms;
+
+                svg {
+                    width: 26px;
+                }
+            }
+
+            .wip-menu-title {
+                font-weight: bold;
+            }
+
+            .wip-menu-description {
+                color: #72777C;
+                margin-top: 5px;
+            }
+        }
+
+        .wip-plugin-name {
+            padding-bottom: 20px;
+            color: $primary;
+
+            .wip-plugin-name {
+                padding-bottom: 6px;
+                position: relative;
+                display: inline-block;
+                top: 6px;
+            }
+
+            .wip-version {
+                color: #7F7F7F;
+                display: inline-block;
+                margin-top: 5px;
+                font-size: 90%;
+            }
+
+            img {
+                margin-right: 10px;
+                max-width: 36px;
+                position: relative;
+                top: 3px;
+                float: left;
+            }
+        }
+    }
+}
+
+.wip-options {
+    .wip-options-content {
+        padding-left: 0;
+
+        > .uk-card-default {
+            box-shadow: none;
+        }
+
+        .wip-options-area {
+            display: none;
+
+            &.wip-active {
+                display: block;
+            }
+
+            .wip-options-title {
+                border-bottom: 1px solid #DDD;
+                height: 66px;
+                line-height: 66px;
+
+                .wip-title-icon {
+                    display: inline-block;
+                    border-radius: 2px;
+                    width: 56px;
+                    height: 56px;
+                    color: $primary;
+                    background: transparentize($primary, 0.75);
+                    position: relative;
+
+                    &:before {
+                        content: '';
+                        position: absolute;
+                        width: 56px;
+                        height: 2px;
+                        bottom: -10px;
+                        left: 0;
+                        background: $primary;
+                    }
+
+                    .uk-icon {
+                        position: absolute;
+                        top: 15px;
+                        right: 15px;
+
+                        svg {
+                            width: 26px;
+                        }
+                    }
+                }
+
+                strong {
+                    position: relative;
+                    bottom: 19px;
+                    margin-left: 17px;
+                    height: 30px;
+                    line-height: 30px;
+                }
+            }
+        }
+
+        #wip-custom-css {
+            direction: ltr;
+            font-family: monospace;
+        }
+
+        .wip-save {
+            .loader {
+                display: none;
+                margin-left: 7px;
+            }
+        }
+    }
+}
+
+.wip-options {
+    .wip-shop-logo-wrapper {
+        .uk-form-custom {
+            width: 100%;
+        }
+    }
+}
+
+.wip-options {
+    .wip-option-info.wip-active + .wip-save {
+        display: none;
+    }
+
+    .wip-option-info {
+        .wip-version {
+            margin: 10px 0;
+        }
+
+        .wip-other-products {
+            border-top: 1px solid #DDD;
+            margin-top: 30px;
+
+            > .wip-title {
+                margin: 30px 0;
+            }
+        }
+    }
+}
+
+.wip-options {
+    .wip-code-table {
+        margin-top: 10px;
+
+        code {
+            cursor: pointer;
+        }
+    }
+}
+
+.wip-options {
+    .wip-pws-alert {
+        background: #fa8231;
+        color: #ffffff;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+
+        a {
+            color: #ffffff;
+            font-weight: bold;
+        }
+    }
+}
+
+#wip-send-sms-modal {
+    #wip-send-test-sms .loader {
+        margin-right: 5px;
+        margin-left: 0;
+        display: none;
+    }
+}
+
+.srs-item {
+    margin-bottom: 20px;
+
+    .uk-card-header {
+        position: relative;
+
+        .srs-discount {
+            background: $red;
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+    }
+
+    .uk-card-body {
+        padding: 20px 10px;
+
+        .srs-title {
+            height: 40px;
+        }
+
+        .srs-price {
+            color: $orange;
+        }
+    }
+}
+
+.wp-list-table {
+    .wip-invoice:after {
+        content: "\f535";
+    }
+
+    .wip-packing-slip:after {
+        content: "\f480";
+    }
+
+    .wip-post-label:after {
+        content: "\f466";
+    }
+
+    .wip-order-label:after {
+        content: "\f180";
+    }
+
+    .wip-shop-mini-label:after {
+        content: "\f513";
+    }
+
+    .wip-customer-mini-label:after {
+        content: "\f12e";
+    }
+
+    .wip-product-label:after {
+        content: "\f15b";
+    }
+}
+
+#wip-order-mtb {
+    .wip-button {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    .wip-transmission-date,
+    .wip-invoice-note,
+    .wip-packing-slip-note {
+        width: 100%;
+    }
+}
+
+.uk-modal {
+    z-index: 100000;
+}
+
+.wp-list-table tr.type-shop_order:not(.wip-receiving-invoice) .column-wc_actions {
+    .wip-invoice,
+    .wip-packing-slip,
+    .wip-post-label,
+    .wip-order-label,
+    .wip-shop-mini-label,
+    .wip-customer-mini-label,
+    .wip-product-label {
+        opacity: 0.5;
+    }
+}
+
+.wip-currency-switch {
+    display: flex;
+
+    label {
+        background: #f5f6fa;
+        border-bottom: 2px solid #f5f6fa;
+        flex: 1 1 0 !important;
+        text-align: center;
+        padding: 5px;
+        color: #7f8fa6;
+        margin: 1px;
+        border-radius: 2px;
+    }
+
+    input[type=radio] {
+        display: none;
+    }
+
+    input[type=radio]:checked + label {
+        background: #e7e9ee;
+        border-bottom-color: #d9dce2;
+        color: #6f7e94;
+        font-weight: bold;
+    }
+}
+
+.wip-custom-alert {
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+
+    button {
+        font-size: 85%;
+        line-height: 30px;
+        padding: 0 10px;
+    }
+
+    .wip-custom-alert-icon {
+        position: absolute;
+        right: 10px;
+        bottom: -60px;
+        opacity: 0.15;
+    }
+
+    &.wip-custom-alert-success {
+        background-color: #edfbf5;
+        color: #05c58a;
+
+        h4 {
+            color: #05c58a;
+        }
+    }
+}
+
+.order-status.status-proforma-invoice {
+    background: #d7c6df;
+    color: #691d89;
+}

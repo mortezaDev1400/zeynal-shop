@@ -1,0 +1,17 @@
+{
+    "autoload": {
+        "classmap": [
+            "classes/", "classes/sms-services/", "contracts/"
+        ]
+    },
+    "require": {
+        "picqer/php-barcode-generator": "^0.3.0",
+        "hekmatinasser/notowo": "^1.0",
+        "hekmatinasser/verta": "^1.10",
+        "melipayamak/php": "^0.1.0",
+        "kavenegar/php": "^1.2",
+        "sabanovin/php": "^1.0",
+        "mpdf/mpdf": "^8.1",
+        "tijsverkoyen/css-to-inline-styles": "^2.2"
+    }
+}
