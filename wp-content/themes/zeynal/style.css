@@ -4043,10 +4043,15 @@ ul.product-infor-general li i{
 	padding: 20px 0px;
 	margin: 0px;
 }
+/*.product-slider {*/
+/*    width: 25%;*/
+/*    padding: 10px;*/
+/*}*/
 .product-slider {
-    width: 25%;
+    width: 16.6%;
     padding: 10px;
 }
+
 .product-day .on-123-xf{
     padding: 0 !important;
 }
